@@ -1,0 +1,22 @@
+<nav class="dc-sitenav dc-sitenav__main">
+  {{#each navigation}}
+    <div class="dc-sitenav--entry dc-sitenav--entry__{{this.slug}}">
+      {{#dc_isrootmenu this}}   
+      <a href="{{dc_urlpath "" }}" data-dc-localtarget="#{{this.slug}}">
+        {{this.name}}
+        <span class="dc-logo">
+          {{> svg_DC }}
+        </span>
+      </a>
+      {{else}}
+      <a href="{{dc_urlpath this.slug }}" data-dc-localtarget="#{{this.slug}}">{{this.name}}</a>
+      {{/dc_isrootmenu}}   
+    </div>
+  {{/each}}
+  <div class="dc-sitenav--entry dc-sitenav--entry__track-record">
+    <a href="{{dc_urlpath "track-record"}}" data-dc-localtarget="#track-record">track record</a>
+  </div> 
+</nav>
+{{#each navigation}}
+  {{> (lookup . 'template') }}
+{{/each }}  

@@ -1,0 +1,3 @@
+<filesmatch "\.(?i:mp3|wav|mp4)$">
+  Header set Content-Disposition attachment
+</FilesMatch>

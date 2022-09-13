@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+public/**/*
+htdocs/**/*
+data.json
+!assets/fonts/.gitkeep

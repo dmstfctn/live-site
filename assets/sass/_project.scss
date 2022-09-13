@@ -1,0 +1,121 @@
+.dc-item{
+  height: calc( 100% - 1.667rem );
+}
+
+.dc-item--header{
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  padding: .3rem $dc_site_padding_right .45rem $dc_site_padding_left;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: #FF0000;
+}  
+  .dc-item--header .dctxt--date{
+    margin-right: 0.1em;
+  }
+
+.dc-media{
+  height: calc(100% - 1.5rem);  
+  display: none;
+}
+  .dc-media--list{
+    margin-top: 1.75rem;
+    height: calc(100% - 4.7rem);
+    overflow: hidden;
+    position: relative;
+    li{
+      height: 100%;
+      position: absolute;
+      background: #000000;
+      width: 100%;
+      top: 0;
+      opacity: 0;
+      pointer-events: none;    
+      overflow: hidden;
+      img{
+        transform: translateZ(0) translateY(-50%);
+        image-rendering: crisp-edges;    
+        top: 50%;
+        position: relative;
+      }
+      img.loaded,
+      .loaded img{
+        image-rendering: auto;
+      }
+      &.active{
+        opacity: 1;
+        pointer-events: all;
+      }
+    }
+    figure{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .info,
+    .dc-media__text{
+      display: flex;
+      align-items: center;
+      .text{
+        width: 100%;
+      }
+    }    
+  }
+.dc-media__image{
+  display: flex;
+  justify-content: center;
+  figure{
+    position: relative;
+    width: auto;
+    figcaption{
+      position: absolute;
+      left: 100%;
+      top: 0;
+      text-align: center;
+      white-space: nowrap;
+      width: 1.7em;
+      height: 100%;
+      span{
+        position: absolute;
+        left: 100%;
+        bottom: 0;
+        transform-origin: bottom left;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+  img{
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+  }
+}
+
+.dc-media--nav{
+  margin-top: 1.5rem;
+  ol{
+    padding-left: .2rem; 
+    display: flex;
+    justify-content: space-between;
+    li{
+      cursor: default;
+      &:hover,
+      &.active{
+        color: #FF0000;
+        &:after{
+          color: #FFFFFF;
+        }  
+      }
+    }
+    .dc-media__playable,
+    .dc-media__openable{
+      cursor: pointer;
+    }
+  }
+}

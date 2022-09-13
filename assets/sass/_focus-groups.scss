@@ -1,0 +1,130 @@
+@mixin focus-group-pagetype (){
+  background: #FF0000;
+  .dc-sitenav{
+    color: #000000;
+  }
+  .dc-sitenav a:hover{
+    color: #FFFFFF
+  }
+  .dc-sitenav a.active{
+    color: #FFFFFF;
+  }
+  .dc-sitenav::before{
+    background: #FF0000;
+  }
+  .dc-work--item--description{
+    background: #FF0000;
+  }
+  .dc-sitenav a[data-dc-localtarget="#related-matters"]{ 
+    svg path[fill]{
+      fill: #000000 !important;
+    }
+    svg path[stroke]{
+      stroke: #000000 !important;
+    }
+    &:hover{
+      svg path[fill]{
+        fill: #FFFFFF !important;
+      }
+      svg path[stroke]{
+        stroke: #FFFFFF !important;
+      }
+    }
+  }
+  .dc-gfx{
+    svg{
+      #red-stroke,
+      #red-stroke-2,
+      #red-stroke-3{
+        stroke: #ff0000;
+      }
+      #black-stroke,
+      #black-stroke-thin-3{
+        stroke: #000000;
+      }
+    
+      #black-stroke-7,
+      #black-fill	{
+        fill: #1D1E1B;
+      }
+      #red-fill{
+        fill: #FC0000;
+      }
+      #phone-blur{
+        fill: #c43131;
+      }
+      #phone-fill{
+        fill: #ff0000;
+      }
+    }
+  }
+}
+
+
+html[data-dc-homeactive="focus-groups"]{
+  @media (min-width: 901px){
+    @include focus-group-pagetype();
+  }
+}
+html[data-dc-pagetype="focusgroup"]{
+  @include focus-group-pagetype();
+}
+
+html[data-dc-pagetype="focusgroup"]{
+  background: #FF0000;
+  color: #000000;
+  .dc-work--year h2{
+    color: #FFFFFF;
+  }
+  .dc-work--item--description{
+    background: #FF0000;
+  }
+  .dc-external-link::before,
+  a[href^="mailto:"]::before,
+  a[href^="http"]::before{
+    filter: none;
+  }
+  .dc-item--header{
+    color: #FFFFFF;
+  }
+  .dc-media--list li{
+    background: #FF0000;
+  }
+  .dc-media--nav ol li:hover,
+  .dc-media--nav ol li.active{
+    color: #FFFFFF;
+  }
+  .dc-media--nav ol li:hover:after,
+  .dc-media--nav ol li.active:after{
+    color: #000000;
+  }
+  .dc-media__playable.playing{
+    color: #FFFFFF;
+  }
+  .dc-item--cv{
+    .dctxt--date{
+      color: #000000;
+    }
+  }
+}
+
+
+.dc-navigation-item#focus-groups{
+  background: #FF0000;
+  color: #000000;
+  .dc-work--year h2{
+    color: #FFFFFF;
+  }
+  .dc-work--item--description{
+    background: #FF0000;
+  }
+  a:hover{
+    color: #FFFFFF
+  }
+  .dc-worknav .current{
+    color: #FFFFFF;
+  }
+  .dc-work--year .dc-work--items > *::after{
+    color: #000000;
+  }
+}

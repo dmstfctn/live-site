@@ -1,0 +1,225 @@
+@font-face{
+  font-family: "DC-MAIN";
+  src: url("../fonts/dc-main-subset.woff") format("woff");
+}
+
+html{
+  font-family: "DC-MAIN", adobe-myungjo-std, serif;
+  font-style: normal;
+  font-weight: 500;      
+  font-size: 16px;
+  //font-size: 1.322vw;
+  font-size: 1.27vw;
+  line-height: 1.389em;
+  letter-spacing: -0.04em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.wf-loading{
+  body{
+    *{
+      opacity: 0;   
+    }
+    // img,
+    // iframe,
+    // video,
+    // svg{
+    //   opacity: 1;
+    // }
+  }
+
+  // .dc-gfx{
+  //   opacity: 1;
+  //   *{
+  //     opacity: 1;
+  //   }
+  // }
+}
+
+.dctxt--date{    
+  font-family: antique-olive-nord, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1em;
+  font-size: 0.85em; 
+  letter-spacing: -0.03em;
+}
+  .dctxt--date--hyphen{
+    padding: 0 0.05em;
+    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform-style: preserve-3d;
+  }
+
+.dctxt--at{
+  transform: scaleX(0.65) scaleY(0.9) translateY(0.04em);
+  display: inline-block;
+  margin-left: -0.18em;
+  margin-right: -0.2em;
+}
+
+.dc-sitenav,
+.dc-item--header{
+  font-size: 1.556rem;
+  line-height: 1.429em;
+  line-height: 1; 
+  letter-spacing: -.065em;
+}
+  .dc-work{
+    font-size: 3.2rem;
+    line-height: 1.142em;
+    letter-spacing: -0.055em;
+  }
+
+  .dc-work--year h2{
+    font-size: 3.3rem;
+    font-family: antique-olive-nord, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 0.85em;
+    display: inline;
+    letter-spacing: -0.03em;
+  }
+  .dc-work--year .dc-work--items{
+    line-height: 1;
+    text-transform: uppercase;
+  }
+    .dc-work--year .dc-work--items > *{
+      text-align: justify;
+      text-align-last: justify;
+      &:after{
+        content: ',';
+      } 
+      &:last-child:after{
+        content: '';  
+      }
+    }
+
+    .dc-work--item--description{
+      font-size: 3.2rem;
+      &:after{
+        content: '';
+        display: inline-block;
+        width: 100%;
+      }
+    }
+    
+.dc-biglist--now{
+  text-align: justify;
+  text-align-last: justify;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.dc-track-record{
+  font-size: 1.556rem; 
+  line-height: 1.35em;
+  letter-spacing: -.065em;
+}
+.dc-bio{
+  text-align: justify;
+  text-align-last: justify;
+}
+.dc-bio p{
+  text-align-last: justify;
+}
+
+.dc-cv--name{
+  text-transform: uppercase;
+}
+
+.dc-cv-type__dissemination,
+.dc-cv--title__dissemination{
+  /* font-family: arial, sans-serif; */
+}
+
+.dc-item--header{
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: clip;  
+}
+  .dc-item--header h1{
+    font-weight: normal;
+    font-size: 1em;
+  }
+
+
+.dc-media--list .info,
+.dc-media--list .dc-media__text{ 
+  .text{
+    columns: 3;
+    column-gap: 1.8em;
+    max-height: 100%;
+    column-fill: balance-all;  
+  }
+  .text.text__hascol{
+    columns: initial;
+    display: flex;
+    justify-content: space-between;
+    .dc-col{
+      width: 30%;
+      width: calc( 33.33% - 1.2em );
+    }
+    p{
+      margin-bottom: 0;
+      text-align-last: justify;
+    }
+    p:after{
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+    .dc-col:last-child p:last-child{
+      text-align-last: auto;
+      &:after{
+        display: inline;
+      }
+    }
+  }
+  p{
+    break-inside: unset;
+    text-align: justify;    
+    margin-bottom: 1.389em;
+  }
+  em{
+    font-style: normal;
+  }
+} 
+
+html[data-b="GC"]{
+  .dc-media--list .info,
+  .dc-media--list .dc-media__text{ 
+    .text:not(.text__hascol){
+      p{
+        margin-bottom: 0;
+        margin-top: 1.389em;
+      &:first-child{
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+.dc-media--list figcaption{
+  font-size: 0.66rem;
+  @media (min-width: 901px) and (max-aspect-ratio: 107/70){
+    font-size: 0.85rem;
+  }
+  letter-spacing: 0.004em;
+}
+
+
+.dc-media--nav ol{
+  counter-reset: medianav;
+}
+  .dc-media--nav ol li{
+    list-style-type: none;
+  }
+    .dc-media--nav ol li:after{
+      content: ',';
+    }
+  .dc-media--nav ol li:last-child:after{
+    content: '';
+  }

@@ -1,0 +1,279 @@
+/* the menu across the top of large site */
+.dc-sitenav{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.25rem;
+  padding: .43rem $dc_site_padding_right .2rem $dc_site_padding_left;
+}
+  .dc-sitenav::before {
+    content: '';
+    background: #000;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 2.8rem;
+    z-index: -1;
+    top: -0.3rem;
+    left:0;
+  }
+  .dc-sitenav a{
+    height: 1.65rem;
+  }
+
+    .dc-sitenav a[data-dc-localtarget="#related-matters"]{ 
+      $svg_scale: 4;
+      svg{
+        display: block;
+        width: 3.75rem * $svg_scale;
+        height: 2rem * $svg_scale;
+        content: '';
+        position: absolute;
+        top: .35rem;
+        left:50%;
+        transform:  translateX(-50%) 
+                    translateZ(0) 
+                    scale( 1 / $svg_scale ) 
+                    translateY( ( $svg_scale - 1 ) * -50% );
+        path[fill]{
+          fill: #FFFFFF !important;
+        }
+        path[stroke]{
+          stroke:#FFFFFF !important;
+        }
+      }
+      &.active,
+      &:hover{
+        svg path[fill]{
+          fill: #FF0000 !important;
+        }
+        svg path[stroke]{
+          stroke: #FF0000 !important;
+        }
+      }
+    }
+
+      .dc-sitenav a.active{
+        color: #FF0000;
+      }
+      
+      html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
+      html[data-dc-pagetype="home"][data-dc-homeactive="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
+      html[data-dc-pagetype="home"][data-dc-homeactive="track-record"] .dc-sitenav a[href="#{$urlRoot}track-record"],
+      html[data-dc-pagetype="relatedmatter"] .dc-sitenav a[href="#{$urlRoot}"],
+      html[data-dc-pagetype="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
+      html[data-dc-pagetype="null"] .dc-sitenav a[href="#{$urlRoot}track-record"]{
+        color: #FF0000;
+        svg path[fill]{
+          fill: #FF0000 !important;
+        }
+        svg path[stroke]{
+          stroke: #FF0000 !important;
+        }
+      }
+      html[data-dc-pagetype="home"][data-dc-homeactive="focus-groups"] .dc-sitenav a[href="#{$urlRoot}focus-groups"],
+      html[data-dc-pagetype="focusgroup"] .dc-sitenav a[href="#{$urlRoot}focus-groups"]{
+        color: #FFFFFF;        
+      }
+
+.dc-sitenav--entry__focus-groups{
+  order: 1;
+  flex-shrink: 1;
+  width: 10em;
+}
+
+.dc-sitenav--entry__related-matters{
+  order: 2;
+  flex-grow:2;
+  text-align: center;
+  font-size: 0;
+} 
+
+.dc-sitenav--entry__track-record{
+  order: 3;
+  flex-shrink:1;  
+  width: 10em;
+  text-align: right;
+}
+
+
+/* the dropdowns / lists */
+.dc-navigation-item{
+  position: absolute;
+  width: 100%;
+  background: #000000;
+  z-index: 10;
+  display: none;
+  padding: 0 $dc_site_padding_right .3rem $dc_site_padding_left;  
+}
+  html[data-dc-pagetype="home"],
+  html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"]{
+    .dc-navigation-item#related-matters{
+      display: block;
+    }
+  }
+  html[data-dc-pagetype="home"][data-dc-homeactive="focus-groups"]{ 
+
+    .dc-navigation-item#focus-groups{
+      display: block;
+    }
+  }
+  html[data-dc-pagetype="home"][data-dc-homeactive="dissemination"]{ 
+    .dc-navigation-item#dissemination{
+      display: block;
+    }
+  }
+  html[data-dc-pagetype="home"][data-dc-homeactive="track-record"]{
+    .dc-navigation-item#related-matters{
+      display: none;
+    }
+    #track-record{
+      display: block;
+    }
+  }
+
+/* work lists */
+.dc-work{  
+  list-style-type: none;
+  padding-top: 5.6rem;  
+  margin: 0 0 0 0;
+  height: calc(100% - 2.2rem);
+  box-sizing: border-box;
+}
+  .dc-work--year{
+    display: flex;
+    justify-content: flex-start;   
+    align-items: baseline; 
+  }
+  .dc-work--year h2{
+    position: relative;
+    padding: 0 .09em 0 0;
+    color: #FF0000;
+    white-space: nowrap;    
+    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform-style: preserve-3d;     
+  }
+
+  .dc-work--item{
+    //overriding the 'relative' of ext links to allow the 
+    //description to position relative to the line instead
+    position: static !important; 
+  }
+  .dc-work--item--description{
+    display: none;
+    position: absolute;    
+    top: 0;
+    left: 0.03em;
+    background: #000000;
+    z-index: 1;
+    pointer-events: none;
+    text-transform: none;
+    width: 100%;
+    text-align: justify;
+    overflow-x: hidden;    
+    overflow-y: hidden;
+    text-overflow: clip;
+    height: 3.5rem;
+    letter-spacing: -0.061em;
+    word-spacing: -0.023em;
+    white-space: normal;
+    margin-top: 0.09rem;
+    .description-inner{
+      white-space: nowrap;
+    }
+  }    
+    .dc-work--item.dc-external-link .dc-work--item--description{
+      width: auto;
+      right: 0.5em;
+    }
+
+    .dc-work--item:hover .dc-work--item--description{
+      display: block;
+    }
+    .dc-work--item.dc-external-link:hover:before{
+      color: #FF0000;
+    }
+
+    .dc-biglist--now .dc-work--item--description{
+      background: transparent;
+    }
+    .dc-biglist--now .dc-cv--linewrap::after{
+      display: none;
+    }
+
+  
+
+  .dc-work--year .dc-work--items{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;  
+    position: relative;  
+  }   
+    .dc-work--year .dc-work--items > *::after{
+      color: #FFFFFF;
+    }
+    .dc-work--year .dc-work--items > *:only-child{
+      flex-grow: 2;      
+    }    
+    /* fix safari no justify last line */
+    .dc-work--year .dc-work--items > *:only-child:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+    /* and fix the issue this causes whereby the last item has a double height hover area */
+    .dc-work--item{
+      height: 1.142em;
+      overflow: hidden;      
+    }
+
+/* related matters */
+/* now */
+.dc-biglist--now{
+  position: absolute;
+  width: 98%;
+  top: auto;
+  bottom: 0;
+}
+  .dc-biglist--now a{
+    display: flex;
+    width:100%;
+    box-sizing: border-box;
+    align-items: baseline; 
+  }
+  .dc-biglist--now h2{
+    position: relative;
+    margin-bottom: .1em;
+    padding-right: .15em;
+  }
+  .dc-biglist--now .dc-cv--entry{
+    height: 1.07em;
+    line-height: 1;
+    width: 100%;
+    position: relative !important;
+  }
+    .dc-biglist--now .dc-cv--entry::before{
+      bottom: 0.45em;
+    }
+    .dc-biglist--now .dc-cv--location{
+      padding-left: 0;
+    }
+
+  .dc-biglist--now .dc-work--item--description{
+    width: auto;
+    left: 0;
+    right: 0;
+  }
+  .dc-biglist--now .dc-external-link:hover:before{
+    color: #FF0000;
+  }
+
+
+/* dissemination */
+.dc-dissemination--info{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 1em;
+}

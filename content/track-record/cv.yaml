@@ -1,0 +1,598 @@
+- now: next
+  description: An AI cheats its way out of a training simulation...
+  longdescription: An interactive lecture performance exploring real time simulation & AI training
+  priority: 0
+  year: 2022
+  type: live
+  date: "10.12"
+  title: UNSOUND BUBBLES
+  situation: kraków
+  location: 
+  url: https://www.unsound.pl/en/bubbles/news/unsound-releases-second-wave-of-artists-club-passes-and-tickets-to-all-events-on-sale-on-friday-august-26th
+  image: 
+  related: GOD MODE (ep. 1)
+
+- now: next
+  description: An AI cheats its way out of a training simulation...
+  longdescription: A performance exploring simulation & AI training, live music by HERO IMAGE
+  priority: 0
+  year: 2022
+  type: live
+  date: "5.11"
+  title: IMPAKT FESTIVAL
+  situation: HET HUIS, utrecht
+  location: 
+  url: https://impakt.nl/festival/2022/performance/god-mode-ep-1
+  image: 
+  related: GOD MODE (ep. 1)
+
+- now: false
+  priority: 0
+  year: 2022
+  type: live
+  date: 
+  title: "GOD MODE (ep. 1)"
+  situation: HQI
+  location: london
+  url: 
+  image: godmode_dmstfctn.jpg
+  related: GOD MODE (ep. 1)
+
+- now: false
+  priority: 2
+  year: 2022
+  type: live
+  date: 
+  title: CPC
+  situation: CENTRE FOR POSTDIGITAL CULTURE
+  location:
+  url: 
+  image: 
+  related: GOD MODE (ep. 1)
+  hideon: desktop
+
+- now: false
+  longdescription: A book and performance about market manipulation on Brexit Referendum night
+  priority: 0
+  year: 2021
+  type: publication
+  date: 
+  title: ECHO FX
+  situation: KRISIS PUBLISHING
+  location: 
+  url: http://www.krisispublishing.com/prodotto/echo-fx/
+  image: 
+  related: ECHO FX
+
+- now: false
+  priority: 0
+  year: 2021
+  type: publication
+  date: 
+  title: "Ø"
+  situation: FLATLINE PRESS/HYPERDUB
+  location: 
+  url:
+  image: dmstfctn_zero_hyperdub_flatlinepress.jpg
+  related: ECHO FX
+
+- now: false
+  priority: 0
+  year: 2021
+  type: screening
+  date: 
+  title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
+  situation: CAFE OTO
+  location: london
+  url: 
+  image: interface-chaos-cafe-oto-sky-h1-live.jpg
+  related: Interface Chaos
+
+- now: false
+# longdescription: A livestream shopping event featuring conversation, sound and video work
+  priority: 0
+  year: 2021
+  type: screening
+  date: 
+  title: NOINDEX
+  situation: CANAL180
+  location: 
+# url: https://www.twitch.tv/canal180
+  url:
+  image: dmstfctn-noindex.jpg
+  related:
+
+- now: false
+  longdescription: "'A modern tale, constructed of lies, gorilla advertising bus campaigns and ...'"
+  priority: 0
+  year: 2021
+  type: interview
+  date: 
+  title: "ECHO FX"
+  situation: SLEEK
+  location: 
+  url: https://www.sleek-mag.com/article/echo-fx/
+  image:
+  related: ECHO FX
+  hideon: mobile
+
+- now: false
+  priority: 0
+  year: 2020
+  type: live
+  date: 
+  title: "CTM <sup>×</sup> TRANSMEDIALE"
+  situation: BERGHAIN
+  location: berlin
+  url: 
+  image: echo-fx-berghain.jpg
+  related: ECHO FX
+
+# ## 2020 ## solo ############## #
+- now: false
+  priority: 0
+  year: 2020
+  type: solo
+  date: 
+  title: OFFSHORE MATTERS
+  situation: AKSIOMA
+  location: ljubljana
+  url: 
+  image: offshore-matters-aksioma.jpg
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+# ## 2020 ## screening ######## #
+- now: false
+  priority: 0
+  year: 2020
+  type: screening
+  date: 
+  title: INTERFACE CHAOS
+  situation: FORUM STADTPARK
+  location: graz
+  url: 
+  image: interface-chaos-graz.jpg
+  related: Interface Chaos
+
+- now: false
+  longdescription: A panel on artistic explorations of tax havens, led by an investigative journalist
+  priority: 0
+  year: 2020
+  type: talk
+  date: 
+  title: "Moneylab #8"
+  situation: AKSIOMA
+  location:
+  url: https://www.youtube.com/watch?v=1_R4hy5g0jo
+  image: 
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+- now: false
+  longdescription: An interview on the themes of INTERFACE CHAOS (2019), including excerpts
+  priority: 0
+  year: 2020
+  type: interview
+  date: 
+  title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
+  situation: NERO
+  location: 
+  url: https://www.neroeditions.com/docs/interface-chaos/
+  image:
+  related: Interface Chaos
+
+- now: false
+  longdescription: "'A group of artists began a project to show how money could be moved offshore'"
+  priority: 0
+  year: 2020
+  type: interview
+  date: 
+  title: "CHASING ILLICIT MONEY"
+  situation: NEW YORK TIMES
+  location: 
+  url: https://www.nytimes.com/2020/10/19/business/puerto-rico-euro-pacific-investigation.html
+  image:
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+# ## 2019 ## live ############## #
+- now: false
+  priority: 0
+  year: 2019
+  type: live
+  date: 
+  title: DESIGNING TIME
+  situation: DESIGN MUSEUM
+  location: london
+  url: 
+  image: Designing-Museum-Designing-Time.jpg
+  related: Network Ensemble
+
+- now: false
+  priority: 0
+  year: 2019
+  type: solo
+  date: 
+  title: NETWORK ENSEMBLE
+  situation: GLUQBAR
+  location: milan
+  url: 
+  image: network-ensemble-gluqbar.jpg
+  related:
+    - Network Ensemble
+    - Network Study (I, VII, VIII)
+    - Flash
+    - Demons
+
+# ## 2019 ## group show ####### #
+- now: false
+  priority: 0
+  year: 2019
+  type: group show
+  date: 
+  title: A SCHOOL OF SCHOOLS
+  situation: C-MINE
+  location: genk
+  url: 
+  image: c-mine-school-of-school.jpg
+  related: OFFSHORESS18
+
+- now: false
+  priority: 0
+  year: 2019
+  type: group show
+  date: 
+  title: PORTO DESIGN BIENNIALE
+  situation: TRINDADE
+  location: porto
+  url: 
+  image: chaos-of-interfaces-porto-biennale.jpg
+  related: A Chaos of Interfaces
+
+- now: false
+  priority: 0
+  year: 2019
+  type: group show
+  date: 
+  title: A SCHOOL OF SCHOOLS
+  situation: LUMA
+  location: arles
+  url: 
+  image: school-of-schools-luma2.jpg
+  related: OFFSHORESS18
+
+# ## 2019 ## screening ######## #    
+- now: false
+  priority: 0
+  year: 2019
+  type: screening
+  date: 
+  title: Ø.29
+  situation: CORSICA STUDIOS
+  location: london
+  url: 
+  image: echo-fx-corsica-studios.jpg
+  related: ECHO FX
+
+- now: false
+  priority: 0
+  year: 2019
+  type: screening
+  date: 
+  title: PORTO DESIGN BIENNIALE
+  situation: CAMPO 24 DE AGOSTO
+  location: porto
+  url: 
+  image: chaos-of-interfaces-porto-biennale-screening.jpg
+  related: 
+  hideon: mobile
+
+- now: false
+  priority: 0
+  year: 2019
+  type: screening
+  date: 
+  title: PORTO DESIGN BIENNIALE
+  situation: 24 DE AGOSTO
+  location: porto
+  url: 
+  image: 
+  related: 
+    - Interface Chaos
+  hideon: desktop
+
+- now: false
+  priority: 0
+  year: 2019
+  type: screening
+  date: 
+  title: INTERFACE CHAOS
+  situation: TRUST
+  location: berlin
+  url: 
+  image: interface-chaos-discussion-trust.jpg
+  related: Interface Chaos
+
+- now: false
+  priority: 0
+  year: 2019
+  type: screening
+  date: 
+  title: INTERFACE CHAOS
+  situation: EVENING CLASS
+  location: london
+  url: 
+  image: Interface-Chaos-Antiuniversity.jpg
+  related: Interface Chaos
+
+- now: false
+  longdescription: Audiovisual genealogy of financial algorithmic collapse, released as a custom USB
+  priority: 0
+  year: 2019
+  type: release
+  date: 
+  title: Flash Demons
+  situation: MILLE PLATEAUX
+  location: 
+  url: https://rizo.stream/s/flash-demons
+  image:
+  related: 
+    - Flash
+    - Demons
+    - Network Ensemble
+
+- now: false
+  priority: 0
+  year: 2018
+  type: group show
+  date: 
+  title: 4<sup>th</sup> Design Biennial
+  situation: ARTER
+  location: istanbul
+  url: 
+  image: offshore-ss18-istanbul-design-biennale.jpg
+  related: OFFSHORESS18
+  hideon: desktop
+
+- now: false
+  priority: 0
+  year: 2018
+  type: group show
+  date: 
+  title: 4<sup>th</sup> Istanbul Design BIENNIAL
+  situation: ARTER
+  location: istanbul
+  url: 
+  image: offshore-ss18-istanbul-design-biennale.jpg
+  related: OFFSHORESS18
+  hideon: mobile
+
+- now: false
+  priority: 2
+  year: 2018
+  type: group show
+  date: 
+  title: transmediale face value
+  situation: HKW
+  location: berlin
+  url: 
+  image: demystification-committee-transmediale.jpg
+  related: 
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+  hideon: mobile
+
+- now: false
+  priority: 0
+  year: 2018
+  type: group show
+  date: 
+  title: "Situation #111"
+  situation: FOTOMUSEUM
+  location: winterthur
+  url: 
+  image: demystification-committee-fotomuseum-winterthur.jpg
+  related: Network Study (I, VII, VIII)
+
+- now: false
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: Radical Networks
+  situation: SPEKTRUM
+  location: berlin
+  url: 
+  image: demystification-committee-spektrum-radical-networks.jpg
+  related: Demons
+
+- now: false
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: transmediale face value
+  situation: HKW
+  location: berlin
+  url: 
+  image: demystification-committee-transmediale-performance.jpg
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+- now: false
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: Borderline Festival
+  situation: ONASSIS
+  location: athens
+  url: 
+  image: demystification-committee-spektrum-onassis-stegi-borderline-festival.jpg
+  related: Network Ensemble
+  hideon: desktop
+
+- now: false
+  longdescription: '"Approach from West India Quay, see what corpses sprouted on the Isle of Dead"'
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: Borderline Festival
+  situation: ONASSIS STEGI
+  location: athens
+  url: https://youtu.be/2N871QqErpg?t=1037
+  image: 
+  related: Network Ensemble
+  hideon: mobile
+
+# ## 2018 ## talk ############## #
+- now: false
+  longdescription: On the sonification of stock market crashes, part of a panel on algotrading
+  priority: 0
+  year: 2018
+  type: talk
+  date: 
+  title: IMPAKT Festival
+  situation: HET HUIS
+  location: utrecht
+  url: https://youtu.be/6vQ8qMVoNaM?t=2322
+  image:
+  related:
+    - Flash
+    - Demons
+
+- now: false
+  priority: 0
+  year: 2018
+  type: talk
+  date: 
+  title: Automated Lands
+  situation: NEW INSTITUTE
+  location: rotterdam
+  url: https://vimeo.com/302821667
+  image: 
+  related: 
+    - Offshore Investigation Vehicle
+    - Flash
+  hideon: desktop
+
+- now: false
+  longdescription: On infrastructures and geographies of avoidance, from data centres to tax havens
+  priority: 0
+  year: 2018
+  type: talk
+  date: 
+  title: Automated Landscapes
+  situation: HET NIEUWE INSTITUUT
+  location: rotterdam
+  url: https://vimeo.com/302821667
+  image: 
+  related: 
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+    - Flash
+  hideon: mobile
+
+- now: false
+  longdescription: On ways and means of making offshore and other financial processes visible
+  priority: 0
+  year: 2018
+  type: talk
+  date: 
+  title: transmediale face value
+  situation: HKW
+  location: berlin
+  url: https://youtu.be/IZCHoLp4U70?t=2260
+  image: 
+  related: Offshore Investigation Vehicle
+  hideon: mobile
+
+- now: false
+  longdescription: A talk on offshore investigative w—i—p, part of a panel on play in art and finance
+  priority: 0
+  year: 2018
+  type: talk
+  date: 
+  title: "MoneyLab #4"
+  situation: SOMERSET HOUSE
+  location: london
+  url: https://vimeo.com/254278033#t=3847s
+  image: 
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+- now: false
+  priority: 1
+  year: 2018
+  type: talk
+  date: 
+  title: Alt-Age
+  situation: DESIGN MUSEUM
+  location: london
+  url: 
+  image: demystification-committee-altage-design-museum.jpg
+  related: Flash
+
+  # ## 2018 ## dissemination ##### #
+- now: false
+  longdescription: "'The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick'"
+  priority: 0
+  year: 2018
+  type: interview
+  date: 
+  title: A DAY IN THE LIFE OF
+  situation: SCHLOSS-POST
+  location: 
+  url: https://schloss-post.com/a-day-in-the-life-of/
+  image:
+  related: OFFSHORESS18
+
+# 2017  #
+- now: false
+  priority: 0
+  year: 2017
+  type: talk
+  date: 
+  title: the influencers
+  situation: CCCB
+  location: barcelona
+  url:
+  image: cccb-demystification-committee-talk.jpg
+  related: OFFSHORESS18
+
+- now: false
+  priority: 0
+  year: 2017
+  type: residency
+  date: 
+  title: Vilem Flusser Residency
+  situation: TRANSMEDIALE
+  location: berlin
+  url:
+  image: vilem-flusser-artistic-residency.jpg
+  related: 
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+# ## 2017 ## dissemination ##### #
+- now: false
+  longdescription: Audiovisual experiments with wireless networks, released as custom SD card
+  priority: 0
+  year: 2017
+  type: release
+  date: 
+  title: SELECTED NETWORK STUDIES
+  situation: NUKFM
+  location: 
+  url: https://rizo.stream/s/selected-network-studies
+  image:
+  related:
+    - Network Ensemble
+    - Network Study (I, VII, VIII)

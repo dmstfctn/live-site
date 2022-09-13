@@ -1,0 +1,315 @@
+@font-face{
+  font-family:"TeX Gyre Heros";
+	font-style: normal;
+  src:url("../fonts/texgyreheroscn-regular.woff?#iefix");
+}
+@font-face{
+  font-family:"TeX Gyre Heros";
+	font-weight: 700;
+  src:url("../fonts/texgyreheroscn-bold.woff?#iefix");
+}
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One');
+@import url('https://fonts.googleapis.com/css?family=UnifrakturMaguntia');
+
+.font-unifraktur,
+.font-temp-unifraktur{
+	font-family: 'UnifrakturMaguntia';
+}
+.font-ceviche,
+.font-temp-ceviche{
+	font-family: 'Ceviche One';
+	font-size: 1.24em;
+}
+.font-tex,
+.font-temp-tex{
+	font-family: "TeX Gyre Heros";
+}
+
+*{
+	//outline: 1px solid lime;
+}
+
+$track_bar_height: 1.5rem;
+$track_font_height: 1.2rem;
+
+$colour_fg: #FFFFFF;
+$colour_bg: #000000;
+$colour_ex: #FF0000;
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-size: 1.2vw;
+	font-family: "TeX Gyre Heros", helvetica, sans-serif;
+	letter-spacing: -.01em;
+	background: $colour_bg;
+	color: $colour_fg;
+}
+	a{
+		text-decoration: none;
+		color: $colour_fg;
+		&:hover{
+			color: $colour_ex;
+		}
+	}
+	.track-bar{
+		font-family: 'Ceviche One', cursive;
+		letter-spacing: .06em;
+		font-size: $track_font_height;
+		width: 100%;
+		height: $track_bar_height;
+		position: absolute;
+		z-index: 10;
+		top: 0;
+		left:0;
+		background: $colour_fg;
+		color: $colour_bg;
+		.track-bar-inner{
+			h1{
+				font-size: $track_font_height;
+				display: block;
+				margin: 0;
+				height: $track_bar_height;
+				line-height: $track_bar_height;
+				background: $colour_fg;
+				color: $colour_bg;
+				z-index: 1;
+			}
+			.text{
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 0 1rem 0 1rem;
+				width: 25%;
+				height: $track_bar_height;
+				line-height: $track_bar_height;
+				display: flex;
+				justify-content: space-between;
+				box-sizing: border-box;
+				.text-item{
+					display: flex-item;
+				}
+			}
+		}
+	}
+	.progress{
+		width: 75%;
+		position: absolute;
+		right: 1em;
+		top: 0;
+		height: $track_bar_height;
+		&:after{
+			content: '';
+			display: block;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);// translateZ(0);
+			height: 2px;
+			width: 100%;
+			background: $colour_bg;
+		}
+		.progress--handle{
+			height: .5em;
+			width: .2em;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);// translateZ(0);
+			&:after{
+				content: 'l';
+				position: absolute;
+				top: 50%;
+				transform: translateY(-42%) rotate(-180deg) ;// translateZ(0);
+			}
+			color: $colour_bg;
+			border-radius: 50% 100%;
+		}
+	}
+	.columns{
+		position: absolute;
+		top: $track_bar_height;
+		height: calc( 100vh - #{$track_bar_height} );
+		left: 0;
+		width: 100vw;
+	}
+		.column{
+			box-sizing: border-box;
+			//transform:;// translateZ(0);
+			display: inline-block;
+			height: 100%;
+			overflow-y: auto;
+			border-right: 1px solid $colour_fg;
+		}
+		.column--inner{
+			padding: 1rem;
+			//transform:;// translateZ(0);
+		}
+
+			.column__1{
+				//background-color: #fd9e80;
+				font-family: "TeX Gyre Heros", helvetica, sans-serif;
+				letter-spacing: 0;
+				font-weight: 400;
+				width: 26%;
+				.column--inner{
+					text-align: left;
+					font-size: .8em;
+					p{
+						margin-top: 0;
+						margin-bottom: 1.2rem;
+					}
+				}
+				// to rotate the poem
+				// overflow-y: hidden;
+				// overflow-x: auto;
+				// .column--inner{
+				// 	transform-origin: bottom left;
+				// 	transform: rotate(-90deg) translateY(100%) translateX(-20%);
+				// 	width:  calc( 100vh - #{$track_bar_height} );
+				// 	line-height: 1.5;
+				// 	text-align: center;
+				// }
+			}
+			.column__2{
+				// background: #000000;
+				// color:#FFFFFF;
+				width: 41.7%;
+				margin-right: 2.3%;
+			}
+			.column__2, .column__3{
+				//font-family: times, serif;
+
+				.column--inner{
+					font-size: 1.6rem;
+				}
+			}
+
+			.column__3{
+				border-left: 1px solid #FFFFFF;
+				width: 30%;
+				border-right: none;
+			}
+
+.column--inner{
+	.quote{
+		font-family: UnifrakturMaguntia, cursive;
+		line-height: 0.9;
+		&.quote__large{
+			font-size: 1.4em;
+		}
+		&.quote__center{
+			text-align: center;
+		}
+	}
+	.item{
+		margin-top: 0;
+		margin-bottom: 3rem;
+		line-height: 1.1;
+	}
+	.item__rotate{
+		transform-origin: center center;
+		transform: rotate( 180deg );
+		text-align: right;
+	}
+}
+
+@keyframes spinY {
+	0%{
+		transform: rotateY(0deg);// translateZ(0);
+	}
+	100%{
+		transform: rotateY( 359deg );// translateZ(0);
+	}
+}
+@keyframes arrow-up{
+	0%{
+		bottom: -10em;
+	}
+	100%{
+		bottom: 110%;
+	}
+}
+@keyframes arrow-down{
+	0%{
+		top: -10em;
+	}
+	100%{
+		top: 110%;
+	}
+}
+
+
+.sachs-info{
+	position: fixed;
+	left: 67.7%;
+	width: 2.3%;
+	height: 100%;
+	top: 0;
+	background: #FF0000;
+	&:before,
+	&:after{
+		width: 80%;
+		left: 10%;
+		height: 8em;
+		display: block;
+		position: absolute;
+		bottom: -10em;
+		content:'';
+		background-image: url('../../images/arrow.png');
+		background-size: contain;
+	}
+	&.going-up:before{
+		animation: arrow-up .5s ease-in 5;
+	}
+	&.going-down:after{
+		animation: arrow-down .5s ease-in 5;
+	}
+	&:after{
+		background-image: url('../../images/arrow-down.png');
+	}
+
+	&:hover:before{
+		transform: translateY(80%);
+	}
+	border-right: 1px solid $colour_fg;
+	z-index: 1;
+	overflow-y: scroll;
+	// .sachs-info-inner{
+	// 	white-space: nowrap;
+	// 	position: absolute;
+	// 	line-height: 1;
+	// 	top: 50%;
+	// 	left: 50%;
+	// 	transform-origin: 50% 50%;
+	// 	transform: translateX(-50%) translateY(-50%) rotate(90deg);// translateY(-66%);
+	// }
+	.sachs-info-inner div{
+		transform: rotate(90deg);
+		white-space: nowrap;
+	}
+}
+.sachs-logo{
+	position: fixed;
+	left: 65%;
+	top: 11%;
+	z-index: 10;
+	img{
+		display: block;
+		width: 100px;
+		height: auto;
+		transform-origin: center;
+		animation: spinY 6s linear infinite;
+	}
+}

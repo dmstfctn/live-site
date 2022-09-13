@@ -1,0 +1,44 @@
+<div class="dc-biglist dc-work dc-navigation-item" id="{{slug}}"  data-pagetype="{{pagetype}}">
+<ol>
+{{#each contents}}
+  <li class="dc-biglist--item dc-work--year">
+    <h2 class="dctxt--date">
+      {{{this.name_html}}}
+    </h2>
+    <div class="dc-work--items">
+    {{#each this.contents}}
+      <a 
+        href="{{#unless this.is_external }}{{dc_urlpath this.url}}{{/unless}}{{#if this.is_external}}{{this.url}}{{/if}}" 
+        {{#if this.is_external }}
+          target="_blank"
+          rel="noopener"          
+        {{/if}}
+        class="dc-work--item dc-work--item__{{this.slug}}{{#if this.is_external }} dc-external-link{{/if}}"
+      >
+        <span class="dc-work--item--description"><span class="description-inner">{{this.data.data.description}}</span></span><!--
+     -->{{{this.title.justified}}}<!--
+   --></a>
+    {{/each}}
+    </div>
+  </li>
+{{/each}}
+</ol>
+<div class="dc-biglist--now dc-work--year">
+  {{#if now}}
+  <a href="{{now.url}}" class="dc-external-link" target="_blank" rel="noopener">
+    <h2 class="dctxt--date dc-cv--now">{{now.label}}</h2><!--
+  --><div class="dc-cv--entry dc-work--item">
+      <span class="dc-cv--linewrap dc-cv--linewrap__hasdescription">
+        <div class="dc-cv--name">{{now.title}}</div> 
+        <span class="dots">..........................................................................................................................................................................................................................................</span>
+        <div class="dc-cv--location">{{now.situation}}</div>
+        <span class="dc-work--item--description dc-cv--description"><span class="description-inner">{{{now.description}}}</span></span>
+      </span>
+    </div>
+  </a>
+  {{/if}}
+  {{#unless now}}
+  &nbsp;
+  {{/unless}}
+</div>
+</div>

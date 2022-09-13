@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-dc-pagetype="{{pagetype}}" data-dc-homeactive="{{homeactive}}">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="DMSTFCTN (formerly the Demystification Committee) studies the intensities of late capitalism. London, Berlin.">
+  
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="57x57" href="{{dc_urlpath 'favicon/apple-icon-57x57.png'}}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{dc_urlpath 'favicon/apple-icon-60x60.png'}}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{dc_urlpath 'favicon/apple-icon-72x72.png'}}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{dc_urlpath 'favicon/apple-icon-76x76.png'}}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{dc_urlpath 'favicon/apple-icon-114x114.png'}}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{dc_urlpath 'favicon/apple-icon-120x120.png'}}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{dc_urlpath 'favicon/apple-icon-144x144.png'}}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{dc_urlpath 'favicon/apple-icon-152x152.png'}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{dc_urlpath 'favicon/apple-icon-180x180.png'}}">
+  <link rel="icon" type="image/png" sizes="192x192"  href="{{dc_urlpath 'favicon/android-icon-192x192.png'}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{dc_urlpath 'favicon/favicon-32x32.png'}}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{dc_urlpath 'favicon/favicon-96x96.png'}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{dc_urlpath 'favicon/favicon-16x16.png'}}">
+  <link rel="manifest" href="{{dc_urlpath 'favicon/manifest.json'}}">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{{dc_urlpath 'favicon/ms-icon-144x144.png'}}">
+  <meta name="theme-color" content="#ffffff">
+  
+  <title>{{ title }} | {{dc_name}}</title>
+  
+  <link rel="stylesheet" href="https://use.typekit.net/wzu6tbi.css">
+  <link rel="stylesheet" href="{{dc_urlpath 'assets/css/main.css' }}">
+  
+  {{{ small_site }}}  
+  
+  <script defer src="{{dc_urlpath 'assets/js/dist/main.js' }}"></script>
+</head>
+<body>
+  <div class="dc-zoomable-wrap">
+    {{{ navigation }}}
+    <div class="dc-main-content">
+      {{{ content }}}
+    </div>
+    {{{ track_record }}}
+  </div>
+  <div class="dc-mobile-nav" touch-action="none">
+    <div class="dc-mobile-bar"></div>
+  </div>
+  <a href="{{dc_urlpath ''}}" class="dc-mobile-home-link"></a>
+
+  <script>
+    console.log('BUILD INFO:\n\n', '{{~_build_info~}}');
+  </script>
+</body>
+</html>

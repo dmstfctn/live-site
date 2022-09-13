@@ -1,0 +1,196 @@
+##############################
+# OLD PROJECTS PAGE to HOME  #
+##############################
+
+[[redirects]]
+  from = "/mmittee/projects/"
+  to = "/mmittee/"
+  status = 301
+  force = false
+
+##############################
+# OLD PROJECT to NEW PROJECT #
+##############################
+
+[[redirects]]
+  from = "/mmittee/projects/flash/"
+  to = "/mmittee/related-matters/flash/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/demons/"
+  to = "/mmittee/related-matters/demons/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/network-studies/"
+  to = "/mmittee/related-matters/network-study-i-vii-viii/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/network-ensemble/"
+  to = "/mmittee/related-matters/the-network-ensemble/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/network-ensemble-1/"
+  to = "/mmittee/related-matters/the-network-ensemble/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/ne3/"
+  to = "/mmittee/related-matters/the-network-ensemble/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/nex/"
+  to = "/mmittee/related-matters/the-network-ensemble/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/offshore-investigation-vehicle/"
+  to = "/mmittee/related-matters/offshore-investigation-vehicle/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/the-offshore-economist/"
+  to = "/mmittee/related-matters/offshore-investigation-vehicle/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/projects/offshore-ss18/"
+  to = "/mmittee/related-matters/offshore-ss18/"
+  status = 301
+  force = false
+
+
+############################
+# OLD NOTES to NEW PROJECT #
+############################
+
+[[redirects]]
+  from = "/mmittee/offshore-invesigation-vehicle-vilem-flusser-residency-for-artistic-research/"
+  to = "/mmittee/related-matters/offshore-investigation-vehicle/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/flash-demons-2019/"
+  to = "/mmittee/related-matters/flash/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/network-study-fotomuseum/"
+  to = "/mmittee/related-matters/offshore-investigation-vehicle/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/selected-network-studies/"
+  to = "/mmittee/related-matters/network-study-i-vii-viii/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/chaos-variation-i/"
+  to = "/mmittee/related-matters/the-network-ensemble/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/network-study-docklands/"
+  to = "/mmittee/related-matters/network-study-i-vii-viii/"
+  status = 301
+  force = false
+
+
+#################################
+# OLD NOTES to NEW FOCUS GROUPS #
+#################################
+
+[[redirects]]
+  from = "/mmittee/open-offshore-roundtable-2017/"
+  to = "/mmittee/focus-groups/offshore-roundtable/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/offshore-roundtable/"
+  to = "/mmittee/focus-groups/offshore-roundtable/"
+  status = 301
+  force = false
+
+
+#################################
+# OLD NOTES to CV [TRACK RECORD]#
+#################################
+
+[[redirects]]
+  from = "/mmittee/automated-landscapes-data-centers/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/capturing-the-face-of-finance/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/playing-to-lose/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/algorithms-and-financial-speculations/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/on-experimental-tools-from-an-interview-with-rizosfera-1/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/financial-speculation-on-the-beach/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/necropolis-now/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "/mmittee/profit-for-all/"
+  to = "/mmittee/track-record/"
+  status = 301
+  force = false
+
+##### Link on: https://schloss-post.com/a-day-in-the-life-of/
+[[redirects]]
+  from = "/mmittee/the-offshore-economist"
+  to = "/mmittee/toe/The_Offshore_Economist.pdf"
+  status = 301
+  force = true
+
+############################################
+# GENERAL REDIRECTS TO /MMITTEE EVERYWHERE #
+############################################
+
+[[redirects]]
+  from = "/mmittee/*"
+  to = "/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/MMITTEE"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/MMITTEE/*"
+  to = "/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
+
+
+

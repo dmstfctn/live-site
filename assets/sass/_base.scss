@@ -1,0 +1,185 @@
+html, body{  
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+}
+  html{
+    background: #000000;
+    color: #FFFFFF;
+  }
+  body{   
+    min-height: 100%;
+  }
+  .dc-main-content{
+    width: 100%;
+    height: calc( 100% - 2.16rem );
+    position: absolute;
+    top: 2.16rem;
+  }
+  .dc-main-wrap{
+    padding: 0 $dc_site_padding_right .3rem $dc_site_padding_left;
+  }
+
+  sup{
+    font-size: 0.5em;
+    line-height: 1;
+  }
+
+  a:hover{
+    color: #FF0000;
+  }
+
+    .dc-external-link,
+    a[href^="mailto:"],
+    a[href^="http"]{
+      position: relative;
+      padding-right: 0.5em;      
+      line-height: inherit;
+      &::before{
+        content: '';
+        background-image: url('../svg/arrow.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        font-size: 0.5em;        
+        right: 0;
+        bottom: 0.85em;
+        width: 0.9em;
+        height: 0.9em;
+        line-height: 1;
+        display: block;
+        filter: invert(100%);
+      }
+      .dc-media--list .info & ,
+      .dc-media--list .dc-media__text &{
+        padding-right: 0;
+        &::before{
+          display: none;
+        }
+        &::after{
+          content: '';
+          background-image: url('../svg/arrow.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+          display: inline-block;
+          position: relative;
+          font-size: 0.5em;
+          right: 0;
+          bottom: 0.45em;
+          margin-left: 0.05em;
+          width: 1em;
+          height: 0.98em;
+          line-height: 1;
+          filter: invert(100%);
+        }
+      }
+    }
+
+    .dc-biglist--now .dc-external-link::before{
+      bottom: 1em;
+    }
+      .dc-biglist--now .dc-cv--entry{
+        margin-left: -0.04em;
+      }
+    .dc-external-link:after{
+      position: absolute;
+      left: 100%;
+    }
+
+/*top logo permutations */
+.dc-logo{ 
+  svg path{
+    display: initial;
+    shape-rendering: crispEdges;
+  }
+  &[data-dc-version="0"]{
+    #layer_two, #layer_three, #layer_four{
+      display: none;
+    }
+    #layer_one{
+      display: initial;
+    }
+  }
+  &[data-dc-version="1"]{
+    #layer_one{
+      display: none;
+    }
+    #layer_two, #layer_three, #layer_four{
+      display: initial;
+    }
+  }
+  &[data-dc-version="2"]{
+    #layer_two, #layer_one{
+      display: none;
+    }
+    #layer_three, #layer_four{
+      display: initial;
+    }
+  }
+  &[data-dc-version="3"]{
+    #layer_two, #layer_four{
+      display: initial;
+    }
+    #layer_one, #layer_three{
+      display: none;
+    }
+  }
+}
+  
+/* dotted line, title-subtitle */
+/* in CV and dissemination */
+.dc-cv--linewrap::after,
+.dots,
+.dc-dissemination--info::after{
+  content: '................................................................................................................................................................................................................................................................................................................................';
+  //white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  flex-grow: 2;
+  height: 1.2em;
+  order: 2;
+  width: 0;
+  min-width: 1%;
+  position: relative;
+  left: auto;
+  letter-spacing: -.035em;
+}
+  .dc-cv--entry.dc-cv--entry__haslink::after{
+    display: none;
+  }
+
+  .dc-biglist--now .dc-cv--entry::after,
+  .dc-cv--now::after,
+  .dc-cv--entry.dc-cv--now.dc-cv--entry__haslink > a::after,
+  .dc-biglist--now .dc-cv--entry.dc-cv--entry__haslink > a::after{
+    display: none;
+  }
+
+.dc-cv--name,
+.dc-dissemination--name{    
+  order: 1;
+  flex-shrink: 0;
+  flex-basis: content;
+  padding-right: .1em;
+}
+
+.dc-cv--location,
+.dc-dissemination--location{
+  order: 3;
+  flex-shrink: 0;
+  flex-basis: content;
+  padding-left: .1em;
+}
+
+
+/* ZOOM */
+.dc-zoomable-wrap{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

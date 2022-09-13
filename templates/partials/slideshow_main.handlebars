@@ -1,0 +1,144 @@
+<ol class="dc-media--list">
+  {{#each page.slideshows.main.slides}}  
+   {{#dc_slidetype 'image' this }}
+      <li class="dc-media__image{{#if @first}} active{{/if}}">
+        <figure>
+        {{#if @first}} 
+          <img 
+            src="{{content.main.lowSrc}}" 
+            data-src="{{content.main.src}}"
+            data-low-src="{{content.main.lowSrc}}"
+            alt="{{meta.alt}}"
+            data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
+                        {{content.main.halfSrc}} 2100w,
+                        {{content.main.src}} 3000w"
+            data-sizes="(max-width: 900px) 1px,
+                        100vw"
+            {{#if meta.size}}
+            style="height: {{meta.size}}"
+            {{/if}}  
+            width="{{content.main.dimensions.width}}"
+            height="{{content.main.dimensions.height}}"
+          >          
+        {{else}}
+          <img 
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="             
+            data-src="{{content.main.src}}"
+            data-low-src="{{content.main.lowSrc}}" 
+            alt="{{meta.alt}}"
+            data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
+                        {{content.main.halfSrc}} 2100w,
+                        {{content.main.src}} 3000w"
+            data-sizes="(max-width: 900px) 1px,
+                        100vw"
+            {{#if meta.size}}
+            style="height: {{meta.size}}"
+            {{/if}}
+            width="{{content.main.dimensions.width}}"
+            height="{{content.main.dimensions.height}}"
+          >
+        {{/if}}
+        {{#if meta.caption}}
+          <figcaption 
+            {{#if meta.size}}
+            style="top: calc( 100% - (100% - {{meta.size}}) / 2 );"
+            {{/if}}
+          >
+            <span>
+              {{meta.caption}}
+            </span>
+          </figcaption>
+        {{/if}}
+        </figure>
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'text' this}}
+      <li class="dc-media__text{{#if @first}} active{{/if}}">        
+        <div class="text">
+          {{{content.main}}}
+        </div>
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'embed' this}}
+      <li class="dc-media__embed{{#if @first}} active{{/if}}">
+        <div 
+          class="dc-embed{{#if content.main.embed }} embedded{{/if}}" 
+          data-embed-service="{{content.main.service}}"
+          data-embed-url="{{content.main.url}}"          
+        >
+          {{#if content.main.embed }}
+            {{{content.main.embed}}}
+          {{/if}}
+        </div>        
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'window' this}}
+      <li 
+        class="dc-media__window{{#if @first}} active{{/if}}"
+        {{#if content.main.content }}
+          data-content="{{content.main.content}}"
+        {{/if}}
+        {{#if content.main.config.url }}
+          data-url="{{content.main.config.url}}"
+        {{/if}}
+        {{#if content.main.config.windowScale }}
+          data-window-scale="{{content.main.config.windowScale}}"
+        {{/if}}
+      >        
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'audio' this}}
+      <li class="dc-media__audio{{#if @first}} active{{/if}}">
+        <audio data-src="{{content.main.src}}"></audio>
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'video' this}}
+      <li class="dc-media__video{{#if @first}} active{{/if}}">
+        <figure>
+          <video data-src="{{content.main.src}}"></video>
+          {{#if meta.caption}}
+          <figcaption>
+            {{meta.caption}}
+          </figcaption>
+          {{/if}}
+        </figure>
+      </li>
+    {{/dc_slidetype}}       
+  {{/each}}
+  <li class="info">
+    <div class="text{{#if page.info.hasPreColumns }} text__hascol{{/if}}">
+      {{{page.info.content}}}
+    </div>
+  </li>
+</ol>
+<nav class="dc-media--nav">
+  <ol>      
+    {{#each page.slideshows.main.slides }}   
+    {{#dc_slidetype 'image' this }}
+      <li {{#if @first}}class="active"{{/if}}>{{ nav.self.label }}</li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'text' this}}
+      <li {{#if @first}}class="active"{{/if}}>{{ nav.self.label }}</li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'embed' this}}
+      <li class="dc-media__playable dc-media__embed{{#if @first}} active{{/if}}">play</li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'window' this}}
+      <li 
+        class="dc-media__openable dc-media__window{{#if @first}} active{{/if}}" 
+        {{#if content.main.config.url }}
+          data-name="{{content.main.name}}"
+        {{/if}}>
+          {{content.main.name}}
+        </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'audio' this}}
+      <li class="dc-media__playable dc-media__audio{{#if @first}} active{{/if}}">play</li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'video' this}}
+      <li {{#if @first}}class="active"{{/if}}>{{ nav.self.label }}</li>
+    {{/dc_slidetype}}       
+    {{/each}}  
+    <li class="info">info</li>    
+  </ol>
+</nav>

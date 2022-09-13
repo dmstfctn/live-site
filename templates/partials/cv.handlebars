@@ -1,0 +1,51 @@
+<dl>
+  {{~#each cv~}}
+  <!-- years. year: {{@key}} -->
+    {{~#each this.contents~}}
+    <!-- types. type: {{@key}} -->
+      <dt class="dc-cv--title{{#if this.contents.[0].now}} dc-cv--now{{/if}} dc-cv--title__{{type}}{{#unless @index}} dc-cv--title__includesyear{{/unless}}{{#if @index}}{{#if this.contents.[0].now}} dc-cv--title__includesyear{{/if}}{{/if}}{{#if this.contents.[0].url}} dc-cv--title__haslink{{/if}}" data-dc-cv-priority="{{../priority}}">
+        {{~#unless @index~}}
+          <span class="dctxt--date">{{../year}}{{~#if this.contents.[0].now~}}.{{this.contents.[0].date}}{{/if}}</span>            
+        {{/unless}}
+        {{~#if @index~}}
+          {{~#if this.contents.[0].now~}}
+            <span class="dctxt--date">{{../year}}{{~#if this.contents.[0].now~}}.{{this.contents.[0].date}}{{/if}}</span>            
+          {{/if}}
+        {{/if}}
+        {{~#if type~}}
+        <span class="dc-cv--bracket dc-cv--bracket__first">(</span><!--
+        --><span class="dc-cv--type dc-cv--type__{{~type~}}">{{{ dc_cvcat type this.contents.[0].now this.contents.[0].url}}}</span><!--
+        {{/if}}
+        {{~#if type~}}
+      --><span class="dc-cv--bracket dc-cv--bracket__last">)</span>
+        {{/if}}
+      </dt>
+      {{~#each this.contents~}}
+      <!-- entries. entry: {{title}} -->
+      <dd class="dc-cv--entry{{#if now}} dc-cv--now{{/if}} dc-cv-type__{{type}}{{#if image}}{{#unless now}} dc-list-hoverimg{{/unless}}{{/if}}{{#if url}} dc-cv--entry__haslink{{/if}}{{#if hideon}} dc-cv-hideon__{{hideon}}{{/if}}" data-dc-cv-priority="{{priority}}">
+        {{#if url}}<a href="{{url}}" class="dc-external-link" target="_blank" rel="noopener">{{/if}}
+          <span class="dc-cv--linewrap{{#if longdescription}} dc-cv--linewrap__hasdescription{{/if}}">
+            <div class="dc-cv--name">{{{title}}}</div>
+            <div class="dc-cv--location">{{{situation}}}{{~#if location~}}, {{/if}}{{{location}}}</div>
+            {{#if now}}
+            <span class="dots">..........................................................................................................................................................................................................................................</span>
+            {{/if}}
+            {{#unless now}}
+            {{#if image}}
+              <img
+                src=""
+                data-low-src="{{dc_urlpath image.lowSrc}}" 
+                data-src="{{dc_urlpath image.src}}"
+              >
+            {{/if}}   
+            {{/unless}}          
+            {{#if longdescription}}
+              <span class="dc-cv--description">{{{longdescription}}}</span>
+            {{/if}}
+          </span>         
+        {{#if url}}</a>{{/if}}
+      </dd>
+      {{/each}}
+    {{/each}}
+  {{/each}}
+</dl>

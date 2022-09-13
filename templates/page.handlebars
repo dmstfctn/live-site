@@ -1,0 +1,20 @@
+<article class="dc-item dc-item__{{pagetype}} dc-main-wrap" id="{{slug}}">
+  <section class="dc-item--info active">
+    {{{data.info.contentNoColumns}}}
+    <div class="dc-item--cv dc-cv dc-small-chunk">
+      {{> cv cv=data.cv}}     
+    </div>
+  </section> 
+  <section class="dc-media dc-media__main">
+    {{> slideshow_main page=data }}
+  </section>
+    <section class="dc-media dc-media__small">
+    {{> slideshow_small slideshow=data.slideshows.small }}
+  </section>
+</article>
+<header class="dc-item--header">
+  <span class="dctxt--date">{{date}}</span>
+  <h1>
+    {{title.normal}}
+  </h1>
+</header>

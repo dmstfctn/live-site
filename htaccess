@@ -1,0 +1,67 @@
+#Header add Cache-Control "max-age=1"
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+
+Options +FollowSymLinks
+RewriteEngine On
+
+# OLD PROJECT to NEW PROJECT
+RewriteRule ^mmittee/projects/flash/?$  /mmittee/related-matters/flash/ [R=301,L]
+RewriteRule ^mmittee/projects/demons/?$  /mmittee/related-matters/demons/ [R=301,L]
+RewriteRule ^mmittee/projects/network-studies/?$  /mmittee/related-matters/network-study-i-vii-viii/ [R=301,L]
+RewriteRule ^mmittee/projects/network-ensemble/?$  /mmittee/related-matters/the-network-ensemble/ [R=301,L]
+RewriteRule ^mmittee/projects/network-ensemble-1/?$  /mmittee/related-matters/the-network-ensemble/ [R=301,L]
+RewriteRule ^mmittee/projects/ne3/?$  /mmittee/related-matters/the-network-ensemble/ [R=301,L]
+RewriteRule ^mmittee/projects/nex/?$  /mmittee/related-matters/the-network-ensemble/ [R=301,L]
+RewriteRule ^mmittee/projects/offshore-investigation-vehicle/?$  /mmittee/related-matters/offshore-investigation-vehicle/ [R=301,L]
+RewriteRule ^mmittee/projects/the-offshore-economist/?$  /mmittee/related-matters/offshore-investigation-vehicle/ [R=301,L]
+RewriteRule ^mmittee/projects/offshore-ss18/?$  /mmittee/related-matters/offshore-ss18/ [R=301,L]
+
+# OLD NOTES to NEW PROJECT
+RewriteRule ^mmittee/offshore-invesigation-vehicle-vilem-flusser-residency-for-artistic-research/?$  /mmittee/related-matters/offshore-investigation-vehicle/ [R=301,L]
+RewriteRule ^mmittee/flash-demons-2019/?$  /mmittee/related-matters/flash/ [R=301,L]
+RewriteRule ^mmittee/network-study-fotomuseum/?$  /mmittee/related-matters/offshore-investigation-vehicle/ [R=301,L]
+RewriteRule ^mmittee/selected-network-studies/?$  /mmittee/related-matters/network-study-i-vii-viii/ [R=301,L]
+RewriteRule ^mmittee/chaos-variation-i/?$  /mmittee/related-matters/the-network-ensemble/ [R=301,L]
+RewriteRule ^mmittee/network-study-docklands/?$  /mmittee/related-matters/network-study-i-vii-viii/ [R=301,L]
+
+# OLD NOTES to NEW FOCUS GROUPS
+RewriteRule ^mmittee/open-offshore-roundtable-2017/?$ /mmittee/focus-groups/offshore-roundtable/ [R=301,L]
+RewriteRule ^mmittee/offshore-roundtable/?$ /mmittee/focus-groups/offshore-roundtable/ [R=301,L]
+
+# OLD NOTES to CV
+RewriteRule ^mmittee/automated-landscapes-data-centers/?$ /mmittee/info/ [R=301,L]
+RewriteRule ^mmittee/capturing-the-face-of-finance/?$ /mmittee/info/ [R=301,L]
+RewriteRule ^mmittee/playing-to-lose/?$ /mmittee/info/ [R=301,L]
+RewriteRule ^mmittee/algorithms-and-financial-speculations/?$ /mmittee/info/ [R=301,L]
+RewriteRule ^mmittee/on-experimental-tools-from-an-interview-with-rizosfera-1/?$ /mmittee/info/ [R=301,L]
+RewriteRule ^mmittee/financial-speculation-on-the-beach/?$ /mmittee/info/ [R=301,L]
+RewriteRule ^mmittee/necropolis-now/?$ /mmittee/info/ [R=301,L]
+RewriteRule ^mmittee/profit-for-all/?$ /mmittee/info/ [R=301,L]
+
+# GENERAL REDIRECTS
+RewriteRule ^mmittee/ - [L]
+RewriteRule ^mmittee mmittee/ [L]
+RewriteRule ^(.*) /mmittee/$1 [R=301,L]
+
+# REDIRECT 404 to home
+ErrorDocument 404 https://demystification.co/mmittee/
+
+<FilesMatch "\.(html)$">
+  Header add x-dc-0 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-1 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-2 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-3 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-4 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-5 "@@@@@@@@@@@@@@@@@@@@@#Q@WQQ@@@@@"
+  Header add x-dc-6 "@@@@@@Q         f@D,       z@@@@"
+  Header add x-dc-7 "@@@@@@=   JZ^   ;#   _*uyjx@@@@@"
+  Header add x-dc-8 "@@@@@N   ;@@^   K!   m@@@@@@@@@@"
+  Header add x-dc-9 "@@@@@;         I@_       _@@@@@@"
+  Header add x-dc-a "@@@@@@@@@@@@@6Q@@QSQQQQQQN@@@@@@"
+  Header add x-dc-b "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-c "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-d "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-e "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  Header add x-dc-f "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+</FilesMatch>

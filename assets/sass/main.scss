@@ -1,0 +1,60 @@
+$dc_site_padding_right: 1rem;
+$dc_site_padding_left: .8rem;
+
+@import "config.scss";
+
+@import "_reset.scss";
+
+@import "_keyframes.scss";
+
+@import "_base.scss";
+@import "_type.scss";
+
+@import "_sitenav.scss";
+@import "_project.scss";
+@import "_track-record.scss";
+@import "_focus-groups.scss";
+
+@import "_gfx.scss";
+
+@import "_conditional_large.scss";
+@import "_conditional_small.scss";
+
+@import "_interactions.scss";
+
+@import "_ridiculous_overrides.scss";
+
+::-moz-selection { 
+  color: #FF0000; 
+}
+::selection { 
+  color: #FF0000; 
+}
+[data-dc-pagetype="focusgroup"] ::-moz-selection{
+  color: #FFFFFF;
+}
+[data-dc-pagetype="focusgroup"] ::selection{
+  color: #FFFFFF;
+}
+[data-dc-pagetype="focusgroup"] a::selection{
+  color: #FFFFFF;
+}  
+[data-dc-pagetype="focusgroup"] a::-moz-selection{
+  color: #FFFFFF;
+}
+[data-dc-homeactive="focus-groups"] ::-moz-selection{
+  color: #FFFFFF;
+}
+[data-dc-homeactive="focus-groups"] ::selection{
+  color: #FFFFFF;
+}
+[data-dc-homeactive="focus-groups"] a::selection{
+  color: #FFFFFF;
+}
+[data-dc-homeactive="focus-groups"] a::-moz-selection{
+  color: #FFFFFF;
+}
+
+.dots::selection{
+  color: #FFFFFF;
+}

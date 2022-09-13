@@ -1,0 +1,73 @@
+<ol class="dc-media--list">
+  {{#each slideshow.slides}}  
+    {{#dc_slidetype 'image' this}}
+      <li class="dc-media__image">
+        <figure>
+          <picture>
+            {{#if content.portrait.src}}
+            <source             
+              {{#if content.landscape.src}}media="(orientation: portrait)"{{/if}}
+              data-low-src="{{content.portrait.lowSrc}}"
+              data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
+                      {{content.portrait.src}} {{content.portrait.dimensions.width}}w"
+              data-sizes="(min-width: 900px) 1px, 
+                      100vw"
+            >
+            {{/if}}
+            {{#if content.landscape.src}}
+            <source 
+              {{#if content.portrait.src}}media="(orientation: landscape)"{{/if}}
+              data-low-src="{{content.landscape.lowSrc}}"
+              data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
+                      {{content.landscape.src}} {{content.landscape.dimensions.width}}w"
+              data-sizes="(min-width: 900px) 1px, 
+                      100vw"
+            >
+            {{/if}}
+            <img 
+              data-src="{{content.portrait.src}}" 
+              alt="{{meta.alt}}"
+              width="{{content.portrait.dimensions.width}}"
+              height="{{content.portrait.dimensions.height}}"
+            >
+          </picture>
+          {{#if meta.caption}}
+          <figcaption>
+            {{{meta.caption}}}
+          </figcaption>
+        {{/if}}
+        </figure>
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'text' this}}
+      <li class="dc-media__text{{#if @first}} active{{/if}}">
+        <div class="text">
+          {{{content.portrait}}}
+        </div>
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'embed' this}}
+      <li class="dc-media__embed{{#if @first}} active{{/if}}">
+         <div 
+          class="dc-embed{{#if content.portrait.embed }} embedded{{/if}}" 
+          data-embed-service="{{content.portrait.service}}"
+          data-embed-url="{{content.portrait.url}}"          
+        >
+          {{#if content.portrait.embed }}
+            {{{content.portrait.embed}}}
+          {{/if}}
+        </div>    
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'audio' this}}
+      <li class="dc-media__audio{{#if @first}} active{{/if}}">
+        <audio src="{{content.portrait.src}}"></audio>       
+      </li>
+    {{/dc_slidetype}}
+    {{#dc_slidetype 'video' this}}
+      <li class="dc-media__video{{#if @first}} active{{/if}}">
+        <video src="{{content.portrait.src}}" loop playsinline></video>        
+      </li>
+    {{/dc_slidetype}}       
+  {{/each}}
+</ol>

@@ -1,0 +1,77 @@
+.dc-gfx{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  pointer-events: none;
+  svg{
+    width: 100%;
+    height: 100%;
+  }
+  svg{
+    #red-stroke,
+    #red-stroke-2,
+    #red-stroke-3,
+    #black-stroke{
+      stroke: #646464;
+    }
+    #black-stroke-thin-3{
+      stroke: #7D7D7D;
+      stroke-width: 0.2px;
+    }
+   
+    #black-stroke-7,
+    #black-fill,
+    #phone-fill{
+      fill: #000000;
+    }
+    #red-fill{
+      fill: #111110;
+    }   
+    #phone-blur{
+      fill: #ff0000;
+    }
+  }
+
+  &.hidden{
+    opacity: 0;
+  }
+  &.visible{
+    opacity: 1;
+  }
+}
+.dc-sitenav a[data-dc-localtarget="#related-matters"] svg{
+  opacity: 0;
+  &.hidden{
+    opacity: 0;
+  }
+  &.visible{
+    opacity: 1;
+  }
+}
+
+/* special version on menus */
+html[data-dc-pagetype="home"],
+html[data-dc-menuvisible="related-matters"]{
+  .dc-gfx svg{ 
+    #red-fill{
+      fill: #FF0000;
+    }
+  }
+}
+
+html[data-dc-pagetype="home"][data-dc-homeactive="focus-groups"],
+html[data-dc-menuvisible="focus-groups"]{
+  .dc-gfx svg{ 
+    #red-fill{
+      fill: #000000;
+    }
+    #black-fill{
+      fill: #000000;
+    }
+    #black-blur{
+      fill: #1D1E1B;
+    }
+  }
+}

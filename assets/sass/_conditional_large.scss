@@ -1,0 +1,72 @@
+@media (min-width: 901px){
+  .dc-gfx{
+    width: 100% !important;
+    height: 100%;
+  }
+  .dc-hide-on-large {
+    display: none;
+  }
+}
+
+@media (min-width: 901px) and (max-aspect-ratio: 107/70){
+  .dc-media__image figure figcaption{
+    right: -1px;
+    left: auto;
+    background: #000000;
+    span{
+      right: auto;
+      bottom: auto;;
+      left: 50%;
+      top: 50%;
+      transform-origin: center;
+      transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    }
+  }
+  html[data-dc-pagetype="focusgroup"] .dc-media__image figure figcaption{
+    background: red;
+  }
+}
+
+.dc-line-break-large{
+  display: block;
+}
+.dc-line-break-small{
+  display: block;
+}
+
+.dc-smallnav{
+  display: none;
+}
+
+.dc-media__portrait{
+  display: block;
+}
+
+.dc-item--info{
+  display: none;
+}
+
+.dc-media__portrait,
+.dc-media__landscape{
+  display: none;
+}
+
+.dc-media__main{
+  display: block;
+}
+
+.dc-mobile-nav,
+.dc-mobile-home-link{
+  display: none;
+}
+.dc-showreels{
+  display: none;
+}
+
+.dc-gfx svg{
+  #phone-blur,
+  #phone-fill{
+    display: none;
+  }
+}
+
