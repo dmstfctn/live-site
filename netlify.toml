@@ -1,6 +1,6 @@
-##############################
-# OLD PROJECTS PAGE to HOME  #
-##############################
+###############################
+# OLD PROJECTS PAGE to HOME   #
+###############################
 
 [[redirects]]
   from = "/mmittee/projects/"
@@ -8,9 +8,9 @@
   status = 301
   force = false
 
-##############################
-# OLD PROJECT to NEW PROJECT #
-##############################
+###############################
+# OLD PROJECT to NEW PROJECT  #
+###############################
 
 [[redirects]]
   from = "/mmittee/projects/flash/"
@@ -64,9 +64,9 @@
   force = false
 
 
-############################
-# OLD NOTES to NEW PROJECT #
-############################
+#############################
+# OLD NOTES to NEW PROJECT  #
+#############################
 
 [[redirects]]
   from = "/mmittee/offshore-invesigation-vehicle-vilem-flusser-residency-for-artistic-research/"
@@ -100,9 +100,9 @@
   force = false
 
 
-#################################
-# OLD NOTES to NEW FOCUS GROUPS #
-#################################
+##################################
+# OLD NOTES to NEW FOCUS GROUPS  #
+##################################
 
 [[redirects]]
   from = "/mmittee/open-offshore-roundtable-2017/"
@@ -116,9 +116,9 @@
   force = false
 
 
-#################################
-# OLD NOTES to CV [TRACK RECORD]#
-#################################
+##################################
+# OLD NOTES to CV [TRACK RECORD] #
+##################################
 
 [[redirects]]
   from = "/mmittee/automated-landscapes-data-centers/"
@@ -168,9 +168,9 @@
   status = 301
   force = true
 
-############################################
-# GENERAL REDIRECTS TO /MMITTEE EVERYWHERE #
-############################################
+#############################################
+# GENERAL REDIRECTS TO /MMITTEE EVERYWHERE  #
+#############################################
 
 [[redirects]]
   from = "/mmittee/*"
