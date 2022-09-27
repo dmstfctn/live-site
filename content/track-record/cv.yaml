@@ -4,11 +4,11 @@
   priority: 0
   year: 2022
   type: live
-  date: "10.12"
+  date: "10.14"
   title: UNSOUND BUBBLES
-  situation: kraków
+  situation: kraków 
   location: 
-  url: https://www.unsound.pl/en/bubbles/news/unsound-releases-second-wave-of-artists-club-passes-and-tickets-to-all-events-on-sale-on-friday-august-26th
+  url: https://www.unsound.pl/en/bubbles/events/presentation-god-mode
   image: 
   related: GOD MODE (ep. 1)
 
@@ -18,13 +18,27 @@
   priority: 0
   year: 2022
   type: live
-  date: "5.11"
+  date: "11.5"
   title: IMPAKT FESTIVAL
-  situation: HET HUIS, utrecht
-  location: 
+  situation: HET HUIS
+  location: utrecht
   url: https://impakt.nl/festival/2022/performance/god-mode-ep-1
   image: 
   related: GOD MODE (ep. 1)
+
+#- now: next
+#  description: An AI cheats its way out of a training simulation...
+#  longdescription: A performance exploring simulation & AI training, live music by HERO IMAGE
+#  priority: 0
+#  year: 2022
+#  type: live
+#  date: "11.5"
+#  title: "GOD MODE (ep. 1)"
+#  situation: SERPENTINE
+#  location: london
+#  url: https://www.serpentinegalleries.org/whats-on/?date=on&on=2022-11-27
+#  image: 
+#  related: GOD MODE (ep. 1)
 
 - now: false
   priority: 0
