@@ -1,19 +1,5 @@
 - now: next
   description: An AI cheats its way out of a training simulation...
-  longdescription: An interactive lecture performance exploring real time simulation & AI training
-  priority: 0
-  year: 2022
-  type: live
-  date: "10.14"
-  title: UNSOUND BUBBLES
-  situation: kraków 
-  location: 
-  url: https://www.unsound.pl/en/bubbles/events/presentation-god-mode
-  image: 
-  related: GOD MODE (ep. 1)
-
-- now: next
-  description: An AI cheats its way out of a training simulation...
   longdescription: A performance exploring simulation & AI training, live music by HERO IMAGE
   priority: 0
   year: 2022
@@ -26,13 +12,27 @@
   image: 
   related: GOD MODE (ep. 1)
 
+- now: false
+  description: An AI cheats its way out of a training simulation...
+  longdescription: An interactive lecture performance exploring real time simulation & AI training
+  priority: 0
+  year: 2022
+  type: live
+  date: "10.14"
+  title: UNSOUND BUBBLES
+  situation: kraków 
+  location: 
+  url: https://www.unsound.pl/en/bubbles/events/presentation-god-mode
+  image: 
+  related: GOD MODE (ep. 1)
+
 #- now: next
 #  description: An AI cheats its way out of a training simulation...
 #  longdescription: A performance exploring simulation & AI training, live music by HERO IMAGE
 #  priority: 0
 #  year: 2022
 #  type: live
-#  date: "11.5"
+#  date: "12.3"
 #  title: "GOD MODE (ep. 1)"
 #  situation: SERPENTINE
 #  location: london
