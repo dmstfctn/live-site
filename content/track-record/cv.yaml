@@ -4,41 +4,37 @@
   priority: 0
   year: 2022
   type: live
-  date: "11.5"
-  title: IMPAKT FESTIVAL
-  situation: HET HUIS
-  location: utrecht
-  url: https://impakt.nl/festival/2022/performance/god-mode-ep-1
+  date: "12.3"
+  title: "GOD MODE (ep. 1)"
+  situation: SERPENTINE
+  location: london
+  url: https://www.serpentinegalleries.org/
   image: 
   related: GOD MODE (ep. 1)
 
 - now: false
-  description: An AI cheats its way out of a training simulation...
-  longdescription: An interactive lecture performance exploring real time simulation & AI training
   priority: 0
   year: 2022
   type: live
-  date: "10.14"
+  date: 
   title: UNSOUND BUBBLES
   situation: kraków 
   location: 
-  url: https://www.unsound.pl/en/bubbles/events/presentation-god-mode
-  image: 
+  url: 
+  image: dmstfctn_godmode_unsound
   related: GOD MODE (ep. 1)
 
-#- now: next
-#  description: An AI cheats its way out of a training simulation...
-#  longdescription: A performance exploring simulation & AI training, live music by HERO IMAGE
-#  priority: 0
-#  year: 2022
-#  type: live
-#  date: "12.3"
-#  title: "GOD MODE (ep. 1)"
-#  situation: SERPENTINE
-#  location: london
-#  url: https://www.serpentinegalleries.org/whats-on/?date=on&on=2022-11-27
-#  image: 
-#  related: GOD MODE (ep. 1)
+- now: false
+  priority: 0 
+  year: 2022
+  type: live
+  date: 
+  title: IMPAKT FESTIVAL
+  situation: HET HUIS
+  location: utrecht
+  url: 
+  image: impakt_godmode_dmstfctn.jpg
+  related: GOD MODE (ep. 1)
 
 - now: false
   priority: 0
@@ -53,7 +49,7 @@
   related: GOD MODE (ep. 1)
 
 - now: false
-  priority: 2
+  priority: 0
   year: 2022
   type: live
   date: 
@@ -61,9 +57,9 @@
   situation: CENTRE FOR POSTDIGITAL CULTURE
   location:
   url: 
-  image: 
+  image: dmstfctn_godmode_cpc
   related: GOD MODE (ep. 1)
-  hideon: desktop
+ # hideon: desktop
 
 - now: false
   longdescription: A book and performance about market manipulation on Brexit Referendum night
