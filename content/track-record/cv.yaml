@@ -13,18 +13,6 @@
   related: GOD MODE (ep. 1)
 
 - now: false
-  priority: 0
-  year: 2022
-  type: live
-  date: 
-  title: UNSOUND BUBBLES
-  situation: kraków 
-  location: 
-  url: 
-  image: dmstfctn_godmode_unsound
-  related: GOD MODE (ep. 1)
-
-- now: false
   priority: 0 
   year: 2022
   type: live
@@ -34,6 +22,18 @@
   location: utrecht
   url: 
   image: impakt_godmode_dmstfctn.jpg
+  related: GOD MODE (ep. 1)
+  
+- now: false
+  priority: 0
+  year: 2022
+  type: live
+  date: 
+  title: UNSOUND BUBBLES
+  situation: kraków 
+  location: 
+  url: 
+  image: dmstfctn_godmode_unsound
   related: GOD MODE (ep. 1)
 
 - now: false
