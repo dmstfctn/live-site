@@ -1,21 +1,50 @@
 <nav class="dc-sitenav dc-sitenav__main">
-  {{#each navigation}}
-    <div class="dc-sitenav--entry dc-sitenav--entry__{{this.slug}}">
-      {{#dc_isrootmenu this}}   
-      <a href="{{dc_urlpath "" }}" data-dc-localtarget="#{{this.slug}}">
-        {{this.name}}
-        <span class="dc-logo">
-          {{> svg_DC }}
-        </span>
+  <div class="dc-sitenav--text">
+    <div class="dc-sitenav--line dc-sitenav--line__one">
+      <a href="{{dc_urlpath "" }}" data-dc-localtarget="#related-matters">
+        dmstfctn
       </a>
-      {{else}}
-      <a href="{{dc_urlpath this.slug }}" data-dc-localtarget="#{{this.slug}}">{{this.name}}</a>
-      {{/dc_isrootmenu}}   
+      <span class="condensed dc-sitenav--pronounce">(pronounced demystification)</span>      
     </div>
-  {{/each}}
-  <div class="dc-sitenav--entry dc-sitenav--entry__track-record">
-    <a href="{{dc_urlpath "track-record"}}" data-dc-localtarget="#track-record">track record</a>
-  </div> 
+    <div class="dc-sitenav--line dc-sitenav--line__two condensed">     
+      <a href="{{dc_urlpath "track-record"}}" data-dc-localtarget="#track-record">track record</a>,
+      <a href="mailto:mail@dmstfctn.net">mail<span class="dctxt--at">@</span>dmstfctn.net</a>, <a href="https://instagram.com/dmstfctn"><span class="dctxt--at">@</span>dmstfctn</a>
+    </div>
+  </div>
+  <a href="{{dc_urlpath "" }}" data-dc-localtarget="#related-matters" class="dc-faces">
+    <div class="face" data-face="7"></div>
+    <div class="face" data-face="2"></div>
+    <div class="face" data-face="3"></div>
+    <div class="face" data-face="1"></div>
+    <div class="face" data-face="5"></div>
+    <div class="face" data-face="6"></div>
+    <div class="face" data-face="8"></div>
+    <div class="face" data-face="4"></div>
+    <div class="face" data-face="7"></div>
+    <div class="face" data-face="2"></div>
+    <div class="face" data-face="3"></div>
+    <div class="face" data-face="1"></div>
+    <div class="face" data-face="5"></div>
+    <div class="face" data-face="6"></div>
+    <div class="face" data-face="8"></div>
+    <div class="face" data-face="4"></div>
+    <div class="face" data-face="7"></div>
+    <div class="face" data-face="2"></div>
+    <div class="face" data-face="3"></div>
+    <div class="face" data-face="1"></div>
+    <div class="face" data-face="5"></div>
+    <div class="face" data-face="6"></div>
+    <div class="face" data-face="8"></div>
+    <div class="face" data-face="4"></div>
+    <div class="face" data-face="7"></div>
+    <div class="face" data-face="2"></div>
+    <div class="face" data-face="3"></div>
+    <div class="face" data-face="1"></div>
+    <div class="face" data-face="5"></div>
+    <div class="face" data-face="6"></div>
+    <div class="face" data-face="8"></div>
+    <div class="face" data-face="4"></div>
+  </a>
 </nav>
 {{#each navigation}}
   {{> (lookup . 'template') }}

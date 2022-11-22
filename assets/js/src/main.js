@@ -3,9 +3,9 @@ const F = require( './modules/Functions.js' );
 
 const Dots = require('./modules/Dots.js')
 
-const $nav_logo = document.querySelector('[data-dc-localtarget="#related-matters"] svg' );
-$nav_logo.classList.remove('hidden');
-$nav_logo.classList.add('visible');
+// const $nav_logo = document.querySelector('[data-dc-localtarget="#related-matters"] svg' );
+// $nav_logo.classList.remove('hidden');
+// $nav_logo.classList.add('visible');
 
 
 const $allDots = document.querySelectorAll('.dots');

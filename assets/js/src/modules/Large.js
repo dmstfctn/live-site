@@ -38,13 +38,14 @@ const Large = function(){
 };
 
 Large.prototype.setupLogo = function(){
-  // let version = Math.floor( Math.random() * 4 );
-  // if( version === 2 ){
-  //   version = 1;
-  // }
-  //let version = 3;
-  let version = 0;
-  document.querySelector('.dc-logo').setAttribute('data-dc-version', version );
+  //This used to pick which version of the DC we used, but now randomises the
+  const faceNames = [1,2,3,4,5,6,7,8].sort(() => Math.random() - 0.5);
+  const $faces = document.querySelectorAll('.dc-faces .face');
+  $faces.forEach( ($face, i ) =>{
+    const index = i % faceNames.length;
+    const name = faceNames[ index ];
+    $face.setAttribute( 'data-face', name );
+  });
 }
 
 Large.prototype.setupMenus = function(){

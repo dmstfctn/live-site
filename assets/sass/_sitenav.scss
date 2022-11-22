@@ -3,7 +3,7 @@
   position: relative;
   z-index: 2;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: stretch;
   margin-bottom: 0.25rem;
   padding: .43rem $dc_site_padding_right .2rem $dc_site_padding_left;
 }
@@ -64,13 +64,13 @@
       html[data-dc-pagetype="relatedmatter"] .dc-sitenav a[href="#{$urlRoot}"],
       html[data-dc-pagetype="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
       html[data-dc-pagetype="null"] .dc-sitenav a[href="#{$urlRoot}track-record"]{
-        color: #FF0000;
-        svg path[fill]{
-          fill: #FF0000 !important;
-        }
-        svg path[stroke]{
-          stroke: #FF0000 !important;
-        }
+        // color: #FF0000;
+        // svg path[fill]{
+        //   fill: #FF0000 !important;
+        // }
+        // svg path[stroke]{
+        //   stroke: #FF0000 !important;
+        // }
       }
       html[data-dc-pagetype="home"][data-dc-homeactive="focus-groups"] .dc-sitenav a[href="#{$urlRoot}focus-groups"],
       html[data-dc-pagetype="focusgroup"] .dc-sitenav a[href="#{$urlRoot}focus-groups"]{
@@ -88,13 +88,90 @@
   flex-grow:2;
   text-align: center;
   font-size: 0;
-} 
+}
 
 .dc-sitenav--entry__track-record{
   order: 3;
   flex-shrink:1;  
   width: 10em;
   text-align: right;
+}
+
+.dc-sitenav--text{
+  position: relative;
+  text-align: justify;
+  text-align-last: justify;
+  flex-shrink: 0;
+  width: 27.5%;
+  a{
+    padding-right: 0;
+    &:before{
+      display: none;      
+    }
+  }
+  .dc-sitenav--line{
+    white-space: nowrap;
+  }
+  .condensed{
+    display: inline-block;
+    transform: scaleX(0.69);
+    text-align: left;
+    text-align-last: left; 
+    letter-spacing: -0.055em;
+  }
+  .dc-sitenav--pronounce{
+    position: absolute;
+    right: -10.3%;
+  }
+  .dc-sitenav--line__two{
+    position: absolute;
+    left: -21%;
+    top: 1.6rem;
+  }
+}
+  
+
+.dc-faces{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 3.1rem !important;
+  overflow: hidden;  
+  .face{
+    height: 3.1rem;
+    width: 3.1rem;
+    background-image: url('../images/faces/1.png');
+    background-position: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    &[data-face="1"]{
+      background-image: url('../images/faces/1.png');
+    }
+    &[data-face="2"]{
+      background-image: url('../images/faces/2.png');
+    }
+    &[data-face="3"]{
+      background-image: url('../images/faces/3.png');
+    }
+    &[data-face="4"]{
+      background-image: url('../images/faces/4.png');
+    }
+    &[data-face="5"]{
+      background-image: url('../images/faces/5.png');
+    }
+    &[data-face="6"]{
+      background-image: url('../images/faces/6.png');
+    }
+    &[data-face="7"]{
+      background-image: url('../images/faces/7.png');
+    }
+    &[data-face="8"]{
+      background-image: url('../images/faces/8.png');
+    }
+    
+  }
 }
 
 
@@ -136,9 +213,9 @@
 /* work lists */
 .dc-work{  
   list-style-type: none;
-  padding-top: 5.6rem;  
+  padding-top: 4rem;  
   margin: 0 0 0 0;
-  height: calc(100% - 2.2rem);
+  height: calc(100% - 4rem);
   box-sizing: border-box;
 }
   .dc-work--year{
