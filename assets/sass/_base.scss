@@ -14,9 +14,11 @@ html, body{
   }
   .dc-main-content{
     width: 100%;
-    height: calc( 100% - 2.16rem );
+    //height: calc( 100% - 2.16rem );
+    height: calc( 100% - 3.4rem );
     position: absolute;
-    top: 2.16rem;
+    //top: 2.16rem;
+    top: 3.4rem;
   }
   .dc-main-wrap{
     padding: 0 $dc_site_padding_right .3rem $dc_site_padding_left;

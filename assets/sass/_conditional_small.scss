@@ -65,8 +65,9 @@
   }
 
   .dc-main-content{
-    height: 100%;
-    top: 0;   
+    height: calc( 100% - 3.6rem );
+    top: auto;
+    bottom: 0;   
   }
 
   .dc-external-link{
@@ -278,10 +279,11 @@
     }
 
   .dc-sitenav{
-    height: 2rem;
-    display: block;
+    height: 2.8rem;
+    padding-right: 0.4rem;
     margin-top: .2rem;
     z-index: 60;
+    font-size: 1rem;
     &:before,
     .dc-sitenav--entry__focus-groups,
     .dc-sitenav--entry__track-record{
@@ -289,6 +291,27 @@
     }
   }
 
+    .dc-sitenav--text{
+      width: 50%;      
+      .dc-sitenav--pronounce{
+        right: -12.5%;
+      }
+      .dc-sitenav--line__two{
+        left: 0;
+        top: 1.2rem;
+      }
+      .dc-sitenav--line__two.condensed{
+        transform: scaleX(1);
+      }      
+    }
+    .dc-faces{
+      height: 2.4rem !important;
+      margin-top: -.1rem;
+      .face{
+        height: 2.4rem;
+        width: 2.1rem;
+      }
+    }
   html[data-dc-pagetype="home"] .dc-sitenav a[href="#{$urlRoot}"] svg path{
     &[stroke]{
       stroke: #FF0000 !important;
@@ -515,7 +538,7 @@
     left: 50%;
     transform: translateX(-50%);
     height: 3.2rem;
-    width: 4.5rem;
+    width: 100%;
     //background: rgba(0,255,0,0.5);
     z-index: 60;
     display: block;

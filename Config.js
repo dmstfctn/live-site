@@ -14,9 +14,9 @@ let Config = {
     local_port: 8080
   },
   debug: false,
-  minify: true,
-  minifyHTML: true,
-  resizeImages: true, 
+  minify: false,
+  minifyHTML: false,
+  resizeImages: false, 
   imgResizing: {
     'half': {
       name: 'half',

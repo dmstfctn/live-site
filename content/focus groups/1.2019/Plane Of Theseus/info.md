@@ -1,7 +1,0 @@
----
-title: Plane of Theseus
-titleJustified: Plane Of   Theseus
-description: Exploring virtualisation and financialisation
----
-
-PLANE OF THESEUS is a focus group on the themes of software virtualisation and corporate financialization, taking the ongoing Boeing 737 Max crisis and grounding as a case study. Guided by the expertise and participation of a trained 737 Max pilot, the focus group aims to interrogate if, how and when a&#8196;plane&#8196;ceases&#8196;to&#8196;be&#8196;a&#8196;plane.<span class="dc-hide-on-large"><br><br></span><COLBREAK>As part of the focus group, participants analyse the Boeing plane as a system impacting its own actions through virtualisation and the Boeing Company as a system impacting its own value through financialization. <span class="dc-hide-on-large"><br><br></span>Participants are prompted to produce screen based responses to the questions posed to them, with outcomes ranging from websites to games.<COLBREAK><span class="dc-hide-on-small">Since 2019, PLANE OF THESEUS has been held as a week long focus group as part of the BA/MA Visual Communication at Weissensee Kunsthochschule Berlin, as part of the BA Architecture at Ravensbourne University London and as part of the MA Moving Image at Ravensbourne University London.</span>

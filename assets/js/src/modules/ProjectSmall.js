@@ -183,16 +183,16 @@ ProjectSmall.prototype = {
     if( !this.$wrapper ){  
       return result;
     }
-    // project info
-    const $info = this.$wrapper.querySelector('.dc-item--info')
-    result = [
-      {
-        type: 'standard',
-        ele: $info,
-        parent: false,
-        contentType: this.getSlideContentType( $info )
-      }
-    ];
+    // // project info
+    // const $info = this.$wrapper.querySelector('.dc-item--info')
+    // result = [
+    //   {
+    //     type: 'standard',
+    //     ele: $info,
+    //     parent: false,
+    //     contentType: this.getSlideContentType( $info )
+    //   }
+    // ];
    
     //images/content
     result = result.concat(
@@ -207,30 +207,25 @@ ProjectSmall.prototype = {
         })
     );
     
-    //related cv entries
-    result = result.concat(
-      [...this.$wrapper.querySelectorAll('.dc-item--info .dc-small-chunk')]
-        .map( ($ele) => {
-          return {
-            type: 'chunk',
-            ele: $ele,
-            parent: $info,
-            contentType: this.getSlideContentType( $ele )
-          }
-        })
-    );
+    // //related cv entries
+    // result = result.concat(
+    //   [...this.$wrapper.querySelectorAll('.dc-item--info .dc-small-chunk')]
+    //     .map( ($ele) => {
+    //       return {
+    //         type: 'chunk',
+    //         ele: $ele,
+    //         parent: $info,
+    //         contentType: this.getSlideContentType( $ele )
+    //       }
+    //     })
+    // );
 
     return result;
   },
   getCvItems: function(){
     const $dcInfo = document.querySelector( `.${DC_INFO_CLASS}`);
     const $dcInfoSections = document.querySelectorAll( `.${DC_INFO_CLASS} .dc-small-chunk` );
-    return [{
-      type: 'standard',
-      ele: $dcInfo,
-      parent: false,
-      contentType: this.getSlideContentType( $dcInfo )
-    }].concat(
+    return [].concat(
       [... $dcInfoSections]
       .map( ($ele) => {
         return {
