@@ -66,8 +66,11 @@
         width: 1rem;
         height: 1rem;
         display: inline-block;
-        background-image: url('../svg/arrow-down.svg');
+        background-image: url('../images/arrow-down.png');
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: contain;
+        image-rendering: pixelated;
         margin-left: 3rem;
       }
       position: relative;
