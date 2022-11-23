@@ -41,15 +41,7 @@
     opacity: 1;
   }
 }
-.dc-sitenav a[data-dc-localtarget="#related-matters"] svg{
-  opacity: 0;
-  &.hidden{
-    opacity: 0;
-  }
-  &.visible{
-    opacity: 1;
-  }
-}
+
 
 /* special version on menus */
 html[data-dc-pagetype="home"],

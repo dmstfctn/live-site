@@ -22,41 +22,9 @@
     height: 1.65rem;
   }
 
-    .dc-sitenav a[data-dc-localtarget="#related-matters"]{ 
-      $svg_scale: 4;
-      svg{
-        display: block;
-        width: 3.75rem * $svg_scale;
-        height: 2rem * $svg_scale;
-        content: '';
-        position: absolute;
-        top: .35rem;
-        left:50%;
-        transform:  translateX(-50%) 
-                    translateZ(0) 
-                    scale( 1 / $svg_scale ) 
-                    translateY( ( $svg_scale - 1 ) * -50% );
-        path[fill]{
-          fill: #FFFFFF !important;
-        }
-        path[stroke]{
-          stroke:#FFFFFF !important;
-        }
-      }
-      &.active,
-      &:hover{
-        svg path[fill]{
-          fill: #FF0000 !important;
-        }
-        svg path[stroke]{
-          stroke: #FF0000 !important;
-        }
-      }
+    .dc-sitenav a.active{
+      //color: #FF0000;
     }
-
-      .dc-sitenav a.active{
-        //color: #FF0000;
-      }
       
       html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
       html[data-dc-pagetype="home"][data-dc-homeactive="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
@@ -125,8 +93,13 @@
   }
   .dc-sitenav--line__two{
     position: absolute;
-    left: -21%;
+    left: -21.7%;
     top: 1.6rem;
+  }
+  svg:hover{
+    path{
+      fill: #FF0000;
+    }
   }
 }
   
