@@ -340,6 +340,7 @@
   }
 
   .dc-item--header{
+    display: none;
     z-index: 2;
     padding-bottom: .9rem;
     letter-spacing: -0.02em;
@@ -521,6 +522,7 @@
       }
 
   .dc-mobile-bar{
+    display: none;
     height: .3rem;
     background: #FF0000;
     position: absolute;
