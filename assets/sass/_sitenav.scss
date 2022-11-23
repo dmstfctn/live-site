@@ -55,7 +55,7 @@
     }
 
       .dc-sitenav a.active{
-        color: #FF0000;
+        //color: #FF0000;
       }
       
       html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
