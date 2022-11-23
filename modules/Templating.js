@@ -33,7 +33,12 @@ Templating.registerHelpers = () => {
   Handlebars.registerHelper('dc_name', (options) => {
     return Config.name;
   });
-
+  Handlebars.registerHelper('dc_title', (title, pagetype, options) => {
+    if( pagetype && title ){
+      return title;
+    }
+    return (title) ? title + ' | ' + Config.name : Config.name;
+  });
   Handlebars.registerHelper('dc_urlpath', (url_path, options) => {
     if( buildToSubfolder ){
       return '/' + path.join( Config.url_root, url_path );

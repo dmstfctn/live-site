@@ -70,7 +70,7 @@ const rendered_small_site = Rendering.renderSmall( smallSiteData );
 let homePath = Config.paths.public;
 let homeFragP = path.join( homePath, 'fragment' );
 let renderHome = {
-  title: 'Home',
+  title: false,
   pagetype: 'home',
   homeactive: 'related-matters',
   navigation: rendered_navigation,
