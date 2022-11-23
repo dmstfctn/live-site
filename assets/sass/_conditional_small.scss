@@ -298,7 +298,9 @@
       }
       .dc-sitenav--line__two{
         left: 0;
-        top: 1rem;
+        top: 1.1rem;
+        width: 98%;
+        text-align-last: justify;
       }
       .dc-sitenav--line__two.condensed{
         transform: scaleX(1);
@@ -335,13 +337,15 @@
     }
   }  
 
-  .dc-item--header{
-    display: none;
+  .dc-item--header{    
     z-index: 2;
     padding-bottom: .9rem;
     letter-spacing: -0.02em;
+    justify-content: left;
     h1{
       font-size: 1rem;
+      color: #FFFFFF;
+      text-align: left;
     }
     .dctxt--date{
       display: none;
