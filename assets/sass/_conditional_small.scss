@@ -305,6 +305,9 @@
       }
       .dc-sitenav--line__two.condensed{
         transform: scaleX(1);
+        a:last-child{
+          margin-left: 0.8rem;
+        }
       }      
     }
     .dc-faces{
