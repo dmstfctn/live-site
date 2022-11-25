@@ -302,12 +302,13 @@
         width: 98%;
         text-align-last: justify;
         text-align: justify;
+        height: 1.1rem;
+        overflow: hidden;     
+        display: flex;
+        justify-content: space-between;
       }
       .dc-sitenav--line__two.condensed{
         transform: scaleX(1);
-        a:last-child{
-          margin-left: 0.8rem;
-        }
       }      
     }
     .dc-faces{
