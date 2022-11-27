@@ -36,10 +36,10 @@ const Run = function( $ele, $units, _inset ){
 }
 
 const VisualQuantiser = function( $ele, $units, $_inset ){
-  const $inset = $_inset || false;  
+  const $inset = $_inset || false;
   if( $inset ){
     return {
-      run: function(){
+      run: function(){        
         Run( $ele, $units, $inset.getBoundingClientRect().height );
       }
     };

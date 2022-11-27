@@ -188,13 +188,15 @@ Large.prototype.initQuantisers = function(){
       document.querySelector('#related-matters ol'),
       document.querySelectorAll('#related-matters ol li'),
       document.querySelector('#related-matters .dc-biglist--now')
-    ),
-    'focus-groups': VisualQuantiser( 
+    )
+  };
+  if( document.querySelectorAll('#focus-groups ol li').length > 0 ){
+    this.vcList['focus-groups'] =  VisualQuantiser( 
       document.querySelector('#focus-groups ol'),
       document.querySelectorAll('#focus-groups ol li'),
       document.querySelector('#focus-groups .dc-biglist--now')
     )
-  };
+  }
   
   this.initScrollQuantiser();
 }
