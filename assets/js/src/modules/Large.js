@@ -29,7 +29,7 @@ const Large = function(){
       let hoverImg = new HoverImg( $hoverImg );
       hoverImg.onShow = function(){
         let lineH = $hoverImg.offsetHeight;
-        let distFromBottom = parseInt($hoverImg.getAttribute('data-lines-from-bottom')) * lineH;
+        let distFromBottom = parseInt($hoverImg.getAttribute('data-lines-from-visible-bottom')) * lineH;
         if( distFromBottom < hoverImg.$img.offsetHeight ){
           hoverImg.$img.style.marginTop = distFromBottom - hoverImg.$img.offsetHeight + 'px';
         }

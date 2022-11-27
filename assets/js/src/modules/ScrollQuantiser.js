@@ -136,6 +136,10 @@ ScrollQuantiser.prototype = {
     if( this.preventInput === false ){
       this.$scrollable.style.transform = `translateY(${ -this.scroll.quantised }px)`;   
     }
+    // this.$ele.setAttribute('data-line-count', this.$lines.length );
+    // this.$ele.setAttribute('data-top-line-index', this.firstVisibleLineIndex );
+    // this.$ele.setAttribute('data-visible-line-count', this.visibleLineCount );
+
     let lineIndex = 0;
     this.$lines.forEach( ( $ele, index ) => {
       if( isEleDisplayNone( $ele ) === false ){        
@@ -162,6 +166,7 @@ ScrollQuantiser.prototype = {
             showedDT = true;
           }          
         }
+        $ele.setAttribute('data-lines-from-visible-bottom', this.maxVisLine - lineIndex );
         lineIndex++;
       }
 
