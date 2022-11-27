@@ -1,3 +1,5 @@
+const CFG = require('./Config.js' );
+
 const normWheel = require('normalize-wheel');
 
 const isEleDisplayNone = function( $ele ){
@@ -142,7 +144,7 @@ ScrollQuantiser.prototype = {
 
     let lineIndex = 0;
     this.$lines.forEach( ( $ele, index ) => {
-      if( isEleDisplayNone( $ele ) === false ){        
+      if( !this.preventInput && isEleDisplayNone( $ele ) === false ){    
         if( lineIndex < this.minVisLine || lineIndex > this.maxVisLine ){
           let hidDT = false;
           $ele.classList.add('quantised-scroller--hidden');
