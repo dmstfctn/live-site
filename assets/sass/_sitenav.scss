@@ -6,6 +6,7 @@
   justify-content: stretch;
   margin-bottom: 0.25rem;
   padding: .43rem $dc_site_padding_right .2rem $dc_site_padding_left;
+  ::selection { color: #FFF;}
 }
   .dc-sitenav::before {
     content: '';
@@ -22,8 +23,8 @@
     height: 1.65rem;
   }
 
-    .dc-sitenav a.active{
-      //color: #FF0000;
+    .dc-sitenav a:hover{
+      color: #FF0000;
     }
       
       html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],

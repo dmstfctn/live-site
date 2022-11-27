@@ -48,24 +48,24 @@
   image: godmode_dmstfctn.jpg
   related: GOD MODE (ep. 1)
 
-- now: false
-  priority: 0
-  year: 2022
-  type: live
-  date: 
-  title: CPC
-  situation: CENTRE FOR POSTDIGITAL CULTURE
-  location:
-  url: 
-  image: dmstfctn_godmode_cpc
-  related: GOD MODE (ep. 1)
- # hideon: desktop
+#- now: false
+#  priority: 0
+#  year: 2022
+#  type: live
+#  date: 
+#  title: CPC
+#  situation: CENTRE FOR POSTDIGITAL CULTURE
+#  location:
+#  url: 
+#  image: dmstfctn_godmode_cpc
+#  related: GOD MODE (ep. 1)
+#  hideon: desktop
 
 - now: false
   longdescription: A book and performance about market manipulation on Brexit Referendum night
   priority: 0
   year: 2021
-  type: publication
+  type: release
   date: 
   title: ECHO FX
   situation: KRISIS PUBLISHING
@@ -77,7 +77,7 @@
 - now: false
   priority: 0
   year: 2021
-  type: publication
+  type: release
   date: 
   title: "Ø"
   situation: FLATLINE PRESS/HYPERDUB
@@ -98,25 +98,25 @@
   image: interface-chaos-cafe-oto-sky-h1-live.jpg
   related: Interface Chaos
 
-- now: false
+#- now: false
 # longdescription: A livestream shopping event featuring conversation, sound and video work
-  priority: 0
-  year: 2021
-  type: screening
-  date: 
-  title: NOINDEX
-  situation: CANAL180
-  location: 
+#  priority: 0
+#  year: 2021
+#  type: screening
+#  date: 
+#  title: NOINDEX
+#  situation: CANAL180
+#  location: 
 # url: https://www.twitch.tv/canal180
-  url:
-  image: dmstfctn-noindex.jpg
-  related:
+#  url:
+#  image: dmstfctn-noindex.jpg
+#  related:
 
 - now: false
   longdescription: "'A modern tale, constructed of lies, gorilla advertising bus campaigns and ...'"
   priority: 0
   year: 2021
-  type: interview
+  type: press
   date: 
   title: "ECHO FX"
   situation: SLEEK
@@ -185,7 +185,7 @@
   longdescription: An interview on the themes of INTERFACE CHAOS (2019), including excerpts
   priority: 0
   year: 2020
-  type: interview
+  type: press
   date: 
   title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
   situation: NERO
@@ -198,7 +198,7 @@
   longdescription: "'A group of artists began a project to show how money could be moved offshore'"
   priority: 0
   year: 2020
-  type: interview
+  type: press
   date: 
   title: "CHASING ILLICIT MONEY"
   situation: NEW YORK TIMES
@@ -301,19 +301,19 @@
   related: 
   hideon: mobile
 
-- now: false
-  priority: 0
-  year: 2019
-  type: screening
-  date: 
-  title: PORTO DESIGN BIENNIALE
-  situation: 24 DE AGOSTO
-  location: porto
-  url: 
-  image: 
-  related: 
-    - Interface Chaos
-  hideon: desktop
+#- now: false
+#  priority: 0
+#  year: 2019
+#  type: screening
+#  date: 
+#  title: PORTO DESIGN BIENNIALE
+#  situation: 24 DE AGOSTO
+#  location: porto
+#  url: 
+#  image: 
+#  related: 
+#    - Interface Chaos
+#  hideon: desktop
 
 - now: false
   priority: 0
@@ -354,6 +354,59 @@
     - Flash
     - Demons
     - Network Ensemble
+
+- now: false
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: transmediale face value
+  situation: HKW
+  location: berlin
+  url: 
+  image: demystification-committee-transmediale-performance.jpg
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+- now: false
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: Borderline Festival
+  situation: ONASSIS
+  location: athens
+  url: 
+  image: demystification-committee-spektrum-onassis-stegi-borderline-festival.jpg
+  related: Network Ensemble
+  hideon: desktop
+
+- now: false
+  longdescription: '"Approach from West India Quay, see what corpses sprouted on the Isle of Dead"'
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: Borderline Festival
+  situation: ONASSIS STEGI
+  location: athens
+  url: https://youtu.be/2N871QqErpg?t=1037
+  image: 
+  related: Network Ensemble
+  hideon: mobile
+
+- now: false
+  priority: 0
+  year: 2018
+  type: live
+  date: 
+  title: Radical Networks
+  situation: SPEKTRUM
+  location: berlin
+  url: 
+  image: demystification-committee-spektrum-radical-networks.jpg
+  related: Demons
 
 - now: false
   priority: 0
@@ -411,75 +464,6 @@
 - now: false
   priority: 0
   year: 2018
-  type: live
-  date: 
-  title: Radical Networks
-  situation: SPEKTRUM
-  location: berlin
-  url: 
-  image: demystification-committee-spektrum-radical-networks.jpg
-  related: Demons
-
-- now: false
-  priority: 0
-  year: 2018
-  type: live
-  date: 
-  title: transmediale face value
-  situation: HKW
-  location: berlin
-  url: 
-  image: demystification-committee-transmediale-performance.jpg
-  related:
-    - Offshore Investigation Vehicle
-    - OFFSHORESS18
-
-- now: false
-  priority: 0
-  year: 2018
-  type: live
-  date: 
-  title: Borderline Festival
-  situation: ONASSIS
-  location: athens
-  url: 
-  image: demystification-committee-spektrum-onassis-stegi-borderline-festival.jpg
-  related: Network Ensemble
-  hideon: desktop
-
-- now: false
-  longdescription: '"Approach from West India Quay, see what corpses sprouted on the Isle of Dead"'
-  priority: 0
-  year: 2018
-  type: live
-  date: 
-  title: Borderline Festival
-  situation: ONASSIS STEGI
-  location: athens
-  url: https://youtu.be/2N871QqErpg?t=1037
-  image: 
-  related: Network Ensemble
-  hideon: mobile
-
-# ## 2018 ## talk ############## #
-- now: false
-  longdescription: On the sonification of stock market crashes, part of a panel on algotrading
-  priority: 0
-  year: 2018
-  type: talk
-  date: 
-  title: IMPAKT Festival
-  situation: HET HUIS
-  location: utrecht
-  url: https://youtu.be/6vQ8qMVoNaM?t=2322
-  image:
-  related:
-    - Flash
-    - Demons
-
-- now: false
-  priority: 0
-  year: 2018
   type: talk
   date: 
   title: Automated Lands
@@ -523,6 +507,22 @@
   related: Offshore Investigation Vehicle
   hideon: mobile
 
+# ## 2018 ## talk ############## #
+- now: false
+  longdescription: On the sonification of stock market crashes, part of a panel on algotrading
+  priority: 0
+  year: 2018
+  type: talk
+  date: 
+  title: IMPAKT Festival
+  situation: HET HUIS
+  location: utrecht
+  url: https://youtu.be/6vQ8qMVoNaM?t=2322
+  image:
+  related:
+    - Flash
+    - Demons
+
 - now: false
   longdescription: A talk on offshore investigative w—i—p, part of a panel on play in art and finance
   priority: 0
@@ -555,7 +555,7 @@
   longdescription: "'The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick'"
   priority: 0
   year: 2018
-  type: interview
+  type: release
   date: 
   title: A DAY IN THE LIFE OF
   situation: SCHLOSS-POST

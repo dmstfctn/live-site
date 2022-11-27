@@ -2,7 +2,7 @@ const CFG = require('./Config.js');
 
 const Menus = function(){
   this.INIT_PAGETYPE = document.querySelector('html').getAttribute('data-dc-pagetype');
-  this.$titles = document.querySelectorAll( '.dc-sitenav__main a' );
+  this.$titles = document.querySelectorAll( '.dc-sitenav__main a[data-dc-localtarget]' );
   this.$dropdowns = document.querySelectorAll( '.dc-navigation-item, .dc-track-record' );
   this.$links = document.querySelectorAll( '.dc-work--items a' );
 
