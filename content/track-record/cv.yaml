@@ -564,6 +564,19 @@
   image:
   related: OFFSHORESS18
 
+- now: false
+  longdescription: "'You are alone on a dusty desert road... You have just run out of water.....'"
+  priority: 0
+  year: 2018
+  type: release
+  date: 
+  title: The Offshore Economist
+  situation: Rizosfera
+  location: 
+  url: https://monoskop.org/images/2/25/Demystification_Committee_The_Offshore_E.pdf
+  image:
+  related: Offshore Investigation Vehicle
+
 # 2017  #
 - now: false
   priority: 0
