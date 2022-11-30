@@ -120,6 +120,7 @@ const prepareWindow = ( original ) => {
   if( typeof original === 'object' ){
     if( 'config' in original ){
       //assume it's already been processed...
+      console.log(config);
       return original;
     }
     if( 'url' in original ){

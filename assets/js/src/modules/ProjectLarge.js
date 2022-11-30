@@ -143,6 +143,9 @@ ProjectLarge.prototype = {
         h = window.screen.availHeight - 175;
         w = h * (475/1200);
       }
+      if( html.indexOf('player.vimeo.com/video/568815833') > -1 ){
+        h = ( w / 4 ) * 3;
+      }
     }
 
     if( this.extraWindow ){
