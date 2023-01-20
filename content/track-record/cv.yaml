@@ -62,6 +62,31 @@
 #  hideon: desktop
 
 - now: false
+  priority: 0
+  year: 2021
+  type: screening
+  date: 
+  title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
+  situation: CAFE OTO
+  location: london
+  url: 
+  image: interface-chaos-cafe-oto-sky-h1-live.jpg
+  related: Interface Chaos
+
+- now: false
+  longdescription: 
+  priority: 0
+  year: 2021
+  type: group show
+  date: 
+  title: NONPLUSULTRABLACK
+  situation: SYNNIKA, frankfurt
+  location: 
+  url: 
+  image: dmstfctn-synnika.jpg
+  related: ECHO FX
+
+- now: false
   longdescription: A book and performance about market manipulation on Brexit Referendum night
   priority: 0
   year: 2021
@@ -85,18 +110,6 @@
   url:
   image: dmstfctn_zero_hyperdub_flatlinepress.jpg
   related: ECHO FX
-
-- now: false
-  priority: 0
-  year: 2021
-  type: screening
-  date: 
-  title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
-  situation: CAFE OTO
-  location: london
-  url: 
-  image: interface-chaos-cafe-oto-sky-h1-live.jpg
-  related: Interface Chaos
 
 #- now: false
 # longdescription: A livestream shopping event featuring conversation, sound and video work
@@ -125,6 +138,20 @@
   image:
   related: ECHO FX
   hideon: mobile
+
+#- now: false
+#  longdescription: "'If the performance was a reaction, the book is a reflection, at 0x speed ...'"
+#  priority: 1
+#  year: 2021
+#  type: press
+#  date: 
+#  title: "REALITY CHECK AHEAD"
+#  situation: CLOT
+#  location: 
+#  url: https://www.clotmag.com/digital-culture/reality-check-ahead-dmstfctn-on-their-book-performance-echo-fx
+#  image:
+#  related: ECHO FX
+#  hideon: mobile
 
 - now: false
   priority: 0
