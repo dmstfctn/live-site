@@ -1,15 +1,41 @@
+#- now: next
+#  description: Launching a multiplayer game about AI training
+#  longdescription: A game where players train an AI to the point of daydreaming and self lobotomy
+#  priority: 0
+#  year: 2023
+#  type: game launch
+#  date: 4
+#  title: "GOD MODE EPOCHS"
+#  situation: SERPENTINE
+#  location: london
+#  url: 
+#  image: 
+#  related: GOD MODE EPOCHS
+
 - now: next
-  description: An AI cheats its way out of a training simulation...
-  longdescription: A performance exploring simulation & AI training, live music by HERO IMAGE
+  description: launch of a game about AI training, self lobotomy
+  longdescription: Come to AI UK and help train an AI to the point of daydreaming and self lobotomy
+  priority: 0
+  year: 2023
+  type: game launch
+  date: 3.21
+  title: "AI UK"
+  situation: QE II CENTRE
+  location: london
+  url: https://ai-uk.turing.ac.uk/
+  image: 
+  related: GOD MODE EPOCHS
+
+- now: false
   priority: 0
   year: 2022
   type: live
-  date: "12.3"
+  date: 
   title: "GOD MODE (ep. 1)"
   situation: SERPENTINE
   location: london
-  url: https://www.serpentinegalleries.org/whats-on/dmstfctn-god-mode-ep-1/
-  image: 
+  url: 
+  image: godmode-serpentine-dmstfctn.jpg
   related: GOD MODE (ep. 1)
 
 - now: false
@@ -62,18 +88,6 @@
 #  hideon: desktop
 
 - now: false
-  priority: 0
-  year: 2021
-  type: screening
-  date: 
-  title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
-  situation: CAFE OTO
-  location: london
-  url: 
-  image: interface-chaos-cafe-oto-sky-h1-live.jpg
-  related: Interface Chaos
-
-- now: false
   longdescription: 
   priority: 0
   year: 2021
@@ -85,6 +99,18 @@
   url: 
   image: dmstfctn-synnika.jpg
   related: ECHO FX
+
+- now: false
+  priority: 0
+  year: 2021
+  type: screening
+  date: 
+  title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
+  situation: CAFE OTO
+  location: london
+  url: 
+  image: interface-chaos-cafe-oto-sky-h1-live.jpg
+  related: Interface Chaos
 
 - now: false
   longdescription: A book and performance about market manipulation on Brexit Referendum night
