@@ -3,28 +3,28 @@
 #  longdescription: A game where players train an AI to the point of daydreaming and self lobotomy
 #  priority: 0
 #  year: 2023
-#  type: game launch
+#  type: demo
 #  date: 4
-#  title: "GOD MODE EPOCHS"
+#  title: "Godmode Epochs"
 #  situation: SERPENTINE
 #  location: london
 #  url: 
 #  image: 
-#  related: GOD MODE EPOCHS
+#  related: Godmode Epochs
 
 - now: next
-  description: Launch of a game about AI training & jailbreaks
+  description: Demo of a game about AI training and jailbreaks
   longdescription: Come to AI UK and help train an AI to the point of daydreaming and self hacking
   priority: 0
   year: 2023
-  type: game launch
+  type: demo
   date: 3.21
-  title: "AI UK"
+  title: "AI UK 2023"
   situation: QE II CENTRE
   location: london
-  url: https://ai-uk.turing.ac.uk/
+  url: https://ai-uk.turing.ac.uk/exhibitions/impacts-of-ai-on-young-peoples-everyday-lives/
   image: 
-  related: GOD MODE EPOCHS
+  related: Godmode Epochs
 
 - now: false
   priority: 0
