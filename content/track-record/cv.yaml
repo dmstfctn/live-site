@@ -1,20 +1,20 @@
-#- now: next
-#  description: Launching a multiplayer game about AI training
-#  longdescription: A game where players train an AI to the point of daydreaming and self lobotomy
-#  priority: 0
-#  year: 2023
-#  type: demo
-#  date: 4
-#  title: "Godmode Epochs"
-#  situation: SERPENTINE
-#  location: london
-#  url: 
-#  image: 
-#  related: Godmode Epochs
+- now: next
+  description: Launch of a multiplayer AI frustation game
+  longdescription: A game where players train an AI, but they actually just frustrate it until it cheats
+  priority: 0
+  year: 2023
+  type: live
+  date: 4.18
+  title: "Godmode Epochs"
+  situation: SERPENTINE
+  location: twitch
+  url: 
+  image: 
+  related: Godmode Epochs
 
 - now: next
-  description: Demo of a game about AI training and jailbreaks
-  longdescription: Come to AI UK and help train an AI to the point of daydreaming and self hacking
+  description: 
+  longdescription: 
   priority: 0
   year: 2023
   type: demo
@@ -22,8 +22,8 @@
   title: "AI UK 2023"
   situation: QE II CENTRE
   location: london
-  url: https://ai-uk.turing.ac.uk/exhibitions/impacts-of-ai-on-young-peoples-everyday-lives/
-  image: 
+  url: 
+  image: aiuk-dmstfctn-godmodeepochs.png
   related: Godmode Epochs
 
 - now: false
