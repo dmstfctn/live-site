@@ -1,5 +1,5 @@
 - now: next
-  description: Launch of a multiplayer AI frustation game
+  description: Launching a multiplayer AI frustation game
   longdescription: A game where players train an AI, but they actually just frustrate it until it cheats
   priority: 0
   year: 2023
@@ -20,10 +20,24 @@
   type: demo
   date: 
   title: "AI UK 2023"
-  situation: QE II CENTRE
+  situation: QEII CENTRE
   location: london
   url: 
   image: aiuk-dmstfctn-godmodeepochs.jpg
+  related: Godmode Epochs
+
+- now: false
+  description: 
+  longdescription: Building a fully onchain narrative generation game, a.k.a a 'Large Lore Model'
+  priority: 0
+  year: 2023
+  type: residency
+  date: 
+  title: GODMODE CHRONICLES
+  situation: ARTECHO
+  location: 
+  url: https://artechoproject.eu/?p=656
+  image: 
   related: Godmode Epochs
 
 - now: false
@@ -152,6 +166,20 @@
 #  related:
 
 - now: false
+  longdescription: "'The AV show revisits the sociopolitical and economic tumult following the Brexit referendum'"
+  priority: 0
+  year: 2021
+  type: press
+  date: 
+  title: Demystification Committee debuts echo fx
+  situation: AQNB
+  location: 
+  url: https://www.aqnb.com/2021/06/30/demystification-committee-debuts-echo-fx-an-audiovisual-presentation-on-brexit-financial-markets/
+  image:
+  related: ECHO FX
+  hideon: mobile
+
+- now: false
   longdescription: "'A modern tale, constructed of lies, gorilla advertising bus campaigns and ...'"
   priority: 0
   year: 2021
@@ -165,19 +193,19 @@
   related: ECHO FX
   hideon: mobile
 
-#- now: false
-#  longdescription: "'If the performance was a reaction, the book is a reflection, at 0x speed ...'"
-#  priority: 1
-#  year: 2021
-#  type: press
-#  date: 
-#  title: "REALITY CHECK AHEAD"
-#  situation: CLOT
-#  location: 
-#  url: https://www.clotmag.com/digital-culture/reality-check-ahead-dmstfctn-on-their-book-performance-echo-fx
-#  image:
-#  related: ECHO FX
-#  hideon: mobile
+- now: false
+  longdescription: "'If the performance was a reaction, the book is a reflection, at 0x speed ...'"
+  priority: 1
+  year: 2021
+  type: press
+  date: 
+  title: "REALITY CHECK AHEAD"
+  situation: CLOT
+  location: 
+  url: https://www.clotmag.com/digital-culture/reality-check-ahead-dmstfctn-on-their-book-performance-echo-fx
+  image:
+  related: ECHO FX
+  hideon: mobile
 
 - now: false
   priority: 0
@@ -629,6 +657,22 @@
   url: https://monoskop.org/images/2/25/Demystification_Committee_The_Offshore_E.pdf
   image:
   related: Offshore Investigation Vehicle
+
+#- now: false
+#  longdescription: "Interview (in Italian) expanding on offshore artworl artisti che trasforma offshore in un gioco"
+#  priority: 0
+#  year: 2018
+#  type: press
+#  date: 
+#  title: Buon Paradiso Fiscale a Tutti
+#  situation: NERO
+#  location: 
+#  url: https://not.neroeditions.com/buon-paradiso-fiscale-tutti/
+#  image:
+#  related:
+#    - Offshore Investigation Vehicle
+#    - OFFSHORESS18
+#  hideon: mobile
 
 # 2017  #
 - now: false
