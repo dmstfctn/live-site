@@ -41,6 +41,19 @@
   related: Godmode Epochs
 
 - now: false
+  longdescription: "Alasdair Milne examines the simulations and configurations of dmstfctn's game"
+  priority: 0
+  year: 2023
+  type: press
+  date: 
+  title: "Turret Theory"
+  situation: Serpentine
+  location: 
+  url: https://www.serpentinegalleries.org/arts-technologies/turret-theory/
+  image: 
+  related: Godmode Epochs
+
+- now: false
   priority: 0
   year: 2022
   type: live
@@ -86,6 +99,19 @@
   location: london
   url: 
   image: godmode_dmstfctn.jpg
+  related: GOD MODE (ep. 1)
+
+- now: false
+  longdescription: "A conversation on simulations and AI hosted Marijn Bril at IMPAKT festival 2022"
+  priority: 2
+  year: 2022
+  type: press
+  date: 
+  title: "Artist conversation with dmstfctn"
+  situation: IMPAKT TV
+  location: 
+  url: https://www.youtube.com/watch?v=I93cojWySJQ
+  image: 
   related: GOD MODE (ep. 1)
 
 #- now: false
