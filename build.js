@@ -179,6 +179,8 @@ fs.writeFileSync(
 
 /* move .htaccess into public */
 fs.copySync('htaccess', path.join(Config.paths.public_root, '.htaccess') );
+/* move _redirects into public */
+fs.copySync('_redirects', path.join(Config.paths.public_root, '_redirects') );
 /* move the contents of the 'extra' folder into the public directory */
 const extra = fs.readdirSync( 'extra' );
 extra.forEach( ( item ) => {  
