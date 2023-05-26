@@ -27,6 +27,36 @@
   related: Godmode Epochs
 
 - now: false
+  longdescription: 
+  priority: 0
+  year: 2023
+  type: release
+  date: 
+  title: Large Lore Model
+  situation: 0XPARC
+  location: 
+  url: 
+  image: 
+  related:
+  hideon: desktop
+
+- now: false
+  longdescription: Speculative tools for decentralized narrative building, with E. Jäger and A. Milne
+  priority: 0
+  year: 2023
+  type: release
+  date: 
+  title: "'Large Lore Model', in AUTONOMOUS WORLD"
+  situation: 0XPARC
+  location: 
+  url: dmstfctn.net/llorem
+  image: 
+  related:
+    - Godmode Epochs
+    - Godmode Chronicles
+  hideon: mobile
+
+- now: false
   description: 
   longdescription: Building a fully on-chain narrative generation game, a.k.a a 'Large Lore Model'
   priority: 0
@@ -38,7 +68,9 @@
   location: 
   url: https://artechoproject.eu/?p=656
   image: 
-  related: Godmode Epochs
+  related:
+    - Godmode Epochs
+    - Godmode Chronicles
 
 - now: false
   longdescription: "Alasdair Milne examines the simulations and configurations of dmstfctn's game"
@@ -47,7 +79,7 @@
   type: press
   date: 
   title: "Turret Theory"
-  situation: Serpentine
+  situation: SERPENTINE
   location: 
   url: https://www.serpentinegalleries.org/arts-technologies/turret-theory/
   image: 
@@ -192,7 +224,7 @@
 #  related:
 
 - now: false
-  longdescription: "'The AV show revisits the sociopolitical and economic tumult following the Brexit referendum'"
+  longdescription: "'The AV show revisits the sociopolitical and economic tumult following Brexit'"
   priority: 0
   year: 2021
   type: press
