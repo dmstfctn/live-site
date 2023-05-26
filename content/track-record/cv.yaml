@@ -13,20 +13,6 @@
   related: Godmode Epochs
 
 - now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2023
-  type: demo
-  date: 
-  title: "AI UK 2023"
-  situation: QEII CENTRE
-  location: london
-  url: 
-  image: aiuk-dmstfctn-godmodeepochs.jpg
-  related: Godmode Epochs
-
-- now: false
   longdescription: 
   priority: 0
   year: 2023
@@ -55,6 +41,20 @@
     - Godmode Epochs
     - Godmode Chronicles
   hideon: mobile
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2023
+  type: demo
+  date: 
+  title: "AI UK 2023"
+  situation: QEII CENTRE
+  location: london
+  url: 
+  image: aiuk-dmstfctn-godmodeepochs.jpg
+  related: Godmode Epochs
 
 - now: false
   description: 
