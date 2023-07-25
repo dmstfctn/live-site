@@ -13,6 +13,20 @@
   related: Godmode Epochs
 
 - now: false
+  description: 
+  longdescription: AI training game set in an infinite supermarket, time is running out and the AI is frustrated
+  priority: 0
+  year: 2023
+  type: release
+  date: 6.22
+  title: "Godmode Epochs"
+  situation: STEAM
+  location:
+  url: https://store.steampowered.com/app/2445680/Godmode_Epochs/
+  image: 
+  related: Godmode Epochs
+
+- now: false
   longdescription: 
   priority: 0
   year: 2023
