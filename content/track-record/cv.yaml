@@ -25,7 +25,6 @@
   url: https://thewrong.tv/
   image: 
   related: Godmode Epochs
-  hideon: mobile
 
 - now: next
   description: 
@@ -42,7 +41,6 @@
   related:
     - Godmode Epochs
     - Godmode Chronicles
-  hideon: mobile
 
 - now: false
   description: 
