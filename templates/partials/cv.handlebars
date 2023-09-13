@@ -4,14 +4,9 @@
     {{~#each this.contents~}}
     <!-- types. type: {{@key}} -->
       <dt class="dc-cv--title{{#if this.contents.[0].now}} dc-cv--now{{/if}} dc-cv--title__{{type}}{{#unless @index}} dc-cv--title__includesyear{{/unless}}{{#if @index}}{{#if this.contents.[0].now}} dc-cv--title__includesyear{{/if}}{{/if}}{{#if this.contents.[0].url}} dc-cv--title__haslink{{/if}}" data-dc-cv-priority="{{../priority}}">
-        {{~#unless @index~}}
-          <span class="dctxt--date">{{../year}}{{~#if this.contents.[0].now~}}.{{this.contents.[0].date}}{{/if}}</span>            
+        {{#unless @index}}
+          <span class="dctxt--date">{{../year}}</span>
         {{/unless}}
-        {{~#if @index~}}
-          {{~#if this.contents.[0].now~}}
-            <span class="dctxt--date">{{../year}}{{~#if this.contents.[0].now~}}.{{this.contents.[0].date}}{{/if}}</span>            
-          {{/if}}
-        {{/if}}
         {{~#if type~}}
         <span class="dc-cv--bracket dc-cv--bracket__first">(</span><!--
         --><span class="dc-cv--type dc-cv--type__{{~type~}}">{{{ dc_cvcat type this.contents.[0].now this.contents.[0].url}}}</span><!--

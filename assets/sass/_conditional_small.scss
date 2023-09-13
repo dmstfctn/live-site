@@ -402,8 +402,8 @@
       margin-top: 1em;
     }
 
-    .dc-cv--now + .dc-cv--title__includesyear,
-    .dc-cv--now + .dc-cv--title__includesyear + .dc-cv--entry{
+    .dc-cv--now + .dc-cv--now,
+    .dc-cv--now + .dc-cv--now + .dc-cv--entry{
       margin-top: 0;
     }
 

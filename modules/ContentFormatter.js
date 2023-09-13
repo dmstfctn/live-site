@@ -439,9 +439,14 @@ const structureCV = ( cv ) => {
       //order descending
       return parseInt( y2 ) - parseInt( y1 );
     });
+
+  years.unshift( 'next' );
   
   years.forEach( ( year ) => {
-    const entries = cv.entries.filter( e => e.year === year );
+    let entries = cv.entries.filter( e => e.year === year && !e.now );
+    if( !entries.length ){
+      entries = cv.entries.filter( e => e.now );
+    }
     let contents = {};
     let yearPriority = Infinity;
     entries.forEach( (entry) => {      
