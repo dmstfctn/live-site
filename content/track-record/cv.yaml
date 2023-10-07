@@ -14,6 +14,36 @@
 
 - now: next
   description: 
+  longdescription: 
+  priority: 0
+  year: 2023
+  type: talk
+  date: 11.3
+  title: Beyond
+  situation: SOMERSET HOUSE
+  location: london
+  url: 
+  image: 
+  related: Godmode Chronicles
+  hideon: desktop
+
+- now: next
+  description: 
+  longdescription: "Holding a session on decentralised onchain narrative building experiments"
+  priority: 0
+  year: 2023
+  type: talk
+  date: 11.3
+  title: Beyond Cultures of Ownership
+  situation: SOMERSET HOUSE
+  location: london
+  url: https://www.serpentinegalleries.org/whats-on/beyond-cultures-of-ownership/
+  image: 
+  related: Godmode Chronicles
+  hideon: mobile
+
+- now: next
+  description: 
   longdescription: Presenting Godmode Epochs at The Wrong Biennale, TheWrongTV, Canal180
   priority: 0
   year: 2023
@@ -38,9 +68,7 @@
   location: zaragoza
   url: https://artechoproject.eu/?p=656
   image: 
-  related:
-    - Godmode Epochs
-    - Godmode Chronicles
+  related: Godmode Chronicles
 
 - now: false
   description: 
