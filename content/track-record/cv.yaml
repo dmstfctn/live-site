@@ -1,6 +1,6 @@
 - now: next
   description: Presenting GOD MODE (ep. 1) as an installation
-  longdescription: Presenting GOD MODE (ep. 1) as a standalone interactive 1-channel installation
+  longdescription: "Presenting 'GOD MODE (ep. 1)' as a standalone interactive 1-channel installation"
   priority: 0
   year: 2023
   type: live
@@ -44,7 +44,37 @@
 
 - now: next
   description: 
-  longdescription: Presenting Godmode Epochs at The Wrong Biennale, TheWrongTV, Canal180
+  longdescription:
+  priority: 0
+  year: 2023
+  type: talk
+  date: 10.28
+  title: ultrablack
+  situation: FORUM STADTPARK
+  location: gratz
+  url: 
+  image: 
+  related: ECHO FX
+  hideon: desktop
+
+- now: next
+  description: 
+  longdescription: "Screening of the AV performance 'ECHO FX' (2020) followed by an artist talk"
+  priority: 0
+  year: 2023
+  type: talk
+  date: 10.28
+  title: ultrablack nonference
+  situation: FORUM STADTPARK
+  location: gratz
+  url: https://forumstadtpark.at/en/programm/ultrablack
+  image: 
+  related: ECHO FX
+  hideon: mobile
+
+- now: next
+  description: 
+  longdescription: Presenting Godmode Epochs at The Wrong Biennale 6, TheWrongTV, Canal180
   priority: 0
   year: 2023
   type: group show
@@ -72,7 +102,7 @@
 
 - now: false
   description: 
-  longdescription: A game where players train an AI, but they actually just frustrate it until it cheats
+  longdescription: 
   priority: 0
   year: 2023
   type: demo
@@ -80,9 +110,25 @@
   title: "Godmode Epochs"
   situation: SERPENTINE
   location: twitch
+  url: 
+  image: 
+  related: Godmode Epochs
+  hideon: desktop
+
+- now: false
+  description: 
+  longdescription: Launch of 'Godmode Epochs' through a Twitch stream with curator Eva Jäger
+  priority: 0
+  year: 2023
+  type: demo
+  date: 
+  title: "dmstfctn plays Godmode Epochs"
+  situation: SERPENTINE
+  location: twitch
   url: https://www.twitch.tv/videos/1797283426
   image: 
   related: Godmode Epochs
+  hideon: mobile
 
 - now: false
   description: 
@@ -143,7 +189,7 @@
   related: Godmode Epochs
 
 - now: false
-  longdescription: "Alasdair Milne examines the simulations and configurations of dmstfctn's game"
+  longdescription: "Alasdair Milne examines the simulations and configurations of 'Godmode Epochs'"
   priority: 0
   year: 2023
   type: press
