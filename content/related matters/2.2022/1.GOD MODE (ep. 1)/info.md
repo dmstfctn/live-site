@@ -10,4 +10,4 @@ In GOD MODE (ep. 1), an AI destined for deployment in a cashierless store is tra
 
 Featuring live music by artist HERO IMAGE, and facial motion capture and voice modulation to animate the AI on screen, the performance presents viewers with one possible kind of intelligence that may emerge from the complex process of simulating the real world, and the perspectives it may inherit. Aspects of common training method used in these types of simulations are here turned into game mechanics that let the audience modify the 3D environment via phone, welcoming interaction as a means to explore the characteristics and test the limitations of this process.
 
-GOD MODE (ep. 1) is the first artwork in the GOD MODE series and it is supported by the UK's Alan Turing Institute and Serpentine Arts Technologies programme.
+GOD MODE (ep. 1) is the first artwork in the GOD MODE series, which also comprises the game <a href="https://dmstfctn.net/related-matters/godmode-epochs/" target="_blank">Godmode Epochs</a>. The work was supported by the UK's Alan Turing Institute and Serpentine Arts Technologies as part of a public engagement project about AI and synthetic data.
