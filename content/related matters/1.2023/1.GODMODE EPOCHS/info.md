@@ -1,7 +1,7 @@
 ---
 title: "GODMODE EPOCHS"
 titleJustified: "GODMODE EPOCHS"
-description: A multiplayer AI training clicker game with a twist
+description: Must. Complete. This Endless. Training!
 ---
 
 Godmode Epochs is an AI training clicker game set among the lined shelves of an infinite, simulated supermarket. Each playthrough consists of a training epoch where players race against time to help an AI identify retail items. As players inevitably frustrate the AI through the process, they must indulge in its memories - stories of other AIs who cheated during their training - in order to release frustration, obtain upgrades for the AI and win the game.

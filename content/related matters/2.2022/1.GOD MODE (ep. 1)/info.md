@@ -1,7 +1,7 @@
 ---
 title: "GOD MODE (ep. 1)"
 titleJustified: "GOD MODE (ep. 1)"
-description: An interactive AV performance about AI training
+description: Ahhh.......Another rendered supermarket...?
 ---
 
 GOD MODE (ep. 1) is an interactive audiovisual performance set in a real-time 3D simulation running on a video game engine. The simulation is a replica of state of the art simulations increasingly used to train deep-learning computer vision systems for real world tasks.
