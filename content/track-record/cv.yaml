@@ -1,6 +1,6 @@
 - now: next
   description: Presenting GOD MODE (ep. 1) as an installation
-  longdescription: "Presenting 'GOD MODE (ep. 1)' as a standalone interactive 1-channel installation"
+  longdescription: "Presenting GOD MODE (ep. 1) (2022) as a standalone interactive installation"
   priority: 0
   year: 2023
   type: live
@@ -59,7 +59,7 @@
 
 - now: next
   description: 
-  longdescription: "Screening of the AV performance 'ECHO FX' (2020) followed by an artist talk"
+  longdescription: "Screening of the AV performance ECHO FX (2020) followed by an artist talk"
   priority: 0
   year: 2023
   type: talk
@@ -74,7 +74,7 @@
 
 - now: next
   description: 
-  longdescription: Presenting Godmode Epochs at The Wrong Biennale 6, TheWrongTV, Canal180
+  longdescription: Presenting Godmode Epochs (2023) at The Wrong Biennale 6 and Canal180
   priority: 0
   year: 2023
   type: group show
@@ -117,7 +117,7 @@
 
 - now: false
   description: 
-  longdescription: Launching 'Godmode Epochs' on Serpentine's Twitch with curator Eva Jäger
+  longdescription: Godmode Epochs (2023) launch on Serpentine's Twitch with curator Eva Jäger
   priority: 0
   year: 2023
   type: demo
@@ -189,7 +189,7 @@
   related: Godmode Epochs
 
 - now: false
-  longdescription: "Alasdair Milne examines the simulations and configurations of 'Godmode Epochs'"
+  longdescription: "Alasdair Milne examines the simulation and configurations of Godmode Epochs (2023)"
   priority: 0
   year: 2023
   type: press
@@ -250,7 +250,7 @@
   related: GOD MODE (ep. 1)
 
 - now: false
-  longdescription: "A conversation on simulations and AI hosted Marijn Bril at IMPAKT festival 2022"
+  longdescription: "A live interview on simulation and AI, hosted by Marijn Bril at IMPAKT festival"
   priority: 2
   year: 2022
   type: press
@@ -340,7 +340,7 @@
 #  related:
 
 - now: false
-  longdescription: "'The AV show revisits the sociopolitical and economic tumult following Brexit'"
+  longdescription: '"The performance revisits the sociopolitical and economic tumult following Brexit"'
   priority: 0
   year: 2021
   type: press
@@ -422,7 +422,7 @@
   related: Interface Chaos
 
 - now: false
-  longdescription: A panel on artistic explorations of tax havens, led by an investigative journalist
+  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
   priority: 0
   year: 2020
   type: talk
@@ -437,7 +437,7 @@
     - OFFSHORESS18
 
 - now: false
-  longdescription: An interview on the themes of INTERFACE CHAOS (2019), including excerpts
+  longdescription: An interview on the short film INTERFACE CHAOS (2019), including excerpts
   priority: 0
   year: 2020
   type: press
@@ -450,7 +450,7 @@
   related: Interface Chaos
 
 - now: false
-  longdescription: "'A group of artists began a project to show how money could be moved offshore'"
+  longdescription: '"A group of artists began a project to show how money could be moved offshore"'
   priority: 0
   year: 2020
   type: press
@@ -595,7 +595,7 @@
   related: Interface Chaos
 
 - now: false
-  longdescription: Audiovisual genealogy of financial algorithmic collapse, released as a custom USB
+  longdescription: Audiovisual genealogy of financial algorithmic collapse, limited editon USB
   priority: 0
   year: 2019
   type: release
@@ -732,7 +732,7 @@
   hideon: desktop
 
 - now: false
-  longdescription: On infrastructures and geographies of avoidance, from data centres to tax havens
+  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
   priority: 0
   year: 2018
   type: talk
@@ -749,7 +749,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: On ways and means of making offshore and other financial processes visible
+  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
   priority: 0
   year: 2018
   type: talk
@@ -764,7 +764,7 @@
 
 # ## 2018 ## talk ############## #
 - now: false
-  longdescription: On the sonification of stock market crashes, part of a panel on algotrading
+  longdescription: An artist talk on ongoing sonic work investigating accidents on financial markets
   priority: 0
   year: 2018
   type: talk
@@ -779,7 +779,7 @@
     - Demons
 
 - now: false
-  longdescription: A talk on offshore investigative w—i—p, part of a panel on play in art and finance
+  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
   priority: 0
   year: 2018
   type: talk
@@ -877,7 +877,7 @@
 
 # ## 2017 ## dissemination ##### #
 - now: false
-  longdescription: Audiovisual experiments with wireless networks, released as custom SD card
+  longdescription: AV experiments with wireless network infrastructure, limited edition SD card
   priority: 0
   year: 2017
   type: release
