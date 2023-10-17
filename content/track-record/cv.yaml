@@ -1,6 +1,6 @@
 - now: next
   description: Presenting GOD MODE (ep. 1) as an installation
-  longdescription: "Presenting GOD MODE (ep. 1) (2022) as a standalone interactive installation"
+  longdescription: Presenting GOD MODE (ep. 1) (2022) as a standalone interactive installation
   priority: 0
   year: 2023
   type: live
@@ -29,7 +29,7 @@
 
 - now: next
   description: 
-  longdescription: "Holding a session on decentralised onchain narrative building experiments"
+  longdescription: Holding a session on decentralised onchain narrative building experiments
   priority: 0
   year: 2023
   type: talk
@@ -59,7 +59,7 @@
 
 - now: next
   description: 
-  longdescription: "Screening of the AV performance ECHO FX (2020) followed by an artist talk"
+  longdescription: Screening of the AV performance ECHO FX (2020) followed by an artist talk
   priority: 0
   year: 2023
   type: talk
@@ -189,7 +189,7 @@
   related: Godmode Epochs
 
 - now: false
-  longdescription: "Alasdair Milne examines the simulation and configurations of Godmode Epochs (2023)"
+  longdescription: Alasdair Milne examines the simulation and configurations of Godmode Epochs (2023)
   priority: 0
   year: 2023
   type: press
@@ -200,6 +200,19 @@
   url: https://www.serpentinegalleries.org/arts-technologies/turret-theory/
   image: 
   related: Godmode Epochs
+
+- now: false
+  longdescription: An interview expanding on dmstfctn's work with simulation and machine learning
+  priority: 0
+  year: 2023
+  type: press
+  date: 
+  title: "dmstfctn investigate contemporary environments"
+  situation: CLOT
+  location: 
+  url: https://clotmag.com/interviews/dmstfctn-offshore-financing-machine-learning-network-effects-to-investigate-contemporary-environments
+  image: 
+  related: GOD MODE (ep. 1)
 
 - now: false
   priority: 0
@@ -832,21 +845,21 @@
   image:
   related: Offshore Investigation Vehicle
 
-#- now: false
-#  longdescription: "Interview (in Italian) expanding on offshore artworl artisti che trasforma offshore in un gioco"
-#  priority: 0
-#  year: 2018
-#  type: press
-#  date: 
-#  title: Buon Paradiso Fiscale a Tutti
-#  situation: NERO
-#  location: 
-#  url: https://not.neroeditions.com/buon-paradiso-fiscale-tutti/
-#  image:
-#  related:
-#    - Offshore Investigation Vehicle
-#    - OFFSHORESS18
-#  hideon: mobile
+- now: false
+  longdescription: "An interview (in Italian) expanding on the artistic practice of dmstfctn"
+  priority: 0
+  year: 2018
+  type: press
+  date: 
+  title: Buon Paradiso Fiscale a Tutti
+  situation: NERO
+  location: 
+  url: https://not.neroeditions.com/buon-paradiso-fiscale-tutti/
+  image:
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+  hideon: mobile
 
 # 2017  #
 - now: false
