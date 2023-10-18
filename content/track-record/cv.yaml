@@ -29,7 +29,7 @@
 
 - now: next
   description: 
-  longdescription: Holding a session on decentralised onchain narrative building experiments
+  longdescription: Holding a session on decentralised onchain narrative experiments
   priority: 0
   year: 2023
   type: talk
@@ -41,6 +41,20 @@
   image: 
   related: Godmode Chronicles
   hideon: mobile
+
+- now: next
+  description: 
+  longdescription: Holding a session on decentralised onchain narrative experiments
+  priority: 0
+  year: 2023
+  type: talk
+  date: 11.3
+  title: Autonomous Worlds day
+  situation: istanbul
+  location: 
+  url: https://lu.ma/AWDAYIstanbul
+  image: 
+  related: Godmode Chronicles
 
 - now: next
   description: 
