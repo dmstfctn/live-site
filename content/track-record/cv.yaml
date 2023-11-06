@@ -8,7 +8,7 @@
   title: "Semibreve"
   situation: THEATRO CIRCO
   location: braga
-  url: https://www.festivalsemibreve.com/
+  url: https://www.festivalsemibreve.com/programme/installations/edigma-semibreve-award-winner/god-mode-ep01
   image: 
   related: GOD MODE (ep. 1)
 
@@ -88,7 +88,7 @@
 
 - now: next
   description: 
-  longdescription: Presenting Godmode Epochs (2023) at The Wrong Biennale 6 and Canal180
+  longdescription: Presenting Godmode Epochs (2023) at the sixth edition of The Wrong Biennale
   priority: 0
   year: 2023
   type: group show
@@ -96,7 +96,7 @@
   title: "Directory"
   situation: THE WRONG BIENNALE
   location: 
-  url: https://thewrong.tv/
+  url: https://thewrong.org/
   image: 
   related: Godmode Epochs
 
