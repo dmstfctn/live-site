@@ -1,6 +1,35 @@
 - now: next
-  description: Presenting GOD MODE (ep. 1) as an installation
-  longdescription: Presenting GOD MODE (ep. 1) (2022) as a standalone interactive installation
+  description: Performing GOD MODE (ep. 1) ft. Hero Image
+  longdescription: Performing GOD MODE (ep. 1) featuring a live soundtrack by Hero Image
+  priority: 0
+  year: 2023
+  type: live
+  date: 1.11
+  title: "GOD MODE (ep. 1)"
+  situation: SYSTEM, shanghai
+  location: 
+  url: https://ra.co/clubs/192184
+  image: 
+  related: GOD MODE (ep. 1)
+
+- now: next
+  description: 
+  longdescription: Presenting Godmode Epochs (2023) at the sixth edition of The Wrong Biennale
+  priority: 0
+  year: 2023
+  type: group show
+  date: 11.1
+  title: "Directory"
+  situation: "THE 6<sup>th</sup> WRONG BIENNALE"
+  location: 
+  url: https://thewrong.org/Directory
+  image: 
+  related: Godmode Epochs
+#------------------------------------------------2023
+
+- now: false
+  description: 
+  longdescription: 
   priority: 0
   year: 2023
   type: live
@@ -8,11 +37,25 @@
   title: "Semibreve"
   situation: THEATRO CIRCO
   location: braga
-  url: https://www.festivalsemibreve.com/programme/installations/edigma-semibreve-award-winner/god-mode-ep01
-  image: 
+  url: 
+  image: dmstfctn-semibreve-godmode-ep.jpg
   related: GOD MODE (ep. 1)
 
-- now: next
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2023
+  type: talk
+  date: 11.3
+  title: Autonomous Worlds day
+  situation: istanbul
+  location: 
+  url: 
+  image: dmstfctn-onchain-large-lore-models.jpg
+  related: Godmode Chronicles
+
+- now: false
   description: 
   longdescription: 
   priority: 0
@@ -27,9 +70,9 @@
   related: Godmode Chronicles
   hideon: desktop
 
-- now: next
+- now: false
   description: 
-  longdescription: Holding a session on decentralised onchain narrative experiments
+  longdescription: 
   priority: 0
   year: 2023
   type: talk
@@ -37,89 +80,45 @@
   title: Beyond Cultures of Ownership
   situation: SOMERSET HOUSE
   location: london
-  url: https://www.serpentinegalleries.org/whats-on/beyond-cultures-of-ownership/
-  image: 
-  related: Godmode Chronicles
-  hideon: mobile
-
-- now: next
-  description: 
-  longdescription: Holding a session on decentralised onchain narrative experiments
-  priority: 0
-  year: 2023
-  type: talk
-  date: 11.3
-  title: Autonomous Worlds day
-  situation: istanbul
-  location: 
-  url: https://lu.ma/AWDAYIstanbul
-  image: 
-  related: Godmode Chronicles
-
-- now: next
-  description: 
-  longdescription:
-  priority: 0
-  year: 2023
-  type: talk
-  date: 10.28
-  title: ultrablack
-  situation: FORUM STADTPARK
-  location: gratz
   url: 
-  image: 
-  related: ECHO FX
-  hideon: desktop
-
-- now: next
-  description: 
-  longdescription: Screening of the AV performance ECHO FX (2020) followed by an artist talk
-  priority: 0
-  year: 2023
-  type: talk
-  date: 10.28
-  title: ultrablack nonference
-  situation: FORUM STADTPARK
-  location: gratz
-  url: https://forumstadtpark.at/en/programm/ultrablack
-  image: 
-  related: ECHO FX
-  hideon: mobile
-
-- now: next
-  description: 
-  longdescription: Presenting Godmode Epochs (2023) at the sixth edition of The Wrong Biennale
-  priority: 0
-  year: 2023
-  type: group show
-  date: 11.1
-  title: "Directory"
-  situation: THE WRONG BIENNALE
-  location: 
-  url: https://thewrong.org/Directory
-  image: 
-  related: Godmode Epochs
-
-- now: next
-  description: 
-  longdescription: Building a fully on-chain narrative generation game, a.k.a a 'Large Lore Model'
-  priority: 0
-  year: 2023
-  type: residency
-  date: 11.2
-  title: ARTECHO
-  situation: ETOPIA
-  location: zaragoza
-  url: https://artechoproject.eu/?p=656
-  image: 
+  image: dmstfctn-large-lore-models.jpg
   related: Godmode Chronicles
+  hideon: mobile
+#- now: false
+#  description: 
+#  longdescription:
+#  priority: 0
+#  year: 2023
+#  type: talk
+#  date: 10.28
+#  title: ultrablack
+#  situation: FORUM STADTPARK
+#  location: gratz
+#  url: 
+#  image: 
+#  related: ECHO FX
+#  hideon: desktop
+#- now: false
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2023
+#  type: talk
+#  date: 10.28
+#  title: ultrablack nonference
+#  situation: FORUM STADTPARK
+#  location: gratz
+#  url: 
+#  image: 
+#  related: ECHO FX
+#  hideon: mobile
 
 - now: false
   description: 
   longdescription: 
   priority: 0
   year: 2023
-  type: demo
+  type: talk
   date: 
   title: "Godmode Epochs"
   situation: SERPENTINE
@@ -134,7 +133,7 @@
   longdescription: Godmode Epochs (2023) launch on Serpentine's Twitch with curator Eva Jäger
   priority: 0
   year: 2023
-  type: demo
+  type: talk
   date: 
   title: "dmstfctn plays Godmode Epochs"
   situation: SERPENTINE
@@ -149,7 +148,7 @@
   longdescription: 
   priority: 0
   year: 2023
-  type: demo
+  type: talk
   date: 
   title: "AI UK 2023"
   situation: QEII CENTRE
@@ -178,7 +177,7 @@
   year: 2023
   type: release
   date: 
-  title: "'Large Lore Models', in AUTONOMOUS WORLD N1"
+  title: Large Lore Models
   situation: 0XPARC
   location: 
   url: https://aw.network/posts/large-lore-models
@@ -201,6 +200,20 @@
   url: https://store.steampowered.com/app/2445680/Godmode_Epochs/
   image: 
   related: Godmode Epochs
+
+- now: false
+  description: 
+  longdescription: Building a fully on-chain narrative generation game, a.k.a a 'Large Lore Model'
+  priority: 0
+  year: 2023
+  type: residency
+  date: 11.2
+  title: ARTECHO
+  situation: ETOPIA
+  location: zaragoza
+  url: https://artechoproject.eu/?p=656
+  image: 
+  related: Godmode Chronicles
 
 - now: false
   longdescription: Alasdair Milne examines the simulation and configurations of Godmode Epochs (2023)
@@ -229,6 +242,7 @@
   related: GOD MODE (ep. 1)
   hideon: mobile
 
+#------------------------------------------------2022
 - now: false
   priority: 0
   year: 2022
@@ -262,7 +276,7 @@
   situation: kraków 
   location: 
   url: 
-  image: dmstfctn_godmode_unsound
+  image: dmstfctn_godmode_unsound.jpg
   related: GOD MODE (ep. 1)
 
 - now: false
