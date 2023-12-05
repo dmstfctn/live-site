@@ -229,7 +229,7 @@
   related: Godmode Epochs
 
 - now: false
-  longdescription: An interview expanding on dmstfctn's work with simulation and machine learning
+  longdescription: An interview about dmstfctn's recent work with simulation and machine learning
   priority: 0
   year: 2023
   type: press
@@ -238,6 +238,20 @@
   situation: CLOT
   location: 
   url: https://clotmag.com/interviews/dmstfctn-offshore-financing-machine-learning-network-effects-to-investigate-contemporary-environments
+  image: 
+  related: GOD MODE (ep. 1)
+  hideon: mobile
+
+- now: false
+  longdescription: Interview in Italian expanding on dmstfctn's work with games, AI and simulation
+  priority: 0
+  year: 2023
+  type: press
+  date: 
+  title: "come addestrare una intelligenza artificiale?"
+  situation: artribune
+  location: 
+  url: https://www.artribune.com/progettazione/new-media/2023/12/videogioco-intelligenza-artificiale/
   image: 
   related: GOD MODE (ep. 1)
   hideon: mobile
