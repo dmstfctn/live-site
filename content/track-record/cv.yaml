@@ -14,6 +14,20 @@
 
 - now: next
   description: 
+  longdescription: 
+  priority: 0
+  year: 2023
+  type: talk
+  date: 1.10
+  title: "Overseas artists symposium"
+  situation: ARTSLINK, shanghai
+  location: 
+  url: 
+  image: 
+  related: GOD MODE (ep. 1)
+
+- now: next
+  description: 
   longdescription: Presenting Godmode Epochs (2023) at the sixth edition of The Wrong Biennale
   priority: 0
   year: 2023
