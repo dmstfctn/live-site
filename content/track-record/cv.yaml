@@ -83,20 +83,20 @@
   image: dmstfctn-onchain-large-lore-models.jpg
   related: Godmode Chronicles
 
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2023
-  type: talk
-  date: 11.3
-  title: Beyond cultures of
-  situation: SOMERSET HOUSE
-  location: london
-  url: 
-  image: 
-  related: Godmode Chronicles
-  hideon: desktop
+#- now: false
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2023
+#  type: talk
+#  date: 11.3
+#  title: Beyond cultures of
+#  situation: SOMERSET HOUSE
+#  location: london
+#  url: 
+#  image: 
+#  related: Godmode Chronicles
+#  hideon: desktop
 
 - now: false
   description: 
@@ -228,6 +228,7 @@
   url: https://store.steampowered.com/app/2445680/Godmode_Epochs/
   image: 
   related: Godmode Epochs
+  hideon: mobile
 
 - now: false
   description: 
@@ -255,6 +256,7 @@
   url: https://www.serpentinegalleries.org/arts-technologies/turret-theory/
   image: 
   related: Godmode Epochs
+  hideon: mobile
 
 - now: false
   longdescription: An interview about dmstfctn's recent work with simulation and machine learning
@@ -576,6 +578,7 @@
     - Network Study (I, VII, VIII)
     - Flash
     - Demons
+  hideon: mobile
 
 # ## 2019 ## group show ####### #
 - now: false
@@ -589,6 +592,7 @@
   url: 
   image: c-mine-school-of-school.jpg
   related: OFFSHORESS18
+  hideon: mobile
 
 - now: false
   priority: 0
@@ -677,6 +681,7 @@
   url: 
   image: Interface-Chaos-Antiuniversity.jpg
   related: Interface Chaos
+  hideon: mobile
 
 - now: false
   longdescription: Audiovisual genealogy of financial algorithmic collapse, limited editon USB
