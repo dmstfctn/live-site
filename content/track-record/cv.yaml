@@ -1,16 +1,46 @@
 - now: next
+  description: Performing 'Waluigi's Purgatory' ft. Evita Manji
+  longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
+  priority: 0
+  year: 202
+  type: live
+  date: 14.3
+  title: "Futur.Shock"
+  situation: FOLD
+  location: london
+  url: https://www.fold.london/tickets
+  image: 
+  related: 
+
+- now: next
   description: An interactive AV performance with Evita Manji
   longdescription: An AI finds itself in a purgatory for cheating AIs... will it find its way out?
   priority: 0
-  year: 2023
+  year: 2024
+  type: live
+  date: 8.2
+  title: "Waluigi's Purgatory"
+  situation: SERPENTINE x HQI
+  location: london
+  url: https://www.serpentinegalleries.org/whats-on/dmstfctn-waluigis-purgatory/
+  image: 
+  related: 
+  hideon: mobile
+
+- now: next
+  description: An interactive AV performance with Evita Manji
+  longdescription: An AI finds itself in a purgatory for cheating AIs... will it find its way out?
+  priority: 0
+  year: 2024
   type: live
   date: 8.2
   title: "Waluigi's Purgatory"
   situation: HQI
   location: london
-  url: https://www.serpentinegalleries.org/whats-on/dmstfctn-waluigis-purgatory/
+  url: 
   image: 
   related: 
+  hideon: desktop
 
 - now: false
   description: 
@@ -26,19 +56,19 @@
   image: dmstfctn_system_shanghai_godmode.jpg
   related: GOD MODE (ep. 1)
 
-#- now: next
-#  description: 
-#  longdescription: 
-#  priority: 0
-#  year: 2023
-#  type: talk
-#  date: 1.10
-#  title: "Artists symposium"
-#  situation: ARTSLINK, shanghai
-#  location: 
-#  url: 
-#  image: 
-#  related: GOD MODE (ep. 1)
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: talk
+  date: 1.10
+  title: bodystacked
+  situation: LCF, london
+  location: 
+  url: 
+  image: dmstfctn_lcf_bodystacked.jpg
+  related: GOD MODE (ep. 1)
 
 - now: false
   description: 
