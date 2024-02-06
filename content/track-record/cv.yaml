@@ -393,6 +393,31 @@
 #  hideon: desktop
 
 - now: false
+  longdescription: A book and performance about market manipulation on Brexit Referendum night
+  priority: 0
+  year: 2021
+  type: release
+  date: 
+  title: ECHO FX
+  situation: KRISIS PUBLISHING
+  location: 
+  url: http://www.krisispublishing.com/prodotto/echo-fx/
+  image: 
+  related: ECHO FX
+
+- now: false
+  priority: 0
+  year: 2021
+  type: release
+  date: 
+  title: "Ø"
+  situation: FLATLINE PRESS/HYPERDUB
+  location: 
+  url:
+  image: dmstfctn_zero_hyperdub_flatlinepress.jpg
+  related: ECHO FX
+
+- now: false
   priority: 0
   year: 2021
   type: screening
@@ -418,30 +443,6 @@
   related: ECHO FX
   hideon: mobile
   
-- now: false
-  longdescription: A book and performance about market manipulation on Brexit Referendum night
-  priority: 0
-  year: 2021
-  type: release
-  date: 
-  title: ECHO FX
-  situation: KRISIS PUBLISHING
-  location: 
-  url: http://www.krisispublishing.com/prodotto/echo-fx/
-  image: 
-  related: ECHO FX
-
-- now: false
-  priority: 0
-  year: 2021
-  type: release
-  date: 
-  title: "Ø"
-  situation: FLATLINE PRESS/HYPERDUB
-  location: 
-  url:
-  image: dmstfctn_zero_hyperdub_flatlinepress.jpg
-  related: ECHO FX
 
 #- now: false
 # longdescription: A livestream shopping event featuring conversation, sound and video work
