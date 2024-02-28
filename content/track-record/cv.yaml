@@ -25,22 +25,6 @@
   url: https://www.serpentinegalleries.org/whats-on/dmstfctn-waluigis-purgatory/
   image: 
   related: Waluigi's Purgatory
-  hideon: mobile
-
-- now: next
-  description: An interactive AV performance with Evita Manji
-  longdescription: An AI finds itself in a purgatory for cheating AIs... will it find its way out?
-  priority: 0
-  year: 2024
-  type: live
-  date: 8.2
-  title: "Waluigi's Purgatory"
-  situation: HQI
-  location: london
-  url: 
-  image: 
-  related: Waluigi's Purgatory
-  hideon: desktop
 
 - now: false
   description: 
