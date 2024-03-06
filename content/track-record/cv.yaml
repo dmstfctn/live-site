@@ -13,6 +13,20 @@
   related: Waluigi's Purgatory
 
 - now: next
+  description: 
+  longdescription: A group film and an experiment in collective ownership featuring 20 artists
+  priority: 0
+  year: 2024
+  type: screening
+  date: 13.3
+  title: "NOINDEX: is nothing forever?"
+  situation: ICA
+  location: london
+  url: https://www.ica.art/films/noindex-is-nothing-forever
+  image: 
+  related: 
+
+- now: next
   description: An interactive AV performance with Evita Manji
   longdescription: An AI finds itself in a purgatory for cheating AIs... will it find its way out?
   priority: 0
