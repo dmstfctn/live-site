@@ -6,7 +6,7 @@
   type: live
   date: 14.3
   title: "INDEX"
-  situation: gnrtion
+  situation: GNRTION
   location: braga
   url: https://indexmediaarts.com/
   image: 
@@ -63,8 +63,8 @@
   type: live
   date: 1.11
   title: "GOD MODE (ep. 1)"
-  situation: MUDAERUK, seoul
-  location: 
+  situation: MUDAERUK
+  location: seoul
   url: 
   image: dmstfctn_godmode_seoul_mudaeruk.jpg
   related: GOD MODE (ep. 1)
@@ -77,8 +77,8 @@
   type: live
   date: 1.11
   title: "GOD MODE (ep. 1)"
-  situation: SYSTEM, shanghai
-  location: 
+  situation: SYSTEM
+  location: shanghai
   url: 
   image: dmstfctn_system_shanghai_godmode.jpg
   related: GOD MODE (ep. 1)
