@@ -6,7 +6,7 @@
   type: live
   date: 14.3
   title: "INDEX"
-  situation: gnrtion,
+  situation: gnrtion
   location: braga
   url: https://indexmediaarts.com/
   image: 
@@ -43,7 +43,7 @@
 
 - now: false
   description: 
-  longdescription: An AI finds itself in a purgatory for cheating AIs... will it find its way out?
+  longdescription: 
   priority: 0
   year: 2024
   type: live
@@ -99,14 +99,14 @@
 
 - now: false
   description: 
-  longdescription: a talk on the faciality of AI characthers in the 'GOD MODE' series of works
+  longdescription: A talk on the faciality of AI characthers in the 'GOD MODE' series of works
   priority: 0
   year: 2024
   type: talk
   date: 1.10
   title: bodystacked
-  situation: LCF, london
-  location: 
+  situation: LCF
+  location: london
   url: https://www.youtube.com/watch?v=2VRoknOR9IM&ab_channel=LondonCollegeofFashion
   image: 
   related: GOD MODE (ep. 1)
