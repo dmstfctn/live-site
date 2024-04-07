@@ -99,7 +99,7 @@
 
 - now: false
   description: 
-  longdescription: A talk on the faciality of AI characthers in the 'GOD MODE' series of works
+  longdescription: A talk on the faciality of AI characthers in the 'GOD MODE' series (2022—)
   priority: 0
   year: 2024
   type: talk
@@ -111,19 +111,19 @@
   image: 
   related: GOD MODE (ep. 1)
 
-- now: false
-  description: 
-  longdescription: Presenting Godmode Epochs (2023) at the sixth edition of The Wrong Biennale
-  priority: 0
-  year: 2024
-  type: group show
-  date: 11.1
-  title: "Directory"
-  situation: "THE 6<sup>th</sup> WRONG BIENNALE"
-  location: 
-  url: https://thewrong.org/Directory
-  image: 
-  related: Godmode Epochs
+#- now: false
+#  description: 
+#  longdescription: Presenting Godmode Epochs (2023) at the sixth edition of The Wrong Biennale
+#  priority: 0
+#  year: 2024
+#  type: group show
+#  date: 11.1
+#  title: "Directory"
+#  situation: "THE 6<sup>th</sup> WRONG BIENNALE"
+#  location: 
+#  url: https://thewrong.org/Directory
+#  image: 
+#  related: Godmode Epochs
 
 - now: false
   description: 
@@ -142,7 +142,7 @@
 
 - now: false
   description: 
-  longdescription: On the Waluigi effect, audience as stage hands, environment & character building..
+  longdescription: '"Ever wondered whether an Artificial Intelligence could have its own desires?"'
   priority: 0
   year: 2024
   type: press
@@ -259,7 +259,7 @@
 
 - now: false
   description: 
-  longdescription: Godmode Epochs (2023) launch on Serpentine's Twitch with curator Eva Jäger
+  longdescription: "'Godmode Epochs' (2023) launch on Serpentine's Twitch with curator Eva Jäger"
   priority: 0
   year: 2023
   type: talk
@@ -301,7 +301,7 @@
   hideon: desktop
 
 - now: false
-  longdescription: Speculative tools for decentralized narrative building, with E. Jäger and A. Milne
+  longdescription: A speculative tool for narrative building, with Eva Jäger and Alasdair Milne
   priority: 0
   year: 2023
   type: release
@@ -318,7 +318,7 @@
 
 - now: false
   description: 
-  longdescription: AI training game set in an infinite supermarket, time is short, the AI is frustrated
+  longdescription: An AI training game set in an infinite supermarket, time is short, the AI frustrated
   priority: 0
   year: 2023
   type: release
@@ -333,7 +333,7 @@
 
 - now: false
   description: 
-  longdescription: Building a fully on-chain narrative generation game, a.k.a a 'Large Lore Model'
+  longdescription: Building a fully onchain narrative generation game, a.k.a a 'Large Lore Model'
   priority: 0
   year: 2023
   type: residency
@@ -347,7 +347,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: Alasdair Milne examines the simulation and configurations of Godmode Epochs (2023)
+  longdescription: Alasdair Milne examines the configuration of 'Godmode Epochs' (2023)
   priority: 0
   year: 2023
   type: press
@@ -361,7 +361,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: An interview about dmstfctn's recent work with simulation and machine learning
+  longdescription: An interview with Christopher Michael on the 'GOD MODE' series (2022—)
   priority: 0
   year: 2023
   type: press
@@ -375,7 +375,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: Interview in Italian expanding on dmstfctn's work with games, AI and simulation
+  longdescription: "An interview in Italian expanding on the vide ogame 'Godmode Epochs' (2023)"
   priority: 0
   year: 2023
   type: press
@@ -544,7 +544,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: "'A modern tale, constructed of lies, gorilla advertising bus campaigns and ...'"
+  longdescription: '"A modern tale, constructed of lies, gorilla advertising bus campaigns and ..."'
   priority: 0
   year: 2021
   type: press
@@ -558,7 +558,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: "'If the performance was a reaction, the book is a reflection, at 0x speed ...'"
+  longdescription: '"If the performance was a reaction, the book is a reflection, at 0x speed ..."'
   priority: 1
   year: 2021
   type: press
@@ -612,7 +612,7 @@
   related: Interface Chaos
 
 - now: false
-  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
+  longdescription: A panel on works of art that investigate the offshore financial industry
   priority: 0
   year: 2020
   type: talk
@@ -627,7 +627,7 @@
     - OFFSHORESS18
 
 - now: false
-  longdescription: An interview on the short film INTERFACE CHAOS (2019), including excerpts
+  longdescription: An interview on the short film 'INTERFACE CHAOS' (2019), including excerpts
   priority: 0
   year: 2020
   type: press
@@ -925,7 +925,7 @@
   hideon: desktop
 
 - now: false
-  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
+  longdescription: A presentation of the 'Offshore Investigation Vehicle' project (2017-18)
   priority: 0
   year: 2018
   type: talk
@@ -942,7 +942,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
+  longdescription: A presentation of the 'Offshore Investigation Vehicle' project (2017-18)
   priority: 0
   year: 2018
   type: talk
@@ -957,7 +957,7 @@
 
 # ## 2018 ## talk ############## #
 - now: false
-  longdescription: An artist talk on ongoing sonic work investigating accidents on financial markets
+  longdescription: A talk on sonic work, part of the panel "Algorithms And Financial Speculation"
   priority: 0
   year: 2018
   type: talk
@@ -972,7 +972,7 @@
     - Demons
 
 - now: false
-  longdescription: An arsist talk on ongoing work investigating offshore capital and tax havens
+  longdescription: A presentation of the 'Offshore Investigation Vehicle' project (2017-18)
   priority: 0
   year: 2018
   type: talk
@@ -1000,7 +1000,7 @@
 
   # ## 2018 ## dissemination ##### #
 - now: false
-  longdescription: "'The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick'"
+  longdescription: '"The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick"'
   priority: 0
   year: 2018
   type: release
@@ -1013,7 +1013,7 @@
   related: OFFSHORESS18
 
 - now: false
-  longdescription: "'You are alone on a dusty desert road... You have just run out of water.....'"
+  longdescription: '"You are alone on a dusty desert road... You have just run out of water....."'
   priority: 0
   year: 2018
   type: release
@@ -1026,7 +1026,7 @@
   related: Offshore Investigation Vehicle
 
 - now: false
-  longdescription: "An interview (in Italian) expanding on the artistic practice of dmstfctn"
+  longdescription: '"An interview (in Italian) expanding on the artistic practice of dmstfctn"'
   priority: 0
   year: 2018
   type: press
