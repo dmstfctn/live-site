@@ -24,7 +24,7 @@
   location: 
   url: https://www.coeval-magazine.com/coeval/dmstfctn-evita-manji
   image: 
-  related: 
+  related: Waluigi's Purgatory
   hideon: 
 
 - now: false
@@ -137,7 +137,7 @@
   location: 
   url: 
   image: 
-  related: 
+  related: Waluigi's Purgatory
   hideon: desktop
 
 - now: false
@@ -182,7 +182,7 @@
   location: 
   url: 
   image: dmstfctn-onchain-large-lore-models.jpg
-  related: Godmode Chronicles
+  related: Fango 1000
 
 #- now: false
 #  description: 
@@ -196,7 +196,7 @@
 #  location: london
 #  url: 
 #  image: 
-#  related: Godmode Chronicles
+#  related: Fango 1000
 #  hideon: desktop
 
 - now: false
@@ -211,7 +211,7 @@
   location: london
   url: 
   image: dmstfctn-large-lore-models.jpg
-  related: Godmode Chronicles
+  related: Fango 1000
   hideon: mobile
 #- now: false
 #  description: 
@@ -297,7 +297,7 @@
   location: 
   url: 
   image: 
-  related:
+  related: Fango 1000
   hideon: desktop
 
 - now: false
@@ -311,9 +311,7 @@
   location: 
   url: https://aw.network/posts/large-lore-models
   image: 
-  related:
-    - Godmode Epochs
-    - Godmode Chronicles
+  related: Fango 1000
   hideon: mobile
 
 - now: false
@@ -343,7 +341,7 @@
   location: zaragoza
   url: https://artechoproject.eu/?p=656
   image: 
-  related: Godmode Chronicles
+  related: Fango 1000
   hideon: mobile
 
 - now: false
@@ -1026,7 +1024,7 @@
   related: Offshore Investigation Vehicle
 
 - now: false
-  longdescription: '"An interview (in Italian) expanding on the artistic practice of dmstfctn"'
+  longdescription: "An interview in Italian expanding on 'Offshore Investigation Vehicle' (2017-18)"
   priority: 0
   year: 2018
   type: press
