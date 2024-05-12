@@ -27,6 +27,36 @@
   related: Waluigi's Purgatory
   hideon: 
 
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: group show
+  date: 8.2
+  title: "Futuros Descentralizados"
+  situation: ETOPIA
+  location: zaragoza
+  url: 
+  image: etopia_dmstfctn.jpg
+  related: Fango 1000
+  hideon: 
+
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 8.1
+  title: "Flatpack Festival"
+  situation: THE EXCHANGE,
+  location: Birmingham
+  url: 
+  image: etopia_dmstfctn.jpg
+  related: Fango 1000
+  hideon: 
+
 - now: false
   description: 
   longdescription: 
