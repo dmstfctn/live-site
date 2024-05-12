@@ -47,21 +47,6 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: screening
-  date: 13.3
-  title: "Flatpack Festival"
-  situation: THE EXCHANGE
-  location: birmingham
-  url: 
-  image: 
-  related: GOD MODE (ep. 1)
-  hideon: 
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
   type: live
   date: 14.3
   title: "Futur.Shock"
@@ -125,7 +110,22 @@
   location: london
   url: 
   image: dmstfctn_ica_noindex.jpg
-  related: 
+  related:
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: screening
+  date: 13.3
+  title: "Flatpack Festival"
+  situation: THE EXCHANGE
+  location: birmingham
+  url: 
+  image: 
+  related: GOD MODE (ep. 1)
+  hideon: 
 
 - now: false
   description: 
