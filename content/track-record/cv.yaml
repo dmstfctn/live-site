@@ -18,7 +18,7 @@
   priority: 0
   year: 2024
   type: press
-  date: 8.3
+  date: 7.1
   title: "dmstfctn & Evita Manji"
   situation: COEVAL MAGAZINE
   location: 
@@ -33,7 +33,7 @@
   priority: 0
   year: 2024
   type: group show
-  date: 8.2
+  date: 7.3
   title: "Futuros Descentralizados"
   situation: ETOPIA
   location: zaragoza
@@ -42,19 +42,19 @@
   related: Fango 1000
   hideon: 
 
-- now: next
+- now: false
   description: 
   longdescription: 
   priority: 0
   year: 2024
-  type: live
-  date: 8.1
+  type: screening
+  date: 13.5
   title: "Flatpack Festival"
-  situation: THE EXCHANGE,
+  situation: THE EXCHANGE
   location: Birmingham
   url: 
-  image: etopia_dmstfctn.jpg
-  related: Fango 1000
+  image: 
+  related: GOD MODE (ep. 1)
   hideon: 
 
 - now: false
