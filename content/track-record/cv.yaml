@@ -27,20 +27,20 @@
   related: Waluigi's Purgatory
   hideon: 
 
-- now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: group show
-  date: 7.3
-  title: "Futuros Descentralizados"
-  situation: ETOPIA
-  location: zaragoza
-  url: 
-  image: etopia_dmstfctn.jpg
-  related: Fango 1000
-  hideon: 
+#- now: next
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2024
+#  type: group show
+#  date: 7.3
+#  title: "Futuros Descentralizados"
+#  situation: ETOPIA
+#  location: zaragoza
+#  url: 
+#  image: etopia_dmstfctn.jpg
+#  related: Fango 1000
+#  hideon: 
 
 - now: false
   description: 
@@ -112,20 +112,20 @@
   image: dmstfctn_ica_noindex.jpg
   related:
 
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: screening
-  date: 13.3
-  title: "Flatpack Festival"
-  situation: THE EXCHANGE
-  location: birmingham
-  url: 
-  image: 
-  related: GOD MODE (ep. 1)
-  hideon: 
+#- now: false
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2024
+#  type: screening
+#  date: 13.3
+#  title: "Flatpack Festival"
+#  situation: THE EXCHANGE
+#  location: birmingham
+#  url: 
+#  image: 
+#  related: GOD MODE (ep. 1)
+#  hideon: 
 
 - now: false
   description: 
