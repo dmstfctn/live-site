@@ -1,4 +1,4 @@
-- now: next
+- now: now
   description: "'Waluigi's Purgatory' at SOLO award ceremony"
   longdescription: Showing excerpts from 'Waluigi's Purgatory' at SOLO AI's award ceremony
   priority: 0
@@ -12,9 +12,9 @@
   image: 
   related: Waluigi's Purgatory
 
-- now: next
+- now: now
   description: 
-  longdescription: Presenting a prototype of 'Fango 1000', a fully onchain narrative generation game
+  longdescription: Presenting a prototype of 'Fango 1000', an upcoming onchain narrative generation game
   priority: 0
   year: 2024
   type: group show
@@ -22,12 +22,12 @@
   title: "Futuros Descentralizados"
   situation: ETOPIA
   location: zaragoza
-  url: 
-  image: etopia_dmstfctn.jpg
+  url: https://etopia.es/evento/futuros-descentralizados/
+  image: #etopia_dmstfctn.jpg
   related: Fango 1000
   hideon: 
 
-- now: next
+- now: now
   description: #Performing 'Waluigi's Purgatory' ft. Evita Manji
   longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
   priority: 0
