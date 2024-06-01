@@ -1,4 +1,4 @@
-- now: now
+- now: next
   description: "'Waluigi's Purgatory' at SOLO award ceremony"
   longdescription: Showing excerpts from 'Waluigi's Purgatory' at SOLO AI's award ceremony
   priority: 0
@@ -12,7 +12,7 @@
   image: 
   related: Waluigi's Purgatory
 
-- now: now
+- now: next
   description: 
   longdescription: Presenting a prototype of 'Fango 1000', an upcoming onchain narrative generation game
   priority: 0
@@ -27,7 +27,7 @@
   related: Fango 1000
   hideon: 
 
-- now: now
+- now: next
   description: #Performing 'Waluigi's Purgatory' ft. Evita Manji
   longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
   priority: 0
