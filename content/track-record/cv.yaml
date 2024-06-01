@@ -4,6 +4,20 @@
   priority: 0
   year: 2024
   type: live
+  date: 5.6
+  title: "SOLO AI AWARD"
+  situation: GOLDSMITHS
+  location: london
+  url: https://soloaiaward.com/24edition/
+  image: 
+  related: Waluigi's Purgatory
+
+- now: next
+  description: Performing 'Waluigi's Purgatory' ft. Evita Manji
+  longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
+  priority: 0
+  year: 2024
+  type: live
   date: 14.3
   title: "INDEX Biennial"
   situation: GNRATION
