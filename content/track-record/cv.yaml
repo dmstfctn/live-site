@@ -70,6 +70,20 @@
   related: Waluigi's Purgatory
   hideon: 
 
+- now: next
+  description: 
+  longdescription: "'Godmode Epochs' wins a S+T+ARTS nomination exactly a year after its release"
+  priority: 0
+  year: 2024
+  type: award
+  date: 1.1
+  title: "S+T+ARTS nomination"
+  situation: ARS ELECTRONICA
+  location: 
+  url: https://ars.electronica.art/starts-prize/en/godmode-epochs/
+  image: 
+  related: Godmode Epochs
+
 - now: false
   description: 
   longdescription: 
