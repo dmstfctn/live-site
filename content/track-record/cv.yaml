@@ -57,18 +57,18 @@
 
 - now: next
   description: 
-  longdescription: "dmstfctn and Evita Manji speak to Alasdair Milne about 'Waluigi's Purgatory' (2024)"
+  longdescription: "Interview dmstfctn and Evita Manji speak to Alasdair Milne about 'Waluigi's Purgatory' (2024)"
   priority: 0
   year: 2024
   type: press
   date: 7.1
-  title: "dmstfctn & Evita Manji"
-  situation: COEVAL MAGAZINE
+  title: "what happens when an AI cheats the system?"
+  situation: DAZED
   location: 
-  url: https://www.coeval-magazine.com/coeval/dmstfctn-evita-manji
+  url: https://www.dazeddigital.com/art-photography/article/63033/1/waluigi-s-purgatory-what-happens-when-an-ai-cheats-the-system-dmstfcn
   image: 
   related: Waluigi's Purgatory
-  hideon: 
+  hideon:
 
 - now: next
   description: 
@@ -199,11 +199,26 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory' (2024)"
   priority: 0
   year: 2024
   type: press
   date: 16.2
+  title: "dmstfctn & Evita Manji"
+  situation: COEVAL MAGAZINE
+  location: 
+  url: https://www.coeval-magazine.com/coeval/dmstfctn-evita-manji
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: press
+  date: 7.1
   title: "conversation with dmstfctn & evi"
   situation: T-MAG
   location: 
