@@ -57,12 +57,12 @@
 
 - now: next
   description: 
-  longdescription: "Interview dmstfctn and Evita Manji speak to Alasdair Milne about 'Waluigi's Purgatory' (2024)"
+  longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
   priority: 0
   year: 2024
   type: press
   date: 7.1
-  title: "what happens when an AI cheats the system?"
+  title: "what happens when an AI cheats?"
   situation: DAZED
   location: 
   url: https://www.dazeddigital.com/art-photography/article/63033/1/waluigi-s-purgatory-what-happens-when-an-ai-cheats-the-system-dmstfcn
@@ -199,7 +199,7 @@
 
 - now: false
   description: 
-  longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory' (2024)"
+  longdescription: "dmstfctn and Evita Manji speak to Alasdair Milne about 'Waluigi's Purgatory' (2024)"
   priority: 0
   year: 2024
   type: press
