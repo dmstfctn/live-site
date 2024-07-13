@@ -12,7 +12,7 @@
   image: 
   related: Waluigi's Purgatory
 
-- now: next
+- now: false
   description: "'Waluigi's Purgatory' at SOLO award ceremony"
   longdescription: Showing excerpts from 'Waluigi's Purgatory' at SOLO AI's award ceremony
   priority: 0
@@ -154,20 +154,20 @@
   image: dmstfctn_ica_noindex.jpg
   related:
 
-#- now: false
-#  description: 
-#  longdescription: 
-#  priority: 0
-#  year: 2024
-#  type: screening
-#  date: 13.3
-#  title: "Flatpack Festival"
-#  situation: THE EXCHANGE
-#  location: birmingham
-#  url: 
-#  image: 
-#  related: GOD MODE (ep. 1)
-#  hideon: 
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: screening
+  date: 13.3
+  title: "Flatpack Festival"
+  situation: THE EXCHANGE
+  location: birmingham
+  url: 
+  image: 
+  related: GOD MODE (ep. 1)
+  hideon: mobile
 
 - now: false
   description: 
@@ -196,6 +196,21 @@
 #  url: https://thewrong.org/Directory
 #  image: 
 #  related: Godmode Epochs
+
+- now: false
+  description: 
+  longdescription: "'Waluigi's Purgatory' featured in the latest Wepresent x Wetransfer publication"
+  priority: 0
+  year: 2024
+  type: press
+  date: 19.2
+  title: "Networked Worlds"
+  situation: WEPRESENT
+  location: 
+  url: https://networked-worlds-memo.wetransfer.com/
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
 
 - now: false
   description: 
