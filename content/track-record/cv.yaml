@@ -154,20 +154,20 @@
   image: dmstfctn_ica_noindex.jpg
   related:
 
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: screening
-  date: 13.3
-  title: "Flatpack Festival"
-  situation: THE EXCHANGE
-  location: birmingham
-  url: 
-  image: 
-  related: GOD MODE (ep. 1)
-  hideon: mobile
+#- now: false
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2024
+#  type: screening
+#  date: 13.3
+#  title: "Flatpack Festival"
+#  situation: THE EXCHANGE
+#  location: birmingham
+#  url: 
+#  image: 
+#  related: GOD MODE (ep. 1)
+#  hideon: mobile
 
 - now: false
   description: 
@@ -207,7 +207,7 @@
   title: "Networked Worlds"
   situation: WEPRESENT
   location: 
-  url: https://networked-worlds-memo.wetransfer.com/
+  url: https://drive.google.com/file/d/1oaD7iVhQuTiGl1s-X7r-nGkK6nbjy5fQ/view?pli=1
   image: 
   related: Waluigi's Purgatory
   hideon: 
