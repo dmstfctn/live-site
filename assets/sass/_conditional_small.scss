@@ -102,6 +102,8 @@
     }
     .dc-bio{      
       line-height: 1.25em;
+      height: auto;
+      padding-bottom: 1.1rem;
     }    
       .dc-hide-on-small{
         display: none;
@@ -177,10 +179,13 @@
       padding: 0rem;      
       box-sizing: border-box;
       &.quantised-scroller{
-        position: absolute;
+        //position: absolute;
         .further-hint{
           display: none;
         }
+        .quantised-scroller--hidden{
+          opacity: 1 !important;
+        }        
       }
     }
     .dc-cv--linewrap .dots{
@@ -418,14 +423,14 @@
       position: static;
     }
   
-  .dc-cv.quantised-scroller .quantised-scroller--wrapper{
+ /* .dc-cv.quantised-scroller .quantised-scroller--wrapper{
     // can't be scrolled here
     transform: none !important;
     &::after,
     &::before{
       display:none;
     }
-  }
+  }*/
     .quantised-scroller--hidden{
       opacity: 0;
     }
@@ -553,8 +558,8 @@
   /* ios / notch overrides */
   .dc-item--info,
   .dc-track-record{
-    padding-right: calc( env(safe-area-inset-right) + 1rem );
-    padding-left: calc( env(safe-area-inset-left) + 1rem );
+    padding-right: calc( env(safe-area-inset-right) + 0.8rem );
+    padding-left: calc( env(safe-area-inset-left) + 0.8rem );
   }
   .dc-gfx{
     left: 50%; 

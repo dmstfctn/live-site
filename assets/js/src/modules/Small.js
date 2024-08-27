@@ -201,7 +201,7 @@ Small.prototype.setupInteraction = function(){
     this.hideInteraction( 'back' );
   });
 
-  this.hammertime.on('tap pressup panend', (e) => {    
+  this.hammertime.on('tap pressup', (e) => {    
     if( isZoom ){ return }
     if(e.center.x >= window.innerWidth / 2){      
       this.project.next();
@@ -223,6 +223,27 @@ Small.prototype.setupInteraction = function(){
     }
   });
 
+  let cvScrollPos = 0;
+  let pDelta = 0;  
+  const $cvScroll = this.cvScroller.$scrollable.querySelector(':scope > dl');
+  const maxScroll = $cvScroll.offsetHeight - this.cvScroller.$scrollable.offsetHeight;
+  
+  this.hammertime.on('pan', (e) => {    
+    const deltaY = e.deltaY - pDelta;
+    cvScrollPos += deltaY;
+    if( cvScrollPos < maxScroll * -1 ){
+      cvScrollPos = maxScroll * -1;
+    }
+    if( cvScrollPos > 0 ){
+      cvScrollPos = 0;
+    }
+    $cvScroll.style.transform = 'translateY(' + cvScrollPos + 'px)';
+    pDelta = e.deltaY;
+  });
+
+  this.hammertime.on('panend', (e) => {
+    pDelta = 0;
+  });
 
   // this.$interactionEle.addEventListener('pointerdown', (e) => {
   //   if(e.pageX >= window.innerWidth / 2){
