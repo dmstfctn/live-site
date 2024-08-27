@@ -461,6 +461,20 @@
   hideon: mobile
 
 - now: false
+  longdescription: dmstfctn are awarded the 2022 Alan Turing Institute Public Engagement Grant
+  priority: 0
+  year: 2023
+  type: press
+  date: 
+  title: "Godmode Epochs"
+  situation: ALAN TURING INSTITUTE
+  location: 
+  url: https://www.turing.ac.uk/godmode-epochs
+  image: 
+  related: GOD MODE (ep. 1)
+  hideon: mobile
+
+- now: false
   longdescription: An interview with Christopher Michael on the 'GOD MODE' series (2022—)
   priority: 0
   year: 2023
