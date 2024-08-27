@@ -175,12 +175,12 @@ Small.prototype.setupInteraction = function(){
     this.hideInteraction( 'forward' );
     this.hideInteraction( 'back' );
     this.translate.x = e.center.x;
-    this.translate.y = e.center.y;        
+    this.translate.y = e.center.y;
     update();
     isZoom = true;
   })
 
-  this.hammertime.on('pinchend pinchcancel', (e) => { 
+  this.hammertime.on('pinchend pinchcancel', (e) => {
     this.zoomTimeout = setTimeout( () => {
       this.pScale = this.scale;
       this.scale = minScale;
@@ -216,7 +216,7 @@ Small.prototype.setupInteraction = function(){
   });
 
   this.hammertime.on('press', (e) => { 
-    if(e.center.x >= window.innerWidth / 2){      
+    if(e.center.x >= window.innerWidth / 2){
       this.showInteraction( 'forward' );
     } else {      
       this.showInteraction( 'back' );
@@ -224,12 +224,16 @@ Small.prototype.setupInteraction = function(){
   });
 
   let cvScrollPos = 0;
-  let pDelta = 0;  
+  let pDelta = 0;
   const $cvScroll = this.cvScroller.$scrollable.querySelector(':scope > dl');
   const maxScroll = $cvScroll.offsetHeight - this.cvScroller.$scrollable.offsetHeight;
   
-  this.hammertime.on('pan', (e) => {    
+  this.hammertime.on('pan', (e) => {
+    this.cvScroller.measure();    
     const deltaY = e.deltaY - pDelta;
+    //console.log(  this.cvScroller.lineH , ' , ', deltaY, ' , ', Math.floor( deltaY / this.cvScroller.lineH ) * this.cvScroller.lineH );
+    //if( Math.abs(deltaY) < this.cvScroller.lineH * 0.8 ) return;
+    //cvScrollPos += Math.floor( deltaY / this.cvScroller.lineH ) * this.cvScroller.lineH;
     cvScrollPos += deltaY;
     if( cvScrollPos < maxScroll * -1 ){
       cvScrollPos = maxScroll * -1;
