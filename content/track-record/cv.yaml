@@ -73,7 +73,7 @@
   related: Waluigi's Purgatory
   hideon:
   
-  - now: false
+- now: false
   description: "Real time visuals for Günseli Yalcinkaya's lecture"
   longdescription: Doing real time visuals for CRYPTIDS lecture performance by Günseli Yalcinkaya
   priority: 0
