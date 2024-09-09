@@ -42,6 +42,22 @@
 
 - now: next
   description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: talk
+  date: 1.10
+  title: TBA
+  situation: John Cabot University
+  location: rome
+  url: 
+  image: 
+  related:
+    - Waluigi's Purgatory
+    - ECHO FX
+
+- now: next
+  description: 
   longdescription: Presenting a prototype of 'Fango 1000', an upcoming fully onchain narrative game
   priority: 0
   year: 2024
