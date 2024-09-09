@@ -42,11 +42,11 @@
 
 - now: next
   description: 
-  longdescription: A talk on the AV show 'Waluigi's Purgatory' together with Evita Manji
+  longdescription: A talk expanding on 'Waluigi's Purgatory' (2023) together with Evita Manji
   priority: 0
   year: 2024
   type: talk
-  date: 1.10
+  date: 15.10
   title: Waluigi's Purgatory
   situation: JOHN CABOT UNIVERSITY
   location: rome
@@ -55,6 +55,22 @@
   related:
     - Waluigi's Purgatory
     - ECHO FX
+  hideon: mobile
+
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: talk
+  date: 15.10
+  title: Waluigi's Purgatory
+  situation: JOHN CABOT UNIVERSITY
+  location:
+  url: 
+  image: 
+  related:
+  hideon: dekstop
 
 - now: next
   description: 
