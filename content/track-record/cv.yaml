@@ -1,4 +1,34 @@
 - now: next
+  description: Presenting 'Waluigi's Purgatory' with Evita Manji
+  longdescription: Presenting the interactive AV show 'Waluigi's Purgatory' with Evita Manji
+  priority: 0
+  year: 2024
+  type: live
+  date: 13.10
+  title: "Waluigi's Purgatory"
+  situation: ROMA EUROPA FESTIVAL
+  location: rome
+  url: https://romaeuropa.net/en/festival-2024/waluigis-purgatory/
+  image: 
+  related: Waluigi's Purgatory
+  hideon:
+
+- now: next
+  description: Presenting 'Waluigi's Purgatory' with Evita Manji
+  longdescription: Presenting the interactive AV show 'Waluigi's Purgatory' with Evita Manji
+  priority: 0
+  year: 2024
+  type: live
+  date: 11.10
+  title: "Waluigi's Purgatory"
+  situation: ROBOT FESTIVAL
+  location: bologna
+  url: https://robotfestival.it/en/timetable/
+  image: 
+  related: Waluigi's Purgatory
+  hideon:
+
+- now: next
   description: Presenting 'Waluigi's Purgatory' in Italian
   longdescription: Presenting an exclusive iteration of the AV show 'Waluigi's Purgatory' in Italian
   priority: 0
