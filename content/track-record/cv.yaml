@@ -6,12 +6,11 @@
   type: live
   date: 11.10
   title: ROBOT FESTIVAL
-  situation: 
-  location: bologna
+  situation: bologna 
+  location: 
   url: https://robotfestival.it/en/timetable/
   image: 
   related: Waluigi's Purgatory
-  hideon: 
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' with Evita Manji
@@ -35,12 +34,11 @@
   type: live
   date: 27.9
   title: SMART LIFE FESTIVAL
-  situation: 
-  location: modena
+  situation: modena
+  location: 
   url: https://www.smartlifefestival.it/schedules/waluigi-s-purgatory
   image: 
   related: Waluigi's Purgatory
-  hideon:
 
 - now: next
   description: 
@@ -73,14 +71,14 @@
   hideon:
   
 - now: false
-  description: "Real time visuals for Günseli Yalcinkaya's lecture"
+  description: 
   longdescription: Doing real time visuals for CRYPTIDS lecture performance by Günseli Yalcinkaya
   priority: 0
   year: 2024
   type: live
   date: 14.6
-  title: "CRYPTIDS"
-  situation: SONAR+D
+  title: SONAR+D
+  situation: FIRA MONTJUIC
   location: barcelona
   url: https://sonar.es/en/activity/gunseli-yalcinkaya-presents-cryptids
   image: 
