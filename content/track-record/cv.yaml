@@ -1,30 +1,17 @@
-- now: false
-  description: "Real time visuals for Günseli Yalcinkaya's lecture"
-  longdescription: Doing real time visuals for CRYPTIDS lecture performance by Günseli Yalcinkaya
+- now: next
+  description: Presenting 'Waluigi's Purgatory' in Italian
+  longdescription: Presenting an exclusive iteration of the AV show 'Waluigi's Purgatory' in Italian
   priority: 0
   year: 2024
   type: live
-  date: 14.6
-  title: "CRYPTIDS"
-  situation: SONAR+D
-  location: barcelona
-  url: https://sonar.es/en/activity/gunseli-yalcinkaya-presents-cryptids
+  date: 27.9
+  title: "Waluigi's Purgatory"
+  situation: SMART LIFE FESTIVAL
+  location: modena
+  url: https://www.smartlifefestival.it/schedules/waluigi-s-purgatory
   image: 
   related: Waluigi's Purgatory
-
-- now: false
-  description: "'Waluigi's Purgatory' at SOLO award ceremony"
-  longdescription: Showing excerpts from 'Waluigi's Purgatory' at SOLO AI's award ceremony
-  priority: 0
-  year: 2024
-  type: screening
-  date: 5.6
-  title: "SOLO AI AWARD"
-  situation: GOLDSMITHS
-  location: london
-  url: https://soloaiaward.com/24edition/
-  image: 
-  related: Waluigi's Purgatory
+  hideon:
 
 - now: next
   description: 
@@ -41,20 +28,6 @@
   related: Fango 1000
   hideon: 
 
-- now: false
-  description: #Performing 'Waluigi's Purgatory' ft. Evita Manji
-  longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
-  priority: 0
-  year: 2024
-  type: live
-  date: 14.3
-  title: "INDEX Biennial"
-  situation: GNRATION
-  location: braga
-  url: https://indexmediaarts.com/dmstfctn-evita-manji-kode9-en/
-  image: 
-  related: Waluigi's Purgatory
-
 - now: next
   description: 
   longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
@@ -69,20 +42,34 @@
   image: 
   related: Waluigi's Purgatory
   hideon:
-
-- now: false
-  description: 
-  longdescription: "'Godmode Epochs' wins a S+T+ARTS nomination exactly a year after its release"
+  
+  - now: false
+  description: "Real time visuals for Günseli Yalcinkaya's lecture"
+  longdescription: Doing real time visuals for CRYPTIDS lecture performance by Günseli Yalcinkaya
   priority: 0
   year: 2024
-  type: press
-  date: 1.1
-  title: "S+T+ARTS nomination"
-  situation: ARS ELECTRONICA
-  location: 
-  url: https://ars.electronica.art/starts-prize/en/godmode-epochs/
+  type: live
+  date: 14.6
+  title: "CRYPTIDS"
+  situation: SONAR+D
+  location: barcelona
+  url: https://sonar.es/en/activity/gunseli-yalcinkaya-presents-cryptids
   image: 
-  related: Godmode Epochs
+  related: Waluigi's Purgatory
+
+- now: false
+  description: #Performing 'Waluigi's Purgatory' ft. Evita Manji
+  longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
+  priority: 0
+  year: 2024
+  type: live
+  date: 14.3
+  title: "INDEX Biennial"
+  situation: GNRATION
+  location: braga
+  url: https://indexmediaarts.com/dmstfctn-evita-manji-kode9-en/
+  image: 
+  related: Waluigi's Purgatory
 
 - now: false
   description: 
@@ -153,6 +140,34 @@
   url: 
   image: dmstfctn_ica_noindex.jpg
   related:
+
+- now: false
+  description: "'Waluigi's Purgatory' at SOLO award ceremony"
+  longdescription: Showing excerpts from 'Waluigi's Purgatory' at SOLO AI's award ceremony
+  priority: 0
+  year: 2024
+  type: screening
+  date: 5.6
+  title: "SOLO AI AWARD"
+  situation: GOLDSMITHS
+  location: london
+  url: https://soloaiaward.com/24edition/
+  image: 
+  related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: "'Godmode Epochs' wins a S+T+ARTS nomination exactly a year after its release"
+  priority: 0
+  year: 2024
+  type: press
+  date: 1.1
+  title: "S+T+ARTS nomination"
+  situation: ARS ELECTRONICA
+  location: 
+  url: https://ars.electronica.art/starts-prize/en/godmode-epochs/
+  image: 
+  related: Godmode Epochs
 
 #- now: false
 #  description: 
