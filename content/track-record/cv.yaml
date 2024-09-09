@@ -4,29 +4,14 @@
   priority: 0
   year: 2024
   type: live
-  date: 14.10
-  title: "Waluigi's Purgatory"
-  situation: ROBOT FESTIVAL
+  date: 11.10
+  title: ROBOT FESTIVAL
+  situation: 
   location: bologna
   url: https://robotfestival.it/en/timetable/
   image: 
   related: Waluigi's Purgatory
-  hideon: mobile
-
-- now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 14.10
-  title: "Waluigi's Purgatory"
-  situation: ROBOT
-  location: bologna
-  url: 
-  image: 
-  related: Waluigi's Purgatory
-  hideon: desktop
+  hideon: 
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' with Evita Manji
@@ -35,28 +20,12 @@
   year: 2024
   type: live
   date: 13.10
-  title: "Waluigi's Purgatory"
-  situation: ROMA EUROPA FESTIVAL
+  title: ROMA EUROPA FESTIVAL
+  situation: MATTATOIO
   location: rome
   url: https://romaeuropa.net/en/festival-2024/waluigis-purgatory/
   image: 
   related: Waluigi's Purgatory
-  hideon: mobile
-
-- now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 13.10
-  title: "Waluigi's Purgatory"
-  situation: REF
-  location: roma
-  url: 
-  image: 
-  related: Waluigi's Purgatory
-  hideon: desktop
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' in Italian
@@ -65,28 +34,13 @@
   year: 2024
   type: live
   date: 27.9
-  title: "Waluigi's Purgatory"
-  situation: SMART LIFE FESTIVAL
+  title: SMART LIFE FESTIVAL
+  situation: 
   location: modena
   url: https://www.smartlifefestival.it/schedules/waluigi-s-purgatory
   image: 
   related: Waluigi's Purgatory
-  hideon: mobile
-
-- now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 27.9
-  title: "Waluigi's Purgatory"
-  situation: SMART LIFE
-  location: modena
-  url: 
-  image: 
-  related: Waluigi's Purgatory
-  hideon: desktop
+  hideon:
 
 - now: next
   description: 
