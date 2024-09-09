@@ -1,4 +1,4 @@
-- now: next
+- now: false
   description: "Real time visuals for Günseli Yalcinkaya's lecture"
   longdescription: Doing real time visuals for CRYPTIDS lecture performance by Günseli Yalcinkaya
   priority: 0
@@ -41,7 +41,7 @@
   related: Fango 1000
   hideon: 
 
-- now: next
+- now: false
   description: #Performing 'Waluigi's Purgatory' ft. Evita Manji
   longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
   priority: 0
@@ -70,7 +70,7 @@
   related: Waluigi's Purgatory
   hideon:
 
-- now: next
+- now: false
   description: 
   longdescription: "'Godmode Epochs' wins a S+T+ARTS nomination exactly a year after its release"
   priority: 0
