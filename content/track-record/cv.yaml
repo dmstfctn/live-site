@@ -11,7 +11,22 @@
   url: https://robotfestival.it/en/timetable/
   image: 
   related: Waluigi's Purgatory
-  hideon:
+  hideon: mobile
+
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 14.10
+  title: "Waluigi's Purgatory"
+  situation: ROBOT
+  location: bologna
+  url: 
+  image: 
+  related: Waluigi's Purgatory
+  hideon: desktop
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' with Evita Manji
@@ -26,7 +41,22 @@
   url: https://romaeuropa.net/en/festival-2024/waluigis-purgatory/
   image: 
   related: Waluigi's Purgatory
-  hideon:
+  hideon: mobile
+
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 13.10
+  title: "Waluigi's Purgatory"
+  situation: REF
+  location: roma
+  url: 
+  image: 
+  related: Waluigi's Purgatory
+  hideon: desktop
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' in Italian
@@ -41,7 +71,22 @@
   url: https://www.smartlifefestival.it/schedules/waluigi-s-purgatory
   image: 
   related: Waluigi's Purgatory
-  hideon:
+  hideon: mobile
+
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 27.9
+  title: "Waluigi's Purgatory"
+  situation: SMART LIFE
+  location: modena
+  url: 
+  image: 
+  related: Waluigi's Purgatory
+  hideon: desktop
 
 - now: next
   description: 
