@@ -74,7 +74,22 @@
 
 - now: next
   description: 
-  longdescription: Presenting a prototype of 'Fango 1000', an upcoming fully onchain narrative game
+  longdescription: Exhibiting a series of video excerpts through an interactive, contextual interface 
+  priority: 0
+  year: 2024
+  type: group show
+  date: 28.9
+  title: "Waluigi's Purgatory"
+  situation: ARE YOU FOR REAL
+  location: 
+  url: https://ru4real.de/
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: next
+  description: 
+  longdescription: Exhibiting a prototype of the onchain multiplayer narrative game 'Fango 1000'
   priority: 0
   year: 2024
   type: group show
