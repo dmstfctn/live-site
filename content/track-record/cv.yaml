@@ -138,12 +138,28 @@
   year: 2024
   type: live
   date: 14.6
-  title: CRYPTIDS w/ Gunseli Yalcinkaya
+  title: CRYPTIDS with Gunseli Yalcinkaya
   situation: SONAR+D
   location: barcelona
   url: 
   image: dmstfctn-gunseli-yalcinkaya-cryptids-sonar.jpg
   related: Waluigi's Purgatory
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 14.6
+  title: CRYPTIDS
+  situation: SONAR+D
+  location: barcelona
+  url: 
+  image: 
+  related: Waluigi's Purgatory
+  hideon: desktop
 
 - now: false
   description: 
