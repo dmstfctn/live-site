@@ -118,8 +118,8 @@
   hideon:
 
 - now: false
-  description: #Performing 'Waluigi's Purgatory' ft. Evita Manji
-  longdescription: Performing the interactive AV show 'Waluigi's Purgatory' (2024) with Evita Manji
+  description: 
+  longdescription: 
   priority: 0
   year: 2024
   type: live
@@ -133,7 +133,7 @@
 
 - now: false
   description: 
-  longdescription: Doing real time visuals for CRYPTIDS lecture performance by Günseli Yalcinkaya
+  longdescription: 
   priority: 0
   year: 2024
   type: live
