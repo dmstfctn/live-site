@@ -295,8 +295,7 @@
     .dc-sitenav--entry__track-record{
       display: none;
     }
-    &:before,
-    &:after{
+    .dc-sitenav__arrow {
       display: block;
       position: absolute;
       height: 100%;
@@ -306,16 +305,26 @@
       width: auto;
       z-index: unset;
       font-size: 1.3rem;
+      width: 1.5rem;
     }
-    &:before{
-      content: '\21DC';
-      left: 0.6rem;
+    .dc-sitenav__arrow svg path{
+      fill: #fff;
     }
-    &:after{
-      content: '\21DD';
-      right: 0.6rem;
+    .dc-sitenav__left{
+      //content: '\21DC';
+      left: 1rem;
     }
-    html[data-dc-pagetype="home"] &:before{
+      .dc-sitenav__left svg{
+        transform: translateY(0.6rem) rotate(-135deg);
+      }
+    .dc-sitenav__right{
+      //content: '\21DD';
+      right: 1rem;
+    }
+    .dc-sitenav__right svg{
+      transform: translateY(0.6rem) rotate(45deg);
+    }
+    html[data-dc-pagetype="home"] & .dc-sitenav__arrow.dc-sitenav__left{
       display: none;
     }
   }
@@ -324,7 +333,7 @@
       width: 61%;      
       margin-right: 0;
       position: absolute;
-    left: 50%;
+      left: 50%;
       transform: translateX(-50%);
       .dc-sitenav--pronounce{
         right: -12.5%;

@@ -1,4 +1,7 @@
 <nav class="dc-sitenav dc-sitenav__main">
+  <div class="dc-sitenav__left dc-sitenav__arrow dc-hide-on-large">
+    {{> svg_arrow}}
+  </div>
   <div class="dc-sitenav--text">
     <div class="dc-sitenav--line dc-sitenav--line__one">
       <a href="{{dc_urlpath "" }}" data-dc-localtarget="#related-matters">
@@ -50,6 +53,9 @@
     <div class="face" data-face="8"></div>
     <div class="face" data-face="4"></div>
   </a>
+  <div class="dc-sitenav__right dc-sitenav__arrow dc-hide-on-large">
+    {{> svg_arrow}}
+  </div>
 </nav>
 {{#each navigation}}
   {{> (lookup . 'template') }}
