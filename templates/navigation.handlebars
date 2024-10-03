@@ -3,7 +3,12 @@
     <div class="dc-sitenav--line dc-sitenav--line__one">
       <a href="{{dc_urlpath "" }}" data-dc-localtarget="#related-matters">
        <span class="visuallyhidden">dmstfctn (pronounced demystification)</span>
-       {{> svg_header_text }}
+       <span class="dc-hide-on-small">
+        {{> svg_header_text }}
+       </span>
+       <span class="dc-hide-on-large">
+        {{> svg_header_text_small }}
+       </span>
       </a>      
     </div>
     <div class="dc-sitenav--line dc-sitenav--line__two condensed">     
