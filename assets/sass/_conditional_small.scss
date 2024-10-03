@@ -282,23 +282,59 @@
         margin-bottom: 1rem;
       }
     }
-
+  
   .dc-sitenav{
     height: 2.8rem;
     padding-right: 0.4rem;
     margin-top: .2rem;
     z-index: 60;
     font-size: 1rem;
+    pointer-events: none;
     &:before,
     .dc-sitenav--entry__focus-groups,
     .dc-sitenav--entry__track-record{
       display: none;
     }
+    .dc-sitenav__arrow {
+      display: block;
+      position: absolute;
+      height: 100%;
+      line-height: 2.8rem;
+      top: 0;
+      background: transparent;
+      width: auto;
+      z-index: unset;
+      font-size: 1.3rem;
+      width: 1.5rem;
+    }
+    .dc-sitenav__arrow svg path{
+      fill: #fff;
+    }
+    .dc-sitenav__left{
+      //content: '\21DC';
+      left: 1rem;
+    }
+      .dc-sitenav__left svg{
+        transform: translateY(0.6rem) rotate(-135deg);
+      }
+    .dc-sitenav__right{
+      //content: '\21DD';
+      right: 1rem;
+    }
+    .dc-sitenav__right svg{
+      transform: translateY(0.6rem) rotate(45deg);
+    }
+    html[data-dc-pagetype="home"] & .dc-sitenav__arrow.dc-sitenav__left{
+      display: none;
+    }
   }
 
     .dc-sitenav--text{
-      width: 50%;      
-      margin-right: 0.2rem;
+      width: 61%;      
+      margin-right: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
       .dc-sitenav--pronounce{
         right: -12.5%;
       }
@@ -308,22 +344,24 @@
       .dc-sitenav--line__two{
         display: none;        
       }    
+
     }
     .dc-faces{
       height: 2.4rem !important;
       margin-top: -.2rem;
+      display: none;
       .face{
         height: 2.4rem;
         width: 2.1rem;
       }
     }
   html[data-dc-pagetype="home"] .dc-sitenav a[href="#{$urlRoot}"] svg path{
-    &[stroke]{
-      stroke: #FF0000 !important;
-    }
-    &[fill]{
-      fill: #FF0000 !important;
-    }
+    // &[stroke]{
+    //   stroke: #FF0000 !important;
+    // }
+    // &[fill]{
+    //   fill: #FF0000 !important;
+    // }
   }
 
   html[data-dc-pagetype="focusgroup"]{ 
@@ -549,7 +587,7 @@
     left: 50%;
     transform: translateX(-50%);
     height: 3.2rem;
-    width: 100%;
+    width: 50%;
     //background: rgba(0,255,0,0.5);
     z-index: 60;
     display: block;
