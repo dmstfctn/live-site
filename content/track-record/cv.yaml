@@ -4,11 +4,11 @@
   priority: 0
   year: 2024
   type: live
-  date: 11.10
-  title: ROBOT FESTIVAL
-  situation: bologna
-  location: 
-  url: https://robotfestival.it/en/timetable/
+  date: 13.10
+  title: ROMA EUROPA FESTIVAL
+  situation: MATTATOIO
+  location: rome
+  url: https://romaeuropa.net/en/festival-2024/waluigis-purgatory/
   image: 
   related: Waluigi's Purgatory
 
@@ -18,11 +18,11 @@
   priority: 0
   year: 2024
   type: live
-  date: 13.10
-  title: ROMA EUROPA FESTIVAL
-  situation: MATTATOIO
-  location: rome
-  url: https://romaeuropa.net/en/festival-2024/waluigis-purgatory/
+  date: 11.10
+  title: ROBOT FESTIVAL
+  situation: bologna
+  location: 
+  url: https://robotfestival.it/en/timetable/
   image: 
   related: Waluigi's Purgatory
 
