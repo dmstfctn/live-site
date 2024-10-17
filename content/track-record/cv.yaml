@@ -1,6 +1,6 @@
 - now: next
   description: Presenting 'Waluigi's Purgatory' with Evita Manji
-  longdescription: Presenting the interactive AV show 'Waluigi's Purgatory' with Evita Manji
+  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
   priority: 0
   year: 2024
   type: live
@@ -14,7 +14,7 @@
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' with Evita Manji
-  longdescription: Presenting the interactive AV show 'Waluigi's Purgatory' with Evita Manji
+  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
   priority: 0
   year: 2024
   type: live
@@ -28,7 +28,7 @@
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' in Italian
-  longdescription: Presenting an exclusive iteration of the AV show 'Waluigi's Purgatory' in Italian
+  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
   priority: 0
   year: 2024
   type: live
@@ -94,7 +94,7 @@
   year: 2024
   type: group show
   date: 7.3
-  title: "Decentralised Futures"
+  title: "Decentralized Futures"
   situation: ETOPIA
   location: zaragoza
   url: https://etopia.es/evento/futuros-descentralizados/
