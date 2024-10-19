@@ -1,3 +1,17 @@
+#- now: next
+#  description: Performing 'Waluigi's Purgatory' in Milan
+#  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
+#  priority: 0
+#  year: 2024
+#  type: live
+#  date: 8.11
+#  title: "Waluigi's Purgatory"
+#  situation: MEET
+#  location: milan
+#  url: https://www.meetcenter.it/it/agenda/
+#  image: 
+#  related: Waluigi's Purgatory
+
 - now: next
   description: Presenting 'Waluigi's Purgatory' with Evita Manji
   longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
@@ -25,52 +39,6 @@
   url: https://robotfestival.it/en/timetable/
   image: 
   related: Waluigi's Purgatory
-
-- now: next
-  description: Presenting 'Waluigi's Purgatory' in Italian
-  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
-  priority: 0
-  year: 2024
-  type: live
-  date: 27.9
-  title: SMART LIFE FESTIVAL
-  situation: TEATRO S CARLO
-  location: modena
-  url: https://www.smartlifefestival.it/schedules/waluigi-s-purgatory
-  image: 
-  related: Waluigi's Purgatory
-
-- now: next
-  description: 
-  longdescription: A talk by dmstfctn and Evita Manji on their recent collaborative performance work
-  priority: 0
-  year: 2024
-  type: talk
-  date: 15.10
-  title: Kill the Luigi in your head
-  situation: JOHN CABOT UNIVERSITY
-  location: rome
-  url: https://delightsanddisturbances.org/?p=528
-  image: 
-  related:
-    - Waluigi's Purgatory
-    - ECHO FX
-  hideon: mobile
-
-- now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: talk
-  date: 15.10
-  title: Kill the Luigi in your head
-  situation: JOHN CABOT U
-  location: rome
-  url: 
-  image: 
-  related:
-  hideon: desktop
 
 - now: next
   description: 
@@ -104,6 +72,20 @@
 
 - now: next
   description: 
+  longdescription: dmstfctn speak to NERO about their performance 'Waluigi's Purgatory'
+  priority: 0
+  year: 2024
+  type: talk
+  date: 15.10
+  title: Kill the Luigi in your head
+  situation: NERO
+  location: 
+  url: https://www.neroeditions.com/kill-the-luigi-in-your-head/
+  image: 
+  related: Waluigi's Purgatory
+
+- now: next
+  description: 
   longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
   priority: 0
   year: 2024
@@ -116,6 +98,20 @@
   image: 
   related: Waluigi's Purgatory
   hideon:
+
+- now: false
+  description: Presenting 'Waluigi's Purgatory' in Italian
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 27.9
+  title: SMART LIFE FESTIVAL
+  situation: TEATRO S CARLO
+  location: modena
+  url: 
+  image: dmstfctn-waluigi'spurgatory-smart-life-festival.jpg
+  related: Waluigi's Purgatory
 
 - now: false
   description: 
