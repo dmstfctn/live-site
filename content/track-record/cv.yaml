@@ -1,16 +1,16 @@
-#- now: next
-#  description: Performing 'Waluigi's Purgatory' in Milan
-#  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
-#  priority: 0
-#  year: 2024
-#  type: live
-#  date: 8.11
-#  title: "Waluigi's Purgatory"
-#  situation: MEET
-#  location: milan
-#  url: https://www.meetcenter.it/it/agenda/
-#  image: 
-#  related: Waluigi's Purgatory
+- now: next
+  description: Performing 'Waluigi's Purgatory' in Milan
+  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
+  priority: 0
+  year: 2024
+  type: live
+  date: 8.11
+  title: "Waluigi's Purgatory"
+  situation: MEET
+  location: milan
+  url: https://www.meetcenter.it/it/event/artecho-night-waluigis-purgatory/
+  image: 
+  related: Waluigi's Purgatory
 
 - now: next
   description: Presenting 'Waluigi's Purgatory' with Evita Manji
