@@ -1,4 +1,4 @@
-- now: next
+- now: true
   description: launch of 'The Models', infinite ai improv theatre
   longdescription: Launch of 'The Models', an endless interactive installation about the quirks of AI
   priority: 0
@@ -12,7 +12,7 @@
   image: 
   related: The Models
 
-- now: next
+- now: true
   description: 
   longdescription: Training a custom AI model in top 4 supercomputer in the world for a new installation
   priority: 0
@@ -26,7 +26,7 @@
   image: 
   related: The Models
 
-- now: next
+- now: true
   description: 
   longdescription: Showing Waluigi's Purgatory' excerpts through an interactive contextual interface 
   priority: 0
@@ -41,7 +41,7 @@
   related: Waluigi's Purgatory
   hideon: 
   
-- now: next
+- now: true
   description: 
   longdescription: dmstfctn speak to NERO about their performance 'Waluigi's Purgatory'
   priority: 0
@@ -55,7 +55,7 @@
   image: 
   related: Waluigi's Purgatory
 
-- now: next
+- now: true
   description: 
   longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
   priority: 0
@@ -71,8 +71,8 @@
   hideon:
 
 - now: false
-  description: Performing 'Waluigi's Purgatory' in Milan
-  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
+  description: 
+  longdescription: 
   priority: 0
   year: 2024
   type: live
@@ -81,12 +81,12 @@
   situation: MEET
   location: milan
   url: 
-  image: dmstfctn-meet-milan-waluigi's-purgatory.jpg
+  image: dmstfctn-meet-milan-waluigi-purgatory.jpg
   related: Waluigi's Purgatory
 
 - now: false
-  description: Presenting 'Waluigi's Purgatory' with Evita Manji
-  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
+  description: 
+  longdescription: 
   priority: 0
   year: 2024
   type: live
@@ -95,12 +95,12 @@
   situation: MATTATOIO
   location: rome
   url: 
-  image: dmstfctn-roma-europa-mattatoio-waluigi's-purgatory.jpg
+  image: dmstfctn-roma-europa-mattatoio-waluigi-purgatory.jpg
   related: Waluigi's Purgatory
 
 - now: false
-  description: Presenting 'Waluigi's Purgatory' with Evita Manji
-  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
+  description: 
+  longdescription: 
   priority: 0
   year: 2024
   type: live
@@ -109,7 +109,7 @@
   situation: bologna
   location: 
   url: 
-  image: dmstfctn-robot-festival-waluigi's-purgatory.jpg
+  image: dmstfctn-robot-festival-waluigi-purgatory.jpg
   related: Waluigi's Purgatory
 
 - now: false
@@ -138,7 +138,7 @@
   situation: TEATRO S CARLO
   location: modena
   url: 
-  image: dmstfctn-waluigi'spurgatory-smart-life-festival.jpg
+  image: dmstfctn-waluigi-purgatory-smart-life-festival.jpg
   related: Waluigi's Purgatory
 
 - now: false
