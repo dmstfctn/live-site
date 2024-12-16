@@ -1,48 +1,34 @@
 - now: next
-  description: Performing 'Waluigi's Purgatory' in Milan
-  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
+  description: launch of 'The Models', infinite ai improv theatre
+  longdescription: Launch of 'The Models', an endless interactive installation about the quirks of AI
   priority: 0
-  year: 2024
-  type: live
-  date: 8.11
-  title: "Waluigi's Purgatory"
-  situation: MEET
-  location: milan
-  url: https://www.meetcenter.it/it/event/artecho-night-waluigis-purgatory/
+  year: 2025
+  type: installation
+  date: 7.2
+  title: ART CITY
+  situation: Tecnopolo
+  location: bologna
+  url: https://www.culturabologna.it/documents/artcity
   image: 
-  related: Waluigi's Purgatory
-
-- now: next
-  description: Presenting 'Waluigi's Purgatory' with Evita Manji
-  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
-  priority: 0
-  year: 2024
-  type: live
-  date: 13.10
-  title: ROMA EUROPA FESTIVAL
-  situation: MATTATOIO
-  location: rome
-  url: https://romaeuropa.net/en/festival-2024/waluigis-purgatory/
-  image: 
-  related: Waluigi's Purgatory
-
-- now: next
-  description: Presenting 'Waluigi's Purgatory' with Evita Manji
-  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
-  priority: 0
-  year: 2024
-  type: live
-  date: 11.10
-  title: ROBOT FESTIVAL
-  situation: bologna
-  location: 
-  url: https://robotfestival.it/en/timetable/
-  image: 
-  related: Waluigi's Purgatory
+  related: The Models
 
 - now: next
   description: 
-  longdescription: Exhibiting a series of video excerpts through an interactive, contextual interface 
+  longdescription: Training a custom AI model in top 4 supercomputer in the world for a new installation
+  priority: 0
+  year: 2024
+  type: residency
+  date: 7.2
+  title: European Digital Deal
+  situation: Leonardo Supercomputer
+  location: bologna
+  url: https://ars.electronica.art/eudigitaldeal/en/residencies/the-models-by-dmstfctn/
+  image: 
+  related: The Models
+
+- now: next
+  description: 
+  longdescription: Showing Waluigi's Purgatory' excerpts through an interactive contextual interface 
   priority: 0
   year: 2024
   type: group show
@@ -54,22 +40,7 @@
   image: 
   related: Waluigi's Purgatory
   hideon: 
-
-- now: next
-  description: 
-  longdescription: Exhibiting a prototype of the onchain multiplayer narrative game 'Fango 1000'
-  priority: 0
-  year: 2024
-  type: group show
-  date: 7.3
-  title: "Decentralized Futures"
-  situation: ETOPIA
-  location: zaragoza
-  url: https://etopia.es/evento/futuros-descentralizados/
-  image: #etopia_dmstfctn.jpg
-  related: Fango 1000
-  hideon: 
-
+  
 - now: next
   description: 
   longdescription: dmstfctn speak to NERO about their performance 'Waluigi's Purgatory'
@@ -98,6 +69,63 @@
   image: 
   related: Waluigi's Purgatory
   hideon:
+
+- now: false
+  description: Performing 'Waluigi's Purgatory' in Milan
+  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' in Italian
+  priority: 0
+  year: 2024
+  type: live
+  date: 8.11
+  title: "Waluigi's Purgatory"
+  situation: MEET
+  location: milan
+  url: 
+  image: dmstfctn-meet-milan-waluigi's-purgatory.jpg
+  related: Waluigi's Purgatory
+
+- now: false
+  description: Presenting 'Waluigi's Purgatory' with Evita Manji
+  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
+  priority: 0
+  year: 2024
+  type: live
+  date: 13.10
+  title: ROMA EUROPA FESTIVAL
+  situation: MATTATOIO
+  location: rome
+  url: 
+  image: dmstfctn-roma-europa-mattatoio-waluigi's-purgatory.jpg
+  related: Waluigi's Purgatory
+
+- now: false
+  description: Presenting 'Waluigi's Purgatory' with Evita Manji
+  longdescription: Presenting the interactive performance 'Waluigi's Purgatory' with Evita Manji
+  priority: 0
+  year: 2024
+  type: live
+  date: 11.10
+  title: ROBOT FESTIVAL
+  situation: bologna
+  location: 
+  url: 
+  image: dmstfctn-robot-festival-waluigi's-purgatory.jpg
+  related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: Exhibiting a prototype of the onchain multiplayer narrative game 'Fango 1000'
+  priority: 0
+  year: 2024
+  type: group show
+  date: 7.3
+  title: "Decentralized Futures"
+  situation: ETOPIA
+  location: zaragoza
+  url: 
+  image: etopia_dmstfctn.jpg
+  related: Fango 1000
+  hideon: 
 
 - now: false
   description: Presenting 'Waluigi's Purgatory' in Italian
