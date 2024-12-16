@@ -115,7 +115,7 @@
 
 - now: false
   description: 
-  longdescription: Exhibiting a prototype of the onchain multiplayer narrative game 'Fango 1000'
+  longdescription: 
   priority: 0
   year: 2024
   type: group show
@@ -256,19 +256,19 @@
   image: dmstfctn_ica_noindex.jpg
   related:
 
-- now: false
-  description: "'Waluigi's Purgatory' at SOLO award ceremony"
-  longdescription: Showing excerpts from 'Waluigi's Purgatory' at SOLO AI's award ceremony
-  priority: 0
-  year: 2024
-  type: screening
-  date: 5.6
-  title: "SOLO AI AWARD"
-  situation: GOLDSMITHS
-  location: london
-  url: https://soloaiaward.com/24edition/
-  image: 
-  related: Waluigi's Purgatory
+#- now: false
+#  description: "'Waluigi's Purgatory' at SOLO award ceremony"
+#  longdescription: 
+#  priority: 0
+#  year: 2024
+#  type: screening
+#  date: 5.6
+#  title: "SOLO AI AWARD"
+#  situation: GOLDSMITHS
+#  location: london
+#  url: https://soloaiaward.com/24edition/
+#  image: 
+#  related: Waluigi's Purgatory
 
 - now: false
   description: 
