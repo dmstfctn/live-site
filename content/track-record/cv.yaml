@@ -1,10 +1,10 @@
-- now: true
+- now: next
   description: launch of 'The Models', infinite ai improv theatre
   longdescription: Launch of 'The Models', an endless interactive installation about the quirks of AI
   priority: 0
-  year: 2025
+  year: 2024
   type: installation
-  date: 7.2
+  date: 2.12
   title: ART CITY
   situation: Tecnopolo
   location: bologna
@@ -12,13 +12,13 @@
   image: 
   related: The Models
 
-- now: true
+- now: next
   description: 
-  longdescription: Training a custom AI model in top 4 supercomputer in the world for a new installation
+  longdescription: Training custom AI in top 4 supercomputer in the world for a new installation
   priority: 0
   year: 2024
   type: residency
-  date: 7.2
+  date: 1.12
   title: European Digital Deal
   situation: Leonardo Supercomputer
   location: bologna
@@ -26,9 +26,9 @@
   image: 
   related: The Models
 
-- now: true
+- now: next
   description: 
-  longdescription: Showing Waluigi's Purgatory' excerpts through an interactive contextual interface 
+  longdescription: Showing 'Waluigi's Purgatory' excerpts through an interactive contextual interface 
   priority: 0
   year: 2024
   type: group show
@@ -41,7 +41,7 @@
   related: Waluigi's Purgatory
   hideon: 
   
-- now: true
+- now: next
   description: 
   longdescription: dmstfctn speak to NERO about their performance 'Waluigi's Purgatory'
   priority: 0
@@ -55,7 +55,7 @@
   image: 
   related: Waluigi's Purgatory
 
-- now: true
+- now: next
   description: 
   longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
   priority: 0
