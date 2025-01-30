@@ -29,15 +29,15 @@
 
 - now: next
   description: 
-  longdescription: Showing 'Waluigi's Purgatory' excerpts through an interactive contextual interface 
+  longdescription: Showing 'Waluigi's Purgatory' as an interactive standalone installation
   priority: 0
   year: 2024
   type: group show
   date: 28.9
-  title: "Waluigi's Purgatory"
-  situation: ARE YOU FOR REAL
-  location: 
-  url: https://ru4real.de/cluster5.html
+  title: East London Art Prize
+  situation: NUNNERY GALLERY
+  location: London
+  url: https://bowarts.org/event/east-london-art-prize-shortlist-exhibition-2025/
   image: 
   related: Waluigi's Purgatory
   hideon: 
@@ -112,6 +112,21 @@
   url: 
   image: dmstfctn-robot-festival-waluigi-purgatory.jpg
   related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: Showing 'Waluigi's Purgatory' excerpts through an interactive contextual interface 
+  priority: 0
+  year: 2024
+  type: group show
+  date: 28.9
+  title: "Waluigi's Purgatory"
+  situation: ARE YOU FOR REAL
+  location: 
+  url: https://ru4real.de/cluster5.html
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
 
 - now: false
   description: 
