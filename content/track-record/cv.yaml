@@ -16,7 +16,7 @@
 
 - now: next
   description: 
-  longdescription: Showing Godmode Epochs (2023) as an interactive standalone installation
+  longdescription: Showing the AI-training video game Godmode Epochs (2023) online
   priority: 0
   year: 2024
   type: group show
@@ -31,7 +31,7 @@
 
 - now: next
   description: 
-  longdescription: Showing 'Waluigi's Purgatory' as an interactive standalone installation
+  longdescription: Showing Waluigi's Purgatory (2024) as an interactive standalone installation
   priority: 0
   year: 2024
   type: group show
@@ -46,7 +46,7 @@
 
 - now: next
   description: 
-  longdescription: dmstfctn and Lawrence Lek talk about improvisation, roleplaying and misbehaviour in AI
+  longdescription: dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
   priority: 0
   year: 2024
   type: news
@@ -117,7 +117,7 @@
 
 - now: false
   description: 
-  longdescription: Showing 'Waluigi's Purgatory' excerpts through an interactive contextual interface 
+  longdescription: Showing excerpts from Waluigi's Purgatory (2024) with contextual notes
   priority: 0
   year: 2024
   type: group show
@@ -146,7 +146,7 @@
   hideon: 
 
 - now: false
-  description: Presenting 'Waluigi's Purgatory' in Italian
+  description: 
   longdescription: 
   priority: 0
   year: 2024
@@ -289,7 +289,7 @@
 
 - now: false
   description: 
-  longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
+  longdescription: "dmstfctn speak to Günseli Yalcinkaya about Waluigi's Purgatory (2024)"
   priority: 0
   year: 2024
   type: news
@@ -304,7 +304,7 @@
 
 - now: false
   description: 
-  longdescription: dmstfctn speak to NERO about their performance 'Waluigi's Purgatory'
+  longdescription: dmstfctn speak to NERO about Waluigi's Purgatory (2024)
   priority: 0
   year: 2024
   type: news
@@ -318,7 +318,7 @@
 
 - now: false
   description: 
-  longdescription: "dmstfctn and Evita Manji speak to Alasdair Milne about 'Waluigi's Purgatory' (2024)"
+  longdescription: "dmstfctn & Evita Manji speak to Alasdair Milne about Waluigi's Purgatory (2024)"
   priority: 0
   year: 2024
   type: news
@@ -363,7 +363,7 @@
 
 - now: false
   description: 
-  longdescription: "'Godmode Epochs' wins a S+T+ARTS nomination exactly a year after its release"
+  longdescription: "Godmode Epochs (2023) wins a S+T+ARTS nomination a year after its release"
   priority: 0
   year: 2024
   type: news
@@ -377,7 +377,7 @@
 
 - now: false
   description: 
-  longdescription: "'Waluigi's Purgatory' featured in the latest Wepresent x Wetransfer publication"
+  longdescription: "Waluigi's Purgatory (2024) featured in the Wepresent x Wetransfer publication"
   priority: 0
   year: 2024
   type: news
@@ -392,7 +392,7 @@
 
 - now: false
   description: 
-  longdescription: Training custom AI on the world's top 4 supercomputer for a new installation
+  longdescription: Finetuning a system for endless AI generated theatrical improvisation
   priority: 0
   year: 2024
   type: residency
@@ -407,7 +407,7 @@
 
 - now: false
   description: 
-  longdescription: A talk on the faciality of AI characthers in the 'GOD MODE' series (2022—)
+  longdescription: A talk on the faciality of AI characters in the GOD MODE series (2022-)
   priority: 0
   year: 2024
   type: talk
@@ -523,7 +523,7 @@
 
 - now: false
   description: 
-  longdescription: "'Godmode Epochs' (2023) launch on Serpentine's Twitch with curator Eva Jäger"
+  longdescription: "Godmode Epochs (2023) launch on Serpentine's Twitch with curator Eva Jäger"
   priority: 0
   year: 2023
   type: talk
@@ -609,7 +609,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: Alasdair Milne examines the configuration of 'Godmode Epochs' (2023)
+  longdescription: Alasdair Milne examines the video game Godmode Epochs (2023)
   priority: 0
   year: 2023
   type: news
@@ -637,7 +637,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: An interview with Christopher Michael on the 'GOD MODE' series (2022—)
+  longdescription: An interview with Christopher Michael on the GOD MODE series (2022—)
   priority: 0
   year: 2023
   type: news
@@ -651,7 +651,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: "An interview in Italian expanding on the vide ogame 'Godmode Epochs' (2023)"
+  longdescription: "An interview in Italian expanding on the vide ogame Godmode Epochs (2023)"
   priority: 0
   year: 2023
   type: news
@@ -1201,7 +1201,7 @@
   hideon: desktop
 
 - now: false
-  longdescription: A presentation of the 'Offshore Investigation Vehicle' project (2017-18)
+  longdescription: Discussing the participative artwork Offshore Investigation Vehicle (2018)
   priority: 0
   year: 2018
   type: talk
@@ -1218,7 +1218,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: A presentation of the 'Offshore Investigation Vehicle' project (2017-18)
+  longdescription: Discussing the participative artwork Offshore Investigation Vehicle (2018)
   priority: 0
   year: 2018
   type: talk
@@ -1233,7 +1233,7 @@
 
 # ## 2018 ## talk ############## #
 - now: false
-  longdescription: A talk on sonic work, part of the panel "Algorithms And Financial Speculation"
+  longdescription: Discussing sonic experimentation with algorithms and financial speculation
   priority: 0
   year: 2018
   type: talk
@@ -1248,7 +1248,7 @@
     - Demons
 
 - now: false
-  longdescription: A presentation of the 'Offshore Investigation Vehicle' project (2017-18)
+  longdescription: Discussing the participative artwork Offshore Investigation Vehicle (2018)
   priority: 0
   year: 2018
   type: talk
