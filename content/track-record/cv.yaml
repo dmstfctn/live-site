@@ -5,7 +5,7 @@
   priority: 0
   year: 2024
   type: solo show
-  date: 2.12
+  date: 
   title: ART CITY
   situation: TECNOPOLO
   location: bologna
@@ -20,7 +20,7 @@
   priority: 0
   year: 2024
   type: group show
-  date: 28.9
+  date: 
   title: Operating Systems 2
   situation: Singapore Art Museum
   location: SINGAPORE
@@ -35,7 +35,7 @@
   priority: 0
   year: 2024
   type: group show
-  date: 28.9
+  date: 
   title: East London Art Prize
   situation: NUNNERY GALLERY
   location: 
@@ -48,9 +48,9 @@
   description: 
   longdescription: dmstfctn and Lawrence Lek talk about improvisation, roleplaying and misbehaviour in AI
   priority: 0
-  year: 2025
+  year: 2024
   type: news
-  date: 30.1
+  date: 
   title: Computation, Improvisation, Narration
   situation: Digital Deal podcast
   location: 
@@ -62,9 +62,9 @@
   description: 
   longdescription: Interview about The Models (2025), endless AI-generated improv theatre
   priority: 0
-  year: 2025
+  year: 2024
   type: news
-  date: 12.2
+  date: 
   title: What happens when AI lies?
   situation: DOMUS
   location: 
