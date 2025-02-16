@@ -1,9 +1,10 @@
+#------------------------------------------------2025
 - now: next
   description: launch of 'The Models', infinite ai improv theatre
   longdescription: Launch of 'The Models', an endless interactive installation about the quirks of AI
   priority: 0
   year: 2024
-  type: installation
+  type: solo show
   date: 2.12
   title: ART CITY
   situation: TECNOPOLO
@@ -11,21 +12,22 @@
   url: https://sineglossa.it/en/news-en/meet-dmstfctn-installation-the-models-at-artcity-bologna/
   image: 
   related: The Models
+  hideon: 
 
 - now: next
   description: 
-  longdescription: Training custom AI on the world's top 4 supercomputer for a new installation
+  longdescription: Showing Godmode Epochs (2023) as an interactive standalone installation
   priority: 0
   year: 2024
-  type: residency
-  date: 1.12
-  title: European Digital Deal
-  situation: LEONARDO SUPERCOMPUTER
-  location: bologna
-  url: https://ars.electronica.art/eudigitaldeal/en/residencies/the-models-by-dmstfctn/
+  type: group show
+  date: 28.9
+  title: Operating Systems 2
+  situation: Singapore Art Museum
+  location: SINGAPORE
+  url: https://opensystems.sg/
   image: 
-  related: The Models
-  hideon: mobile
+  related: Godmode Epochs
+  hideon: 
 
 - now: next
   description: 
@@ -41,36 +43,36 @@
   image: 
   related: Waluigi's Purgatory
   hideon: 
-  
-- now: next
-  description: 
-  longdescription: dmstfctn speak to NERO about their performance 'Waluigi's Purgatory'
-  priority: 0
-  year: 2024
-  type: press
-  date: 15.10
-  title: Kill the Luigi in your head
-  situation: NERO
-  location: 
-  url: https://www.neroeditions.com/kill-the-luigi-in-your-head/
-  image: 
-  related: Waluigi's Purgatory
 
 - now: next
   description: 
-  longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
+  longdescription: dmstfctn and Lawrence Lek talk about improvisation, roleplaying and misbehaviour in AI
   priority: 0
-  year: 2024
-  type: press
-  date: 7.1
-  title: "what happens when an AI cheats?"
-  situation: DAZED
+  year: 2025
+  type: news
+  date: 30.1
+  title: Computation, Improvisation, Narration
+  situation: Digital Deal podcast
   location: 
-  url: https://www.dazeddigital.com/art-photography/article/63033/1/waluigi-s-purgatory-what-happens-when-an-ai-cheats-the-system-dmstfcn
+  url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
   image: 
-  related: Waluigi's Purgatory
-  hideon:
+  related: The Models
 
+- now: next
+  description: 
+  longdescription: Interview about The Models (2025), endless AI-generated improv theatre
+  priority: 0
+  year: 2025
+  type: news
+  date: 12.2
+  title: What happens when AI lies?
+  situation: DOMUS
+  location: 
+  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
+  image: 
+  related: The Models
+
+#------------------------------------------------2024
 - now: false
   description: 
   longdescription: 
@@ -287,82 +289,39 @@
 
 - now: false
   description: 
-  longdescription: "'Godmode Epochs' wins a S+T+ARTS nomination exactly a year after its release"
+  longdescription: "dmstfctn speak to Günseli Yalcinkaya at DAZED about 'Waluigi's Purgatory'"
   priority: 0
   year: 2024
-  type: press
-  date: 1.1
-  title: "S+T+ARTS nomination"
-  situation: ARS ELECTRONICA
+  type: news
+  date: 7.1
+  title: "what happens when an AI cheats?"
+  situation: DAZED
   location: 
-  url: https://ars.electronica.art/starts-prize/en/godmode-epochs/
-  image: 
-  related: Godmode Epochs
-
-#- now: false
-#  description: 
-#  longdescription: 
-#  priority: 0
-#  year: 2024
-#  type: screening
-#  date: 13.3
-#  title: "Flatpack Festival"
-#  situation: THE EXCHANGE
-#  location: birmingham
-#  url: 
-#  image: 
-#  related: GOD MODE (ep. 1)
-#  hideon: mobile
-
-- now: false
-  description: 
-  longdescription: A talk on the faciality of AI characthers in the 'GOD MODE' series (2022—)
-  priority: 0
-  year: 2024
-  type: talk
-  date: 1.10
-  title: bodystacked
-  situation: LCF
-  location: london
-  url: https://www.youtube.com/watch?v=2VRoknOR9IM&ab_channel=LondonCollegeofFashion
-  image: 
-  related: GOD MODE (ep. 1)
-
-#- now: false
-#  description: 
-#  longdescription: Presenting Godmode Epochs (2023) at the sixth edition of The Wrong Biennale
-#  priority: 0
-#  year: 2024
-#  type: group show
-#  date: 11.1
-#  title: "Directory"
-#  situation: "THE 6<sup>th</sup> WRONG BIENNALE"
-#  location: 
-#  url: https://thewrong.org/Directory
-#  image: 
-#  related: Godmode Epochs
-
-- now: false
-  description: 
-  longdescription: "'Waluigi's Purgatory' featured in the latest Wepresent x Wetransfer publication"
-  priority: 0
-  year: 2024
-  type: press
-  date: 19.2
-  title: "Networked Worlds"
-  situation: WEPRESENT
-  location: 
-  url: https://drive.google.com/file/d/1oaD7iVhQuTiGl1s-X7r-nGkK6nbjy5fQ/view?pli=1
+  url: https://www.dazeddigital.com/art-photography/article/63033/1/waluigi-s-purgatory-what-happens-when-an-ai-cheats-the-system-dmstfcn
   image: 
   related: Waluigi's Purgatory
-  hideon: 
+  hideon:
+
+- now: false
+  description: 
+  longdescription: dmstfctn speak to NERO about their performance 'Waluigi's Purgatory'
+  priority: 0
+  year: 2024
+  type: news
+  date: 15.10
+  title: Kill the Luigi in your head
+  situation: NERO
+  location: 
+  url: https://www.neroeditions.com/kill-the-luigi-in-your-head/
+  image: 
+  related: Waluigi's Purgatory
 
 - now: false
   description: 
   longdescription: "dmstfctn and Evita Manji speak to Alasdair Milne about 'Waluigi's Purgatory' (2024)"
   priority: 0
   year: 2024
-  type: press
+  type: news
   date: 16.2
   title: "dmstfctn & Evita Manji"
   situation: COEVAL MAGAZINE
@@ -377,7 +336,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: press
+  type: news
   date: 7.1
   title: "conversation with evita & dmstfctn"
   situation: T-MAG
@@ -392,7 +351,7 @@
   longdescription: '"Ever wondered whether an Artificial Intelligence could have its own desires?"'
   priority: 0
   year: 2024
-  type: press
+  type: news
   date: 16.2
   title: "In conversation with Evita Manji & dmstfctn"
   situation: T-MAG
@@ -401,6 +360,64 @@
   image: 
   related: Waluigi's Purgatory
   hideon: mobile
+
+- now: false
+  description: 
+  longdescription: "'Godmode Epochs' wins a S+T+ARTS nomination exactly a year after its release"
+  priority: 0
+  year: 2024
+  type: news
+  date: 1.1
+  title: "S+T+ARTS nomination"
+  situation: ARS ELECTRONICA
+  location: 
+  url: https://ars.electronica.art/starts-prize/en/godmode-epochs/
+  image: 
+  related: Godmode Epochs
+
+- now: false
+  description: 
+  longdescription: "'Waluigi's Purgatory' featured in the latest Wepresent x Wetransfer publication"
+  priority: 0
+  year: 2024
+  type: news
+  date: 19.2
+  title: "Networked Worlds"
+  situation: WEPRESENT
+  location: 
+  url: https://drive.google.com/file/d/1oaD7iVhQuTiGl1s-X7r-nGkK6nbjy5fQ/view?pli=1
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: Training custom AI on the world's top 4 supercomputer for a new installation
+  priority: 0
+  year: 2024
+  type: residency
+  date: 1.12
+  title: European Digital Deal
+  situation: LEONARDO SUPERCOMPUTER
+  location: bologna
+  url: https://ars.electronica.art/eudigitaldeal/en/residencies/the-models-by-dmstfctn/
+  image: 
+  related: The Models
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: A talk on the faciality of AI characthers in the 'GOD MODE' series (2022—)
+  priority: 0
+  year: 2024
+  type: talk
+  date: 1.10
+  title: bodystacked
+  situation: LCF
+  location: london
+  url: https://www.youtube.com/watch?v=2VRoknOR9IM&ab_channel=LondonCollegeofFashion
+  image: 
+  related: GOD MODE (ep. 1)
 #------------------------------------------------2023
 
 - now: false
@@ -595,7 +612,7 @@
   longdescription: Alasdair Milne examines the configuration of 'Godmode Epochs' (2023)
   priority: 0
   year: 2023
-  type: press
+  type: news
   date: 
   title: "Turret Theory"
   situation: SERPENTINE
@@ -609,7 +626,7 @@
   longdescription: dmstfctn are awarded the 2022 Alan Turing Institute Public Engagement Grant
   priority: 0
   year: 2023
-  type: press
+  type: news
   date: 
   title: "Godmode Epochs"
   situation: ALAN TURING INSTITUTE
@@ -623,7 +640,7 @@
   longdescription: An interview with Christopher Michael on the 'GOD MODE' series (2022—)
   priority: 0
   year: 2023
-  type: press
+  type: news
   date: 
   title: "dmstfctn investigates contemporary environments"
   situation: CLOT
@@ -637,7 +654,7 @@
   longdescription: "An interview in Italian expanding on the vide ogame 'Godmode Epochs' (2023)"
   priority: 0
   year: 2023
-  type: press
+  type: news
   date: 
   title: "come addestrare una intelligenza artificiale?"
   situation: ARTRIBUNE
@@ -700,7 +717,7 @@
   longdescription: "A live interview on simulation and AI, hosted by Marijn Bril at IMPAKT festival"
   priority: 2
   year: 2022
-  type: press
+  type: news
   date: 
   title: "Artist conversation with dmstfctn"
   situation: IMPAKT TV
@@ -792,7 +809,7 @@
   longdescription: '"The performance revisits the sociopolitical and economic tumult following Brexit"'
   priority: 0
   year: 2021
-  type: press
+  type: news
   date: 
   title: Demystification Committee debuts echo fx
   situation: AQNB
@@ -806,7 +823,7 @@
   longdescription: '"A modern tale, constructed of lies, gorilla advertising bus campaigns and ..."'
   priority: 0
   year: 2021
-  type: press
+  type: news
   date: 
   title: "ECHO FX"
   situation: SLEEK
@@ -820,7 +837,7 @@
   longdescription: '"If the performance was a reaction, the book is a reflection, at 0x speed ..."'
   priority: 1
   year: 2021
-  type: press
+  type: news
   date: 
   title: "REALITY CHECK AHEAD"
   situation: CLOT
@@ -889,7 +906,7 @@
   longdescription: An interview on the short film 'INTERFACE CHAOS' (2019), including excerpts
   priority: 0
   year: 2020
-  type: press
+  type: news
   date: 
   title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
   situation: NERO
@@ -902,7 +919,7 @@
   longdescription: '"A group of artists began a project to show how money could be moved offshore"'
   priority: 0
   year: 2020
-  type: press
+  type: news
   date: 
   title: "CHASING ILLICIT MONEY"
   situation: NEW YORK TIMES
@@ -1288,7 +1305,7 @@
   longdescription: "An interview in Italian expanding on 'Offshore Investigation Vehicle' (2017-18)"
   priority: 0
   year: 2018
-  type: press
+  type: news
   date: 
   title: Buon Paradiso Fiscale a Tutti
   situation: NERO
