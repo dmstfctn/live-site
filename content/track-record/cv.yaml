@@ -57,6 +57,22 @@
   url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
   image: 
   related: The Models
+  hideon: mobile
+
+- now: next
+  description: 
+  longdescription: dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
+  priority: 0
+  year: 2024
+  type: news
+  date: 
+  title: dmstfctn & Lawrence Lek
+  situation: Digital Deal Podcast
+  location: 
+  url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
+  image: 
+  related: The Models
+  hideon: desktop
 
 - now: next
   description: 
@@ -725,6 +741,7 @@
   url: https://www.youtube.com/watch?v=I93cojWySJQ
   image: 
   related: GOD MODE (ep. 1)
+  hideon: mobile
 
 #- now: false
 #  priority: 0
