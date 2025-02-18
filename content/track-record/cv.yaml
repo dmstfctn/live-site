@@ -441,6 +441,20 @@
   longdescription: 
   priority: 0
   year: 2023
+  type: group show
+  date: 10.28
+  title: "Directory"
+  situation: THE WRONG BIENNALE
+  location: alicante
+  url: 
+  image: wrongbiennale_dmstfctn.jpg
+  related: Godmode Epochs
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2023
   type: live
   date: 10.28
   title: "Semibreve"
@@ -507,6 +521,7 @@
 #  image: 
 #  related: ECHO FX
 #  hideon: desktop
+
 #- now: false
 #  description: 
 #  longdescription: 
@@ -996,7 +1011,7 @@
   year: 2019
   type: group show
   date: 
-  title: PORTO DESIGN BIENNIALE
+  title: PORTO DESIGN BIENNALE
   situation: TRINDADE
   location: porto
   url: 
@@ -1033,7 +1048,7 @@
   year: 2019
   type: screening
   date: 
-  title: PORTO DESIGN BIENNIALE
+  title: PORTO DESIGN BIENNALE
   situation: CAMPO 24 DE AGOSTO
   location: porto
   url: 
