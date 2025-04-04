@@ -24,7 +24,7 @@
   title: Operating Systems
   situation: SINGAPORE ART MUSEUM
   location: 
-  url: https://opensystems.sg/
+  url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
   image: 
   related: Godmode Epochs
   hideon: 
@@ -289,19 +289,19 @@
   image: dmstfctn_ica_noindex.jpg
   related:
 
-#- now: false
-#  description: "'Waluigi's Purgatory' at SOLO award ceremony"
-#  longdescription: 
-#  priority: 0
-#  year: 2024
-#  type: screening
-#  date: 5.6
-#  title: "SOLO AI AWARD"
-#  situation: GOLDSMITHS
-#  location: london
-#  url: https://soloaiaward.com/24edition/
-#  image: 
-#  related: Waluigi's Purgatory
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: group show
+  date: 5.6
+  title: "SOLO AI AWARD"
+  situation: GOLDSMITHS
+  location: london
+  url: https://soloaiaward.com/24edition/
+  image: 
+  related: Waluigi's Purgatory
 
 - now: false
   description: 
