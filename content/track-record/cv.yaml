@@ -1,27 +1,12 @@
 #------------------------------------------------2025
 - now: next
-  description: Showing The Models (2025), endless AI theatre
-  longdescription: Showing The Models (2025), endless AI-generated improv theatre
-  priority: 0
-  year: 2024
-  type: solo show
-  date: 
-  title: ART CITY
-  situation: TECNOPOLO
-  location: bologna
-  url: https://sineglossa.it/en/news-en/meet-dmstfctn-installation-the-models-at-artcity-bologna/
-  image: 
-  related: The Models
-  hideon: 
-
-- now: next
-  description: 
+  description: Showing the AI training game Godmode Epochs
   longdescription: Showing the AI-training video game Godmode Epochs (2023) online
   priority: 0
   year: 2024
   type: group show
   date: 
-  title: Operating Systems
+  title: OS2.4
   situation: SINGAPORE ART MUSEUM
   location: 
   url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
@@ -42,6 +27,21 @@
   url: https://bowarts.org/event/east-london-art-prize-shortlist-exhibition-2025/
   image: 
   related: Waluigi's Purgatory
+  hideon: 
+
+- now: next
+  description: #Showing The Models (2025), endless AI theatre
+  longdescription: Showing The Models (2025), endless AI-generated improv theatre
+  priority: 0
+  year: 2024
+  type: solo show
+  date: 
+  title: ART CITY
+  situation: TECNOPOLO
+  location: bologna
+  url: https://sineglossa.it/en/news-en/meet-dmstfctn-installation-the-models-at-artcity-bologna/
+  image: 
+  related: The Models
   hideon: 
 
 - now: next
