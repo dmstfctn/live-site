@@ -1,7 +1,7 @@
 #------------------------------------------------2025
 - now: next
   description: Godmode Epochs game jam at Rhizome, NYC
-  longdescription: Godmode Epochs gamejam part of the 'More than Human' weekend
+  longdescription: Godmode Epochs gamejam part of Rhizome's 'More than Human' weekend
   priority: 0
   year: 2025
   type: group show
@@ -31,7 +31,7 @@
 
 - now: next
   description: 
-  longdescription: A panel on AI with dmstfctn, Jennifer Tang, V&A curator Kate Bailey
+  longdescription: A Friday Late panel with dmstfctn, Jennifer Tang, and V&A curator Kate Bailey
   priority: 0
   year: 2025
   type: talk
@@ -83,8 +83,8 @@
   title: East London Art Prize
   situation: NUNNERY GALLERY
   location: 
-  url: https://bowarts.org/event/east-london-art-prize-shortlist-exhibition-2025/
-  image: 
+  url: 
+  image: eastlondonartprize-dmstfctn-waluigi-purgatory.jpg
   related: Waluigi's Purgatory
   hideon: 
 
@@ -98,8 +98,8 @@
   title: ART CITY 2025
   situation: TECNOPOLO
   location: bologna
-  url: https://sineglossa.it/en/news-en/meet-dmstfctn-installation-the-models-at-artcity-bologna/
-  image: 
+  url: 
+  image: artcity-tecnopolo-dmstfctn-themodels.jpg
   related: The Models
   hideon: 
 
