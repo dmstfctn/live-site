@@ -72,6 +72,7 @@
   url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
   image: 
   related: The Models
+  hideon: 
 
 - now: false
   description: 
@@ -83,13 +84,13 @@
   title: East London Art Prize
   situation: NUNNERY GALLERY
   location: 
-  url: 
+  url:
   image: eastlondonartprize-dmstfctn-waluigi-purgatory.jpg
   related: Waluigi's Purgatory
   hideon: 
 
 - now: false
-  description: #Showing The Models (2025), endless AI theatre
+  description: 
   longdescription: Showing The Models (2025), endless AI-generated improv theatre
   priority: 0
   year: 2025
@@ -98,7 +99,7 @@
   title: ART CITY 2025
   situation: TECNOPOLO
   location: bologna
-  url: 
+  url:
   image: artcity-tecnopolo-dmstfctn-themodels.jpg
   related: The Models
   hideon: 
