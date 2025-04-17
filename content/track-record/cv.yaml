@@ -76,21 +76,6 @@
 
 - now: false
   description: 
-  longdescription: Showing Waluigi's Purgatory (2024) as an interactive standalone installation
-  priority: 0
-  year: 2025
-  type: group show
-  date: 13.3
-  title: East London Art Prize
-  situation: NUNNERY GALLERY
-  location: 
-  url:
-  image: eastlondonartprize-dmstfctn-waluigi-purgatory.jpg
-  related: Waluigi's Purgatory
-  hideon: 
-
-- now: false
-  description: 
   longdescription: Showing The Models (2025), endless AI-generated improv theatre
   priority: 0
   year: 2025
@@ -102,6 +87,21 @@
   url:
   image: artcity-tecnopolo-dmstfctn-themodels.jpg
   related: The Models
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: Showing Waluigi's Purgatory (2024) as an interactive standalone installation
+  priority: 0
+  year: 2025
+  type: group show
+  date: 13.3
+  title: East London Art Prize
+  situation: NUNNERY GALLERY
+  location: 
+  url:
+  image: eastlondonartprize-dmstfctn-waluigi-purgatory.jpg
+  related: Waluigi's Purgatory
   hideon: 
 
 - now: false
