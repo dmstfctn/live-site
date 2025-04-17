@@ -1,11 +1,26 @@
 #------------------------------------------------2025
 - now: next
+  description: Godmode Epochs game jam at Rhizome, NYC
+  longdescription: Godmode Epochs gamejam part of the 'More than Human' weekend
+  priority: 0
+  year: 2025
+  type: group show
+  date: 3.5
+  title: Rhizome World
+  situation: WSA
+  location: new york
+  url: https://rhizome.org/editorial/2025/apr/03/rhizome-world/
+  image: 
+  related: Godmode Epochs
+  hideon: 
+
+- now: next
   description: Showing the AI training game Godmode Epochs
   longdescription: Showing the AI-training video game Godmode Epochs (2023) online
   priority: 0
-  year: 2024
+  year: 2025
   type: group show
-  date: 
+  date: 1.4
   title: OS2.4
   situation: SINGAPORE ART MUSEUM
   location: 
@@ -16,11 +31,55 @@
 
 - now: next
   description: 
+  longdescription: A panel on AI with dmstfctn, Jennifer Tang, V&A curator Kate Bailey
+  priority: 0
+  year: 2025
+  type: talk
+  date: 25.4
+  title: AI, Creativity and Ethics
+  situation: V&A
+  location: london
+  url: https://www.vam.ac.uk/event/abRxv8Z7rlV/friday-late-april-2025
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: next
+  description: 
+  longdescription: A panel with dmstfctn, Martyna Marciniak, Pierre-Christophe Gam
+  priority: 0
+  year: 2025
+  type: talk
+  date: 24.4
+  title: New Metabolism
+  situation: GLUON
+  location: brussels
+  url: https://gluon.be/art-and-research/projects/18143/new-metabolisms/
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: next
+  description: 
+  longdescription: Interview about The Models (2025), endless AI-generated improv theatre
+  priority: 0
+  year: 2025
+  type: news
+  date: 18.2
+  title: What happens when AI lies?
+  situation: DOMUS
+  location: 
+  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
+  image: 
+  related: The Models
+
+- now: false
+  description: 
   longdescription: Showing Waluigi's Purgatory (2024) as an interactive standalone installation
   priority: 0
-  year: 2024
+  year: 2025
   type: group show
-  date: 
+  date: 13.3
   title: East London Art Prize
   situation: NUNNERY GALLERY
   location: 
@@ -29,13 +88,13 @@
   related: Waluigi's Purgatory
   hideon: 
 
-- now: next
+- now: false
   description: #Showing The Models (2025), endless AI theatre
   longdescription: Showing The Models (2025), endless AI-generated improv theatre
   priority: 0
-  year: 2024
+  year: 2025
   type: solo show
-  date: 
+  date: 7.2
   title: ART CITY 2025
   situation: TECNOPOLO
   location: bologna
@@ -44,13 +103,13 @@
   related: The Models
   hideon: 
 
-- now: next
+- now: false
   description: 
   longdescription: dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
   priority: 0
-  year: 2024
+  year: 2025
   type: news
-  date: 
+  date: 31.1
   title: dmstfctn & Lawrence Lek
   situation: DIGITAL DEAL PODCAST
   location: 
@@ -59,13 +118,13 @@
   related: The Models
   hideon: mobile
 
-- now: next
+- now: false
   description: 
   longdescription: dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
   priority: 0
-  year: 2024
+  year: 2025
   type: news
-  date: 
+  date: 31.1
   title: dmstfctn & Lawrence Lek
   situation: Digital Deal Podcast
   location: 
@@ -73,20 +132,6 @@
   image: 
   related: The Models
   hideon: desktop
-
-- now: next
-  description: 
-  longdescription: Interview about The Models (2025), endless AI-generated improv theatre
-  priority: 0
-  year: 2024
-  type: news
-  date: 
-  title: What happens when AI lies?
-  situation: DOMUS
-  location: 
-  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
-  image: 
-  related: The Models
 
 #------------------------------------------------2024
 - now: false
