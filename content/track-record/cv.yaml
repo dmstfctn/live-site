@@ -1,7 +1,7 @@
 #------------------------------------------------2025
 - now: next
   description: Showing GOD MODE (ep. 1), Godmode Epochs
-  longdescription: Showing GOD MODE (ep. 1) and Godmode Epochs, curated by Onkaos
+  longdescription: Showing GOD MODE (ep. 1) and Godmode Epochs, co-curated by Onkaos
   priority: 0
   year: 2025
   type: group show
@@ -12,6 +12,21 @@
   url: https://rhizome.org/editorial/2025/apr/03/rhizome-world/
   image: 
   related: Godmode Epochs
+  hideon: 
+
+- now: next
+  description: 
+  longdescription: Showing The Models (2025), endless AI-generated improv theatre
+  priority: 0
+  year: 2025
+  type: group show
+  date: 8.5
+  title: Bits & Bots
+  situation: CENTRO DE HISTORIAS
+  location: zaragoza
+  url: 
+  image: 
+  related: The Models
   hideon: 
 
 - now: next
@@ -27,36 +42,6 @@
   url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
   image: 
   related: Godmode Epochs
-  hideon: 
-
-- now: next
-  description: 
-  longdescription: A Friday Late panel with dmstfctn, Jennifer Tang, and V&A curator Kate Bailey
-  priority: 0
-  year: 2025
-  type: talk
-  date: 25.4
-  title: AI, Creativity and Ethics
-  situation: V&A
-  location: london
-  url: https://www.vam.ac.uk/event/abRxv8Z7rlV/friday-late-april-2025
-  image: 
-  related: Waluigi's Purgatory
-  hideon: 
-
-- now: next
-  description: 
-  longdescription: A panel with dmstfctn, Martyna Marciniak, Pierre-Christophe Gam
-  priority: 0
-  year: 2025
-  type: talk
-  date: 24.4
-  title: New Metabolism
-  situation: GLUON
-  location: brussels
-  url: https://gluon.be/art-and-research/projects/18143/new-metabolisms/
-  image: 
-  related: Waluigi's Purgatory
   hideon: 
 
 - now: next
@@ -87,6 +72,36 @@
   url:
   image: artcity-tecnopolo-dmstfctn-themodels.jpg
   related: The Models
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: panel
+  date: 25.4
+  title: AI, Creativity and Ethics
+  situation: V&A
+  location: london
+  url: 
+  image: dmstfctn-imogen-heap-v&a-friday-late.jpg
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: panel
+  date: 24.4
+  title: New Metabolism
+  situation: GLUON
+  location: brussels
+  url: 
+  image: dmstfctn-gluon-brussel-digital-deal.jpg
+  related: Waluigi's Purgatory
+  hideon: 
 
 - now: false
   description: 
