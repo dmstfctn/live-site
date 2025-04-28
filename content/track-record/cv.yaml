@@ -14,21 +14,21 @@
   related: Godmode Epochs
   hideon: 
 
-- now: next
-  description: 
-  longdescription: Showing The Models (2025), endless AI-generated improv theatre
-  priority: 0
-  year: 2025
-  type: group show
-  date: 8.5
-  title: Bits & Bots
-  situation: CENTRO DE HISTORIAS
-  location: zaragoza
-  url: 
-  image: 
-  related: The Models
-  hideon: 
-
+#- now: next
+#  description: 
+#  longdescription: Showing The Models (2025), endless AI-generated improv theatre
+#  priority: 0
+#  year: 2025
+#  type: group show
+#  date: 8.5
+#  title: Bits & Bots
+#  situation: CENTRO DE HISTORIAS
+#  location: zaragoza
+#  url: 
+#  image: 
+#  related: The Models
+#  hideon: 
+#
 - now: next
   description: Showing the AI training game Godmode Epochs
   longdescription: Showing the AI-training video game Godmode Epochs (2023) online
