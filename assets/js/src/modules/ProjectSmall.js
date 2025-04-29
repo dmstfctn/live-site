@@ -7,7 +7,11 @@ const ScrollQuantiser = require( './ScrollQuantiser.js' );
 const DC_INFO_CLASS = 'dc-track-record';
 
 const ProjectSmall = function( backwards, hasGfx ){
-  this.$wrapper = document.querySelector( '.dc-item' );  
+  this.$wrapper = document.querySelector( '.dc-item' );
+  if( this.$wrapper ){
+    this.$title = document.querySelector( '.dc-item--header' );
+    this.$info = this.$wrapper.querySelector('.dc-item--info');
+  }
   this.items = this.getItems();
   this.hasGfx = hasGfx;
   this.minIndex = (hasGfx) ? 0 : 1;  
@@ -34,13 +38,12 @@ const ProjectSmall = function( backwards, hasGfx ){
     } else {
       this.type = 'project-nocv';
     }
-  }
+  }  
+
   this.loadPlaceholderImages();  
   this.update();
   this.ifBackwards( backwards );
   
-  
-
   //if( this.type === 'project' ) this.cropInfoEvents();
 };
 
@@ -81,7 +84,26 @@ ProjectSmall.prototype = {
   _onGfx: function(){
     this.onGfx();
   },
-  onGfx: function(){ /* ... override ... */ },
+  onGfx: function(){ /* ... override ... */ }, 
+  toggleInfo: function(){
+    if( this.type === 'project' ){
+      this.$info.classList.toggle('small-visible');
+    }
+  },
+  hideInfo: function(){
+    if( this.type === 'project' ){
+      let shouldHide = this.$info.classList.contains('small-visible');
+      this.$info.classList.remove('small-visible');
+      return shouldHide;
+    }
+    return false;
+  },
+  infoIsVisible: function(){
+    if( this.type === 'project' ){
+      return this.$info.classList.contains('small-visible');
+    }
+    return false;
+  },
   cropInfoEvents: function(){    
     if( this.type === 'project' ){
       let $eventsWrapper = this.$wrapper.querySelector('.dc-item--cv');

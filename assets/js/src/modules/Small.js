@@ -14,6 +14,8 @@ const ScrollQuantiser = require( './ScrollQuantiser.js' );
 
 const SITE_BASE = F.siteBase();
 
+const TITLE_TOUCH_AREA_H = 50;
+
 const Small = function( _loops ){
   this.$interactionEle = document.querySelector('.dc-mobile-nav');    
   this.$mainContent = document.querySelector( '.dc-main-content' );  
@@ -203,11 +205,20 @@ Small.prototype.setupInteraction = function(){
 
   this.hammertime.on('tap pressup', (e) => {    
     if( isZoom ){ return }
-    if(e.center.x >= window.innerWidth / 2){      
-      this.project.next();
-    } else {      
-      this.project.prev();
+    
+    if( e.center.y >= window.innerHeight - TITLE_TOUCH_AREA_H ){
+      this.project.toggleInfo();
+    } else {
+      let didHide = this.project.hideInfo();
+      if( !didHide ){
+        if(e.center.x >= window.innerWidth / 2){      
+          this.project.next();
+        } else {      
+          this.project.prev();
+        }
+      }
     }
+    
     this.hideInteraction( 'forward' );
     this.hideInteraction( 'back' );
     if( this.project.isOnGfxPlaceholder ){
@@ -216,6 +227,8 @@ Small.prototype.setupInteraction = function(){
   });
 
   this.hammertime.on('press', (e) => { 
+    if( this.project.infoIsVisible() ) return;
+    if( e.center.y >= window.innerHeight - TITLE_TOUCH_AREA_H ) return;
     if(e.center.x >= window.innerWidth / 2){
       this.showInteraction( 'forward' );
     } else {      
@@ -397,8 +410,7 @@ Small.prototype.firstHistoryState = function(){
   );
 }
 
-Small.prototype.renderPage = function( data, extra ){  
-  console.log('LOADED PAGE => render')
+Small.prototype.renderPage = function( data, extra ){    
   const backwards = !!extra.backwards;  
   document.title = data.title;
   document.documentElement.setAttribute('data-dc-pagetype', data.pagetype );
