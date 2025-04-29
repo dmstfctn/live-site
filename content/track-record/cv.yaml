@@ -57,6 +57,22 @@
   url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
   image: 
   related: The Models
+  hideon: mobile
+
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: news
+  date: 31.1
+  title: dmstfctn & Lawrence Lek
+  situation: Digital Deal Podcast
+  location: 
+  url: 
+  image: 
+  related: The Models
+  hideon: desktop
 
 - now: next
   description: 
