@@ -393,15 +393,20 @@
   .dc-item--header{
     z-index: 50;
     padding-bottom: .9rem;
-    background: black;
-    padding-top: .9rem;
-    
+    // background: black;
+    // padding-top: .9rem;
+
     letter-spacing: -0.02em;
     justify-content: center;
     h1{
       font-size: 1rem;
       color: #FFFFFF;
       text-align: left;
+      text-shadow:
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
     }
     .dctxt--date{
       display: none;
