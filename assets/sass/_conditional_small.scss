@@ -144,7 +144,8 @@
     position: relative;
   }
     .dc-item--info{      
-      display: block;
+      display: flex;
+      flex-direction: column;
       box-sizing: border-box;
       width: 100%;
       height: 100%;
@@ -177,6 +178,7 @@
       position: absolute;
       top: 0;
       background: #000000;
+      flex-grow: 1;
       bottom: 0;
       left: 0;
       right: 0;
@@ -197,12 +199,18 @@
     }
     .dc-item--info{
       .dc-cv{
-        padding-top: 4rem;
-        padding-bottom: 2.7rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        padding-right: calc( env(safe-area-inset-right) + 1rem );
-        padding-left: calc( env(safe-area-inset-left) + 1rem );
+        display: none;
+        position: relative;
+        top: auto;
+        bottom: auto;
+        right: auto;
+        left: auto;
+        // padding-top: 4rem;
+        // padding-bottom: 2.7rem;
+        // padding-right: 1rem;
+        // padding-left: 1rem;
+        // padding-right: calc( env(safe-area-inset-right) + 1rem );
+        // padding-left: calc( env(safe-area-inset-left) + 1rem );
       }
     }
 
@@ -385,12 +393,20 @@
   .dc-item--header{
     z-index: 50;
     padding-bottom: .9rem;
+    // background: black;
+    // padding-top: .9rem;
+
     letter-spacing: -0.02em;
     justify-content: center;
     h1{
       font-size: 1rem;
       color: #FFFFFF;
       text-align: left;
+      text-shadow:
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
     }
     .dctxt--date{
       display: none;
