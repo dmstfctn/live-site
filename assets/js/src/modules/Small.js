@@ -398,6 +398,7 @@ Small.prototype.firstHistoryState = function(){
 }
 
 Small.prototype.renderPage = function( data, extra ){  
+  console.log('LOADED PAGE => render')
   const backwards = !!extra.backwards;  
   document.title = data.title;
   document.documentElement.setAttribute('data-dc-pagetype', data.pagetype );

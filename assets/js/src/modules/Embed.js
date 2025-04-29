@@ -2,8 +2,9 @@
 const VimeoPlayer = require('@vimeo/player');
 
 
-const Embed = function( $slide ){
+const Embed = function( $slide, immediateAutoplay ){
   this.$slide = $slide;
+  this.immediateAutoplay = !!immediateAutoplay;  
   this.$ele = this.$slide.querySelector('.dc-embed');
   this.service = this.$ele.getAttribute('data-embed-service');
   this.url = this.$ele.getAttribute('data-embed-url');
@@ -46,9 +47,10 @@ Embed.prototype = {
       } else {
         return new VimeoPlayer( this.$ele, {
           url: this.url,
-          autoplay: false,
+          autoplay: this.immediateAutoplay,
           controls: false,
-          autopause: false
+          autopause: false,
+          muted: true
         })
       }
     }

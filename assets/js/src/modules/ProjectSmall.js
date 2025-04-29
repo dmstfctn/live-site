@@ -197,12 +197,13 @@ ProjectSmall.prototype = {
     //images/content
     result = result.concat(
       [...this.$wrapper.querySelectorAll( '.dc-media__small .dc-media--list li' )]
-        .map( ($ele) => {
+        .map( ($ele, index) => {
           return {
             type: 'standard',
             ele: $ele,
             parent: false,
-            contentType: this.getSlideContentType( $ele )
+            contentType: this.getSlideContentType( $ele ),
+            index: index
           }
         })
     );
@@ -290,7 +291,7 @@ ProjectSmall.prototype = {
     if( slide.embedPrepared ) return;
     slide.embedPrepared = true;
     if( !slide.controller ){
-      slide.controller = new Embed( slide.ele );
+      slide.controller = new Embed( slide.ele, slide.index === 0 );
       slide.controller.onEnded = () =>{
         this.next();
         this._onAutoNext();
