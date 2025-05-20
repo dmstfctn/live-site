@@ -16,7 +16,7 @@
 
 - now: next
   description: 
-  longdescription: Showing The Models (2025), endless AI-generated improv theatre
+  longdescription: Showing The Models (2025), improvised theatre by Large Language Models
   priority: 0
   year: 2025
   type: group show
@@ -31,7 +31,7 @@
 
 - now: next
   description: Showing the AI training game Godmode Epochs
-  longdescription: Showing the AI-training video game Godmode Epochs (2023) online
+  longdescription: Showing the AI training video game Godmode Epochs (2023) online
   priority: 0
   year: 2025
   type: group show
@@ -76,7 +76,7 @@
 
 - now: next
   description: 
-  longdescription: Interview about The Models (2025), endless AI-generated improv theatre
+  longdescription: Interview about The Models (2025), improvised theatre by Large Language Models
   priority: 0
   year: 2025
   type: news
@@ -467,7 +467,7 @@
 
 - now: false
   description: 
-  longdescription: Finetuning a system for endless AI generated theatrical improvisation
+  longdescription: Assembling a system for real time AI-generated improv theatre
   priority: 0
   year: 2024
   type: residency
