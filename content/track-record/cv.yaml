@@ -16,7 +16,7 @@
 
 - now: next
   description: 
-  longdescription: Showing The Models (2025), improvised theatre by Large Language Models
+  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
   year: 2025
   type: group show
@@ -76,7 +76,7 @@
 
 - now: next
   description: 
-  longdescription: Interview about The Models (2025), improvised theatre by Large Language Models
+  longdescription: Interview about The Models (2025), improvisational theatre by Large Language Models
   priority: 0
   year: 2025
   type: news
@@ -467,7 +467,7 @@
 
 - now: false
   description: 
-  longdescription: Assembling a system for real time AI-generated improv theatre
+  longdescription: Assembling a system for real time AI-generated improvisational theatre
   priority: 0
   year: 2024
   type: residency
