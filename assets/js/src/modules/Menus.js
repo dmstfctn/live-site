@@ -60,12 +60,23 @@ Menus.prototype = {
   },
   setupTitleLink: function( $title ){
     $title.addEventListener( 'click', (e) => {
+      let target = $title.getAttribute( 'data-dc-localtarget' );
+      let $menu = document.querySelector( target );    
+
       if( window.innerWidth < CFG.BREAKPOINT ){
+        //is small version of site
+        if( target === '#related-matters'){
+          e.preventDefault();
+          console.log(window.DCSMALL);
+          const work = window.DCSMALL.pages.filter((pg) => {
+            return pg.url.indexOf('/related-matters/') === 0;
+          });
+          window.location = work[0].url;
+        }
         return;
       }
       e.preventDefault();
-      let target = $title.getAttribute( 'data-dc-localtarget' );
-      let $menu = document.querySelector( target );          
+                  
       
       if( $title.classList.contains( 'active' ) ){ return false; }
 

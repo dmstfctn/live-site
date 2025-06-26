@@ -514,11 +514,13 @@ const yearNameToNumeric = ( name )=>{
 
 const createSmallSite = ( content ) => {
   let site = {
-    pages: [{
-      year: Infinity,
-      url: Config.url_root + '/',
-      title: Config.name
-    }],    
+    pages: [
+      // {
+      //   year: Infinity,
+      //   url: Config.url_root + '/',
+      //   title: Config.name
+      // }
+    ],    
   };
   for( let i in content.related_matters.contents ){
     let year = content.related_matters.contents[i];

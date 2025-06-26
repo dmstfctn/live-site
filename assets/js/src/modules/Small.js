@@ -203,7 +203,8 @@ Small.prototype.setupInteraction = function(){
     this.hideInteraction( 'back' );
   });
 
-  this.hammertime.on('tap pressup', (e) => {    
+  this.hammertime.on('tap pressup', (e) => {      
+    if( this.project.type === 'cv' ){ return }    
     if( isZoom ){ return }
     
     if( e.center.y >= window.innerHeight - TITLE_TOUCH_AREA_H ){
@@ -229,6 +230,7 @@ Small.prototype.setupInteraction = function(){
   this.hammertime.on('press', (e) => { 
     if( this.project.infoIsVisible() ) return;
     if( e.center.y >= window.innerHeight - TITLE_TOUCH_AREA_H ) return;
+    if( this.project.type === 'cv' ) return; 
     if(e.center.x >= window.innerWidth / 2){
       this.showInteraction( 'forward' );
     } else {      

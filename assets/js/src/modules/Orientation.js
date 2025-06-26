@@ -60,10 +60,16 @@ Orientation.prototype = {
     //fuck safari (ios)
     clearTimeout(this.sizeRootTimeout);
     this.sizeRootTimeout = setTimeout( () => {
-      document.querySelectorAll('html, body, .dc-mobile-nav').forEach( ( $e ) => {
+      const $mobileNav = document.querySelector('.dc-mobile-nav');
+      const $sitenav = document.querySelector('.dc-sitenav__main');
+      console.log('SITENAV, height = ', $sitenav.offsetHeight );
+      document.querySelectorAll('html, body').forEach( ( $e ) => {
         $e.style.height = window.innerHeight + 'px';   
         $e.style.minHeight = window.innerHeight + 'px';   
       });
+      $mobileNav.style.height = window.innerHeight - $sitenav.offsetHeight + 'px';
+      $mobileNav.style.minHeight = window.innerHeight - $sitenav.offsetHeight + 'px';
+
       document.querySelectorAll('.dc-gfx, .dc-gfx svg').forEach( ( $e ) => {      
         if( this.orientation === 'portrait' ){
           console.log('PORTRAIT: H: ', window.innerHeight + 'px', 'W:', window.innerWidth + 'px' );

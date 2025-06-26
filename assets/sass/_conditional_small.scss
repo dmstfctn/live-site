@@ -65,7 +65,7 @@
   }
 
   .dc-main-content{
-    height: calc( 100% - 3.4rem );
+    height: calc( 100% - 3rem );
     top: auto;
     bottom: 0;   
   }
@@ -90,7 +90,7 @@
     opacity: 0;
     display: block;
     z-index: 2;
-    padding-top: 4rem;
+    padding-top: 3rem;
     font-size: 1rem;          
     padding-bottom: 0.7rem;
   }
@@ -296,12 +296,12 @@
     }
   
   .dc-sitenav{
-    height: 2.8rem;
+    height: 2rem;
     padding-right: 0.4rem;
     margin-top: .2rem;
     z-index: 60;
     font-size: 1rem;
-    pointer-events: none;
+    // pointer-events: none;
     &:before,
     .dc-sitenav--entry__focus-groups,
     .dc-sitenav--entry__track-record{
@@ -311,8 +311,8 @@
       display: block;
       position: absolute;
       height: 100%;
-      line-height: 2.8rem;
-      top: 0;
+      line-height: 1rem;
+      top: -0.3rem;
       background: transparent;
       width: auto;
       z-index: unset;
@@ -336,13 +336,19 @@
     .dc-sitenav__right svg{
       transform: translateY(0.6rem) rotate(45deg);
     }
-    html[data-dc-pagetype="home"] & .dc-sitenav__arrow.dc-sitenav__left{
+    html[data-dc-pagetype="home"] & .dc-sitenav__arrow{
       display: none;
+    }
+    html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] & a[data-dc-localtarget="#related-matters"]{
+      color: #FFFFFF;
+    }
+    html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] & a[data-dc-localtarget="#track-record"]{
+      color: #FF0000;
     }
   }
 
     .dc-sitenav--text{
-      width: 61%;      
+      width: 75%;      
       margin-right: 0;
       position: absolute;
       left: 50%;
@@ -531,7 +537,7 @@
    
   .dc-mobile-nav{
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
@@ -546,7 +552,7 @@
       display: block;
       height: 100%;
       width: 100%;      
-      position: absolute;
+      position: fixed;
       left: 0;
       top: 0;
       z-index: 0;    
@@ -610,7 +616,7 @@
     width: 50%;
     //background: rgba(0,255,0,0.5);
     z-index: 60;
-    display: block;
+    display: none;
   }
 
   /* ios / notch overrides */
