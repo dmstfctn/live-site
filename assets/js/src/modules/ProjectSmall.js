@@ -88,6 +88,11 @@ ProjectSmall.prototype = {
   toggleInfo: function(){
     if( this.type === 'project' ){
       this.$info.classList.toggle('small-visible');
+      if( this.$info.classList.contains('small-visible') ){
+        this.$title.classList.add('toggled');
+      } else {
+        this.$title.classList.remove('toggled');
+      }
     }
   },
   hideInfo: function(){

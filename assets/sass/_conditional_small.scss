@@ -413,6 +413,13 @@
         -1px 1px 0 #000,
         -1px -1px 0 #000,
         1px -1px 0 #000;
+       text-decoration: underline;    
+    text-decoration-style: dotted;        
+    text-decoration-thickness: 0.12em;
+    text-underline-offset: .2em;
+    }
+    &.toggled h1{
+      color: #FF0000;
     }
     .dctxt--date{
       display: none;
