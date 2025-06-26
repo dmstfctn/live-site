@@ -44,7 +44,7 @@
       html[data-dc-pagetype="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
       html[data-dc-pagetype="null"] .dc-sitenav a[href="#{$urlRoot}track-record"]{
         color: #FF0000;
-        text-decoration-line: underline;
+        //text-decoration-line: none;
        
         svg path[fill]{
           fill: #FF0000 !important;
@@ -55,7 +55,8 @@
       }
       html[data-dc-pagetype="home"][data-dc-homeactive="focus-groups"] .dc-sitenav a[href="#{$urlRoot}focus-groups"],
       html[data-dc-pagetype="focusgroup"] .dc-sitenav a[href="#{$urlRoot}focus-groups"]{
-        color: #FFFFFF;        
+        //color: #FFFFFF;     
+        //text-decoration-line: none;   
       }
       
       html[data-dc-menuvisible="track-record"] .dc-sitenav a[data-dc-localtarget="#track-record"]{        
