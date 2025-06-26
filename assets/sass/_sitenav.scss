@@ -6,6 +6,8 @@
   justify-content: stretch;
   margin-bottom: 0.25rem;
   padding: .43rem $dc_site_padding_right .2rem $dc_site_padding_left;
+  height: 2.2rem;
+  box-sizing: border-box;
   ::selection { color: #FFF;}
 }
   .dc-sitenav::before {
@@ -200,7 +202,7 @@
   list-style-type: none;
   padding-top: 4rem;  
   margin: 0 0 0 0;
-  height: calc(100% - 4rem);
+  height: calc(100% - 2.2rem);
   box-sizing: border-box;
 }
   .dc-work--year{
