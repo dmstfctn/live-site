@@ -285,13 +285,35 @@ Small.prototype.setupInteraction = function(){
     e.preventDefault();
   });
   document.addEventListener('touchstart', function(e){
-    if( e.target.classList.contains('dc-mobile-home-link') === false ){
-      e.preventDefault();
-    } else {
-      console.log('home link!');
-    }
+    // if( e.target.classList.contains('dc-mobile-home-link') === false ){
+    //   e.preventDefault();
+    // } else {
+    //   console.log('home link!');
+    // }
   }, {passive: false});
-
+  
+  document.querySelector( '.dc-sitenav__arrow.dc-sitenav__left' ).addEventListener( 'pointerdown', ( e ) => {
+    this.showInteraction( 'back' );
+  });
+  document.querySelector( '.dc-sitenav__arrow.dc-sitenav__left' ).addEventListener( 'pointerup', ( e ) => {
+    let didHide = this.project.hideInfo();
+    if( !didHide ){
+      this.project.prev();
+      this.hideInteraction( 'forward' );
+      this.hideInteraction( 'back' );
+    }
+  });
+  document.querySelector( '.dc-sitenav__arrow.dc-sitenav__right' ).addEventListener( 'pointerdown', ( e ) => {
+    this.showInteraction( 'forward' );
+  });
+  document.querySelector( '.dc-sitenav__arrow.dc-sitenav__right' ).addEventListener( 'pointerup', ( e ) => {
+    let didHide = this.project.hideInfo();
+    if( !didHide ){
+      this.project.next();
+      this.hideInteraction( 'back' );
+      this.hideInteraction( 'forward' );
+    }
+  });
 };
 
 Small.prototype.showInteraction = function( type ){
