@@ -329,9 +329,9 @@ Small.prototype.hideInteraction = function( type, _additionalTime ){
 }
 
 Small.prototype.projectEnd = function( backwards ){
-  if( backwards && this.pageIndex === this.startPageIndex ){
-    return;
-  }
+  // if( backwards && this.pageIndex === this.startPageIndex ){
+  //   return;
+  // }
   this.pageIndex = (backwards) ? this.pageIndex - 1 : this.pageIndex + 1;
   
   if( this.pageIndex >= this.data.length ){
