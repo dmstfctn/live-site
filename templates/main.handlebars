@@ -25,6 +25,26 @@
   <script defer src="{{dc_urlpath 'assets/js/dist/main.js' }}"></script>
 </head>
 <body>
+  {{#if landing}}
+  <div class="dc-lander">
+    <img 
+      src="{{landing.image.src}}"
+      data-low-src="{{landing.image.lowSrc}}"
+      data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
+                  {{landing.image.halfSrc}} 2100w,
+                  {{landing.image.src}} 3000w"
+      data-sizes="(max-width: 900px) 1px,
+                  100vw"    
+      width="{{landing.image.dimensions.width}}"
+      height="{{landing.image.dimensions.height}}"
+    >    
+    {{#if landing.bio }}
+      <div class="dc-bio dc-bio__home">
+        {{{landing.bio}}}
+      </div>
+    {{/if}}
+  </div>
+  {{/if}}
   <div class="dc-zoomable-wrap">
     {{{ navigation }}}
     <div class="dc-main-content">

@@ -310,6 +310,11 @@ const readFolder = ( folderPath, cv ) => {
   return data;
 };
 
+const readLanderFolder = ( folderPath ) => {
+  const dir = fs.readdirSync( folderPath ).filter( removeDotFiles );  
+  return dir.map( ( img ) => path.join( folderPath, img ) );
+}
+
 const loadCV = ( file ) => {
   const cvYaml = fs.readFileSync( file );
   return {
@@ -384,7 +389,8 @@ const ContentCollector = function( contentPath ){
     cv: cv,
     dissemination: dissemination,
     related_matters: readFolder( path.join( contentPath, 'related matters'), cv ),
-    focus_groups: readFolder( path.join( contentPath, 'focus groups'), cv )
+    focus_groups: readFolder( path.join( contentPath, 'focus groups'), cv ),
+    landing_images: readLanderFolder( path.join( contentPath, 'lander' ) )
   }
 }
 

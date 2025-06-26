@@ -171,6 +171,20 @@ const moveCvContent = ( cv ) => {
   });
 }
 
+const moveLanderContent = ( lander ) => { 
+  const landerContentDestination = path.join( Config.paths.public, 'lander' );
+  /* ensure the destination exists */
+  fs.mkdirSync( landerContentDestination, {recursive: true} );
+  fs.copyFileSync( lander.image.originalPath, lander.image.newPath );
+  createLowResAndSave( lander.image.originalPath, lander.image.lowPath );
+}
+
+const renderLander = ( lander ) => {
+  console.log('LANDER: ' );
+  console.log(lander);
+  moveLanderContent( lander );
+} 
+
 const renderTrackRecord = ( data ) => {
   moveCvContent( data.contents.cv );
   return Templates.track_record( data );
@@ -185,5 +199,6 @@ const renderSmall = ( small ) => {
 module.exports = {
   renderPage,
   renderTrackRecord,
-  renderSmall
+  renderSmall,
+  renderLander,
 }

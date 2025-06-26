@@ -179,6 +179,31 @@ html, body{
   padding-left: .1em;
 }
 
+.dc-lander{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    display: block;
+  }
+  .dc-bio{
+    position: fixed;
+    padding-left: $dc_site_padding_left;
+    padding-right: $dc_site_padding_right;
+    box-sizing: border-box;
+    top: 4.3rem;
+    padding-bottom: .5rem !important;
+    background-color: transparent;
+  }
+}
+
 
 /* ZOOM */
 .dc-zoomable-wrap{

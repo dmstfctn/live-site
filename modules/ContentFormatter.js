@@ -425,6 +425,17 @@ const createDissemination = ( dissemination ) => {
   }
 };
 
+const createLanding = ( imagesSrc, bio ) => {
+  const destinationPath = path.join( Config.paths.public, 'lander' );
+  const images = imagesSrc.map( (src) => {    
+   return prepareImage( src, destinationPath, 'lander' ) 
+  });
+  return {
+    image: images[0],
+    bio: bio
+  }
+}
+
 const structureCV = ( cv ) => {
   /* paths / src for moving images */
   const destinationPath = path.join( Config.paths.public, 'track-record', 'content' );
@@ -563,5 +574,6 @@ module.exports = {
   createDissemination,
   createTrackRecord,
   createPageList,
-  createSmallSite
+  createSmallSite,
+  createLanding
 };

@@ -45,9 +45,12 @@ Assets.svgToTemplate(
   path.join( __dirname, 'templates', 'partials' ) // to
 );
 
+
+
 const relatedMatters = Formatter.createRelatedMatters( Content.related_matters, Content.cv, Content.bio );
 const focusGroups = Formatter.createFocusGroups( Content.focus_groups );
 const trackRecord = Formatter.createTrackRecord( Content.bio, Content.cv );
+const landingPage = Formatter.createLanding( Content.landing_images, Content.bio )
 
 const smallSiteData = Formatter.createSmallSite( Content );
 
@@ -65,6 +68,8 @@ const rendered_track_record = Rendering.renderTrackRecord( trackRecord );
 /* turn small site into JSON for printing to script ele */
 const rendered_small_site = Rendering.renderSmall( smallSiteData ); 
 
+Rendering.renderLander( landingPage );
+
 
 /* home page / track record page*/
 let homePath = Config.paths.public;
@@ -77,6 +82,7 @@ let renderHome = {
   content: null,  
   track_record: rendered_track_record,
   small_site: rendered_small_site,
+  landing: landingPage,
   _build_info: _BUILD_INFO
 };
 fs.mkdirSync( homeFragP, {recursive: true });

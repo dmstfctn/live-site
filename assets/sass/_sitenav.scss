@@ -21,6 +21,9 @@
     top: -0.3rem;
     left:0;
   }
+  html[data-dc-pagetype="home"] .dc-sitenav::before{
+    display: none;
+  }
   .dc-sitenav a{
     height: 1.65rem;    
     color: #FFFFFF;
@@ -37,7 +40,7 @@
       text-decoration-line: none;
     }
       
-      html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
+      // html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
       html[data-dc-pagetype="home"][data-dc-homeactive="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
       html[data-dc-pagetype="home"][data-dc-homeactive="track-record"] .dc-sitenav a[href="#{$urlRoot}track-record"],
       html[data-dc-pagetype="relatedmatter"] .dc-sitenav a[href="#{$urlRoot}"],
@@ -60,6 +63,7 @@
       }
       
       html[data-dc-menuvisible="track-record"] .dc-sitenav a[data-dc-localtarget="#track-record"]{        
+        color: #FF0000;
         text-decoration-line: underline !important;   
       }
 
@@ -185,7 +189,7 @@
   html[data-dc-pagetype="home"],
   html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"]{
     .dc-navigation-item#related-matters{
-      display: block;
+      // display: block;
     }
   }
   html[data-dc-pagetype="home"][data-dc-homeactive="focus-groups"]{ 
@@ -211,7 +215,8 @@
 /* work lists */
 .dc-work{  
   list-style-type: none;
-  padding-top: 1.8rem;  
+  // padding-top: 1.8rem;  
+  padding-top: 4.8rem;
   margin: 0 0 0 0;
   height: calc(100% - 2.2rem);
   box-sizing: border-box;
