@@ -34,7 +34,7 @@
 
     .dc-sitenav a:hover{
       // color: #FFFFFF;
-      text-decoration-line: underline; 
+      text-decoration-line: none;
     }
       
       html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
