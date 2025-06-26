@@ -1,9 +1,13 @@
 <div class="dc-biglist dc-work dc-navigation-item" id="{{slug}}"  data-pagetype="{{pagetype}}">
-{{!-- {{#if bio}}
+{{!--  
+  /* LANDING IMAGE */
+  /* recomment 'bio' code below */ 
+--}}
+{{#if bio}}
   <div class="dc-bio dc-bio__home">
     {{{bio}}}
   </div>
-{{/if}} --}}
+{{/if}}
 <ol>
 {{#each contents}}
   <li class="dc-biglist--item dc-work--year">
@@ -28,7 +32,11 @@
   </li>
 {{/each}}
 </ol>
-<div class="dc-biglist--now dc-work--year">
+{{!--  
+  /* LANDING IMAGE */
+  /* uncomment 'now' code below */ 
+--}}
+{{!-- <div class="dc-biglist--now dc-work--year">
   {{#if now}}
   <a href="{{now.url}}" class="dc-external-link" target="_blank" rel="noopener">
     <h2 class="dctxt--date dc-cv--now">{{now.label}}</h2><!--
@@ -45,5 +53,5 @@
   {{#unless now}}
   &nbsp;
   {{/unless}}
-</div>
+</div> --}}
 </div>
