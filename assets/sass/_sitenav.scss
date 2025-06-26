@@ -200,7 +200,7 @@
 /* work lists */
 .dc-work{  
   list-style-type: none;
-  padding-top: 4rem;  
+  padding-top: 2.2rem;  
   margin: 0 0 0 0;
   height: calc(100% - 2.2rem);
   box-sizing: border-box;
@@ -293,6 +293,9 @@
     }
 
 /* related matters */
+.dc-bio__home{
+  padding-bottom: 3rem !important;
+}
 /* now */
 .dc-biglist--now{
   position: absolute;

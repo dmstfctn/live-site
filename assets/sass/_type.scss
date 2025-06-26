@@ -66,7 +66,7 @@ html{
   line-height: 1; 
   letter-spacing: -.065em;
 }
-  .dc-work{
+  .dc-work > ol{
     font-size: 3.14rem;
     line-height: 1.142em;
     letter-spacing: -0.055em;
@@ -111,7 +111,8 @@ html{
   line-height: 1;
 }
 
-.dc-track-record{
+.dc-track-record,
+.dc-bio__home{
   font-size: 1.556rem; 
   line-height: 1.35em;
   letter-spacing: -.065em;

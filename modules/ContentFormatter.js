@@ -312,7 +312,7 @@ const dateToHTML = ( date ) => {
   return date.replace( '-', '<span class="dctxt--date--hyphen">-</span>' );
 }
 
-const createRelatedMatters = ( related_matters, cv ) => {
+const createRelatedMatters = ( related_matters, cv, bio ) => {
   const section_name = Config.name;
   const section_slug = H.createSlug('Related Matters');
 
@@ -360,7 +360,8 @@ const createRelatedMatters = ( related_matters, cv ) => {
     template: 'list_work',
     pagetype: 'relatedmatter',
     contents: list,
-    now: now
+    now: now,
+    bio: bio
   };
 }
 

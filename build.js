@@ -45,7 +45,7 @@ Assets.svgToTemplate(
   path.join( __dirname, 'templates', 'partials' ) // to
 );
 
-const relatedMatters = Formatter.createRelatedMatters( Content.related_matters, Content.cv );
+const relatedMatters = Formatter.createRelatedMatters( Content.related_matters, Content.cv, Content.bio );
 const focusGroups = Formatter.createFocusGroups( Content.focus_groups );
 const trackRecord = Formatter.createTrackRecord( Content.bio, Content.cv );
 
