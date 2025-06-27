@@ -345,6 +345,22 @@
     html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] & a[data-dc-localtarget="#track-record"]{
       color: #FF0000;
     }
+
+    .dc-sitenav-item__home{
+      display: none;
+    }
+    .dc-sitenav-item__work{
+      order: 2;
+    }
+    .dc-sitenav-item__cv{
+      order: 1;
+    }
+    .dc-sitenav-item__email{
+      order: 3;
+    }
+    .dc-sitenav-item__ig{
+      order: 4;
+    }
   }
 
     .dc-sitenav--text{
