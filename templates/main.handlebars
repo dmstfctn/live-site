@@ -28,20 +28,23 @@
   {{#if landing}}
   <div class="dc-lander">
     <div class="dc-lander--images">
-      <div>
+      <div class="dc-lander--images--wrapper">
         {{#each landing.images }}
-        <img     
-          class="dc-lander--img"
-          src="{{this.src}}"
-          data-low-src="{{this.lowSrc}}"
-          data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
-                      {{this.halfSrc}} 2100w,
-                      {{this.src}} 3000w"
-          data-sizes="(max-width: 900px) 1px,
-                      100vw"    
-          width="{{this.dimensions.width}}"
-          height="{{this.dimensions.height}}"
-        >
+        <div class="dc-lander--img-container">
+          <img     
+            class="dc-lander--img"
+            src="{{this.file.src}}"
+            data-low-src="{{this.file.lowSrc}}"
+            data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
+                        {{this.file.halfSrc}} 2100w,
+                        {{this.file.src}} 3000w"
+            data-sizes="(max-width: 900px) 1px,
+                        100vw"    
+            width="{{this.file.dimensions.width}}"
+            height="{{this.file.dimensions.height}}"
+          >
+          <span class="dc-lander--caption">{{this.caption}}</span>
+        </div>
         {{/each}}
       </div>
     </div>

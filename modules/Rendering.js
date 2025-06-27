@@ -176,8 +176,8 @@ const moveLanderContent = ( lander ) => {
   /* ensure the destination exists */
   fs.mkdirSync( landerContentDestination, {recursive: true} );
   lander.images.forEach( img => {
-    fs.copyFileSync( img.originalPath, img.newPath );
-    createLowResAndSave( img.originalPath, img.lowPath );
+    fs.copyFileSync( img.file.originalPath, img.file.newPath );
+    createLowResAndSave( img.file.originalPath, img.file.lowPath );
   });
 }
 

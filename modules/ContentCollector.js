@@ -311,8 +311,22 @@ const readFolder = ( folderPath, cv ) => {
 };
 
 const readLanderFolder = ( folderPath ) => {
-  const dir = fs.readdirSync( folderPath ).filter( removeDotFiles );  
-  return dir.map( ( img ) => path.join( folderPath, img ) );
+  const dir = fs.readdirSync( folderPath ).filter( removeDotFiles );
+  const images = []
+  let data;
+  dir.forEach( (file) => {
+    if( file === 'lander.yaml' ){
+      const landerYamlPath = path.join( folderPath, file );
+      const landerYaml = fs.readFileSync( landerYamlPath );
+      data = YAML.parse( landerYaml.toString() );
+    } else {
+      images.push( path.join( folderPath, file ) )
+    }
+  });
+  return {
+    images: images,
+    data: data
+  }
 }
 
 const loadCV = ( file ) => {
@@ -390,7 +404,7 @@ const ContentCollector = function( contentPath ){
     dissemination: dissemination,
     related_matters: readFolder( path.join( contentPath, 'related matters'), cv ),
     focus_groups: readFolder( path.join( contentPath, 'focus groups'), cv ),
-    landing_images: readLanderFolder( path.join( contentPath, 'lander' ) )
+    landing: readLanderFolder( path.join( contentPath, 'lander' ) )
   }
 }
 

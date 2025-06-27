@@ -39,7 +39,7 @@ const Large = function(){
 };
 
 Large.prototype.setupLander = function(){
-  this.$landerImgs = document.querySelectorAll( '.dc-lander--img');
+  this.$landerImgs = document.querySelectorAll( '.dc-lander--img-container');
   this.$landerImageWrap = document.querySelector('.dc-lander--images');
   this.landerIndex = Math.floor( Math.random() * this.$landerImgs.length );
   this.showLanderImageByIndex( this.landerIndex );
@@ -56,7 +56,7 @@ Large.prototype.startLanderAuto = function(){
   clearInterval( this.landerNextInterval );
   this.landerNextInterval = setInterval( () => {
    this.showNextLanderImage();
-  }, 8000 );
+  }, 6000 );
 }
 
 Large.prototype.hideLanderImages = function(){

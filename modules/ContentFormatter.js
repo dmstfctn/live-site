@@ -425,15 +425,22 @@ const createDissemination = ( dissemination ) => {
   }
 };
 
-const createLanding = ( imagesSrc, bio ) => {
+const createLanding = ( data, bio ) => {
   const destinationPath = path.join( Config.paths.public, 'lander' );
-  const images = imagesSrc.map( (src) => {    
-   return prepareImage( src, destinationPath, 'lander' ) 
+  const images = data.images.map( (src) => {
+    const filename = path.basename( src );
+    const imageInfo = data.data.find( (entry) => entry.image === filename );    
+    return {
+      file: prepareImage( src, destinationPath, 'lander' ),
+      caption: imageInfo.caption
+    }
   });
+
   return {
     image: images[0],
     images: images,
-    bio: bio
+    bio: bio,
+    data: data.data
   }
 }
 

@@ -50,7 +50,7 @@ Assets.svgToTemplate(
 const relatedMatters = Formatter.createRelatedMatters( Content.related_matters, Content.cv, Content.bio );
 const focusGroups = Formatter.createFocusGroups( Content.focus_groups );
 const trackRecord = Formatter.createTrackRecord( Content.bio, Content.cv );
-const landingPage = Formatter.createLanding( Content.landing_images, Content.bio )
+const landingPage = Formatter.createLanding( Content.landing, Content.bio )
 
 const smallSiteData = Formatter.createSmallSite( Content );
 
