@@ -115,7 +115,7 @@
   situation: TECNOPOLO
   location: bologna
   url:
-  image: artcity-tecnopolo-dmstfctn-themodels.jpg
+  image: artcity-tecnopolo-dmstfctn-themodels.webp
   related: The Models
 
 - now: false
@@ -129,7 +129,7 @@
   situation: V&A
   location: london
   url: 
-  image: dmstfctn-imogen-heap-v&a-friday-late.jpg
+  image: dmstfctn-imogen-heap-v&a-friday-late.webp
   related: Waluigi's Purgatory
   hideon: 
 
@@ -144,7 +144,7 @@
   situation: GLUON
   location: brussels
   url: 
-  image: dmstfctn-gluon-brussel-digital-deal.jpg
+  image: dmstfctn-gluon-brussel-digital-deal.webp
   related: Waluigi's Purgatory
   hideon: 
 
@@ -174,7 +174,7 @@
   situation: NUNNERY GALLERY
   location: 
   url:
-  image: eastlondonartprize-dmstfctn-waluigi-purgatory.jpg
+  image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
   related: Waluigi's Purgatory
 
 #------------------------------------------------2024
@@ -189,7 +189,7 @@
   situation: MEET
   location: milan
   url: 
-  image: dmstfctn-meet-milan-waluigi-purgatory.jpg
+  image: dmstfctn-meet-milan-waluigi-purgatory.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -203,7 +203,7 @@
   situation: MATTATOIO
   location: rome
   url: 
-  image: dmstfctn-roma-europa-mattatoio-waluigi-purgatory.jpg
+  image: dmstfctn-roma-europa-mattatoio-waluigi-purgatory.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -217,7 +217,7 @@
   situation: bologna
   location: 
   url: 
-  image: dmstfctn-robot-festival-waluigi-purgatory.jpg
+  image: dmstfctn-robot-festival-waluigi-purgatory.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -246,7 +246,7 @@
   situation: ETOPIA
   location: zaragoza
   url: 
-  image: etopia_dmstfctn.jpg
+  image: etopia_dmstfctn.webp
   related: Fango 1000
   hideon: 
 
@@ -276,7 +276,7 @@
   situation: TEATRO S CARLO
   location: modena
   url: 
-  image: dmstfctn-waluigi-purgatory-smart-life-festival.jpg
+  image: dmstfctn-waluigi-purgatory-smart-life-festival.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -290,7 +290,7 @@
   situation: GNRATION
   location: braga
   url: 
-  image: dmstfctn-evita-manji-gnration-index-media-biennial.jpg
+  image: dmstfctn-evita-manji-gnration-index-media-biennial.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -304,7 +304,7 @@
   situation: SONAR+D
   location: barcelona
   url: 
-  image: dmstfctn-gunseli-yalcinkaya-cryptids-sonar.jpg
+  image: dmstfctn-gunseli-yalcinkaya-cryptids-sonar.webp
   related: Waluigi's Purgatory
   hideon: mobile
 
@@ -334,7 +334,7 @@
   situation: FOLD
   location: london
   url: 
-  image: waluigi_dmstfctn_fold.jpg
+  image: waluigi_dmstfctn_fold.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -348,7 +348,7 @@
   situation: "SERPENTINE<sup>×</sup>HQI"
   location: london
   url: 
-  image: waluigi_dmstfctn_hqi.jpg
+  image: waluigi_dmstfctn_hqi.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -362,7 +362,7 @@
   situation: MUDAERUK
   location: seoul
   url: 
-  image: dmstfctn_godmode_seoul_mudaeruk.jpg
+  image: dmstfctn_godmode_seoul_mudaeruk.webp
   related: GOD MODE (ep. 1)
 
 - now: false
@@ -376,7 +376,7 @@
   situation: SYSTEM
   location: shanghai
   url: 
-  image: dmstfctn_system_shanghai_godmode.jpg
+  image: dmstfctn_system_shanghai_godmode.webp
   related: GOD MODE (ep. 1)
 
 - now: false
@@ -390,7 +390,7 @@
   situation: ICA
   location: london
   url: 
-  image: dmstfctn_ica_noindex.jpg
+  image: dmstfctn_ica_noindex.webp
   related:
 
 - now: false
@@ -551,7 +551,7 @@
   situation: THE WRONG BIENNALE
   location: alicante
   url: 
-  image: wrongbiennale_dmstfctn.jpg
+  image: wrongbiennale_dmstfctn.webp
   related: Godmode Epochs
 
 - now: false
@@ -565,7 +565,7 @@
   situation: THEATRO CIRCO
   location: braga
   url: 
-  image: dmstfctn-semibreve-godmode-ep.jpg
+  image: dmstfctn-semibreve-godmode-ep.webp
   related: GOD MODE (ep. 1)
 
 - now: false
@@ -579,7 +579,7 @@
   situation: istanbul
   location: 
   url: 
-  image: dmstfctn-onchain-large-lore-models.jpg
+  image: dmstfctn-onchain-large-lore-models.webp
   related: Fango 1000
 
 #- now: false
@@ -608,7 +608,7 @@
   situation: SOMERSET HOUSE
   location: london
   url: 
-  image: dmstfctn-large-lore-models.jpg
+  image: dmstfctn-large-lore-models.webp
   related: Fango 1000
   hideon: mobile
 #- now: false
@@ -682,7 +682,7 @@
   situation: QEII CENTRE
   location: london
   url: 
-  image: aiuk-dmstfctn-godmodeepochs.jpg
+  image: aiuk-dmstfctn-godmodeepochs.webp
   related: Godmode Epochs
 
 - now: false
@@ -809,7 +809,7 @@
   situation: SERPENTINE
   location: london
   url: 
-  image: godmode-serpentine-dmstfctn.jpg
+  image: godmode-serpentine-dmstfctn.webp
   related: GOD MODE (ep. 1)
 
 - now: false
@@ -821,7 +821,7 @@
   situation: HET HUIS
   location: utrecht
   url: 
-  image: impakt_godmode_dmstfctn.jpg
+  image: impakt_godmode_dmstfctn.webp
   related: GOD MODE (ep. 1)
   
 - now: false
@@ -833,7 +833,7 @@
   situation: kraków 
   location: 
   url: 
-  image: dmstfctn_godmode_unsound.jpg
+  image: dmstfctn_godmode_unsound.webp
   related: GOD MODE (ep. 1)
 
 - now: false
@@ -845,7 +845,7 @@
   situation: HQI
   location: london
   url: 
-  image: godmode_dmstfctn.jpg
+  image: godmode_dmstfctn.webp
   related: GOD MODE (ep. 1)
 
 - now: false
@@ -897,7 +897,7 @@
   situation: FLATLINE PRESS/HYPERDUB
   location: 
   url:
-  image: dmstfctn_zero_hyperdub_flatlinepress.jpg
+  image: dmstfctn_zero_hyperdub_flatlinepress.webp
   related: ECHO FX
 
 - now: false
@@ -909,7 +909,7 @@
   situation: CAFE OTO
   location: london
   url: 
-  image: interface-chaos-cafe-oto-sky-h1-live.jpg
+  image: interface-chaos-cafe-oto-sky-h1-live.webp
   related: Interface Chaos
 
 - now: false
@@ -922,7 +922,7 @@
   situation: SYNNIKA, frankfurt
   location: 
   url: 
-  image: dmstfctn-synnika.jpg
+  image: dmstfctn-synnika.webp
   related: ECHO FX
   hideon: mobile
   
@@ -938,7 +938,7 @@
 #  location: 
 # url: https://www.twitch.tv/canal180
 #  url:
-#  image: dmstfctn-noindex.jpg
+#  image: dmstfctn-noindex.webp
 #  related:
 
 - now: false
@@ -992,7 +992,7 @@
   situation: BERGHAIN
   location: berlin
   url: 
-  image: echo-fx-berghain.jpg
+  image: echo-fx-berghain.webp
   related: ECHO FX
 
 # ## 2020 ## solo ############## #
@@ -1005,7 +1005,7 @@
   situation: AKSIOMA
   location: ljubljana
   url: 
-  image: offshore-matters-aksioma.jpg
+  image: offshore-matters-aksioma.webp
   related:
     - Offshore Investigation Vehicle
     - OFFSHORESS18
@@ -1020,7 +1020,7 @@
   situation: FORUM STADTPARK
   location: graz
   url: 
-  image: interface-chaos-graz.jpg
+  image: interface-chaos-graz.webp
   related: Interface Chaos
 
 - now: false
@@ -1076,7 +1076,7 @@
   situation: DESIGN MUSEUM
   location: london
   url: 
-  image: Designing-Museum-Designing-Time.jpg
+  image: Designing-Museum-Designing-Time.webp
   related: Network Ensemble
 
 - now: false
@@ -1088,7 +1088,7 @@
   situation: GLUQBAR
   location: milan
   url: 
-  image: network-ensemble-gluqbar.jpg
+  image: network-ensemble-gluqbar.webp
   related:
     - Network Ensemble
     - Network Study (I, VII, VIII)
@@ -1106,7 +1106,7 @@
   situation: C-MINE
   location: genk
   url: 
-  image: c-mine-school-of-school.jpg
+  image: c-mine-school-of-school.webp
   related: OFFSHORESS18
   hideon: mobile
 
@@ -1119,7 +1119,7 @@
   situation: TRINDADE
   location: porto
   url: 
-  image: chaos-of-interfaces-porto-biennale.jpg
+  image: chaos-of-interfaces-porto-biennale.webp
   related: A Chaos of Interfaces
 
 - now: false
@@ -1131,7 +1131,7 @@
   situation: LUMA
   location: arles
   url: 
-  image: school-of-schools-luma2.jpg
+  image: school-of-schools-luma2.webp
   related: OFFSHORESS18
 
 # ## 2019 ## screening ######## #    
@@ -1144,7 +1144,7 @@
   situation: CORSICA STUDIOS
   location: london
   url: 
-  image: echo-fx-corsica-studios.jpg
+  image: echo-fx-corsica-studios.webp
   related: ECHO FX
 
 - now: false
@@ -1156,7 +1156,7 @@
   situation: CAMPO 24 DE AGOSTO
   location: porto
   url: 
-  image: chaos-of-interfaces-porto-biennale-screening.jpg
+  image: chaos-of-interfaces-porto-biennale-screening.webp
   related: 
   hideon: mobile
 
@@ -1183,7 +1183,7 @@
   situation: TRUST
   location: berlin
   url: 
-  image: interface-chaos-discussion-trust.jpg
+  image: interface-chaos-discussion-trust.webp
   related: Interface Chaos
 
 - now: false
@@ -1195,7 +1195,7 @@
   situation: EVENING CLASS
   location: london
   url: 
-  image: Interface-Chaos-Antiuniversity.jpg
+  image: Interface-Chaos-Antiuniversity.webp
   related: Interface Chaos
   hideon: mobile
 
@@ -1224,7 +1224,7 @@
   situation: HKW
   location: berlin
   url: 
-  image: demystification-committee-transmediale-performance.jpg
+  image: demystification-committee-transmediale-performance.webp
   related:
     - Offshore Investigation Vehicle
     - OFFSHORESS18
@@ -1238,7 +1238,7 @@
   situation: ONASSIS
   location: athens
   url: 
-  image: demystification-committee-spektrum-onassis-stegi-borderline-festival.jpg
+  image: demystification-committee-spektrum-onassis-stegi-borderline-festival.webp
   related: Network Ensemble
   hideon: desktop
 
@@ -1265,7 +1265,7 @@
   situation: SPEKTRUM
   location: berlin
   url: 
-  image: demystification-committee-spektrum-radical-networks.jpg
+  image: demystification-committee-spektrum-radical-networks.webp
   related: Demons
 
 - now: false
@@ -1277,7 +1277,7 @@
   situation: ARTER
   location: istanbul
   url: 
-  image: offshore-ss18-istanbul-design-biennale.jpg
+  image: offshore-ss18-istanbul-design-biennale.webp
   related: OFFSHORESS18
   hideon: desktop
 
@@ -1290,7 +1290,7 @@
   situation: ARTER
   location: istanbul
   url: 
-  image: offshore-ss18-istanbul-design-biennale.jpg
+  image: offshore-ss18-istanbul-design-biennale.webp
   related: OFFSHORESS18
   hideon: mobile
 
@@ -1303,7 +1303,7 @@
   situation: HKW
   location: berlin
   url: 
-  image: demystification-committee-transmediale.jpg
+  image: demystification-committee-transmediale.webp
   related: 
     - Offshore Investigation Vehicle
     - OFFSHORESS18
@@ -1318,7 +1318,7 @@
   situation: FOTOMUSEUM
   location: winterthur
   url: 
-  image: demystification-committee-fotomuseum-winterthur.jpg
+  image: demystification-committee-fotomuseum-winterthur.webp
   related: Network Study (I, VII, VIII)
 
 - now: false
@@ -1407,7 +1407,7 @@
   situation: DESIGN MUSEUM
   location: london
   url: 
-  image: demystification-committee-altage-design-museum.jpg
+  image: demystification-committee-altage-design-museum.webp
   related: Flash
 
   # ## 2018 ## dissemination ##### #
@@ -1463,7 +1463,7 @@
   situation: CCCB
   location: barcelona
   url:
-  image: cccb-demystification-committee-talk.jpg
+  image: cccb-demystification-committee-talk.webp
   related: OFFSHORESS18
 
 - now: false
@@ -1475,7 +1475,7 @@
   situation: TRANSMEDIALE
   location: berlin
   url:
-  image: vilem-flusser-artistic-residency.jpg
+  image: vilem-flusser-artistic-residency.webp
   related: 
     - Offshore Investigation Vehicle
     - OFFSHORESS18
