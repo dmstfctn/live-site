@@ -179,9 +179,7 @@ const moveLanderContent = ( lander ) => {
   createLowResAndSave( lander.image.originalPath, lander.image.lowPath );
 }
 
-const renderLander = ( lander ) => {
-  console.log('LANDER: ' );
-  console.log(lander);
+const renderLander = ( lander ) => {  
   moveLanderContent( lander );
 } 
 
