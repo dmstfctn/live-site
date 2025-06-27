@@ -7,8 +7,8 @@
   type: group show
   date: 3.5
   title: Rhizome World
-  situation: RHIZOME
-  location: new york
+  situation: WSA
+  location: new york city
   url: https://rhizome.org/events/god-mode/
   image: 
   related: Godmode Epochs
@@ -1131,7 +1131,7 @@
   situation: LUMA
   location: arles
   url: 
-  image: school-of-schools-luma2.webp
+  image: school-of-schools-luma.webp
   related: OFFSHORESS18
 
 # ## 2019 ## screening ######## #    
