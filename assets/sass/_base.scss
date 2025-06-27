@@ -180,31 +180,71 @@ html, body{
 }
 
 .dc-lander{
+  display: none;
+  html[data-dc-pagetype="home"] & {
+    display: flex;
+  }
   width: 100%;
   height: 100%;
   position: fixed;
   z-index: 0;
   top: 0;
   left: 0;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  img{
-    display: block;
+  flex-direction: column-reverse;
+  padding-top: 4rem;
+  box-sizing: border-box;    
+  pointer-events: none;
+  .dc-lander--images{
+    pointer-events: all;
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
+    .dc-lander--images--wrapper{
+      position: absolute;
+      top: 0;
+      left: $dc_site_padding_left;
+      right: $dc_site_padding_right;
+      bottom: 3.3rem;
+    }
+    .dc-lander--img-container{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; 
+      opacity: 0;      
+      transition: opacity .5s ease-in-out;
+      &.visible{
+        opacity: 1;
+      }
+
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+      }
+      .dc-lander--caption{
+        font-size: 0.75rem;
+        letter-spacing: -0.03em;
+        text-align: center;
+        display: block;
+      }
+    } 
   }
-  .dc-bio{
-    position: fixed;
+ 
+  .dc-bio{    
     padding-left: $dc_site_padding_left;
     padding-right: $dc_site_padding_right;
-    box-sizing: border-box;
-    top: 4.3rem;
-    padding-bottom: .5rem !important;
+    box-sizing: border-box;    
+    padding-bottom: 2rem !important;
     background-color: transparent;
   }
   /* LANDING IMAGE */
   /* remove display none */
-  display: none;
+  // display: none;
 }
 
 

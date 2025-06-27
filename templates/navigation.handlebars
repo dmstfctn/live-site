@@ -3,23 +3,25 @@
     {{> svg_arrow}}
   </div>
   <div class="dc-sitenav--text">
-    <span>
-      dmstfctn
+    <span class="dc-sitenav-item__home">
+      <a class="dc-sitenav--homelink" href="{{dc_urlpath "" }}">
+        dmstfctn
+      </a>
     </span>
-    <span>
+    <span class="dc-sitenav-item__work">
       <a href="{{dc_urlpath "" }}" data-dc-localtarget="#related-matters">
         work
       </a>
     </span>
-    <span>
+    <span class="dc-sitenav-item__cv">
       <a href="{{dc_urlpath "track-record"}}" data-dc-localtarget="#track-record">
-        shows &amp; news
+        <span class="dc-hide-on-large">dmstfctn</span> <span class="dc-hide-on-small">shows &amp; news</span>
       </a>
     </span>
-    <span>
+    <span class="dc-sitenav-item__email">
       <a href="mailto:mail@dmstfctn.net">email</a>
     </span>
-    <span>
+    <span class="dc-sitenav-item__ig">
       <a href="https://instagram.com/dmstfctn" target="_blank">instagram</a>
     </span> 
   </div>

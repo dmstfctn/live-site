@@ -23,6 +23,7 @@ const Large = function(){
   this.setupLogo();
   this.setupMenus();  
   this.initQuantisers(); 
+  this.setupLander();
 
   document.querySelectorAll( '.dc-list-hoverimg' )
     .forEach( ($hoverImg) => {            
@@ -34,8 +35,50 @@ const Large = function(){
           hoverImg.$img.style.marginTop = distFromBottom - hoverImg.$img.offsetHeight + 'px';
         }
       }
-   });
+   });  
 };
+
+Large.prototype.setupLander = function(){
+  this.$landerImgs = document.querySelectorAll( '.dc-lander--img-container');
+  this.$landerImageWrap = document.querySelector('.dc-lander--images');
+  this.landerIndex = Math.floor( Math.random() * this.$landerImgs.length );
+  this.showLanderImageByIndex( this.landerIndex );
+  
+  //  this.$landerImageWrap.addEventListener('click', () => {
+  //   console.log('CLICK');
+  //   this.showNextLanderImage();
+  //  })
+
+  this.startLanderAuto();
+}
+
+Large.prototype.startLanderAuto = function(){
+  clearInterval( this.landerNextInterval );
+  this.landerNextInterval = setInterval( () => {
+   this.showNextLanderImage();
+  }, 6000 );
+}
+
+Large.prototype.hideLanderImages = function(){
+  this.$landerImgs.forEach( $img => $img.classList.remove('visible') );
+}
+
+Large.prototype.showLanderImageByIndex = function( index ){
+  if( index < this.$landerImgs.length && index >= 0 ){
+    this.landerIndex = index;
+    this.hideLanderImages()
+    this.$landerImgs[ this.landerIndex ].classList.add('visible');
+    return true;
+  }  
+  return false;
+}
+
+Large.prototype.showNextLanderImage = function(){
+  this.landerIndex++;
+  if( ! this.showLanderImageByIndex( this.landerIndex ) ){
+    this.showLanderImageByIndex( 0 );
+  }
+}
 
 Large.prototype.setupLogo = function(){
   //This used to pick which version of the DC we used, but now randomises the
