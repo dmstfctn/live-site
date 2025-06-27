@@ -175,8 +175,10 @@ const moveLanderContent = ( lander ) => {
   const landerContentDestination = path.join( Config.paths.public, 'lander' );
   /* ensure the destination exists */
   fs.mkdirSync( landerContentDestination, {recursive: true} );
-  fs.copyFileSync( lander.image.originalPath, lander.image.newPath );
-  createLowResAndSave( lander.image.originalPath, lander.image.lowPath );
+  lander.images.forEach( img => {
+    fs.copyFileSync( img.originalPath, img.newPath );
+    createLowResAndSave( img.originalPath, img.lowPath );
+  });
 }
 
 const renderLander = ( lander ) => {  

@@ -27,17 +27,24 @@
 <body>
   {{#if landing}}
   <div class="dc-lander">
-    <img 
-      src="{{landing.image.src}}"
-      data-low-src="{{landing.image.lowSrc}}"
-      data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
-                  {{landing.image.halfSrc}} 2100w,
-                  {{landing.image.src}} 3000w"
-      data-sizes="(max-width: 900px) 1px,
-                  100vw"    
-      width="{{landing.image.dimensions.width}}"
-      height="{{landing.image.dimensions.height}}"
-    >    
+    <div class="dc-lander--images">
+      <div>
+        {{#each landing.images }}
+        <img     
+          class="dc-lander--img"
+          src="{{this.src}}"
+          data-low-src="{{this.lowSrc}}"
+          data-srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== 1w,
+                      {{this.halfSrc}} 2100w,
+                      {{this.src}} 3000w"
+          data-sizes="(max-width: 900px) 1px,
+                      100vw"    
+          width="{{this.dimensions.width}}"
+          height="{{this.dimensions.height}}"
+        >
+        {{/each}}
+      </div>
+    </div>
     {{#if landing.bio }}
       <div class="dc-bio dc-bio__home">
         {{{landing.bio}}}

@@ -432,6 +432,7 @@ const createLanding = ( imagesSrc, bio ) => {
   });
   return {
     image: images[0],
+    images: images,
     bio: bio
   }
 }
