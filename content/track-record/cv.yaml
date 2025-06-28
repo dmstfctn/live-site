@@ -682,7 +682,7 @@
   situation: QEII CENTRE
   location: london
   url: 
-  # image: aiuk-dmstfctn-godmodeepochs.jpg
+  image: aiuk-dmstfctn-godmodeepochs.jpg
   related: Godmode Epochs
 
 - now: false
@@ -992,7 +992,7 @@
   situation: BERGHAIN
   location: berlin
   url: 
-  #image: echo-fx-berghain.jpg
+  image: echo-fx-berghain.jpg
   related: ECHO FX
 
 # ## 2020 ## solo ############## #
@@ -1183,7 +1183,7 @@
   situation: TRUST
   location: berlin
   url: 
-  # image: interface-chaos-discussion-trust.jpg
+  image: interface-chaos-discussion-trust.jpg
   related: Interface Chaos
 
 - now: false
@@ -1318,7 +1318,7 @@
   situation: FOTOMUSEUM
   location: winterthur
   url: 
-  # image: demystification-committee-fotomuseum-winterthur.jpg
+  image: demystification-committee-fotomuseum-winterthur.jpg
   related: Network Study (I, VII, VIII)
 
 - now: false
