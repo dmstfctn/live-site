@@ -30,21 +30,6 @@
 #  related: Autotuned
 #  hideon: desktop
 
-- now: next
-  description: 
-  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
-  priority: 0
-  year: 2025
-  type: group show
-  date: 8.5
-  title: Bits & Bots
-  situation: CENTRO DE HISTORIAS
-  location: zaragoza
-  url: https://fundacionzcc.org/bits-bots-la-exposicion-que-explora-la-realidad-generativa-llega-al-centro-de-historias/
-  image: 
-  related: The Models
-  hideon: 
-
 - now: false
   description: #Showing GOD MODE (ep. 1), Godmode Epochs
   longdescription: #Showing GOD MODE (ep. 1) and Godmode Epochs, co-presented by Onkaos
@@ -79,6 +64,35 @@
 
 - now: false
   description: 
+  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: group show
+  date: 8.5
+  title: Bits & Bots
+  situation: CENTRO DE HISTORIAS
+  location: zaragoza
+  url: https://fundacionzcc.org/bits-bots-la-exposicion-que-explora-la-realidad-generativa-llega-al-centro-de-historias/
+  image: 
+  related: The Models
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: solo show
+  date: 7.2
+  title: The Models
+  situation: TECNOPOLO
+  location: bologna
+  url:
+  image: artcity-tecnopolo-dmstfctn-themodels.jpg
+  related: The Models
+
+- now: false
+  description: 
   longdescription: 
   priority: 0
   year: 2025
@@ -90,20 +104,6 @@
   url:
   image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
   related: Waluigi's Purgatory
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: solo show
-  date: 7.2
-  title: The Models
-  situation: Tecnopolo
-  location: bologna
-  url:
-  image: artcity-tecnopolo-dmstfctn-themodels.jpg
-  related: The Models
 
 - now: false
   description: 
