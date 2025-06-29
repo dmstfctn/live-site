@@ -187,12 +187,12 @@
   priority: 0
   year: 2024
   type: live
-  date: 8.2
-  title: "Waluigi's Purgatory"
-  situation: "SERPENTINE<sup>×</sup>HQI"
+  date: 14.3
+  title: "Futur.Shock"
+  situation: FOLD
   location: london
   url: 
-  image: waluigi_dmstfctn_hqi.webp
+  image: waluigi_dmstfctn_fold.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -201,12 +201,12 @@
   priority: 0
   year: 2024
   type: live
-  date: 14.3
-  title: "Futur.Shock"
-  situation: FOLD
+  date: 8.2
+  title: "Waluigi's Purgatory"
+  situation: "SERPENTINE<sup>×</sup>HQI"
   location: london
   url: 
-  image: waluigi_dmstfctn_fold.webp
+  image: waluigi_dmstfctn_hqi.webp
   related: Waluigi's Purgatory
 
 - now: false
