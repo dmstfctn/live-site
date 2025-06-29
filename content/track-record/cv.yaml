@@ -71,7 +71,7 @@
   date: 1.4
   title: OS2.4
   situation: SINGAPORE ART MUSEUM
-  location: 
+  location: singapore
   url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
   image: 
   related: Godmode Epochs
@@ -84,9 +84,9 @@
   year: 2025
   type: group show
   date: 13.3
-  title: East London Art Prize
+  title: ELAP
   situation: NUNNERY GALLERY
-  location: 
+  location: london
   url:
   image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
   related: Waluigi's Purgatory
@@ -99,7 +99,7 @@
   type: solo show
   date: 7.2
   title: The Models
-  situation: ART CITY 2025
+  situation: Tecnopolo
   location: bologna
   url:
   image: artcity-tecnopolo-dmstfctn-themodels.jpg
