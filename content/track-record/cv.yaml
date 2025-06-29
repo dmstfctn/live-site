@@ -135,20 +135,20 @@
   related: Waluigi's Purgatory
   hideon: 
 
-#- now: false
-#  description: 
-#  longdescription: 
-#  priority: 0
-#  year: 2025
-#  type: news
-#  date: 31.1
-#  title: dmstfctn & Lawrence Lek
-#  situation: Digital Deal Podcast
-#  location: 
-#  url: 
-#  image: 
-#  related: The Models
-#  hideon: desktop
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: news
+  date: 31.1
+  title: dmstfctn & Lawrence Lek
+  situation: Digital Deal podcast
+  location: 
+  url: 
+  image: 
+  related: The Models
+  hideon: desktop
 
 - now: false
   description: 
@@ -157,13 +157,13 @@
   year: 2025
   type: news
   date: 31.1
-  title: "dmstfctn <sup>×</sup> Lawrence Lek"
+  title: dmstfctn & Lawrence Lek
   situation: DIGITAL DEAL PODCAST
   location: 
   url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
   image: 
   related: The Models
-  hideon: #mobile
+  hideon: mobile
 
 - now: false
   description: 
