@@ -46,20 +46,6 @@
   hideon: 
 
 - now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: solo show
-  date: 7.2
-  title: ART CITY 2025
-  situation: TECNOPOLO
-  location: bologna
-  url:
-  image: artcity-tecnopolo-dmstfctn-themodels.jpg
-  related: The Models
-
-- now: false
   description: #Showing GOD MODE (ep. 1), Godmode Epochs
   longdescription: #Showing GOD MODE (ep. 1) and Godmode Epochs, co-presented by Onkaos
   priority: 0
@@ -104,6 +90,20 @@
   url:
   image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
   related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: solo show
+  date: 7.2
+  title: The Models
+  situation: ART CITY 2025
+  location: bologna
+  url:
+  image: artcity-tecnopolo-dmstfctn-themodels.jpg
+  related: The Models
 
 - now: false
   description: 
