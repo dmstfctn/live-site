@@ -1,15 +1,15 @@
 #------------------------------------------------2025
 
 - now: next
-  description: 
+  description: Showing an installation about deceptive AI
   longdescription: 
   priority: 0
   year: 2025
   type: group show
   date: 7.8
-  title: EDINBURGH ART FESTIVAL
-  situation: 
-  location: edinburgh
+  title: edinburgh art festival
+  situation: edinburgh
+  location: 
   url: https://www.edinburghartfestival.com/event/authenticity-unmasked-unveiling-ai-driven-realities-through-art/
   image: 
   related: Autotuned
