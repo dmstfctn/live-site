@@ -137,6 +137,21 @@
 
 - now: false
   description: 
+  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: news
+  date: 18.2
+  title: What happens when AI lies?
+  situation: DOMUS
+  location: 
+  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
+  image: 
+  related: The Models
+  hideon: 
+
+- now: false
+  description: 
   longdescription: 
   priority: 0
   year: 2025
@@ -157,28 +172,13 @@
   year: 2025
   type: news
   date: 31.1
-  title: dmstfctn & Lawrence Lek
+  title: "dmstfctn <sup>×</sup> Lawrence Lek"
   situation: DIGITAL DEAL PODCAST
   location: 
   url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
   image: 
   related: The Models
   hideon: mobile
-
-- now: false
-  description: 
-  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
-  priority: 0
-  year: 2025
-  type: news
-  date: 18.2
-  title: What happens when AI lies?
-  situation: DOMUS
-  location: 
-  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
-  image: 
-  related: The Models
-  hideon: 
 
 #------------------------------------------------2024
 - now: false
