@@ -1,28 +1,14 @@
 #------------------------------------------------2025
-- now: next
-  description: Showing GOD MODE (ep. 1), Godmode Epochs
-  longdescription: Showing GOD MODE (ep. 1) and Godmode Epochs, co-presented by Onkaos
-  priority: 0
-  year: 2025
-  type: group show
-  date: 3.5
-  title: Rhizome World
-  situation: WSA
-  location: new york city
-  url: https://rhizome.org/events/god-mode/
-  image: 
-  related: Godmode Epochs
-  hideon: 
 
 - now: next
   description: 
-  longdescription: Showing Maximum Jailbreak (2025), an installation about deceptive AI characters
+  longdescription: 
   priority: 0
   year: 2025
   type: group show
   date: 7.8
-  title: Authenticity Unmasked
-  situation: EDINBURGH ART FESTIVAL
+  title: EDINBURGH ART FESTIVAL
+  situation: INFORMATICS FORUM
   location: edinburgh
   url: https://www.edinburghartfestival.com/event/authenticity-unmasked-unveiling-ai-driven-realities-through-art/
   image: 
@@ -59,51 +45,6 @@
   related: The Models
   hideon: 
 
-- now: next
-  description: 
-  longdescription: dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
-  priority: 0
-  year: 2025
-  type: news
-  date: 31.1
-  title: dmstfctn & Lawrence Lek
-  situation: DIGITAL DEAL PODCAST
-  location: 
-  url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
-  image: 
-  related: The Models
-  hideon: mobile
-
-- now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: news
-  date: 31.1
-  title: dmstfctn & Lawrence Lek
-  situation: Digital Deal Podcast
-  location: 
-  url: 
-  image: 
-  related: The Models
-  hideon: desktop
-
-- now: next
-  description: 
-  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
-  priority: 0
-  year: 2025
-  type: news
-  date: 18.2
-  title: What happens when AI lies?
-  situation: DOMUS
-  location: 
-  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
-  image: 
-  related: The Models
-  hideon: 
-
 - now: false
   description: 
   longdescription: 
@@ -117,6 +58,52 @@
   url:
   image: artcity-tecnopolo-dmstfctn-themodels.webp
   related: The Models
+
+- now: false
+  description: #Showing GOD MODE (ep. 1), Godmode Epochs
+  longdescription: #Showing GOD MODE (ep. 1) and Godmode Epochs, co-presented by Onkaos
+  priority: 0
+  year: 2025
+  type: group show
+  date: 3.5
+  title: Rhizome World
+  situation: WSA
+  location: new york city
+  url: #https://rhizome.org/events/god-mode/
+  image: dmstfctn-rhizome-wsa-nyc-god-mode.jpg
+  related: 
+    - Godmode Epochs
+    - GOD MODE (ep. 1)
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: group show
+  date: 1.4
+  title: OS2.4
+  situation: SINGAPORE ART MUSEUM
+  location: 
+  url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
+  image: 
+  related: Godmode Epochs
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: group show
+  date: 13.3
+  title: East London Art Prize
+  situation: NUNNERY GALLERY
+  location: 
+  url:
+  image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
+  related: Waluigi's Purgatory
 
 - now: false
   description: 
@@ -153,29 +140,45 @@
   longdescription: 
   priority: 0
   year: 2025
-  type: group show
-  date: 1.4
-  title: OS2.4
-  situation: SINGAPORE ART MUSEUM
+  type: news
+  date: 31.1
+  title: dmstfctn & Lawrence Lek
+  situation: Digital Deal Podcast
   location: 
-  url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
+  url: 
   image: 
-  related: Godmode Epochs
-  hideon: 
+  related: The Models
+  hideon: desktop
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
   priority: 0
   year: 2025
-  type: group show
-  date: 13.3
-  title: East London Art Prize
-  situation: NUNNERY GALLERY
+  type: news
+  date: 31.1
+  title: dmstfctn & Lawrence Lek
+  situation: DIGITAL DEAL PODCAST
   location: 
-  url:
-  image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
-  related: Waluigi's Purgatory
+  url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
+  image: 
+  related: The Models
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: news
+  date: 18.2
+  title: What happens when AI lies?
+  situation: DOMUS
+  location: 
+  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
+  image: 
+  related: The Models
+  hideon: 
 
 #------------------------------------------------2024
 - now: false
