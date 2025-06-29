@@ -1,7 +1,7 @@
 #------------------------------------------------2025
 
 - now: next
-  description: Showing an installation about deceptive AI
+  description: Showing now work on deceptive AI characters
   longdescription: 
   priority: 0
   year: 2025
@@ -187,12 +187,26 @@
   priority: 0
   year: 2024
   type: live
-  date: 8.11
+  date: 8.2
   title: "Waluigi's Purgatory"
-  situation: MEET
-  location: milan
+  situation: "SERPENTINE<sup>×</sup>HQI"
+  location: london
   url: 
-  image: dmstfctn-meet-milan-waluigi-purgatory.webp
+  image: waluigi_dmstfctn_hqi.webp
+  related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 14.3
+  title: "Futur.Shock"
+  situation: FOLD
+  location: london
+  url: 
+  image: waluigi_dmstfctn_fold.webp
   related: Waluigi's Purgatory
 
 - now: false
@@ -222,6 +236,106 @@
   url: 
   image: dmstfctn-robot-festival-waluigi-purgatory.webp
   related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 1.11
+  title: "GOD MODE (ep. 1)"
+  situation: SYSTEM
+  location: shanghai
+  url: 
+  image: dmstfctn_system_shanghai_godmode.webp
+  related: GOD MODE (ep. 1)
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 14.6
+  title: CRYPTIDS with Gunseli Yalcinkaya
+  situation: SONAR+D
+  location: barcelona
+  url: 
+  image: dmstfctn-gunseli-yalcinkaya-cryptids-sonar.webp
+  related: Waluigi's Purgatory
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 14.6
+  title: CRYPTIDS
+  situation: SONAR+D
+  location: barcelona
+  url: 
+  image: 
+  related: Waluigi's Purgatory
+  hideon: desktop
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 14.3
+  title: "INDEX Biennial"
+  situation: GNRATION
+  location: braga
+  url: 
+  image: dmstfctn-evita-manji-gnration-index-media-biennial.webp
+  related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 8.11
+  title: "Waluigi's Purgatory"
+  situation: MEET
+  location: milan
+  url: 
+  image: dmstfctn-meet-milan-waluigi-purgatory.webp
+  related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 27.9
+  title: SMART LIFE FESTIVAL
+  situation: TEATRO S. CARLO
+  location: modena
+  url: 
+  image: dmstfctn-waluigi-purgatory-smart-life-festival.webp
+  related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: live
+  date: 1.11
+  title: "GOD MODE (ep. 1)"
+  situation: MUDAERUK
+  location: seoul
+  url: 
+  image: dmstfctn_godmode_seoul_mudaeruk.webp
+  related: GOD MODE (ep. 1)
 
 - now: false
   description: 
@@ -273,114 +387,14 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
-  date: 27.9
-  title: SMART LIFE FESTIVAL
-  situation: TEATRO S. CARLO
-  location: modena
-  url: 
-  image: dmstfctn-waluigi-purgatory-smart-life-festival.webp
-  related: Waluigi's Purgatory
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 14.3
-  title: "INDEX Biennial"
-  situation: GNRATION
-  location: braga
-  url: 
-  image: dmstfctn-evita-manji-gnration-index-media-biennial.webp
-  related: Waluigi's Purgatory
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 14.6
-  title: CRYPTIDS with Gunseli Yalcinkaya
-  situation: SONAR+D
-  location: barcelona
-  url: 
-  image: dmstfctn-gunseli-yalcinkaya-cryptids-sonar.webp
-  related: Waluigi's Purgatory
-  hideon: mobile
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 14.6
-  title: CRYPTIDS
-  situation: SONAR+D
-  location: barcelona
-  url: 
+  type: group show
+  date: 5.6
+  title: "SOLO AI AWARD"
+  situation: GOLDSMITHS
+  location: london
+  url: https://soloaiaward.com/dmstfctn-ft-evita-manji/
   image: 
   related: Waluigi's Purgatory
-  hideon: desktop
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 14.3
-  title: "Futur.Shock"
-  situation: FOLD
-  location: london
-  url: 
-  image: waluigi_dmstfctn_fold.webp
-  related: Waluigi's Purgatory
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 8.2
-  title: "Waluigi's Purgatory"
-  situation: "SERPENTINE<sup>×</sup>HQI"
-  location: london
-  url: 
-  image: waluigi_dmstfctn_hqi.webp
-  related: Waluigi's Purgatory
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 1.11
-  title: "GOD MODE (ep. 1)"
-  situation: MUDAERUK
-  location: seoul
-  url: 
-  image: dmstfctn_godmode_seoul_mudaeruk.webp
-  related: GOD MODE (ep. 1)
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: live
-  date: 1.11
-  title: "GOD MODE (ep. 1)"
-  situation: SYSTEM
-  location: shanghai
-  url: 
-  image: dmstfctn_system_shanghai_godmode.webp
-  related: GOD MODE (ep. 1)
 
 - now: false
   description: 
@@ -395,20 +409,6 @@
   url: 
   image: dmstfctn_ica_noindex.webp
   related:
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: group show
-  date: 5.6
-  title: "SOLO AI AWARD"
-  situation: GOLDSMITHS
-  location: london
-  url: https://soloaiaward.com/24edition/
-  image: 
-  related: Waluigi's Purgatory
 
 - now: false
   description: 
