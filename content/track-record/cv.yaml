@@ -163,7 +163,7 @@
   url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
   image: 
   related: The Models
-  hideon: mobile
+  hideon: #mobile
 
 - now: false
   description: 
