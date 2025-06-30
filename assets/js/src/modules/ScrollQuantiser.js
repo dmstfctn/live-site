@@ -174,6 +174,7 @@ ScrollQuantiser.prototype = {
 
       if( 
         this.preventInput && 
+        $ele.previousSibling &&
         $ele.previousSibling.tagName === 'DT' 
         && $ele.previousSibling.classList.contains('dc-cv--title__includesyear')
       ){
