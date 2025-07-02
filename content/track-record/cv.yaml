@@ -16,6 +16,21 @@
   hideon: #mobile
 
 - now: next
+  description: Contribution to Serpentine's annual briefing on art and advanced technologies
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: release
+  date: 7.8
+  title: Future Art Ecosystems 5
+  situation: SERPENTINE
+  location: london
+  url: https://reader.futureartecosystems.org/briefing/fae5/05-artist
+  image: 
+  related: 
+  hideon: 
+
+- now: next
   description: 
   longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
