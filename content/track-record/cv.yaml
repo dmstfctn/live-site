@@ -16,8 +16,8 @@
   hideon: #mobile
 
 - now: next
-  description: Contribution to Serpentine's annual briefing on art and advanced technologies
-  longdescription: 
+  description: 
+  longdescription: Contribution to Serpentine's annual briefing on art and advanced technologies
   priority: 0
   year: 2025
   type: release
