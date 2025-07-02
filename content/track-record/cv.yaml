@@ -15,7 +15,7 @@
   related: Autotuned
   hideon: #mobile
 
-- now: false
+- now: next
   description: 
   longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
