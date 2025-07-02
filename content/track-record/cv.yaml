@@ -15,20 +15,20 @@
   related: Autotuned
   hideon: #mobile
 
-#- now: next
-#  description: 
-#  longdescription:
-#  priority: 0
-#  year: 2025
-#  type: group show
-#  date: 7.8
-#  title: Authenticity Unmasked
-#  situation: EAF
-#  location: edinburgh
-#  url: 
-#  image: 
-#  related: Autotuned
-#  hideon: desktop
+- now: false
+  description: 
+  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: group show
+  date: 8.5
+  title: Bits & Bots
+  situation: CENTRO DE HISTORIAS
+  location: zaragoza
+  url: https://fundacionzcc.org/bits-bots-la-exposicion-que-explora-la-realidad-generativa-llega-al-centro-de-historias/
+  image: 
+  related: The Models
+  hideon: 
 
 - now: false
   description: #Showing GOD MODE (ep. 1), Godmode Epochs
@@ -60,21 +60,6 @@
   url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
   image: 
   related: Godmode Epochs
-  hideon: 
-
-- now: false
-  description: 
-  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
-  priority: 0
-  year: 2025
-  type: group show
-  date: 8.5
-  title: Bits & Bots
-  situation: CENTRO DE HISTORIAS
-  location: zaragoza
-  url: https://fundacionzcc.org/bits-bots-la-exposicion-que-explora-la-realidad-generativa-llega-al-centro-de-historias/
-  image: 
-  related: The Models
   hideon: 
 
 - now: false
