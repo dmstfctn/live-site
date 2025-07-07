@@ -760,7 +760,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: An interview with Christopher Michael on the GOD MODE series (2022—)
+  longdescription: An interview on the GOD MODE series (2022—) by Christopher Michael
   priority: 0
   year: 2023
   type: news
@@ -774,15 +774,15 @@
   hideon: mobile
 
 - now: false
-  longdescription: "An interview in Italian expanding on the vide ogame Godmode Epochs (2023)"
+  longdescription: "An interview (in Italian) expanding on the game Godmode Epochs (2023)"
   priority: 0
   year: 2023
   type: news
   date: 
-  title: "come addestrare una intelligenza artificiale?"
+  title: "how to train ai?"
   situation: ARTRIBUNE
   location: 
-  url: https://www.artribune.com/progettazione/new-media/2023/12/videogioco-intelligenza-artificiale/
+  url: https://www-artribune-com.translate.goog/progettazione/new-media/2023/12/videogioco-intelligenza-artificiale/?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp
   image: 
   related: GOD MODE (ep. 1)
   hideon: mobile
@@ -1027,7 +1027,7 @@
     - OFFSHORESS18
 
 - now: false
-  longdescription: An interview on the short film 'INTERFACE CHAOS' (2019), including excerpts
+  longdescription: An interview on the short film INTERFACE CHAOS (2019), including excerpts
   priority: 0
   year: 2020
   type: news
@@ -1426,15 +1426,15 @@
   related: Offshore Investigation Vehicle
 
 - now: false
-  longdescription: "An interview in Italian expanding on 'Offshore Investigation Vehicle' (2017-18)"
+  longdescription: "An interview (in Italian) expanding on Offshore Investigation Vehicle (2017-18)"
   priority: 0
   year: 2018
   type: news
   date: 
-  title: Buon Paradiso Fiscale a Tutti
+  title: Happy tax haven to all
   situation: NERO
   location: 
-  url: https://not.neroeditions.com/buon-paradiso-fiscale-tutti/
+  url: https://not-neroeditions-com.translate.goog/archive/buon-paradiso-fiscale-tutti/?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp
   image:
   related:
     - Offshore Investigation Vehicle
