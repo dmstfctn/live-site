@@ -1,8 +1,23 @@
 #------------------------------------------------2025
 
 - now: next
-  description: Showing new work on deceptive AI characters
+  description: 
   longdescription: 
+  priority: 0
+  year: 2025
+  type: panel
+  date: 3.9
+  title: ars electronica 2025
+  situation: linz
+  location: 
+  url: https://ars.electronica.art/panic/en/theme/
+  image: 
+  related: 
+  hideon: 
+
+- now: next
+  description: Showing new work on deceptive AI characters
+  longdescription: Showing Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
   priority: 0
   year: 2025
   type: group show
@@ -28,6 +43,21 @@
   url: https://reader.futureartecosystems.org/briefing/fae5/05-artist
   image: 
   related: 
+  hideon: 
+
+- now: next
+  description: 
+  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: group show
+  date: 19.9
+  title: The Models
+  situation: ADAPTÉR
+  location: budapest
+  url: https://adapterujbuda.hu/en/home/
+  image: 
+  related: The Models
   hideon: 
 
 - now: next
@@ -136,19 +166,16 @@
   hideon: 
 
 - now: false
-  description: 
-  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
   priority: 0
   year: 2025
-  type: news
-  date: 18.2
-  title: What happens when AI lies?
-  situation: DOMUS
+  type: release
+  date: 
+  title: Investigating Decentralized Action in Art
+  situation: LECTURIS
   location: 
-  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
-  image: 
-  related: The Models
-  hideon: 
+  url:
+  image: artecho-lecturis-dmstfctn-largeloremodels.jpg
+  related: Fango 1000
 
 - now: false
   description: 
@@ -176,6 +203,36 @@
   situation: DIGITAL DEAL PODCAST
   location: 
   url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
+  image: 
+  related: The Models
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: news
+  date: 18.2
+  title: What happens when AI lies?
+  situation: DOMUS
+  location: 
+  url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
+  image: 
+  related: The Models
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: news
+  date: 26.1
+  title: Prompting as creative writing
+  situation: MANGROVIA
+  location: 
+  url: https://mangrovia.info/en/prompt-art-artificial-intelligence/
   image: 
   related: The Models
   hideon: mobile
@@ -1049,6 +1106,21 @@
   situation: NEW YORK TIMES
   location: 
   url: https://www.nytimes.com/2020/10/19/business/puerto-rico-euro-pacific-investigation.html
+  image:
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+
+- now: false
+  longdescription: 'Review of the solo show Offshore Matters at Aksioma in Ljublana' 
+  priority: 0
+  year: 2020
+  type: news
+  date: 
+  title: "Tax Havens: Normalized Grand Theft"
+  situation: WE MAKE MONEY NOT ART
+  location: 
+  url: https://we-make-money-not-art.com/tax-havens-normalized-grand-theft/
   image:
   related:
     - Offshore Investigation Vehicle
