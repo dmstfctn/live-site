@@ -1,21 +1,6 @@
 #------------------------------------------------2025
 
 - now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: panel
-  date: 3.9
-  title: ars electronica 2025
-  situation: linz
-  location: 
-  url: https://ars.electronica.art/panic/en/theme/
-  image: 
-  related: 
-  hideon: 
-
-- now: next
   description: Showing new work on deceptive AI characters
   longdescription: Showing Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
   priority: 0
@@ -32,28 +17,13 @@
 
 - now: next
   description: 
-  longdescription: Contribution to Serpentine's annual briefing on art and advanced technologies
-  priority: 0
-  year: 2025
-  type: release
-  date: 7.8
-  title: Future Art Ecosystems 5
-  situation: SERPENTINE
-  location: london
-  url: https://reader.futureartecosystems.org/briefing/fae5/05-artist
-  image: 
-  related: 
-  hideon: 
-
-- now: next
-  description: 
   longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
   year: 2025
   type: group show
   date: 19.9
   title: The Models
-  situation: ADAPTÉR
+  situation: ADAPTER
   location: budapest
   url: https://adapterujbuda.hu/en/home/
   image: 
@@ -74,6 +44,36 @@
   image: 
   related: The Models
   hideon: 
+
+- now: next
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: panel
+  date: 3.9
+  title: ars electronica 2025
+  situation: linz
+  location: 
+  url: https://ars.electronica.art/panic/en/theme/
+  image: 
+  related: 
+  hideon: 
+
+- now: next
+  description: 
+  longdescription: Contribution to Serpentine's annual briefing on art and advanced technologies
+  priority: 0
+  year: 2025
+  type: release
+  date: 7.8
+  title: Future Art Ecosystems 5
+  situation: SERPENTINE
+  location: london
+  url: https://reader.futureartecosystems.org/briefing/fae5/05-artist
+  image: 
+  related: 
+  hideon:
 
 - now: false
   description: #Showing GOD MODE (ep. 1), Godmode Epochs
