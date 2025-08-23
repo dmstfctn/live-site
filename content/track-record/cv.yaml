@@ -1,7 +1,22 @@
 #------------------------------------------------2025
 
 - now: next
-  description: Showing new work on deceptive AI characters
+  description: Speaking at 'Archipelago of Possible Futures'
+  longdescription: "Panel 'Dual-Use / Dual Futures: Reclaiming the Stack for Europe’s Commons'"
+  priority: 0
+  year: 2025
+  type: panel
+  date: 3.9
+  title: ars electronica 2025
+  situation: linz
+  location: 
+  url: https://ars.electronica.art/panic/en/view/dual-use-dual-futures-reclaiming-the-stack-for-europes-commons-23338ddb450c802488cce7211f420ed9
+  image: 
+  related: 
+  hideon: 
+
+- now: next
+  description: #Showing new work on deceptive AI characters
   longdescription: Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
   priority: 0
   year: 2025
@@ -43,21 +58,6 @@
   url: https://fundacionzcc.org/bits-bots-la-exposicion-que-explora-la-realidad-generativa-llega-al-centro-de-historias/
   image: 
   related: The Models
-  hideon: 
-
-- now: next
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: panel
-  date: 3.9
-  title: ars electronica 2025
-  situation: linz
-  location: 
-  url: https://ars.electronica.art/panic/en/theme/
-  image: 
-  related: 
   hideon: 
 
 - now: next
