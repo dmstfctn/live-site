@@ -1,8 +1,8 @@
 #------------------------------------------------2025
 
 - now: next
-  description: Speaking at 'Archipelago of Possible Futures'
-  longdescription: "Panel 'Dual-Use / Dual Futures: Reclaiming the Stack for Europe’s Commons'"
+  description: "Speaking at 'Archipelago of Possible Futures'"
+  longdescription: "Panel: Dual-Use / Dual Futures, reclaiming the Stack for Europe’s Commons"
   priority: 0
   year: 2025
   type: panel
@@ -1497,6 +1497,22 @@
   url: https://monoskop.org/images/2/25/Demystification_Committee_The_Offshore_E.pdf
   image:
   related: Offshore Investigation Vehicle
+
+- now: false
+  longdescription: "Review of Offshore Investigation Vehicle at transmediale festival"
+  priority: 0
+  year: 2018
+  type: news
+  date: 
+  title: What Audre Lorde's Language of Self-Care Can Teach Us
+  situation: FRIEZE
+  location: 
+  url: https://www.frieze.com/article/what-audre-lordes-language-self-care-can-teach-us-after-metoo
+  image:
+  related:
+    - Offshore Investigation Vehicle
+    - OFFSHORESS18
+  #hideon: mobile
 
 - now: false
   longdescription: "An interview (in Italian) expanding on Offshore Investigation Vehicle (2017-18)"
