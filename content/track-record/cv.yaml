@@ -16,8 +16,8 @@
   hideon: 
 
 - now: next
-  description: #Showing new work on deceptive AI characters
-  longdescription: Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
+  description:
+  longdescription: 
   priority: 0
   year: 2025
   type: group show
@@ -25,6 +25,21 @@
   title: edinburgh art festival
   situation: edinburgh
   location: 
+  url: 
+  image: 
+  related: Autotuned
+  hideon: #dekstop
+
+- now: next
+  description: #Showing new work on deceptive AI characters
+  longdescription: Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
+  priority: 0
+  year: 2025
+  type: group show
+  date: 7.8
+  title: authenticity unmasked
+  situation: edinburgh art festival
+  location: edinburgh
   url: https://www.edinburghartfestival.com/event/authenticity-unmasked-unveiling-ai-driven-realities-through-art/
   image: 
   related: Autotuned
