@@ -28,7 +28,7 @@
   url: 
   image: 
   related: Autotuned
-  hideon: #dekstop
+  hideon: desktop
 
 - now: next
   description: #Showing new work on deceptive AI characters
@@ -43,7 +43,7 @@
   url: https://www.edinburghartfestival.com/event/authenticity-unmasked-unveiling-ai-driven-realities-through-art/
   image: 
   related: Autotuned
-  hideon: #mobile
+  hideon: mobile
 
 - now: next
   description: 
