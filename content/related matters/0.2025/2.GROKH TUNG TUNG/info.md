@@ -1,7 +1,6 @@
 ---
 title: "GROKH TUNG TUNG"
 titleJustified: "GROKH TUNG TUNG"
-description: Improvisational theatre by Large Language Models
 description: What about that time you ate your kids?
 ---
 
