@@ -283,7 +283,8 @@
     }
 
     .dc-work--item:hover .dc-work--item--description{
-      display: block;
+      // display: block;
+      display: none;
     }
     .dc-work--item.dc-external-link:hover:before{
       color: #F20712;
