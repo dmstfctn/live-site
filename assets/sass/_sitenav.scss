@@ -43,7 +43,8 @@
       // html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
       html[data-dc-pagetype="home"][data-dc-homeactive="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
       html[data-dc-pagetype="home"][data-dc-homeactive="track-record"] .dc-sitenav a[href="#{$urlRoot}track-record"],
-      html[data-dc-pagetype="relatedmatter"] .dc-sitenav a[href="#{$urlRoot}"],
+      html[data-dc-pagetype="relatedmatter"][data-dc-menuvisible="related-matters"] .dc-sitenav a[href="#{$urlRoot}"],
+      html[data-dc-pagetype="relatedmatter"] .dc-sitenav .dc-sitenav-item__work a,
       html[data-dc-pagetype="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
       html[data-dc-pagetype="null"] .dc-sitenav a[href="#{$urlRoot}track-record"]{
         color: #F20712;
