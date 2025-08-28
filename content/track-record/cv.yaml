@@ -818,7 +818,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: "An interview (in Italian) expanding on the game Godmode Epochs (2023)"
+  longdescription: "An interview expanding on the AI-training game Godmode Epochs (2023)"
   priority: 0
   year: 2023
   type: news
@@ -1514,7 +1514,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: "An interview (in Italian) expanding on Offshore Investigation Vehicle (2017-18)"
+  longdescription: "An interview expanding on the Offshore Investigation Vehicle (2017-18) project"
   priority: 0
   year: 2018
   type: news
