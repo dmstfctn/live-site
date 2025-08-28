@@ -179,7 +179,8 @@ html{
     }
   }
   p{
-    break-inside: avoid;
+    // break-inside: avoid;
+    break-inside: unset;
     text-align: justify;    
     margin-bottom: 1.389em;
   }
