@@ -80,12 +80,12 @@
   longdescription: Contribution to Serpentine's annual briefing on art and advanced technologies
   priority: 0
   year: 2025
-  type: release
+  type: writing
   date: 7.8
   title: Future Art Ecosystems 5
   situation: SERPENTINE
   location: London
-  url: https://reader.futureartecosystems.org/briefing/fae5/05-artist
+  url: https://reader.futureartecosystems.org/briefing/fae5/05-artist#a-forum-for-public-interest
   image: 
   related: 
   hideon:
@@ -183,7 +183,7 @@
 - now: false
   priority: 0
   year: 2025
-  type: release
+  type: writing
   date: 
   title: Investigating Decentralized Action in Art
   situation: LECTURIS
@@ -721,7 +721,7 @@
   longdescription: 
   priority: 0
   year: 2023
-  type: release
+  type: writing
   date: 
   title: Large Lore Models
   situation: 0XPARC
@@ -735,7 +735,7 @@
   longdescription: A speculative tool for narrative building, with Eva Jäger and Alasdair Milne
   priority: 0
   year: 2023
-  type: release
+  type: writing
   date: 
   title: Large Lore Models
   situation: 0XPARC
@@ -750,7 +750,7 @@
   longdescription: An AI training game set in an infinite supermarket, time is short, the AI frustrated
   priority: 0
   year: 2023
-  type: release
+  type: game
   date: 
   title: "Godmode Epochs"
   situation: STEAM
@@ -911,7 +911,7 @@
   longdescription: A book and performance about market manipulation on Brexit Referendum night
   priority: 0
   year: 2021
-  type: release
+  type: book
   date: 
   title: ECHO FX
   situation: KRISIS PUBLISHING
@@ -923,7 +923,7 @@
 - now: false
   priority: 0
   year: 2021
-  type: release
+  type: book
   date: 
   title: "Ø"
   situation: FLATLINE PRESS/HYPERDUB
@@ -1263,7 +1263,7 @@
   longdescription: Audiovisual genealogy of financial algorithmic collapse, limited editon USB
   priority: 0
   year: 2019
-  type: release
+  type: music
   date: 
   title: Flash Demons
   situation: MILLE PLATEAUX
@@ -1475,7 +1475,7 @@
   longdescription: '"The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick"'
   priority: 0
   year: 2018
-  type: release
+  type: writing
   date: 
   title: A DAY IN THE LIFE OF
   situation: SCHLOSS-POST
@@ -1488,7 +1488,7 @@
   longdescription: '"You are alone on a dusty desert road... You have just run out of water....."'
   priority: 0
   year: 2018
-  type: release
+  type: writing
   date: 
   title: The Offshore Economist
   situation: Rizosfera
@@ -1561,7 +1561,7 @@
   longdescription: AV experiments with wireless network infrastructure, limited edition SD card
   priority: 0
   year: 2017
-  type: release
+  type: music
   date: 
   title: SELECTED NETWORK STUDIES
   situation: NUKFM
