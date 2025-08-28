@@ -152,16 +152,16 @@
       padding: 1rem;
       padding-top: 0.4rem;
       padding-bottom: 2.7rem;
-      background: #000000;
+      background: #aaaaaa;
       z-index: 1;
       //display: none;
       em{
         font-style: normal;
-        color: #FFFFFF;
+        color: #000;
       } 
     }
       .dc-item__focusgroup .dc-item--info{
-        background: #FF0000;
+        background: #F20712;
         em{
           color: #000000;
         }
@@ -177,7 +177,7 @@
     .dc-cv{
       position: absolute;
       top: 0;
-      background: #000000;
+      background: #aaaaaa;
       flex-grow: 1;
       bottom: 0;
       left: 0;
@@ -215,7 +215,7 @@
     }
 
     .dc-item__focusgroup .dc-cv{
-      background: #FF0000;
+      background: #F20712;
       min-height: 100%;
     }
 
@@ -251,7 +251,7 @@
         width: 100%;
         height: 100%;
         figcaption{
-          color: #FF0000;
+          color: #F20712;
           transform: none;
           left: 3rem;
           bottom: 2.45rem;
@@ -266,7 +266,7 @@
       }
 
       .dc-item__focusgroup .dc-media__image figure figcaption{
-        color: #FFFFFF;
+        color: #000;
       }
 
     .dc-media{
@@ -320,7 +320,7 @@
       width: 1.3rem;
     }
     .dc-sitenav__arrow svg path{
-      fill: #fff;
+      //fill: #fff;
     }
     .dc-sitenav__left{
       //content: '\21DC';
@@ -342,10 +342,10 @@
       display: none;
     }
     html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] & a[data-dc-localtarget="#related-matters"]{
-      color: #FFFFFF;
+      color: #000;
     }
     html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] & a[data-dc-localtarget="#track-record"]{
-      color: #FF0000;
+      color: #F20712;
     }
 
     .dc-sitenav-item__home{
@@ -393,23 +393,23 @@
     }
   html[data-dc-pagetype="home"] .dc-sitenav a[href="#{$urlRoot}"] svg path{
     // &[stroke]{
-    //   stroke: #FF0000 !important;
+    //   stroke: #F20712 !important;
     // }
     // &[fill]{
-    //   fill: #FF0000 !important;
+    //   fill: #F20712 !important;
     // }
   }
 
   html[data-dc-pagetype="focusgroup"]{ 
     .dc-item--cv .dctxt--date{
-      color: #FFFFFF;
+      color: #000;
     }
     .dc-sitenav a[href="#{$urlRoot}"] svg path{
       &[stroke]{
-        stroke: #FFFFFF !important;
+        stroke: #000 !important;
       }
       &[fill]{
-        fill: #FFFFFF !important;
+        fill: #000 !important;
       }
     }
   }  
@@ -417,27 +417,27 @@
   .dc-item--header{
     z-index: 50;
     padding-bottom: .9rem;
-    // background: black;
+    // background: #aaaaaa;
     // padding-top: .9rem;
 
     letter-spacing: -0.02em;
     justify-content: center;
     h1{
       font-size: 1rem;
-      color: #FFFFFF;
+      color: #F20712;
       text-align: left;
       text-shadow:
-        1px 1px 0 #000,
-        -1px 1px 0 #000,
-        -1px -1px 0 #000,
-        1px -1px 0 #000;
+        1px 0px 0 #000,
+        1px 0px 0 #000,
+        1px 0px 0 #000,
+        1px 0px 0 #000;
     text-decoration: underline;    
     //text-decoration-style: dotted;        
-    text-decoration-thickness: 0.01em;
-    text-underline-offset: .2em;
+    //text-decoration-thickness: 0.01em;
+    text-underline-offset: .24em;
     }
     &.toggled h1{
-      color: #FF0000;
+      color: #F20712;
     }
     .dctxt--date{
       display: none;
@@ -612,7 +612,7 @@
         transition: opacity 0s linear;
       }
       html[data-dc-pagetype="focusgroup"] .dc-mobile-nav.opaque{
-        background: #FF0000;
+        background: #F20712;
       }
 
       html.dc-has-gone-further .dc-mobile-nav::after{
@@ -622,14 +622,14 @@
   .dc-mobile-bar{
     display: none;
     height: .3rem;
-    background: #FF0000;
+    background: #F20712;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
   }
     html[data-dc-pagetype="focusgroup"] .dc-mobile-bar{
-      background: #FFFFFF;
+      background: #000;
     }
 
   .dc-mobile-home-link{
@@ -674,7 +674,7 @@
       #red-stroke,
       #red-stroke-2,
       #red-stroke-3{
-        stroke: #ff0000;
+        stroke: #F20712;
       }
       #black-stroke,
       #black-stroke-thin-3{
@@ -717,13 +717,13 @@
         fill: #000000;
       }
       #phone-fill{
-        fill: #FF0000;
+        fill: #F20712;
       }
       #red-fill{
         fill: #111110;
       }   
       #phone-blur{
-        fill: #ff0000;
+        fill: #F20712;
       }
       [stroke]{
         stroke-width: 0.3px;

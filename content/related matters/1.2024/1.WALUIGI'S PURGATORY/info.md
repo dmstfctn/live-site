@@ -4,8 +4,16 @@ titleJustified: "WALUIGI'S PURGATORY"
 description: Is this it? Is this me? Did I finally make it?
 ---
 
-Waluigi's Purgatory is an interactive performance featuring a live soundtrack by Evita Manji. Set in a 3D theatre simulated in real time, the performance tells the story of an AI simply called 'W.' finding itself in a purgatory for AIs that cheated during their training. Burdened by memories of its past and by doubts on its future, W. explores purgatory with the help of interacting audiences, learning the uncanny stories of other characters. Experienced as a dream, Waluigi's Purgatory is a journey through the contradictions of machine intelligence as an AI learns to accept that its desires may not align with those of its human trainers.
+Waluigi's Purgatory<span class="dc-hide-on-large"><br>2024</span>
+Interactive performance or standalone screening
+Full HD display, gaming PC, internet connection
+40 minutes
 
-Audiences guide W. through its encounters and make choices on its behalf by using their phone to each move an individual stage light within the 3D theatre. Characters are animated in real time through facial motion capture and voice modulation, and an ambient instrumental soundtrack is performed by Evita Manji, responding to storyline and audience interaction alike.
+Music: Evita Manji
+Additional development: Jenn Leung
+Supported by: Serpentine Arts Technologies
+<span class="dc-hide-on-small"><br><br><br><br></span><br>
 
-The title of the work hints at the 'Waluigi Effect', a meme theory which emerged in 2023 proposing that AIs display a tendency to go rogue or act adversarially due to the large amount of protagonist-antagonist narrative tropes found in internet texts used to train them. Waluigi's Purgatory is supported by Serpentine's Arts Technologies programme<span class="dc-hide-on-small"> and, in themes and format, loosely follows on from <a href="https://dmstfctn.net/related-matters/god-mode-ep-1/" target="_blank">GOD MODE (ep. 1)</a>, the artists' previous interactive performance about AI training and cheating</span>.
+Waluigi’s Purgatory is an interactive performance and installation featuring music by Evita Manji. Set in a 3D theatre simulated in real time, it tells the story of an AI that finds itself in a purgatory for AIs that cheated during their training. Burdened by memories of its past and by doubts on its future, the AI explores the purgatory with the help of interacting audiences, learning the uncanny stories of those it meets. Through a fictional story, the work explores the contradictions of an AI learning that it may never align to its human trainers.
+
+Audiences guide the AI and make choices on its behalf by using their phone, each moving an individual stage light within the 3D theatre, and characters are animated through facial motion capture and voice modulation. The title of the work hints at the 'Waluigi Effect' theory, proposing that AIs display a tendency to act adversarially in an effort to imitate antagonist narrative tropes found in internet texts used to train them. Waluigi's Purgatory is the second episode in dmstfctn's GOD MODE trilogy about AI anomalies, preceded by <a href="https://dmstfctn.net/related-matters/god-mode-ep-1/" target="_blank">GOD MODE (ep. 1).</a>

@@ -25,36 +25,36 @@ $dc_site_padding_left: .8rem;
 @import "_ridiculous_overrides.scss";
 
 ::-moz-selection { 
-  color: #FF0000; 
+  color: #F20712; 
 }
 ::selection { 
-  color: #FF0000; 
+  color: #F20712; 
 }
 [data-dc-pagetype="focusgroup"] ::-moz-selection{
-  color: #FFFFFF;
+  color: #000;
 }
 [data-dc-pagetype="focusgroup"] ::selection{
-  color: #FFFFFF;
+  color: #000;
 }
 [data-dc-pagetype="focusgroup"] a::selection{
-  color: #FFFFFF;
+  color: #000;
 }  
 [data-dc-pagetype="focusgroup"] a::-moz-selection{
-  color: #FFFFFF;
+  color: #000;
 }
 [data-dc-homeactive="focus-groups"] ::-moz-selection{
-  color: #FFFFFF;
+  color: #000;
 }
 [data-dc-homeactive="focus-groups"] ::selection{
-  color: #FFFFFF;
+  color: #000;
 }
 [data-dc-homeactive="focus-groups"] a::selection{
-  color: #FFFFFF;
+  color: #000;
 }
 [data-dc-homeactive="focus-groups"] a::-moz-selection{
-  color: #FFFFFF;
+  color: #000;
 }
 
 // .dots::selection{
-//   color: #FFFFFF;
+//   color: #000;
 // }

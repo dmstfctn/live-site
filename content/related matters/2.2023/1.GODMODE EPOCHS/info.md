@@ -4,8 +4,14 @@ titleJustified: "GODMODE EPOCHS"
 description: Must. Complete. This Endless. Training!
 ---
 
-Godmode Epochs is an AI training clicker game set among the lined shelves of an infinite, simulated supermarket. Each playthrough consists of a training epoch where players race against time to help an AI identify retail items. As players inevitably frustrate the AI through the process, they must indulge in its memories - stories of other AIs who cheated during their training - in order to release frustration, obtain upgrades for the AI and win the game.
+Godmode Epochs<span class="dc-hide-on-large"><br>2024</span>
+Multiplayer game
+<span class="dc-hide-on-small"><a href="https://godmodeepochs.com/" target="_blank">Link to play</a></span>
 
-Godmode Epochs aims to simulate how AI trained on synthetic data comes to understand the world by asking players to assist an AI in the process. The game eventually develops into an exploration of 'differently' aligned AIs, retelling the stories of agents that found creative and uncanny ways to complete their training tasks. In this sense, the game simulates a reciprocal training programme: as players train an AI to understand our world, the game trains players to understand AI.
+Music: Hero Image
+Supported by: The Alan Turing Institute; Serpentine
+<span class="dc-hide-on-small"><br></span><br>
 
-Godmode Epochs can be freely downloaded from <a href="https://store.steampowered.com/app/2445680/Godmode_Epochs/" target="_blank">Steam</a> or played on <a href="https://godmodeepochs.com/" target="_blank">godmodeepochs.com</a>. The game features an original soundtrack by artist HERO IMAGE. Godmode Epochs is the second artwork in the GOD MODE series, which also comprises the performance <a href="https://dmstfctn.net/related-matters/god-mode-ep-1/" target="_blank">GOD MODE (ep. 1)</a>. The work was supported by the UK's Alan Turing Institute and Serpentine Arts Technologies as part of a public engagement project about AI and synthetic data.
+Godmode Epochs is an AI training clicker game set in an infinite, simulated supermarket. Players race against time to train an AI to identify products. As players inevitably frustrate the AI, they must indulge in its memories - historical examples of other AIs who cheated during their training - in order to release frustration, obtain upgrades for the AI and complete the training.
+
+Godmode Epochs aims to simulate how AI trained on synthetic data comes to understand the world by asking players to assist an AI in the process. The game eventually develops into an exploration of 'differently' aligned AIs, retelling the (real) stories of machine learning agents that found creative and uncanny ways to complete their training tasks. Godmode Epochs simulates a reciprocal training programme: as players train an AI to understand our world, the game trains players to understand AI.

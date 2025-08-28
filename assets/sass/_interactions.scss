@@ -3,13 +3,13 @@
   opacity: 0;
 }
   .dc-biglist--item .dc-transition--target{
-    color: #FF0000;
+    color: #F20712;
     &:after{
       opacity: 0;
     }
   }
   #focus-groups .dc-biglist--item .dc-transition--target{
-    color: #FFFFFF;
+    color: #F20712;
   }
 /* hover images in CV + dissemination */
 .dc-list-hoverimg{
@@ -55,7 +55,7 @@
   }
 
   &.playing::before{
-    color: #FF0000;
+    color: #F20712;
     animation: flick-in-out 1.6s infinite step-start;
   }
     

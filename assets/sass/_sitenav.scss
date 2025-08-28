@@ -8,11 +8,11 @@
   padding: .43rem $dc_site_padding_right .2rem $dc_site_padding_left;
   height: 2.2rem;
   box-sizing: border-box;
-  ::selection { color: #FFF;}
+  ::selection { color: #F20712;}
 }
   .dc-sitenav::before {
     content: '';
-    background: #000;
+    background: #aaaaaa;
     display: block;
     position: absolute;
     width: 100vw;
@@ -26,7 +26,7 @@
   }
   .dc-sitenav a{
     height: 1.65rem;    
-    color: #FFFFFF;
+    color: #000;
     text-decoration: underline;    
     // text-decoration-style: dotted;        
     // text-decoration-thickness: 0.12em;
@@ -36,7 +36,7 @@
   }
 
     .dc-sitenav a:hover{
-      // color: #FFFFFF;
+      // color: #000;
       text-decoration-line: none;
     }
       
@@ -46,33 +46,33 @@
       html[data-dc-pagetype="relatedmatter"] .dc-sitenav a[href="#{$urlRoot}"],
       html[data-dc-pagetype="dissemination"] .dc-sitenav a[href="#{$urlRoot}dissemination"],
       html[data-dc-pagetype="null"] .dc-sitenav a[href="#{$urlRoot}track-record"]{
-        color: #FF0000;
+        color: #F20712;
         //text-decoration-line: none;
        
         svg path[fill]{
-          fill: #FF0000 !important;
+          fill: #F20712 !important;
         }
         svg path[stroke]{
-          stroke: #FF0000 !important;
+          stroke: #F20712 !important;
         }
       }
 
       html[data-dc-pagetype="home"][data-dc-homeactive="related-matters"] .dc-sitenav--homelink{
-        color: #FF0000;
+        color: #F20712;
         // text-decoration: none;
       }
       html[data-dc-menuvisible="related-matters"] .dc-sitenav--homelink{
-        color: #FFFFFF !important;
+        color: #000 !important;
       }
 
       html[data-dc-pagetype="home"][data-dc-homeactive="focus-groups"] .dc-sitenav a[href="#{$urlRoot}focus-groups"],
       html[data-dc-pagetype="focusgroup"] .dc-sitenav a[href="#{$urlRoot}focus-groups"]{
-        //color: #FFFFFF;     
+        //color: #000;     
         //text-decoration-line: none;   
       }
       
       html[data-dc-menuvisible="track-record"] .dc-sitenav a[data-dc-localtarget="#track-record"]{        
-        color: #FF0000;
+        color: #F20712;
         text-decoration-line: underline !important;   
       }
 
@@ -136,7 +136,7 @@
   }
   svg:hover{
     path{
-      fill: #FF0000;
+      fill: #F20712;
     }
   }
 }
@@ -190,7 +190,7 @@
 .dc-navigation-item{
   position: absolute;
   width: 100%;
-  background: #000000;
+  background: #aaaaaa;
   z-index: 10;
   display: none;
   padding: 0 $dc_site_padding_right .3rem $dc_site_padding_left;  
@@ -229,7 +229,7 @@
   padding-top: 1.8rem;  
   /* LANDING IMAGE */
   /* padding top 4.8 below*/ 
-  padding-top: 4.8rem;
+  padding-top: 1.8rem;
   margin: 0 0 0 0;
   height: calc(100% - 2.2rem);
   box-sizing: border-box;
@@ -242,7 +242,7 @@
   .dc-work--year h2{
     position: relative;
     padding: 0 .09em 0 0;
-    color: #FF0000;
+    color: #F20712;
     white-space: nowrap;    
     -webkit-transform:translate3d(0,0,0);
     -webkit-transform-style: preserve-3d;     
@@ -258,7 +258,7 @@
     position: absolute;    
     top: 0;
     left: 0.03em;
-    background: #000000;
+    background: #aaaaaa;
     z-index: 1;
     pointer-events: none;
     text-transform: none;
@@ -285,7 +285,7 @@
       display: block;
     }
     .dc-work--item.dc-external-link:hover:before{
-      color: #FF0000;
+      color: #F20712;
     }
 
     .dc-biglist--now .dc-work--item--description{
@@ -304,7 +304,7 @@
     position: relative;  
   }   
     .dc-work--year .dc-work--items > *::after{
-      color: #FFFFFF;
+      color: #000;
     }
     .dc-work--year .dc-work--items > *:only-child{
       flex-grow: 2;      
@@ -362,7 +362,7 @@
     right: 0;
   }
   .dc-biglist--now .dc-external-link:hover:before{
-    color: #FF0000;
+    color: #F20712;
   }
 
 

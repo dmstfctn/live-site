@@ -7,8 +7,8 @@
   top: 0;
   left: 0;
   display: none;
-  background: #000000;
-  color: #FFFFFF;
+  background: #aaaaaa;
+  color: #000;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -20,7 +20,7 @@
   }
 
 .dc-bio{  
-  background:#000;
+  background:#aaaaaa;
   padding-bottom: 1.4rem; 
   position: relative;
   z-index: 1;
@@ -75,7 +75,7 @@
       }
       position: relative;
       top: -1.55rem;
-      background:#000000;
+      background:#aaaaaa;
       left: 0;
       right: 0;
       display: block;
@@ -101,9 +101,9 @@
   }
 
   .dc-cv--now{
-    color: #FF0000;
+    color: #F20712;
     .dc-cv--type svg path{
-      fill: #FF0000;
+      fill: #F20712;
     }
   }
   .dc-cv--title,
@@ -189,7 +189,7 @@
     }
 
   .dc-cv .dctxt--date{
-    color: #FF0000;
+    color: #F20712;
   }
 
   .dc-cv--type__screening,
@@ -207,7 +207,7 @@
       margin-left: -0.1rem;
       overflow: visible;
       path{
-        fill: #FFFFFF;
+        fill: #000;
       }
     }
   }

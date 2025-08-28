@@ -1,14 +1,14 @@
 #------------------------------------------------2025
 
 - now: next
-  description: "Panel: Dual-Use / Dual Futures"
-  longdescription: "Panel: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
+  description: "Artist talk: Dual-Use / Dual Futures"
+  longdescription: "Artist talk: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
   priority: 0
   year: 2025
   type: panel
   date: 3.9
   title: ars electronica 2025
-  situation: linz
+  situation: Linz
   location: 
   url: https://ars.electronica.art/panic/en/view/dual-use-dual-futures-reclaiming-the-stack-for-europes-commons-23338ddb450c802488cce7211f420ed9
   image: 
@@ -23,7 +23,7 @@
   type: group show
   date: 7.8
   title: EDINBURGH ART FESTIVAL
-  situation: edinburgh
+  situation: Edinburgh
   location: 
   url: 
   image: 
@@ -38,8 +38,8 @@
   type: group show
   date: 7.8
   title: authenticity unmasked
-  situation: edinburgh art festival
-  location: edinburgh
+  situation: EDINBURGH ART FESTIVAL
+  location: Edinburgh
   url: https://www.edinburghartfestival.com/event/authenticity-unmasked-unveiling-ai-driven-realities-through-art/
   image: 
   related: Autotuned
@@ -54,7 +54,7 @@
   date: 19.9
   title: The Models
   situation: ADAPTER
-  location: budapest
+  location: Budapest
   url: https://adapterujbuda.hu/en/home/
   image: 
   related: The Models
@@ -69,7 +69,7 @@
   date: 8.5
   title: Bits & Bots
   situation: CENTRO DE HISTORIAS
-  location: zaragoza
+  location: Zaragoza
   url: https://fundacionzcc.org/bits-bots-la-exposicion-que-explora-la-realidad-generativa-llega-al-centro-de-historias/
   image: 
   related: The Models
@@ -84,7 +84,7 @@
   date: 7.8
   title: Future Art Ecosystems 5
   situation: SERPENTINE
-  location: london
+  location: London
   url: https://reader.futureartecosystems.org/briefing/fae5/05-artist
   image: 
   related: 
@@ -99,7 +99,7 @@
   date: 3.5
   title: Rhizome World
   situation: WSA
-  location: new york city
+  location: New York City
   url: #https://rhizome.org/events/god-mode/
   image: dmstfctn-rhizome-wsa-nyc-god-mode.jpg
   related: 
@@ -116,7 +116,7 @@
   date: 1.4
   title: OS2.4
   situation: SINGAPORE ART MUSEUM
-  location: singapore
+  location: Singapore
   url: https://opensystems.sg/os/2/4/dmstfctn-godmode-epochs-20/
   image: 
   related: Godmode Epochs
@@ -131,7 +131,7 @@
   date: 7.2
   title: The Models
   situation: TECNOPOLO
-  location: bologna
+  location: Bologna
   url:
   image: artcity-tecnopolo-dmstfctn-themodels.jpg
   related: The Models
@@ -145,7 +145,7 @@
   date: 13.3
   title: ELAP 2025
   situation: NUNNERY GALLERY
-  location: london
+  location: London
   url:
   image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
   related: Waluigi's Purgatory
@@ -159,7 +159,7 @@
   date: 25.4
   title: AI, Creativity and Ethics
   situation: V&A
-  location: london
+  location: London
   url: 
   image: dmstfctn-imogen-heap-v&a-friday-late.webp
   related: Waluigi's Purgatory
@@ -174,7 +174,7 @@
   date: 24.4
   title: New Metabolism
   situation: GLUON
-  location: brussels
+  location: Brussels
   url: 
   image: dmstfctn-gluon-brussel-digital-deal.webp
   related: Waluigi's Purgatory
@@ -263,7 +263,7 @@
   date: 14.3
   title: "Futur.Shock"
   situation: FOLD
-  location: london
+  location: London
   url: 
   image: waluigi_dmstfctn_fold.webp
   related: Waluigi's Purgatory
@@ -277,7 +277,7 @@
   date: 8.2
   title: "Waluigi's Purgatory"
   situation: "SERPENTINE<sup>×</sup>HQI"
-  location: london
+  location: London
   url: 
   image: waluigi_dmstfctn_hqi.webp
   related: Waluigi's Purgatory
@@ -291,7 +291,7 @@
   date: 13.10
   title: ROMA EUROPA FESTIVAL
   situation: MATTATOIO
-  location: rome
+  location: Rome
   url: 
   image: dmstfctn-roma-europa-mattatoio-waluigi-purgatory.webp
   related: Waluigi's Purgatory
@@ -305,7 +305,7 @@
   date: 11.10
   title: ROBOT FESTIVAL
   situation: SAN BARBAZIANO
-  location: bologna
+  location: Bologna
   url: 
   image: dmstfctn-robot-festival-waluigi-purgatory.webp
   related: Waluigi's Purgatory
@@ -319,7 +319,7 @@
   date: 14.6
   title: CRYPTIDS with Günseli Yalcinkaya
   situation: SONAR+D
-  location: barcelona
+  location: Barcelona
   url: 
   image: dmstfctn-gunseli-yalcinkaya-cryptids-sonar.webp
   related: Waluigi's Purgatory
@@ -334,7 +334,7 @@
   date: 1.11
   title: "GOD MODE (ep. 1)"
   situation: SYSTEM
-  location: shanghai
+  location: Shanghai
   url: 
   image: dmstfctn_system_shanghai_godmode.webp
   related: GOD MODE (ep. 1)
@@ -348,7 +348,7 @@
   date: 14.3
   title: "INDEX Biennial"
   situation: GNRATION
-  location: braga
+  location: Braga
   url: 
   image: dmstfctn-evita-manji-gnration-index-media-biennial.webp
   related: Waluigi's Purgatory
@@ -362,7 +362,7 @@
   date: 8.11
   title: "Waluigi's Purgatory"
   situation: MEET
-  location: milan
+  location: Milan
   url: 
   image: dmstfctn-meet-milan-waluigi-purgatory.webp
   related: Waluigi's Purgatory
@@ -376,7 +376,7 @@
   date: 27.9
   title: SMART LIFE FESTIVAL
   situation: TEATRO S. CARLO
-  location: modena
+  location: Modena
   url: 
   image: dmstfctn-waluigi-purgatory-smart-life-festival.webp
   related: Waluigi's Purgatory
@@ -390,7 +390,7 @@
   date: 1.11
   title: "GOD MODE (ep. 1)"
   situation: MUDAERUK
-  location: seoul
+  location: Seoul
   url: 
   image: dmstfctn_godmode_seoul_mudaeruk.webp
   related: GOD MODE (ep. 1)
@@ -419,7 +419,7 @@
   date: 7.3
   title: "Decentralized Futures"
   situation: ETOPIA
-  location: zaragoza
+  location: Zaragoza
   url: 
   image: etopia_dmstfctn.webp
   related: Fango 1000
@@ -434,9 +434,9 @@
   date: 10.10
   title: "Decentralized Futures"
   situation: KOELHUIS
-  location: eindhoven
+  location: Eindhoven
   url: 
-  image: dmstfctn-fango1000-Decentralized-Futures-KOELHUIS-eindhoven.webp
+  image: dmstfctn-fango1000-Decentralized-Futures-KOELHUIS-Eindhoven.webp
   related: Fango 1000
   hideon: 
 
@@ -449,7 +449,7 @@
   date: 5.6
   title: "SOLO AI AWARD"
   situation: GOLDSMITHS
-  location: london
+  location: London
   url: https://soloaiaward.com/dmstfctn-ft-evita-manji/
   image: 
   related: Waluigi's Purgatory
@@ -463,7 +463,7 @@
   date: 13.3
   title: "NOINDEX: is nothing forever?"
   situation: ICA
-  location: london
+  location: London
   url: 
   image: dmstfctn_ica_noindex.webp
   related:
@@ -520,7 +520,7 @@
   type: news
   date: 7.1
   title: "conversation with evita & dmstfctn"
-  situation: T-MAG
+  situation: T–MAG
   location: 
   url: 
   image: 
@@ -580,7 +580,7 @@
   date: 1.12
   title: European Digital Deal
   situation: LEONARDO SUPERCOMPUTER
-  location: bologna
+  location: Bologna
   url: https://ars.electronica.art/eudigitaldeal/en/residencies/the-models-by-dmstfctn/
   image: 
   related: The Models
@@ -595,7 +595,7 @@
   date: 1.10
   title: bodystacked
   situation: LCF
-  location: london
+  location: London
   url: https://www.youtube.com/watch?v=2VRoknOR9IM&ab_channel=LondonCollegeofFashion
   image: 
   related: GOD MODE (ep. 1)
@@ -610,7 +610,7 @@
   date: 10.28
   title: "Directory"
   situation: THE WRONG BIENNALE
-  location: alicante
+  location: Alicante
   url: 
   image: wrongbiennale_dmstfctn.webp
   related: Godmode Epochs
@@ -624,7 +624,7 @@
   date: 10.28
   title: "Semibreve"
   situation: THEATRO CIRCO
-  location: braga
+  location: Braga
   url: 
   image: dmstfctn-semibreve-godmode-ep.webp
   related: GOD MODE (ep. 1)
@@ -637,7 +637,7 @@
   type: talk
   date: 11.3
   title: Autonomous Worlds day
-  situation: istanbul
+  situation: Istanbul
   location: 
   url: 
   image: dmstfctn-onchain-large-lore-models.webp
@@ -652,7 +652,7 @@
 #  date: 11.3
 #  title: Beyond cultures of
 #  situation: SOMERSET HOUSE
-#  location: london
+#  location: London
 #  url: 
 #  image: 
 #  related: Fango 1000
@@ -667,7 +667,7 @@
   date: 11.3
   title: Beyond Cultures of Ownership
   situation: SOMERSET HOUSE
-  location: london
+  location: London
   url: 
   image: dmstfctn-large-lore-models.webp
   related: Fango 1000
@@ -711,7 +711,7 @@
   date: 
   title: "Godmode Epochs"
   situation: SERPENTINE
-  location: twitch
+  location: Twitch
   url: 
   image: 
   related: Godmode Epochs
@@ -726,7 +726,7 @@
   date: 
   title: "dmstfctn plays Godmode Epochs"
   situation: SERPENTINE
-  location: twitch
+  location: Twitch
   url: https://www.twitch.tv/videos/1797283426
   image: 
   related: Godmode Epochs
@@ -741,7 +741,7 @@
   date: 
   title: "AI UK 2023"
   situation: QEII CENTRE
-  location: london
+  location: London
   url: 
   image: aiuk-dmstfctn-godmodeepochs.jpg
   related: Godmode Epochs
@@ -798,7 +798,7 @@
   date: 11.2
   title: ARTECHO
   situation: ETOPIA
-  location: zaragoza
+  location: Zaragoza
   url: https://artechoproject.eu/?p=656
   image: 
   related: Fango 1000
@@ -826,7 +826,7 @@
   date: 
   title: "Public Engagement Grant"
   situation: THE ALAN TURING INSTITUTE
-  location: london
+  location: London
   url: https://www.turing.ac.uk/godmode-epochs
   image: 
   related: GOD MODE (ep. 1)
@@ -868,7 +868,7 @@
   date: 
   title: "GOD MODE (ep. 1)"
   situation: SERPENTINE
-  location: london
+  location: London
   url: 
   image: godmode-serpentine-dmstfctn.webp
   related: GOD MODE (ep. 1)
@@ -880,7 +880,7 @@
   date: 
   title: IMPAKT FESTIVAL
   situation: HET HUIS
-  location: utrecht
+  location: Utrecht
   url: 
   image: impakt_godmode_dmstfctn.webp
   related: GOD MODE (ep. 1)
@@ -891,7 +891,7 @@
   type: live
   date: 
   title: UNSOUND BUBBLES
-  situation: kraków 
+  situation: Kraków 
   location: 
   url: 
   image: dmstfctn_godmode_unsound.webp
@@ -904,7 +904,7 @@
   date: 
   title: "GOD MODE (ep. 1)"
   situation: HQI
-  location: london
+  location: London
   url: 
   image: godmode_dmstfctn.webp
   related: GOD MODE (ep. 1)
@@ -968,7 +968,7 @@
   date: 
   title: "INTERFACE CHAOS <sup>ft</sup> SKY H1"
   situation: CAFE OTO
-  location: london
+  location: London
   url: 
   image: interface-chaos-cafe-oto-sky-h1-live.webp
   related: Interface Chaos
@@ -980,7 +980,7 @@
   type: group show
   date: 
   title: NONPLUSULTRABLACK
-  situation: SYNNIKA, frankfurt
+  situation: SYNNIKA, Frankfurt
   location: 
   url: 
   image: dmstfctn-synnika.webp
@@ -1051,7 +1051,7 @@
   date: 
   title: "CTM <sup>×</sup> TRANSMEDIALE"
   situation: BERGHAIN
-  location: berlin
+  location: Berlin
   url: 
   image: echo-fx-berghain.jpg
   related: ECHO FX
@@ -1064,7 +1064,7 @@
   date: 
   title: OFFSHORE MATTERS
   situation: AKSIOMA
-  location: ljubljana
+  location: Ljubljana
   url: 
   image: offshore-matters-aksioma.webp
   related:
@@ -1079,7 +1079,7 @@
   date: 
   title: INTERFACE CHAOS
   situation: FORUM STADTPARK
-  location: graz
+  location: Graz
   url: 
   image: interface-chaos-graz.webp
   related: Interface Chaos
@@ -1150,7 +1150,7 @@
   date: 
   title: DESIGNING TIME
   situation: DESIGN MUSEUM
-  location: london
+  location: London
   url: 
   image: Designing-Museum-Designing-Time.webp
   related: Network Ensemble
@@ -1162,7 +1162,7 @@
   date: 
   title: NETWORK ENSEMBLE
   situation: GLUQBAR
-  location: milan
+  location: Milan
   url: 
   image: network-ensemble-gluqbar.webp
   related:
@@ -1180,7 +1180,7 @@
   date: 
   title: A SCHOOL OF SCHOOLS
   situation: C-MINE
-  location: genk
+  location: Genk
   url: 
   image: c-mine-school-of-school.webp
   related: OFFSHORESS18
@@ -1191,9 +1191,22 @@
   year: 2019
   type: group show
   date: 
+  title: A SCHOOL OF SCHOOLS
+  situation: Z33
+  location: Hasselt
+  url: https://www.z33.be/en/programma/a-school-of-schools/
+  image: 
+  related: OFFSHORESS18
+  hideon: mobile
+
+- now: false
+  priority: 0
+  year: 2019
+  type: group show
+  date: 
   title: PORTO DESIGN BIENNALE
   situation: TRINDADE
-  location: porto
+  location: Porto
   url: 
   image: chaos-of-interfaces-porto-biennale.webp
   related: A Chaos of Interfaces
@@ -1205,7 +1218,7 @@
   date: 
   title: A SCHOOL OF SCHOOLS
   situation: LUMA
-  location: arles
+  location: Arles
   url: 
   image: school-of-schools-luma.webp
   related: OFFSHORESS18
@@ -1218,7 +1231,7 @@
   date: 
   title: Ø.29
   situation: CORSICA STUDIOS
-  location: london
+  location: London
   url: 
   image: echo-fx-corsica-studios.webp
   related: ECHO FX
@@ -1230,7 +1243,7 @@
   date: 
   title: PORTO DESIGN BIENNALE
   situation: CAMPO 24 DE AGOSTO
-  location: porto
+  location: Porto
   url: 
   image: chaos-of-interfaces-porto-biennale-screening.webp
   related: 
@@ -1257,7 +1270,7 @@
   date: 
   title: INTERFACE CHAOS
   situation: TRUST
-  location: berlin
+  location: Berlin
   url: 
   image: interface-chaos-discussion-trust.jpg
   related: Interface Chaos
@@ -1269,7 +1282,7 @@
   date: 
   title: INTERFACE CHAOS
   situation: EVENING CLASS
-  location: london
+  location: London
   url: 
   image: Interface-Chaos-Antiuniversity.webp
   related: Interface Chaos
@@ -1298,7 +1311,7 @@
   date: 
   title: transmediale face value
   situation: HKW
-  location: berlin
+  location: Berlin
   url: 
   image: demystification-committee-transmediale-performance.webp
   related:
@@ -1312,7 +1325,7 @@
   date: 
   title: Borderline Festival
   situation: ONASSIS
-  location: athens
+  location: Athens
   url: 
   image: demystification-committee-spektrum-onassis-stegi-borderline-festival.webp
   related: Network Ensemble
@@ -1326,7 +1339,7 @@
   date: 
   title: Borderline Festival
   situation: ONASSIS STEGI
-  location: athens
+  location: Athens
   url: https://youtu.be/2N871QqErpg?t=1037
   image: 
   related: Network Ensemble
@@ -1339,7 +1352,7 @@
   date: 
   title: Radical Networks
   situation: SPEKTRUM
-  location: berlin
+  location: Berlin
   url: 
   image: demystification-committee-spektrum-radical-networks.webp
   related: Demons
@@ -1351,7 +1364,7 @@
   date: 
   title: 4<sup>th</sup> Design Biennial
   situation: ARTER
-  location: istanbul
+  location: Istanbul
   url: 
   image: offshore-ss18-istanbul-design-biennale.webp
   related: OFFSHORESS18
@@ -1364,7 +1377,7 @@
   date: 
   title: 4<sup>th</sup> Istanbul Design BIENNIAL
   situation: ARTER
-  location: istanbul
+  location: Istanbul
   url: 
   image: offshore-ss18-istanbul-design-biennale.webp
   related: OFFSHORESS18
@@ -1377,7 +1390,7 @@
   date: 
   title: transmediale face value
   situation: HKW
-  location: berlin
+  location: Berlin
   url: 
   image: demystification-committee-transmediale.webp
   related: 
@@ -1392,7 +1405,7 @@
   date: 
   title: "Situation #111"
   situation: FOTOMUSEUM
-  location: winterthur
+  location: Winterthur
   url: 
   image: demystification-committee-fotomuseum-winterthur.jpg
   related: Network Study (I, VII, VIII)
@@ -1404,7 +1417,7 @@
   date: 
   title: Automated Lands
   situation: NEW INSTITUTE
-  location: rotterdam
+  location: Rotterdam
   url: https://vimeo.com/302821667
   image: 
   related: 
@@ -1420,7 +1433,7 @@
   date: 
   title: Automated Landscapes
   situation: HET NIEUWE INSTITUUT
-  location: rotterdam
+  location: Rotterdam
   url: https://vimeo.com/302821667
   image: 
   related: 
@@ -1437,7 +1450,7 @@
   date: 
   title: transmediale face value
   situation: HKW
-  location: berlin
+  location: Berlin
   url: https://youtu.be/IZCHoLp4U70?t=2260
   image: 
   related: Offshore Investigation Vehicle
@@ -1452,7 +1465,7 @@
   date: 
   title: IMPAKT Festival
   situation: HET HUIS
-  location: utrecht
+  location: Utrecht
   url: https://youtu.be/6vQ8qMVoNaM?t=2322
   image:
   related:
@@ -1467,7 +1480,7 @@
   date: 
   title: "MoneyLab #4"
   situation: SOMERSET HOUSE
-  location: london
+  location: London
   url: https://vimeo.com/254278033#t=3847s
   image: 
   related:
@@ -1481,7 +1494,7 @@
   date: 
   title: Alt-Age
   situation: DESIGN MUSEUM
-  location: london
+  location: London
   url: 
   image: demystification-committee-altage-design-museum.webp
   related: Flash
@@ -1519,7 +1532,7 @@
   year: 2018
   type: news
   date: 
-  title: What Audre Lorde's Language of Self-Care Can Teach
+  title: What Audre Lorde's Language of Self Care Can Teach
   situation: FRIEZE
   location: 
   url: https://www.frieze.com/article/what-audre-lordes-language-self-care-can-teach-us-after-metoo
@@ -1553,7 +1566,7 @@
   date: 
   title: the influencers
   situation: CCCB
-  location: barcelona
+  location: Barcelona
   url:
   image: cccb-demystification-committee-talk.webp
   related: OFFSHORESS18
@@ -1565,7 +1578,7 @@
   date: 
   title: Vilem Flusser Residency
   situation: TRANSMEDIALE
-  location: berlin
+  location: Berlin
   url:
   image: vilem-flusser-artistic-residency.webp
   related: 
