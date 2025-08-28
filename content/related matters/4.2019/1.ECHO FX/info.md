@@ -5,7 +5,7 @@ description: 230616 2200, Nigel Farage concedes defeat
 ---
 
 ECHO FX<span class="dc-hide-on-large"><br>2019</span>
-2K video (4:3)
+2K video (4:3), Performance
 19 minutes
 <span class="dc-hide-on-large"><br></span>
 

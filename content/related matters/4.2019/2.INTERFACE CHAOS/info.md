@@ -17,6 +17,6 @@ MUA: Saffron Dunlop
 Mastering: Mark Durham
 Equipment: Ravensbourne University London<span class="dc-hide-on-large"><br><br></span>
 
-INTERFACE CHAOS is a short fictional film about two whispering palm trees. Set on the island of Praslin, Seychelles, the film follows the palm trees as they try to grow a coco de mer, their fruit and the largest seed in the world, surrounded by empty tax advisor offices and a landscape void of human activity.
+INTERFACE CHAOS is a short fictional film about two whispering palm trees. Set on the island of Praslin, Seychelles, the film follows the palm trees as they try to grow a coco de mer, their fruit and the world's largest seed, surrounded by empty tax advisor offices and a landscape void of human activity.
 
 Three excerpts from the film are available on <a href="https://interfacechaos.dmstfctn.net/" target="_blank">interfacechaos.dmstfctn.net.</a>
