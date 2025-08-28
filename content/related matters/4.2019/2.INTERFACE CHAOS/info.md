@@ -6,7 +6,7 @@ description: There's no script, just an act.
 INTERFACE CHAOS<span class="dc-hide-on-large"><br>2019</span>
 Full HD video
 27 minutes
-<span class="dc-hide-on-small"><br><br><br><br><br><br></span>
+
 Written and directed by: dmstfctn
 Music: SKY H1
 Cast: Kinda Gozo
