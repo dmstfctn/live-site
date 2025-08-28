@@ -5,7 +5,7 @@
   longdescription: "Session: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
   priority: 0
   year: 2025
-  type: panel
+  type: talk
   date: 3.9
   title: ars electronica 2025
   situation: Linz
@@ -259,7 +259,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 14.3
   title: "Futur.Shock"
   situation: FOLD
@@ -273,7 +273,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 8.2
   title: "Waluigi's Purgatory"
   situation: "SERPENTINE<sup>×</sup>HQI"
@@ -287,7 +287,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 13.10
   title: ROMA EUROPA FESTIVAL
   situation: MATTATOIO
@@ -301,7 +301,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 11.10
   title: ROBOT FESTIVAL
   situation: SAN BARBAZIANO
@@ -315,7 +315,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 14.6
   title: CRYPTIDS with Günseli Yalcinkaya
   situation: SONAR+D
@@ -330,7 +330,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 1.11
   title: "GOD MODE (ep. 1)"
   situation: SYSTEM
@@ -344,7 +344,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 14.3
   title: "INDEX Biennial"
   situation: GNRATION
@@ -358,7 +358,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 8.11
   title: "Waluigi's Purgatory"
   situation: MEET
@@ -372,7 +372,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 27.9
   title: SMART LIFE FESTIVAL
   situation: TEATRO S. CARLO
@@ -386,7 +386,7 @@
   longdescription: 
   priority: 0
   year: 2024
-  type: live
+  type: live AV
   date: 1.11
   title: "GOD MODE (ep. 1)"
   situation: MUDAERUK
@@ -436,23 +436,9 @@
   situation: KOELHUIS
   location: Eindhoven
   url: 
-  image: dmstfctn-fango1000-Decentralized-Futures-KOELHUIS-Eindhoven.webp
+  image: dmstfctn-fango1000-Decentralized-Futures-KOELHUIS-eindhoven.webp
   related: Fango 1000
   hideon: 
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2024
-  type: group show
-  date: 5.6
-  title: "SOLO AI AWARD"
-  situation: GOLDSMITHS
-  location: London
-  url: https://soloaiaward.com/dmstfctn-ft-evita-manji/
-  image: 
-  related: Waluigi's Purgatory
 
 - now: false
   description: 
@@ -467,6 +453,34 @@
   url: 
   image: dmstfctn_ica_noindex.webp
   related:
+
+- now: false
+  description: 
+  longdescription: "Godmode Epochs (2023) wins a S+T+ARTS nomination a year after its release"
+  priority: 0
+  year: 2024
+  type: award
+  date: 1.1
+  title: "S+T+ARTS nomination"
+  situation: ARS ELECTRONICA
+  location: 
+  url: https://ars.electronica.art/starts-prize/en/godmode-epochs/
+  image: 
+  related: Godmode Epochs
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2024
+  type: award
+  date: 5.6
+  title: "SOLO AI AWARD"
+  situation: GOLDSMITHS
+  location: London
+  url: https://soloaiaward.com/dmstfctn-ft-evita-manji/
+  image: 
+  related: Waluigi's Purgatory
 
 - now: false
   description: 
@@ -544,20 +558,6 @@
 
 - now: false
   description: 
-  longdescription: "Godmode Epochs (2023) wins a S+T+ARTS nomination a year after its release"
-  priority: 0
-  year: 2024
-  type: news
-  date: 1.1
-  title: "S+T+ARTS nomination"
-  situation: ARS ELECTRONICA
-  location: 
-  url: https://ars.electronica.art/starts-prize/en/godmode-epochs/
-  image: 
-  related: Godmode Epochs
-
-- now: false
-  description: 
   longdescription: "Waluigi's Purgatory (2024) featured in the Wepresent x Wetransfer publication"
   priority: 0
   year: 2024
@@ -576,7 +576,7 @@
   longdescription: Assembling a system for real time AI-generated improvisational theatre
   priority: 0
   year: 2024
-  type: residency
+  type: fellowship
   date: 1.12
   title: European Digital Deal
   situation: LEONARDO SUPERCOMPUTER
@@ -620,7 +620,7 @@
   longdescription: 
   priority: 0
   year: 2023
-  type: live
+  type: live AV
   date: 10.28
   title: "Semibreve"
   situation: THEATRO CIRCO
@@ -643,21 +643,6 @@
   image: dmstfctn-onchain-large-lore-models.webp
   related: Fango 1000
 
-#- now: false
-#  description: 
-#  longdescription: 
-#  priority: 0
-#  year: 2023
-#  type: talk
-#  date: 11.3
-#  title: Beyond cultures of
-#  situation: SOMERSET HOUSE
-#  location: London
-#  url: 
-#  image: 
-#  related: Fango 1000
-#  hideon: desktop
-
 - now: false
   description: 
   longdescription: 
@@ -672,35 +657,6 @@
   image: dmstfctn-large-lore-models.webp
   related: Fango 1000
   hideon: mobile
-#- now: false
-#  description: 
-#  longdescription:
-#  priority: 0
-#  year: 2023
-#  type: talk
-#  date: 10.28
-#  title: ultrablack
-#  situation: FORUM STADTPARK
-#  location: gratz
-#  url: 
-#  image: 
-#  related: ECHO FX
-#  hideon: desktop
-
-#- now: false
-#  description: 
-#  longdescription: 
-#  priority: 0
-#  year: 2023
-#  type: talk
-#  date: 10.28
-#  title: ultrablack nonference
-#  situation: FORUM STADTPARK
-#  location: gratz
-#  url: 
-#  image: 
-#  related: ECHO FX
-#  hideon: mobile
 
 - now: false
   description: 
@@ -745,6 +701,21 @@
   url: 
   image: aiuk-dmstfctn-godmodeepochs.jpg
   related: Godmode Epochs
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2023
+  type: award
+  date: 10.28
+  title: "EDIGMA SEMIBREVE AWARD"
+  situation: Braga
+  location: 
+  url: https://www.youtube.com/watch?v=6jkZvxLXlkY
+  image: 
+  related: GOD MODE (ep. 1)
+  hideon: mobile
 
 - now: false
   longdescription: 
@@ -864,7 +835,7 @@
 - now: false
   priority: 0
   year: 2022
-  type: live
+  type: live AV
   date: 
   title: "GOD MODE (ep. 1)"
   situation: SERPENTINE
@@ -876,7 +847,7 @@
 - now: false
   priority: 0 
   year: 2022
-  type: live
+  type: live AV
   date: 
   title: IMPAKT FESTIVAL
   situation: HET HUIS
@@ -888,7 +859,7 @@
 - now: false
   priority: 0
   year: 2022
-  type: live
+  type: live AV
   date: 
   title: UNSOUND BUBBLES
   situation: Kraków 
@@ -900,7 +871,7 @@
 - now: false
   priority: 0
   year: 2022
-  type: live
+  type: live AV
   date: 
   title: "GOD MODE (ep. 1)"
   situation: HQI
@@ -926,7 +897,7 @@
 #- now: false
 #  priority: 0
 #  year: 2022
-#  type: live
+#  type: live AV
 #  date: 
 #  title: CPC
 #  situation: CENTRE FOR POSTDIGITAL CULTURE
@@ -1047,7 +1018,7 @@
 - now: false
   priority: 0
   year: 2020
-  type: live
+  type: live AV
   date: 
   title: "CTM <sup>×</sup> TRANSMEDIALE"
   situation: BERGHAIN
@@ -1146,7 +1117,7 @@
 - now: false
   priority: 0
   year: 2019
-  type: live
+  type: live AV
   date: 
   title: DESIGNING TIME
   situation: DESIGN MUSEUM
@@ -1307,7 +1278,7 @@
 - now: false
   priority: 0
   year: 2018
-  type: live
+  type: live AV
   date: 
   title: transmediale face value
   situation: HKW
@@ -1321,7 +1292,7 @@
 - now: false
   priority: 0
   year: 2018
-  type: live
+  type: live AV
   date: 
   title: Borderline Festival
   situation: ONASSIS
@@ -1335,7 +1306,7 @@
   longdescription: '"Approach from West India Quay, see what corpses sprouted on the Isle of Dead"'
   priority: 0
   year: 2018
-  type: live
+  type: live AV
   date: 
   title: Borderline Festival
   situation: ONASSIS STEGI
@@ -1348,7 +1319,7 @@
 - now: false
   priority: 0
   year: 2018
-  type: live
+  type: live AV
   date: 
   title: Radical Networks
   situation: SPEKTRUM
