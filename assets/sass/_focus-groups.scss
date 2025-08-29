@@ -1,5 +1,5 @@
 @mixin focus-group-pagetype (){
-  background: #F20712;
+  background: #DE0707;
   .dc-sitenav{
     color: #000000;
   }
@@ -10,10 +10,10 @@
     color: #000;
   }
   .dc-sitenav::before{
-    background: #F20712;
+    background: #DE0707;
   }
   .dc-work--item--description{
-    background: #F20712;
+    background: #DE0707;
   }
   .dc-sitenav a[data-dc-localtarget="#related-matters"]{ 
     svg path[fill]{
@@ -24,10 +24,10 @@
     }
     &:hover{
       svg path[fill]{
-        fill: #F20712 !important;
+        fill: #DE0707 !important;
       }
       svg path[stroke]{
-        stroke: #F20712 !important;
+        stroke: #DE0707 !important;
       }
     }
   }
@@ -36,7 +36,7 @@
       #red-stroke,
       #red-stroke-2,
       #red-stroke-3{
-        stroke: #F20712;
+        stroke: #DE0707;
       }
       #black-stroke,
       #black-stroke-thin-3{
@@ -54,7 +54,7 @@
         fill: #c43131;
       }
       #phone-fill{
-        fill: #F20712;
+        fill: #DE0707;
       }
     }
   }
@@ -71,13 +71,13 @@ html[data-dc-pagetype="focusgroup"]{
 }
 
 html[data-dc-pagetype="focusgroup"]{
-  background: #F20712;
+  background: #DE0707;
   color: #000000;
   .dc-work--year h2{
     color: #FFFFFF;
   }
   .dc-work--item--description{
-    background: #F20712;
+    background: #DE0707;
   }
   .dc-external-link::before,
   a[href^="mailto:"]::before,
@@ -88,7 +88,7 @@ html[data-dc-pagetype="focusgroup"]{
     color: #FFFFFF;
   }
   .dc-media--list li{
-    background: #F20712;
+    background: #DE0707;
   }
   .dc-media--nav ol li:hover,
   .dc-media--nav ol li.active{
@@ -110,13 +110,13 @@ html[data-dc-pagetype="focusgroup"]{
 
 
 .dc-navigation-item#focus-groups{
-  background: #F20712;
+  background: #DE0707;
   color: #000000;
   .dc-work--year h2{
     color: #FFFFFF;
   }
   .dc-work--item--description{
-    background: #F20712;
+    background: #DE0707;
   }
   a:hover{
     color: #FFFFFF

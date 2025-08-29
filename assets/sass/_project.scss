@@ -12,7 +12,7 @@
   display: flex;
   align-items: baseline;
   justify-content: center;
-  color: #F20712;
+  color: #DE0707;
 }  
   .dc-item--header .dctxt--date{
     margin-right: 0.1em;
@@ -107,7 +107,7 @@
       cursor: default;
       &:hover,
       &.active{
-        color: #F20712;
+        color: #DE0707;
         &:after{
           color: #000;
         }  
