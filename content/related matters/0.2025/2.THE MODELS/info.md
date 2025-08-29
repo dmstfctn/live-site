@@ -9,10 +9,10 @@ Interactive live simulation
 Full HD display, gaming PC, internet connection
 1 year
 
-Music: Hero Image
+Music: Hero Image<span class="dc-hide-on-small">
 Additional development: Jenn Leung
 AI assistance: Leonardo Supercomputer team
-
+</span>
 Exhibited: Onkaos (Madrid), Adapter (Budapest), Centro de Historias (Zaragoza), Tecnopolo (Bologna)
 <br>
 
