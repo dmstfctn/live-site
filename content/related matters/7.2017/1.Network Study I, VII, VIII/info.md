@@ -4,7 +4,7 @@ titleJustified: Network Study I, Ⅶ & Ⅷ
 description: "13:48:40, Canary Wharf, London"
 ---
 Network Study I, VII & VIII<span class="dc-hide-on-large"><br>2017</span>
-3-channel film
+3-channel video
 30 minutes
 <span class="dc-hide-on-large"><br></span>
 
