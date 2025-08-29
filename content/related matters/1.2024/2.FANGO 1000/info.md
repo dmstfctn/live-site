@@ -11,8 +11,9 @@ Onchain multiplayer game
 Music: Hero Image
 Additional writing: Mina Amiri Kalvoey
 Solidity development: Paul Seidler
-Illustrations: Carlo Crivelli (<sup>†</sup>1495) and dmstfctn
-<span class="dc-hide-on-small"><br></span><br>
+
+Exhibited: Etopia (Zaragoza), Koelhuis (Eindhoven)
+<span class="dc-hide-on-large"><br></span>
 
 Fango 1000 is an onchain text game where players compete for narrative control. The game is set in the fictional Italian village of Fango circa 1173, where a trove containing a thousand chronicles has suddenly appeared inside a monastery − each describing the training of a mysterious 'machine intelligence' from the future. Players join one of three factions with conflicting worldviews and compete to tell stories about what secret the machine may hold.
 

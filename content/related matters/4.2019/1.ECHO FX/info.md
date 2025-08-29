@@ -5,8 +5,10 @@ description: 230616 2200, Nigel Farage concedes defeat
 ---
 
 ECHO FX<span class="dc-hide-on-large"><br>2019</span>
-2K video (4:3), Performance
+2K video (4:3), performance
 19 minutes
+
+Exhibited and performed: Berghain (Berlin), Corsica Studios (London), Synnika (Frankfurt), Gluqbar (Milan)
 <span class="dc-hide-on-large"><br></span>
 
 ECHO FX replays the flow of information on social media and foreign exchange markets on the night of the 2016 Brexit referendum. Following a timely concession by Nigel Farage, rumors of a Leave loss spread, inflating the value of the Pound market. As the referendum outcome became apparent later that night, a number of traders with private polling information pointing to a Leave win made millions from the crashing Pound.

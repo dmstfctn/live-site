@@ -7,7 +7,9 @@ description: A corporate structure to explore tax havens
 Offshore Investigation Vehicle<span class="dc-hide-on-large"><br>2017-18</span>
 Installation, dimensions variable
 Hardcover book, legal documents, credit cards
-<span class="dc-hide-on-small"><br><br><br><br><br></span><br>
+
+Exhibited: HKW (Berlin), Aksioma (Ljubljana)
+<span class="dc-hide-on-small"><br><br><br></span><br>
 
 The Offshore Investigation Vehicle was an international corporate structure set up to model corporate financial practices observed in tax havens, and grasp their inner workings. The vehicle consisted of a UK limited company controlled by the artists and 53 shareholders, a Seychelles International Business Company directed by a nominee, and a bank account held in Puerto Rico.
 
