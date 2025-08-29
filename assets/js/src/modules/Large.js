@@ -56,7 +56,7 @@ Large.prototype.startLanderAuto = function(){
   clearInterval( this.landerNextInterval );
   this.landerNextInterval = setInterval( () => {
    this.showNextLanderImage();
-  }, CFG.LANDER_IMAGE_TIMING );
+  }, CFG.LANDER_IMG_TIMING );
 }
 
 Large.prototype.hideLanderImages = function(){
