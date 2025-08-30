@@ -20,4 +20,4 @@ The Models is an interactive installation exploring the improvisational nature o
 
 26,880 scenes can be rendered with bespoke lighting and music, and in response to the audience's casting and scenographic preferences as prompted through their phone. Influenced by the prompted scene and by Commedia archetypes present in their training dataset, the models' output is unpredictable and reliably rich of confabulation, mistakes, and surprise.
 
-The text and voice generation system was assembled by the artists using the Leonardo Supercomputer <a href="https://ars.electronica.art/eudigitaldeal/en/residencies/the-models-by-dmstfctn/" target="_blank">during a residency</a>.
+The AI dialogue generation system was assembled by the artists using the Leonardo Supercomputer <a href="https://ars.electronica.art/eudigitaldeal/en/residencies/the-models-by-dmstfctn/" target="_blank">during a residency</a>.
