@@ -5,7 +5,7 @@ description: 230616 2200, Nigel Farage concedes defeat
 ---
 
 ECHO FX<span class="dc-hide-on-large"><br>2019</span>
-2K video (4:3), performance
+2-channel video (performable)
 19 minutes
 
 Exhibited and performed: Berghain (Berlin), Corsica Studios (London), Synnika (Frankfurt), Gluqbar (Milan)
