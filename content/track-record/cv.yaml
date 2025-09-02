@@ -101,7 +101,7 @@
   situation: WSA
   location: New York City
   url: #https://rhizome.org/events/god-mode/
-  image: dmstfctn-rhizome-wsa-nyc-god-mode.jpg
+  image: dmstfctn-rhizome-wsa-nyc-god-mode.webp
   related: 
     - Godmode Epochs
     - GOD MODE (ep. 1)
@@ -133,7 +133,7 @@
   situation: TECNOPOLO
   location: Bologna
   url:
-  image: artcity-tecnopolo-dmstfctn-themodels.jpg
+  image: artcity-tecnopolo-dmstfctn-themodels.webp
   related: The Models
 
 - now: false
@@ -189,7 +189,7 @@
   situation: LECTURIS
   location: 
   url:
-  image: artecho-lecturis-dmstfctn-largeloremodels.jpg
+  image: artecho-lecturis-dmstfctn-largeloremodels.webp
   related: Fango 1000
   hideon: mobile
 
@@ -699,7 +699,7 @@
   situation: QEII CENTRE
   location: London
   url: 
-  image: aiuk-dmstfctn-godmodeepochs.jpg
+  image: aiuk-dmstfctn-godmodeepochs.webp
   related: Godmode Epochs
 
 - now: false
@@ -1024,7 +1024,7 @@
   situation: BERGHAIN
   location: Berlin
   url: 
-  image: echo-fx-berghain.jpg
+  image: echo-fx-berghain.webp
   related: ECHO FX
 
 # ## 2020 ## solo ############## #
@@ -1243,7 +1243,7 @@
   situation: TRUST
   location: Berlin
   url: 
-  image: interface-chaos-discussion-trust.jpg
+  image: interface-chaos-discussion-trust.webp
   related: Interface Chaos
 
 - now: false
@@ -1378,7 +1378,7 @@
   situation: FOTOMUSEUM
   location: Winterthur
   url: 
-  image: demystification-committee-fotomuseum-winterthur.jpg
+  image: demystification-committee-fotomuseum-winterthur.webp
   related: Network Study (I, VII, VIII)
 
 - now: false
