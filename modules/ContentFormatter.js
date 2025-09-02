@@ -349,7 +349,7 @@ const createRelatedMatters = ( related_matters, cv, bio ) => {
   for( let i = 0; i < cv.entries.length; i++ ){
     if( cv.entries[i].now ){
       now = cv.entries[i];
-      now.label = (typeof cv.entries[i].now === 'string') ? cv.entries[i].now : 'now';
+      now.label = (typeof cv.entries[i].now === 'string') ? cv.entries[i].now : Config.nameForCurrentActivities;
       break;
     }    
   }
@@ -460,7 +460,7 @@ const structureCV = ( cv ) => {
       return parseInt( y2 ) - parseInt( y1 );
     });
 
-  years.unshift( 'next' );
+  years.unshift( Config.nameForCurrentActivities );
   
   years.forEach( ( year ) => {
     let entries = cv.entries.filter( e => e.year === year && !e.now );

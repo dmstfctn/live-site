@@ -31,7 +31,8 @@ let Config = {
     public_data: path.join( public_root, url_root, 'data' ),
     public_assets: path.join( public_root, url_root, 'assets' )
   },
-  letterSeparator: ','
+  letterSeparator: ',',
+  nameForCurrentActivities: 'now'
 };
 
 Config.log = () => {

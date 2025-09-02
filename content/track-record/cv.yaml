@@ -1,6 +1,6 @@
 #------------------------------------------------2025
 
-- now: next
+- now: now
   description: "Session: Dual-Use / Dual Futures"
   longdescription: "Session: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
   priority: 0
@@ -15,7 +15,7 @@
   related: 
   hideon: 
 
-- now: next
+- now: now
   description:
   longdescription: 
   priority: 0
@@ -30,7 +30,7 @@
   related: Autotuned
   hideon: desktop
 
-- now: next
+- now: now
   description: #Showing new work on deceptive AI characters
   longdescription: Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
   priority: 0
@@ -45,7 +45,7 @@
   related: Autotuned
   hideon: mobile
 
-- now: next
+- now: now
   description: 
   longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
@@ -60,7 +60,7 @@
   related: The Models
   hideon: 
 
-- now: next
+- now: now
   description: 
   longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
@@ -75,7 +75,7 @@
   related: The Models
   hideon: 
 
-- now: next
+- now: now
   description: 
   longdescription: Contribution to Serpentine's annual briefing on art and advanced technologies
   priority: 0
