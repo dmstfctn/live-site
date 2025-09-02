@@ -2,7 +2,7 @@
 
 - now: now
   description: "Session: Dual-Use / Dual Futures"
-  longdescription: "Session: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
+  longdescription: #"Session: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
   priority: 0
   year: 2025
   type: talk
@@ -17,7 +17,7 @@
 
 - now: now
   description:
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2025
   type: group show
@@ -32,7 +32,7 @@
 
 - now: now
   description: #Showing new work on deceptive AI characters
-  longdescription: Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
+  longdescription: #Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
   priority: 0
   year: 2025
   type: group show
@@ -47,7 +47,7 @@
 
 - now: now
   description: 
-  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
+  longdescription: #Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
   year: 2025
   type: group show
@@ -62,7 +62,7 @@
 
 - now: now
   description: 
-  longdescription: Showing The Models (2025), improvisational theatre by Large Language Models
+  longdescription: #Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
   year: 2025
   type: group show
@@ -77,7 +77,7 @@
 
 - now: now
   description: 
-  longdescription: Contribution to Serpentine's annual briefing on art and advanced technologies
+  longdescription: #Contribution to Serpentine's annual briefing on art and advanced technologies
   priority: 0
   year: 2025
   type: writing
@@ -92,7 +92,7 @@
 
 - now: false
   description: #Showing GOD MODE (ep. 1), Godmode Epochs
-  longdescription: #Showing GOD MODE (ep. 1) and Godmode Epochs, co-presented by Onkaos
+  longdescription: ##Showing GOD MODE (ep. 1) and Godmode Epochs, co-presented by Onkaos
   priority: 0
   year: 2025
   type: group show
@@ -109,7 +109,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2025
   type: group show
@@ -124,7 +124,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2025
   type: solo show
@@ -138,7 +138,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2025
   type: group show
@@ -152,7 +152,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2025
   type: panel
@@ -167,7 +167,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2025
   type: panel
@@ -195,7 +195,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2025
   type: news
@@ -210,7 +210,7 @@
 
 - now: false
   description: 
-  longdescription: dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
+  longdescription: #dmstfctn & Lawrence Lek talk about improvisation, roleplaying and mistakes in AI
   priority: 0
   year: 2025
   type: news
@@ -225,7 +225,7 @@
 
 - now: false
   description: 
-  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
+  longdescription: #Interview on The Models (2025), improv theatre by Large Language Models
   priority: 0
   year: 2025
   type: news
@@ -240,7 +240,7 @@
 
 - now: false
   description: 
-  longdescription: Interview on The Models (2025), improv theatre by Large Language Models
+  longdescription: #Interview on The Models (2025), improv theatre by Large Language Models
   priority: 0
   year: 2025
   type: news
@@ -256,7 +256,7 @@
 #------------------------------------------------2024
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -270,7 +270,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -284,7 +284,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -298,7 +298,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -312,7 +312,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -327,7 +327,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -341,7 +341,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -355,7 +355,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -369,7 +369,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -383,7 +383,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: live AV
@@ -397,7 +397,7 @@
 
 - now: false
   description: 
-  longdescription: Showing excerpts from Waluigi's Purgatory (2024) with contextual notes
+  longdescription: #Showing excerpts from Waluigi's Purgatory (2024) with contextual notes
   priority: 0
   year: 2024
   type: group show
@@ -412,7 +412,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: group show
@@ -427,7 +427,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: group show
@@ -442,7 +442,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: screening
@@ -456,7 +456,7 @@
 
 - now: false
   description: 
-  longdescription: "Godmode Epochs (2023) wins a S+T+ARTS nomination a year after its release"
+  longdescription: #"Godmode Epochs (2023) wins a S+T+ARTS nomination a year after its release"
   priority: 0
   year: 2024
   type: award
@@ -470,7 +470,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: award
@@ -484,7 +484,7 @@
 
 - now: false
   description: 
-  longdescription: "dmstfctn speak to Günseli Yalcinkaya about Waluigi's Purgatory (2024)"
+  longdescription: #"dmstfctn speak to Günseli Yalcinkaya about Waluigi's Purgatory (2024)"
   priority: 0
   year: 2024
   type: news
@@ -499,7 +499,7 @@
 
 - now: false
   description: 
-  longdescription: dmstfctn speak to NERO about Waluigi's Purgatory (2024)
+  longdescription: #dmstfctn speak to NERO about Waluigi's Purgatory (2024)
   priority: 0
   year: 2024
   type: news
@@ -513,7 +513,7 @@
 
 - now: false
   description: 
-  longdescription: "dmstfctn & Evita Manji speak to Alasdair Milne about Waluigi's Purgatory (2024)"
+  longdescription: #"dmstfctn & Evita Manji speak to Alasdair Milne about Waluigi's Purgatory (2024)"
   priority: 0
   year: 2024
   type: news
@@ -528,7 +528,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2024
   type: news
@@ -543,7 +543,7 @@
 
 - now: false
   description: 
-  longdescription: '"Ever wondered whether an Artificial Intelligence could have its own desires?"'
+  longdescription: #'"Ever wondered whether an Artificial Intelligence could have its own desires?"'
   priority: 0
   year: 2024
   type: news
@@ -558,7 +558,7 @@
 
 - now: false
   description: 
-  longdescription: "Waluigi's Purgatory (2024) featured in the Wepresent x Wetransfer publication"
+  longdescription: #"Waluigi's Purgatory (2024) featured in the Wepresent x Wetransfer publication"
   priority: 0
   year: 2024
   type: news
@@ -573,7 +573,7 @@
 
 - now: false
   description: 
-  longdescription: Assembling a system for real time AI-generated improvisational theatre
+  longdescription: #Assembling a system for real time AI-generated improvisational theatre
   priority: 0
   year: 2024
   type: fellowship
@@ -588,7 +588,7 @@
 
 - now: false
   description: 
-  longdescription: A talk on the faciality of AI characters in the GOD MODE series (2022-)
+  longdescription: #A talk on the faciality of AI characters in the GOD MODE series (2022-)
   priority: 0
   year: 2024
   type: talk
@@ -603,7 +603,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: group show
@@ -617,7 +617,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: live AV
@@ -631,7 +631,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: talk
@@ -645,7 +645,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: talk
@@ -660,7 +660,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: talk
@@ -675,7 +675,7 @@
 
 - now: false
   description: 
-  longdescription: "Godmode Epochs (2023) launch on Serpentine's Twitch with curator Eva Jäger"
+  longdescription: #"Godmode Epochs (2023) launch on Serpentine's Twitch with curator Eva Jäger"
   priority: 0
   year: 2023
   type: talk
@@ -690,7 +690,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: talk
@@ -704,7 +704,7 @@
 
 - now: false
   description: 
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: award
@@ -718,7 +718,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2023
   type: writing
@@ -732,7 +732,7 @@
   hideon: desktop
 
 - now: false
-  longdescription: A speculative tool for narrative building, with Eva Jäger and Alasdair Milne
+  longdescription: #A speculative tool for narrative building, with Eva Jäger and Alasdair Milne
   priority: 0
   year: 2023
   type: writing
@@ -747,7 +747,7 @@
 
 - now: false
   description: 
-  longdescription: An AI training game set in an infinite supermarket, time is short, the AI frustrated
+  longdescription: #An AI training game set in an infinite supermarket, time is short, the AI frustrated
   priority: 0
   year: 2023
   type: game
@@ -762,7 +762,7 @@
 
 - now: false
   description: 
-  longdescription: Building a fully onchain narrative generation game, a.k.a a 'Large Lore Model'
+  longdescription: #Building a fully onchain narrative generation game, a.k.a a 'Large Lore Model'
   priority: 0
   year: 2023
   type: residency
@@ -776,7 +776,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: Alasdair Milne examines the video game Godmode Epochs (2023)
+  longdescription: #Alasdair Milne examines the video game Godmode Epochs (2023)
   priority: 0
   year: 2023
   type: news
@@ -790,7 +790,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: dmstfctn are awarded the 2022 Alan Turing Institute Public Engagement Grant
+  longdescription: #dmstfctn are awarded the 2022 Alan Turing Institute Public Engagement Grant
   priority: 0
   year: 2023
   type: news
@@ -804,7 +804,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: An interview on the GOD MODE series (2022—) by Christopher Michael
+  longdescription: #An interview on the GOD MODE series (2022—) by Christopher Michael
   priority: 0
   year: 2023
   type: news
@@ -818,7 +818,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: "An interview (in Italian) expanding on the AI-training game Godmode Epochs (2023)"
+  longdescription: #"An interview (in Italian) expanding on the AI-training game Godmode Epochs (2023)"
   priority: 0
   year: 2023
   type: news
@@ -881,7 +881,7 @@
   related: GOD MODE (ep. 1)
 
 - now: false
-  longdescription: "A live interview on simulation and AI, hosted by Marijn Bril at IMPAKT festival"
+  longdescription: #"A live interview on simulation and AI, hosted by Marijn Bril at IMPAKT festival"
   priority: 2
   year: 2022
   type: news
@@ -908,7 +908,7 @@
 #  hideon: desktop
 
 - now: false
-  longdescription: A book and performance about market manipulation on Brexit Referendum night
+  longdescription: #A book and performance about market manipulation on Brexit Referendum night
   priority: 0
   year: 2021
   type: book
@@ -945,7 +945,7 @@
   related: Interface Chaos
 
 - now: false
-  longdescription: 
+  longdescription: #
   priority: 0
   year: 2021
   type: group show
@@ -960,7 +960,7 @@
   
 
 #- now: false
-# longdescription: A livestream shopping event featuring conversation, sound and video work
+# longdescription: #A livestream shopping event featuring conversation, sound and video work
 #  priority: 0
 #  year: 2021
 #  type: screening
@@ -974,7 +974,7 @@
 #  related:
 
 - now: false
-  longdescription: '"The performance revisits the sociopolitical and economic tumult following Brexit"'
+  longdescription: #'"The performance revisits the sociopolitical and economic tumult following Brexit"'
   priority: 0
   year: 2021
   type: news
@@ -988,7 +988,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: '"A modern tale, constructed of lies, gorilla advertising bus campaigns and ..."'
+  longdescription: #'"A modern tale, constructed of lies, gorilla advertising bus campaigns and ..."'
   priority: 0
   year: 2021
   type: news
@@ -1002,7 +1002,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: '"If the performance was a reaction, the book is a reflection, at 0x speed ..."'
+  longdescription: #'"If the performance was a reaction, the book is a reflection, at 0x speed ..."'
   priority: 1
   year: 2021
   type: news
@@ -1056,7 +1056,7 @@
   related: Interface Chaos
 
 - now: false
-  longdescription: A panel on works of art that investigate the offshore financial industry
+  longdescription: #A panel on works of art that investigate the offshore financial industry
   priority: 0
   year: 2020
   type: talk
@@ -1071,7 +1071,7 @@
     - OFFSHORESS18
 
 - now: false
-  longdescription: An interview on the short film INTERFACE CHAOS (2019), including excerpts
+  longdescription: #An interview on the short film INTERFACE CHAOS (2019), including excerpts
   priority: 0
   year: 2020
   type: news
@@ -1084,7 +1084,7 @@
   related: Interface Chaos
 
 - now: false
-  longdescription: '"A group of artists began a project to show how money could be moved offshore"'
+  longdescription: #'"A group of artists began a project to show how money could be moved offshore"'
   priority: 0
   year: 2020
   type: news
@@ -1099,7 +1099,7 @@
     - OFFSHORESS18
 
 - now: false
-  longdescription: 'Review of the solo show Offshore Matters at Aksioma in Ljublana' 
+  longdescription: #'Review of the solo show Offshore Matters at Aksioma in Ljublana' 
   priority: 0
   year: 2020
   type: news
@@ -1260,7 +1260,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: Audiovisual genealogy of financial algorithmic collapse, limited editon USB
+  longdescription: #Audiovisual genealogy of financial algorithmic collapse, limited editon USB
   priority: 0
   year: 2019
   type: music
@@ -1303,7 +1303,7 @@
   hideon: desktop
 
 - now: false
-  longdescription: '"Approach from West India Quay, see what corpses sprouted on the Isle of Dead"'
+  longdescription: #'"Approach from West India Quay, see what corpses sprouted on the Isle of Dead"'
   priority: 0
   year: 2018
   type: live AV
@@ -1397,7 +1397,7 @@
   hideon: desktop
 
 - now: false
-  longdescription: Discussing the participative artwork Offshore Investigation Vehicle (2018)
+  longdescription: #Discussing the participative artwork Offshore Investigation Vehicle (2018)
   priority: 0
   year: 2018
   type: talk
@@ -1414,7 +1414,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: Discussing the participative artwork Offshore Investigation Vehicle (2018)
+  longdescription: #Discussing the participative artwork Offshore Investigation Vehicle (2018)
   priority: 0
   year: 2018
   type: talk
@@ -1429,7 +1429,7 @@
 
 # ## 2018 ## talk ############## #
 - now: false
-  longdescription: Discussing sonic experimentation with algorithms and financial speculation
+  longdescription: #Discussing sonic experimentation with algorithms and financial speculation
   priority: 0
   year: 2018
   type: talk
@@ -1444,7 +1444,7 @@
     - Demons
 
 - now: false
-  longdescription: Discussing the participative artwork Offshore Investigation Vehicle (2018)
+  longdescription: #Discussing the participative artwork Offshore Investigation Vehicle (2018)
   priority: 0
   year: 2018
   type: talk
@@ -1472,7 +1472,7 @@
 
   # ## 2018 ## dissemination ##### #
 - now: false
-  longdescription: '"The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick"'
+  longdescription: #'"The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick"'
   priority: 0
   year: 2018
   type: writing
@@ -1485,7 +1485,7 @@
   related: OFFSHORESS18
 
 - now: false
-  longdescription: '"You are alone on a dusty desert road... You have just run out of water....."'
+  longdescription: #'"You are alone on a dusty desert road... You have just run out of water....."'
   priority: 0
   year: 2018
   type: writing
@@ -1498,7 +1498,7 @@
   related: Offshore Investigation Vehicle
 
 - now: false
-  longdescription: "Review of Offshore Investigation Vehicle at transmediale festival"
+  longdescription: #"Review of Offshore Investigation Vehicle at transmediale festival"
   priority: 0
   year: 2018
   type: news
@@ -1514,7 +1514,7 @@
   hideon: mobile
 
 - now: false
-  longdescription: "An interview expanding on the Offshore Investigation Vehicle (2017-18) project"
+  longdescription: #"An interview expanding on the Offshore Investigation Vehicle (2017-18) project"
   priority: 0
   year: 2018
   type: news
@@ -1558,7 +1558,7 @@
 
 # ## 2017 ## dissemination ##### #
 - now: false
-  longdescription: AV experiments with wireless network infrastructure, limited edition SD card
+  longdescription: #AV experiments with wireless network infrastructure, limited edition SD card
   priority: 0
   year: 2017
   type: music
