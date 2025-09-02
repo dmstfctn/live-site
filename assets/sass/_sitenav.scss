@@ -297,6 +297,14 @@
       display: none;
     }
 
+    .dc-biglist--now .dc-cv--linewrap__hasdescription:hover{ 
+      & > *{
+        opacity: 1 !important;
+      }
+      .dc-work--item--description{
+        display: none !important;
+      }
+    }
   
 
   .dc-work--year .dc-work--items{
