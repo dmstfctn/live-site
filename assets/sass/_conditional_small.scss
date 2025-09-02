@@ -119,6 +119,19 @@
           width: 100%;
         }
       }
+    .dc-cv-download{
+      display: none;
+      padding-bottom: 0.9rem;
+      a{         
+        padding-right: 0.5em;
+        &::before{
+          display: block;
+        }
+      }
+    }
+    .dc-track-record .dc-cv-download{
+      opacity: 0;
+    }
 
   .dc-small-chunk{
     opacity: 0;
