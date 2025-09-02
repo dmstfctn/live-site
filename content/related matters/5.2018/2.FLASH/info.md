@@ -4,7 +4,7 @@ description: "#crashcore #algotrading #spoofing #may6"
 ---
 
 FLASH<span class="dc-hide-on-large"><br>2018</span>
-Performance
+Sound performance
 24 minutes
 
 

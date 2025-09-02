@@ -4,7 +4,7 @@ description: "#blackmonday #1987 #confirmationbias"
 ---
 
 DEMONS<span class="dc-hide-on-large"><br>2018</span>
-Performance
+AV performance
 22 minutes
 
 Performed: Spektrum (Berlin)<span class="dc-hide-on-large"><br><br></span>
