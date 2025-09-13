@@ -16,61 +16,16 @@
   hideon: 
 
 - now: now
-  description:
-  longdescription: #
-  priority: 0
-  year: 2025
-  type: group show
-  date: 7.8
-  title: EDINBURGH ART FESTIVAL
-  situation: Edinburgh
-  location: 
-  url: 
-  image: 
-  related: Autotuned
-  hideon: desktop
-
-- now: now
-  description: #Showing new work on deceptive AI characters
-  longdescription: #Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
-  priority: 0
-  year: 2025
-  type: group show
-  date: 7.8
-  title: authenticity unmasked
-  situation: EDINBURGH ART FESTIVAL
-  location: Edinburgh
-  url: https://www.edinburghartfestival.com/event/authenticity-unmasked-unveiling-ai-driven-realities-through-art/
-  image: 
-  related: Autotuned
-  hideon: mobile
-
-- now: now
   description: 
   longdescription: #Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
   year: 2025
   type: group show
   date: 19.9
-  title: Algorithms of Freedom
+  title: Me + You + Them = Us
   situation: ADAPTER
   location: Budapest
-  url: https://adapterujbuda.hu/en/home/
-  image: 
-  related: The Models
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: #Showing The Models (2025), improvisational theatre by Large Language Models
-  priority: 0
-  year: 2025
-  type: group show
-  date: 8.5
-  title: Bits & Bots
-  situation: CENTRO DE HISTORIAS
-  location: Zaragoza
-  url: https://fundacionzcc.org/bits-bots-la-exposicion-que-explora-la-realidad-generativa-llega-al-centro-de-historias/
+  url: https://proprogressione.com/en/news/me-you-them-us-the-algorithms-of-freedom/
   image: 
   related: The Models
   hideon: 
@@ -108,6 +63,36 @@
   hideon: 
 
 - now: false
+  description:
+  longdescription: #
+  priority: 0
+  year: 2025
+  type: group show
+  date: 7.8
+  title: EDINBURGH ART FESTIVAL
+  situation: Edinburgh
+  location: 
+  url: 
+  image: 
+  related: Autotuned
+  hideon: desktop
+
+- now: false
+  description: #Showing new work on deceptive AI characters
+  longdescription: #Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
+  priority: 0
+  year: 2025
+  type: group show
+  date: 7.8
+  title: authenticity unmasked
+  situation: EDINBURGH ART FESTIVAL
+  location: Edinburgh
+  url: 
+  image: GrokhTungTung-dmstfctn-EdinburghArtsFestival.webp
+  related: Autotuned
+  hideon: mobile
+
+- now: false
   description: 
   longdescription: #
   priority: 0
@@ -127,20 +112,6 @@
   longdescription: #
   priority: 0
   year: 2025
-  type: solo show
-  date: 7.2
-  title: The Models
-  situation: TECNOPOLO
-  location: Bologna
-  url:
-  image: artcity-tecnopolo-dmstfctn-themodels.webp
-  related: The Models
-
-- now: false
-  description: 
-  longdescription: #
-  priority: 0
-  year: 2025
   type: group show
   date: 13.3
   title: ELAP 2025
@@ -149,6 +120,35 @@
   url:
   image: eastlondonartprize-dmstfctn-waluigi-purgatory.webp
   related: Waluigi's Purgatory
+
+- now: false
+  description: 
+  longdescription: #Showing The Models (2025), improvisational theatre by Large Language Models
+  priority: 0
+  year: 2025
+  type: group show
+  date: 8.5
+  title: Bits & Bots
+  situation: CENTRO DE HISTORIAS
+  location: Zaragoza
+  url: 
+  image: dmstfctn-models-zaragoza.webp
+  related: The Models
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: #
+  priority: 0
+  year: 2025
+  type: solo show
+  date: 7.2
+  title: The Models
+  situation: TECNOPOLO
+  location: Bologna
+  url:
+  image: artcity-tecnopolo-dmstfctn-themodels.webp
+  related: The Models
 
 - now: false
   description: 
