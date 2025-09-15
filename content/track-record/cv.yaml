@@ -50,7 +50,7 @@
   longdescription: #Contribution to Serpentine's annual briefing on art and advanced technologies
   priority: 0
   year: 2025
-  type: writing
+  type: publication
   date: 7.8
   title: Future Art Ecosystems 5
   situation: SERPENTINE
@@ -213,7 +213,7 @@
 - now: false
   priority: 0
   year: 2025
-  type: writing
+  type: publication
   date: 
   title: Investigating Decentralized Action in Art
   situation: LECTURIS
@@ -751,7 +751,7 @@
   longdescription: #
   priority: 0
   year: 2023
-  type: writing
+  type: publication
   date: 
   title: Large Lore Models
   situation: METALABEL
@@ -765,7 +765,7 @@
   longdescription: #A speculative tool for narrative building, with Eva Jäger and Alasdair Milne
   priority: 0
   year: 2023
-  type: writing
+  type: publication
   date: 
   title: Large Lore Models
   situation: METALABEL
@@ -1491,7 +1491,7 @@
   longdescription: #'"The phone on the cafe table buzzes: Graham. Mark sighs. Graham is a prick"'
   priority: 0
   year: 2018
-  type: writing
+  type: publication
   date: 
   title: A DAY IN THE LIFE OF
   situation: SCHLOSS-POST
@@ -1504,7 +1504,7 @@
   longdescription: #'"You are alone on a dusty desert road... You have just run out of water....."'
   priority: 0
   year: 2018
-  type: writing
+  type: publication
   date: 
   title: The Offshore Economist
   situation: Rizosfera
