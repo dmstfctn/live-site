@@ -1127,6 +1127,7 @@
   related:
     - Offshore Investigation Vehicle
     - OFFSHORESS18
+  hideon: mobile
 
 # ## 2019 ## live ############## #
 - now: false
