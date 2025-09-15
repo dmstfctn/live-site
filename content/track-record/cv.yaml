@@ -1,6 +1,21 @@
 #------------------------------------------------2025
 
 - now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: fellowship
+  date: 18.9
+  title: N-SPACE
+  situation: SOMERSET HOUSE STUDIOS
+  location: London
+  url: https://www.somersethouse.org.uk/a-z-community-directory/dmstfctn
+  image: 
+  related: 
+  hideon: 
+
+- now: now
   description: "Session: Dual-Use / Dual Futures"
   longdescription: #"Session: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
   priority: 0
@@ -10,7 +25,7 @@
   title: ars electronica
   situation: POSTCITY
   location: Linz
-  url: https://ars.electronica.art/panic/en/view/dual-use-dual-futures-reclaiming-the-stack-for-europes-commons-23338ddb450c802488cce7211f420ed9
+  url: https://www.youtube.com/watch?v=0QffrzYYQhM&t=11414s&ab_channel=ArsElectronica
   image: 
   related: 
   hideon: 
@@ -44,6 +59,21 @@
   image: 
   related: 
   hideon:
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: news
+  date: 18.9
+  title: FANGO 1000
+  situation: BIANJIE RESEARCH GROUP
+  location: 
+  url: https://bianjie.systems/fango-1000-and-large-lore-models
+  image: 
+  related: 
+  hideon: 
 
 - now: false
   description: #Showing GOD MODE (ep. 1), Godmode Epochs
@@ -534,7 +564,7 @@
   type: news
   date: 7.1
   title: "conversation with evita & dmstfctn"
-  situation: T–MAG
+  situation: T-MAG
   location: 
   url: 
   image: 
@@ -724,7 +754,7 @@
   type: writing
   date: 
   title: Large Lore Models
-  situation: 0XPARC
+  situation: METALABEL
   location: 
   url: 
   image: 
@@ -738,26 +768,11 @@
   type: writing
   date: 
   title: Large Lore Models
-  situation: 0XPARC
+  situation: METALABEL
   location: 
   url: https://aw.network/posts/large-lore-models
   image: 
   related: Fango 1000
-  hideon: mobile
-
-- now: false
-  description: 
-  longdescription: #An AI training game set in an infinite supermarket, time is short, the AI frustrated
-  priority: 0
-  year: 2023
-  type: game
-  date: 
-  title: "Godmode Epochs"
-  situation: STEAM
-  location:
-  url: https://store.steampowered.com/app/2445680/Godmode_Epochs/
-  image: 
-  related: Godmode Epochs
   hideon: mobile
 
 - now: false
