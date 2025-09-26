@@ -8,7 +8,7 @@ Sound performance, digital images
 24 minutes
 
 
-Performed: Design Museum (London)<span class="dc-hide-on-large"><br><br></span>
+Exhibited and performed: Design Museum (London), Gluqbar (Milan)<span class="dc-hide-on-large"><br><br></span>
 
 FLASH is a sonic reenactment of the stock market crash of May 6, 2010, amongst the fastest in history. Performed on the 8<sup>th</sup> anniversary of the crash at the <a href="https://designmuseum.org/whats-on/talks-courses-and-workshops-not-in-use/alt-age-designing-belief" target="_blank">Design Museum</a> in London, the piece searches for a narrative to the market accident, translating historic data from the day's trading at NYSE and Chicago Stock Exchange into sound, and sampling news commentary about seemingly unconnected global events that day, from electoral uncertainty in the UK to demonstrations against austerity policies in Greece. 
 
