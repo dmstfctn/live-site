@@ -262,6 +262,7 @@
     transform: translateX(-50%) translateY(-50%);
     display: none;
     z-index: 99;
+    pointer-events: none;
   }
     .dc-work--item:hover .dc-work--item--hoverimg{
       display: block;  
