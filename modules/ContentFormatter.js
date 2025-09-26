@@ -330,6 +330,13 @@ const createRelatedMatters = ( related_matters, cv, bio ) => {
       for( slideshowName in sub_item.slideshows ){
         let slideshow = sub_item.slideshows[ slideshowName ];
         sub_item.slideshows[ slideshowName ] = prepareSlideshow( slideshow, sub_item.name, H.createSlug(slideshowName), section_slug  );
+      }      
+      if( sub_item.hoverImg ){
+        sub_item.hoverImg = prepareImage( 
+          sub_item.hoverImg, 
+          path.join( Config.paths.public, section_slug, H.createSlug(sub_item.name), 'content' ),
+          path.join( section_slug, H.createSlug(sub_item.name), 'content' ) 
+        );
       }
       sub_item.cv = structureCV( sub_item.cv );
       line.contents.push({
@@ -340,7 +347,8 @@ const createRelatedMatters = ( related_matters, cv, bio ) => {
         slug: H.createSlug( sub_item.name ),
         url: (sub_item.data.link) ? sub_item.data.link : createURLPath( sub_item.name, 'related matters' ),
         is_external: !!sub_item.data.link,
-        data: sub_item
+        data: sub_item,
+        hoverImg: sub_item.hoverImg
       });
     }
     list.push( line );

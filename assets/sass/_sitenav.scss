@@ -254,6 +254,19 @@
     //description to position relative to the line instead
     position: static !important; 
   }
+
+  .dc-work--item--hoverimg{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: none;
+    z-index: -1;
+  }
+    .dc-work--item:hover .dc-work--item--hoverimg{
+      display: block;  
+    }
+
   .dc-work--item--description{
     display: none;
     position: absolute;    
