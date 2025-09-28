@@ -11,8 +11,10 @@ Loader.prototype = {
     this.triggers.forEach( (trigger) => {
       context.querySelectorAll( trigger ).forEach( ( $a ) => {
         $a.addEventListener( 'click', ( e ) => {
-          e.preventDefault();
-          this.load( $a.getAttribute( 'href' ) ); 
+          if( !e.metaKey ){
+            e.preventDefault();
+            this.load( $a.getAttribute( 'href' ) ); 
+          }
         });
       });
     });

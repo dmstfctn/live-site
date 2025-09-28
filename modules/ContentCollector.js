@@ -248,6 +248,7 @@ const readFolder = ( folderPath, cv ) => {
           normal: name,
           justified: tokeniseString(name)
         },
+        hoverImg: false,
         slideshows: {},
         data: {},
         info: '',
@@ -277,7 +278,9 @@ const readFolder = ( folderPath, cv ) => {
           } else {
             projectData.title.justified = tokeniseString( name );
           }            
-        } else {         
+        } else if( item === 'hover.webp' || item === 'hover.jpg' || item === 'hover.jpeg' || item === 'hover.png' ){
+          projectData.hoverImg = itemPath;
+        } else if( fs.lstatSync( path.join(p,item) ).isDirectory() ){         
           const p = path.join( root, year, project, item );
           // find the meta file
           const meta = readYAML( path.join(p, 'meta.yaml') ) || {};

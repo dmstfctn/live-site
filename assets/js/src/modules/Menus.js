@@ -91,6 +91,7 @@ Menus.prototype = {
     }
     
     $link.addEventListener('click', ( e ) => {
+      if( e.metaKey ){ return }
       e.preventDefault();
       this.runTransition( $link );
     });

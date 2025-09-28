@@ -145,6 +145,13 @@ const renderPage = ( pageData, index, partnerPages, rendered ) => {
     })
   );
 
+  // move hover image if present
+  if( pageData.data.hoverImg ){
+    /* ensure the destination exists */        
+    fs.mkdirSync( path.dirname(pageData.data.hoverImg.newPath), {recursive: true} );
+    fs.copyFileSync( pageData.data.hoverImg.originalPath, pageData.data.hoverImg.newPath );
+  }  
+
   /* write html for initial loading */
   const page = ( Config.minifyHTML ) ? HTMLO( Templates.main( render ) ) : Templates.main( render );
   fs.writeFileSync( path.join( p, 'index.html' ), page );
