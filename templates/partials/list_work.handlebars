@@ -25,7 +25,7 @@
         class="dc-work--item dc-work--item__{{this.slug}}{{#if this.is_external }} dc-external-link{{/if}}"
       >
         {{#if this.hoverImg}}
-        <img src="{{this.hoverImg.src}}" class="dc-work--item--hoverimg"/>
+        <img src="" data-src="{{this.hoverImg.src}}" data-low-src="{{this.hoverImg.lowSrc}}" class="dc-work--item--hoverimg"/>
         {{/if}}
         <span class="dc-work--item--description"><span class="description-inner">{{this.data.data.description}}</span></span><!--
      -->{{{this.title.justified}}}<!--
