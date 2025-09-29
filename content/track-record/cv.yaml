@@ -16,34 +16,34 @@
   hideon: 
 
 - now: now
-  description: "Session: Dual-Use / Dual Futures"
-  longdescription: #"Session: Dual-Use / Dual Futures, reclaiming the Stack for Europe's Commons"
+  description: 
+  longdescription: 
   priority: 0
   year: 2025
-  type: talk
-  date: 3.9
-  title: ars electronica
-  situation: POSTCITY
-  location: Linz
-  url: https://www.youtube.com/watch?v=0QffrzYYQhM&t=11414s&ab_channel=ArsElectronica
+  type: talk+screening
+  date: 23.10
+  title: EAST LONDON ART PRIZE LATE
+  situation: WHITECHAPEL GALLERY
+  location: London
+  url: https://www.whitechapelgallery.org/events/east-london-art-prize-late-2025/
   image: 
   related: 
-  hideon: 
+  hideon: mobile
 
 - now: now
   description: 
-  longdescription: #Showing The Models (2025), improvisational theatre by Large Language Models
+  longdescription: 
   priority: 0
   year: 2025
-  type: group show
-  date: 19.9
-  title: Me + You + Them = Us
-  situation: ADAPTER
-  location: Budapest
-  url: https://proprogressione.com/en/news/me-you-them-us-the-algorithms-of-freedom/
+  type: talk+screening
+  date: 23.10
+  title: ELAP LATE
+  situation: WHITECHAPEL GALLERY
+  location: London
+  url: 
   image: 
-  related: The Models
-  hideon: 
+  related: 
+  hideon: desktop
 
 - now: now
   description: 
@@ -74,6 +74,20 @@
   image: 
   related: 
   hideon: 
+
+- now: false
+  description: 
+  longdescription: #
+  priority: 0
+  year: 2025
+  type: solo show
+  date: 7.2
+  title: The Models
+  situation: TECNOPOLO
+  location: Bologna
+  url:
+  image: artcity-tecnopolo-dmstfctn-themodels.webp
+  related: The Models
 
 - now: false
   description: #Showing GOD MODE (ep. 1), Godmode Epochs
@@ -168,17 +182,18 @@
 
 - now: false
   description: 
-  longdescription: #
+  longdescription: #Showing The Models (2025), improvisational theatre by Large Language Models
   priority: 0
   year: 2025
-  type: solo show
-  date: 7.2
-  title: The Models
-  situation: TECNOPOLO
-  location: Bologna
-  url:
-  image: artcity-tecnopolo-dmstfctn-themodels.webp
+  type: group show
+  date: 19.9
+  title: Me + You + Them = Us
+  situation: ADAPTER
+  location: Budapest
+  url: https://proprogressione.com/en/news/me-you-them-us-the-algorithms-of-freedom/
+  image: 
   related: The Models
+  hideon:
 
 - now: false
   description: 
@@ -194,6 +209,22 @@
   image: dmstfctn-imogen-heap-v&a-friday-late.webp
   related: Waluigi's Purgatory
   hideon: 
+
+- now: false
+  description: 
+  longdescription:
+  priority: 0
+  year: 2025
+  type: panel
+  date: 3.9
+  title: ars electronica
+  situation: POSTCITY
+  location: Linz
+  url: https://www.youtube.com/watch?v=0QffrzYYQhM&t=11414s&ab_channel=ArsElectronica
+  image: 
+  related: 
+  hideon: 
+
 
 - now: false
   description: 
