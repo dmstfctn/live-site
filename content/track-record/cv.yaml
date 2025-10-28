@@ -5,6 +5,21 @@
   longdescription: 
   priority: 0
   year: 2025
+  type: solo
+  date: 23.10
+  title: THE MODELS
+  situation: SOLO CSV
+  location: Madrid
+  url: https://onkaos.com/join-us-for-the-opening-of-the-models/
+  image: 
+  related: The Models
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
   type: fellowship
   date: 18.9
   title: N-SPACE
@@ -27,7 +42,7 @@
   location: London
   url: https://www.whitechapelgallery.org/events/east-london-art-prize-late-2025/
   image: 
-  related: 
+  related: Waluigi's Purgatory
   hideon: mobile
 
 - now: now
