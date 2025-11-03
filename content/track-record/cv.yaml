@@ -6,13 +6,43 @@
   priority: 0
   year: 2025
   type: solo
-  date: 23.10
+  date: 6.1
   title: THE MODELS
   situation: SOLO CSV
   location: Madrid
   url: https://onkaos.com/join-us-for-the-opening-of-the-models/
   image: 
   related: The Models
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: talk
+  date: 6.11
+  title: FANGO 1000
+  situation: SOLO CSV
+  location: Madrid
+  url: https://onkaos.com/join-us-for-the-opening-of-the-models/
+  image: 
+  related: Fango 1000
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: live
+  date: 13.11
+  title: NEXT LEVEL
+  situation: Akademie für Theater
+  location: Dortmund
+  url: https://www.next-level.digital/programm/waluigis-purgatory/
+  image: 
+  related: Waluigi's Purgatory
   hideon: 
 
 - now: now
@@ -75,7 +105,7 @@
   related: 
   hideon:
 
-- now: now
+- now: false
   description: 
   longdescription: 
   priority: 0
