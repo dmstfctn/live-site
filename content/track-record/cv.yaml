@@ -38,7 +38,7 @@
   type: live
   date: 13.11
   title: NEXT LEVEL
-  situation: Akademie für Theater
+  situation: AKADEMIE FUR THEATER
   location: Dortmund
   url: https://www.next-level.digital/programm/waluigis-purgatory/
   image: 
@@ -89,36 +89,6 @@
   image: 
   related: 
   hideon: desktop
-
-- now: now
-  description: 
-  longdescription: #Contribution to Serpentine's annual briefing on art and advanced technologies
-  priority: 0
-  year: 2025
-  type: publication
-  date: 7.8
-  title: Future Art Ecosystems 5
-  situation: SERPENTINE
-  location: London
-  url: https://reader.futureartecosystems.org/briefing/fae5/05-artist#a-forum-for-public-interest
-  image: 
-  related: 
-  hideon:
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: publication
-  date: 18.9
-  title: FANGO 1000
-  situation: BIANJIE RESEARCH GROUP
-  location: 
-  url: https://bianjie.systems/fango-1000-and-large-lore-models
-  image: 
-  related: 
-  hideon: 
 
 - now: false
   description: 
@@ -284,6 +254,21 @@
   url: 
   image: dmstfctn-gluon-brussel-digital-deal.webp
   related: Waluigi's Purgatory
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: publication
+  date: 
+  title: FANGO 1000
+  situation: BIANJIE RESEARCH GROUP
+  location: 
+  url: https://bianjie.systems/fango-1000-and-large-lore-models
+  image: 
+  related: 
   hideon: 
 
 - now: false
