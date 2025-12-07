@@ -65,7 +65,7 @@
   longdescription: 
   priority: 0
   year: 2025
-  type: talk+screening
+  type: talk, screening
   date: 23.10
   title: EAST LONDON ART PRIZE LATE
   situation: WHITECHAPEL GALLERY
@@ -80,7 +80,7 @@
   longdescription: 
   priority: 0
   year: 2025
-  type: talk+screening
+  type: talk, screening
   date: 23.10
   title: ELAP LATE
   situation: WHITECHAPEL GALLERY
@@ -240,7 +240,6 @@
   related: 
   hideon: 
 
-
 - now: false
   description: 
   longdescription: #
@@ -307,7 +306,7 @@
   type: news
   date: 31.1
   title: "dmstfctn <sup>×</sup> Lawrence Lek"
-  situation: DIGITAL DEAL PODCAST
+  situation: ART IS NOT A THING
   location: 
   url: https://thedigitaldealpodcast.buzzsprout.com/2273863/episodes/16525539-computation-improvisation-narration
   image: 
@@ -327,6 +326,21 @@
   url: https://www.domusweb.it/en/news/2025/02/12/ai-installation-lies-the-models.html
   image: 
   related: The Models
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: #
+  priority: 0
+  year: 2025
+  type: panel
+  date: 7.11
+  title: the monday chatroom
+  situation: NGUYEN WAHED
+  location: London
+  url: 
+  image: the-monday-chatroom-NGUYEN-WAHED-dmstfctn
+  related: 
   hideon: 
 
 - now: false
