@@ -137,6 +137,23 @@
   hideon: desktop
 
 - now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: group show
+  date: 7.11
+  title: ARC 1 SHOWCASE
+  situation: SYBIL
+  location: Berlin
+  url: #https://rhizome.org/events/god-mode/
+  image: dmstfctn-sybil-berlin.webp
+  related: 
+    - Grokh Tung Tung
+    - Fango 1000
+  hideon: 
+
+- now: false
   description: #Showing new work on deceptive AI characters
   longdescription: #Showing new work Grokh Tung Tung (2025) as part of 'Authenticity Unmasked'
   priority: 0
