@@ -5,7 +5,7 @@
   longdescription: 
   priority: 0
   year: 2025
-  type: solo
+  type: solo show
   date: 6.1
   title: THE MODELS
   situation: SOLO CSV
@@ -13,36 +13,6 @@
   url: https://solocontemporary.com/dmstfctn-presents-the-models-at-solo-csv-a-work-that-merges-commedia-dellarte-and-interactivity-through-artificial-intelligence/
   image: 
   related: The Models
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: talk
-  date: 6.11
-  title: FANGO 1000
-  situation: SOLO CSV
-  location: Madrid
-  url: https://onkaos.com/fango-1000-csv/
-  image: 
-  related: Fango 1000
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: live
-  date: 13.11
-  title: NEXT LEVEL
-  situation: AKADEMIE FUR THEATER
-  location: Dortmund
-  url: https://www.next-level.digital/programm/waluigis-purgatory/
-  image: 
-  related: Waluigi's Purgatory
   hideon: 
 
 - now: now
@@ -59,36 +29,6 @@
   image: 
   related: 
   hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: talk, screening
-  date: 23.10
-  title: EAST LONDON ART PRIZE LATE
-  situation: WHITECHAPEL GALLERY
-  location: London
-  url: https://www.whitechapelgallery.org/events/east-london-art-prize-late-2025/
-  image: 
-  related: Waluigi's Purgatory
-  hideon: mobile
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: talk, screening
-  date: 23.10
-  title: ELAP LATE
-  situation: WHITECHAPEL GALLERY
-  location: London
-  url: 
-  image: 
-  related: 
-  hideon: desktop
 
 - now: false
   description: 
@@ -120,6 +60,36 @@
     - Godmode Epochs
     - GOD MODE (ep. 1)
   hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: screening
+  date: 23.10
+  title: EAST LONDON ART PRIZE LATE
+  situation: WHITECHAPEL GALLERY
+  location: London
+  url: 
+  image: waluigis-purgatory-dmstfctn-whitechapel-gallery-east-london-art-prize-late.webp
+  related: Waluigi's Purgatory
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: screening
+  date: 23.10
+  title: ELAP LATE
+  situation: WHITECHAPEL GALLERY
+  location: London
+  url: 
+  image: 
+  related: 
+  hideon: desktop
 
 - now: false
   description:
@@ -226,6 +196,36 @@
   image: 
   related: The Models
   hideon:
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: live
+  date: 13.11
+  title: NEXT LEVEL
+  situation: AKADEMIE FUR THEATER
+  location: Dortmund
+  url: 
+  image: waluigis-purgatory-dmstfctn-next-level-festival-2024-2.webp
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: talk
+  date: 6.11
+  title: FANGO 1000
+  situation: SOLO CSV
+  location: Madrid
+  url: 
+  image: fango-1000-solo-csv-dmstfctn-2.webp
+  related: Fango 1000
+  hideon: 
 
 - now: false
   description: 
