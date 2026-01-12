@@ -30,6 +30,21 @@
   related: 
   hideon: 
 
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: news
+  date: 18.9
+  title: 100 Art Games 100 Artists
+  situation: SIDE QUEST
+  location: 
+  url: https://sidequestosp.substack.com/p/gather-quest-100-art-games-100-artists
+  image: 
+  related: 
+  hideon: 
+
 - now: false
   description: 
   longdescription: #
