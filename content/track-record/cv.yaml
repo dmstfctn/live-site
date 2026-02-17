@@ -45,6 +45,21 @@
   related: 
   hideon: 
 
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: news
+  date: 18.9
+  title: Postgenerative Language Games
+  situation: LE RANDOM
+  location: 
+  url: https://www.lerandom.art/editorial/post-generative-language-games
+  image: 
+  related: 
+  hideon: 
+
 - now: false
   description: 
   longdescription: #
