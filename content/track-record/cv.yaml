@@ -5,27 +5,12 @@
   longdescription: 
   priority: 0
   year: 2025
-  type: solo show
-  date: 6.1
-  title: THE MODELS
-  situation: SOLO CSV
-  location: Madrid
-  url: https://solocontemporary.com/dmstfctn-presents-the-models-at-solo-csv-a-work-that-merges-commedia-dellarte-and-interactivity-through-artificial-intelligence/
-  image: 
-  related: The Models
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
-  type: fellowship
-  date: 18.9
-  title: N-SPACE
-  situation: SOMERSET HOUSE STUDIOS
+  type: live
+  date: 25.4
+  title: Trial Trial
+  situation: SOMERSET HOUSE
   location: London
-  url: https://www.somersethouse.org.uk/somerset-house-studios/residencies-and-opportunities/n-space-fellowship
+  url: 
   image: 
   related: 
   hideon: 
@@ -36,7 +21,22 @@
   priority: 0
   year: 2025
   type: news
-  date: 18.9
+  date: 16.2
+  title: Postgenerative Language Games
+  situation: LE RANDOM
+  location: 
+  url: https://www.lerandom.art/editorial/post-generative-language-games
+  image: 
+  related: 
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: news
+  date: 1.2
   title: 100 Art Games 100 Artists
   situation: SIDE QUEST
   location: 
@@ -50,14 +50,29 @@
   longdescription: 
   priority: 0
   year: 2025
-  type: news
-  date: 18.9
-  title: Postgenerative Language Games
-  situation: LE RANDOM
-  location: 
-  url: https://www.lerandom.art/editorial/post-generative-language-games
+  type: fellowship
+  date: 1.1
+  title: N-SPACE
+  situation: SOMERSET HOUSE STUDIOS
+  location: London
+  url: https://www.somersethouse.org.uk/somerset-house-studios/residencies-and-opportunities/n-space-fellowship
   image: 
   related: 
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: solo show
+  date: 6.1
+  title: THE MODELS
+  situation: SOLO CSV
+  location: Madrid
+  url: https://solocontemporary.com/dmstfctn-presents-the-models-at-solo-csv-a-work-that-merges-commedia-dellarte-and-interactivity-through-artificial-intelligence/
+  image: 
+  related: The Models
   hideon: 
 
 - now: false
