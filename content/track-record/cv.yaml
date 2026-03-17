@@ -43,7 +43,22 @@
   url: https://luma.com/z9uk8e7q
   image: 
   related: 
-  hideon: 
+  hideon: mobile
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2025
+  type: workshop
+  date: 16.2
+  title: ARMS INDUSTRY WIKITHON
+  situation: NEWSPEAK HOUSE
+  location: 
+  url: https://luma.com/z9uk8e7q
+  image: 
+  related: 
+  hideon: desktop
 
 - now: now
   description: 
