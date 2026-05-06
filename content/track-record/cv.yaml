@@ -4,13 +4,13 @@
   description: 
   longdescription: 
   priority: 0
-  year: 2025
-  type: live
-  date: 24.4
-  title: Trial Trial
-  situation: SOMERSET HOUSE
-  location: London
-  url: https://www.somersethouse.org.uk/whats-on/states-of-exception-2026/trial-trial
+  year: 2026
+  type: talk
+  date: 15.5
+  title: ROLE PLAY WITH AI
+  situation: ARTWRLD x RHIZOME
+  location: 
+  url: 
   image: 
   related: 
   hideon: 
@@ -19,37 +19,22 @@
   description: 
   longdescription: 
   priority: 0
-  year: 2025
-  type: live
-  date: 16.2
-  title: ARMS INDUSTRY WIKITHON
-  situation: NEWSPEAK HOUSE
-  location: London
-  url: https://n-space-shs.github.io/arms-industry-wikithon/
+  year: 2026
+  type: screening
+  date: 15.5
+  title: Open Secret
+  situation: FITZROY
+  location: Berlin
+  url: 
   image: 
   related: 
-  hideon: mobile
+  hideon: 
 
 - now: now
   description: 
   longdescription: 
   priority: 0
-  year: 2025
-  type: live
-  date: 16.2
-  title: ARMS INDUSTRY WIKITHON
-  situation: NEWSPEAK HOUSE
-  location: 
-  url: https://n-space-shs.github.io/arms-industry-wikithon/
-  image: 
-  related: 
-  hideon: desktop
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2025
+  year: 2026
   type: fellowship
   date: 1.1
   title: N-SPACE
@@ -60,11 +45,56 @@
   related: 
   hideon: 
 
-- now: now
+- now: false
   description: 
   longdescription: 
   priority: 0
-  year: 2025
+  year: 2026
+  type: live
+  date: 24.4
+  title: Trial Trial
+  situation: SOMERSET HOUSE
+  location: London
+  url: https://www.somersethouse.org.uk/whats-on/states-of-exception-2026/trial-trial
+  image: 
+  related: 
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: live
+  date: 16.2
+  title: ARMS INDUSTRY WIKITHON
+  situation: NEWSPEAK HOUSE
+  location: London
+  url: https://n-space-shs.github.io/arms-industry-wikithon/
+  image: 
+  related: 
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: live
+  date: 16.2
+  title: ARMS INDUSTRY WIKITHON
+  situation: NEWSPEAK HOUSE
+  location: 
+  url: https://n-space-shs.github.io/arms-industry-wikithon/
+  image: 
+  related: 
+  hideon: desktop
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: news
   date: 16.2
   title: Postgenerative Language Games
@@ -75,11 +105,11 @@
   related: 
   hideon: 
 
-- now: now
+- now: false
   description: 
   longdescription: 
   priority: 0
-  year: 2025
+  year: 2026
   type: news
   date: 1.2
   title: 100 Art Games 100 Artists
@@ -88,7 +118,7 @@
   url: https://sidequestosp.substack.com/p/gather-quest-100-art-games-100-artists
   image: 
   related: 
-  hideon: 
+  hideon: mobile
 
 - now: false
   description: 
