@@ -10,9 +10,14 @@
   title: ROLE PLAY WITH AI
   situation: ARTWRLD x RHIZOME
   location: 
-  url: 
+  url: https://www.youtube.com/@Artw_rld
   image: 
   related: 
+    - Godmode Epochs
+    - GOD MODE (ep. 1)
+    - Waluigi's Purgatory
+    - The Models
+    - Grokh Tung Tung
   hideon: 
 
 - now: now
@@ -25,9 +30,9 @@
   title: Open Secret
   situation: FITZROY
   location: Berlin
-  url: 
+  url: https://www.instagram.com/_opensecrett_/
   image: 
-  related: 
+  related: Grokh Tung Tung
   hideon: 
 
 - now: now
@@ -42,7 +47,7 @@
   location: London
   url: https://www.somersethouse.org.uk/somerset-house-studios/residencies-and-opportunities/n-space-fellowship
   image: 
-  related: 
+  related: Trial Trial
   hideon: 
 
 - now: false
@@ -57,7 +62,7 @@
   location: London
   url: https://www.somersethouse.org.uk/whats-on/states-of-exception-2026/trial-trial
   image: 
-  related: 
+  related: Trial Trial
   hideon: 
 
 - now: false
@@ -72,7 +77,7 @@
   location: London
   url: https://n-space-shs.github.io/arms-industry-wikithon/
   image: 
-  related: 
+  related: Trial Trial
   hideon: mobile
 
 - now: false
@@ -87,7 +92,7 @@
   location: 
   url: https://n-space-shs.github.io/arms-industry-wikithon/
   image: 
-  related: 
+  related: Trial Trial
   hideon: desktop
 
 - now: false
@@ -102,7 +107,7 @@
   location: 
   url: https://www.lerandom.art/editorial/post-generative-language-games
   image: 
-  related: 
+  related: Fango 1000
   hideon: 
 
 - now: false
@@ -117,7 +122,7 @@
   location: 
   url: https://sidequestosp.substack.com/p/gather-quest-100-art-games-100-artists
   image: 
-  related: 
+  related: Fango 1000
   hideon: mobile
 
 - now: false
