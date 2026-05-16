@@ -1,26 +1,10 @@
-#------------------------------------------------2025
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: screening
-  date: 16.5
-  title: Open Secret
-  situation: FITZROY
-  location: Berlin
-  url: https://www.instagram.com/p/DYMVGaciuKo/
-  image: 
-  related: Grokh Tung Tung
-  hideon: 
-
 - now: now
   description: 
   longdescription: 
   priority: 0
   year: 2026
   type: talk
-  date: 15.5
+  date: 29.5
   title: ROLE PLAY WITH AI
   situation: ARTWRLD x RHIZOME
   location: 
@@ -47,6 +31,21 @@
   url: https://www.somersethouse.org.uk/somerset-house-studios/residencies-and-opportunities/n-space-fellowship
   image: 
   related: Trial Trial
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: screening
+  date: 16.5
+  title: Open Secret
+  situation: FITZROY
+  location: Berlin
+  url: 
+  image: 
+  related: Grokh Tung Tung
   hideon: 
 
 - now: false
