@@ -3,8 +3,38 @@
   longdescription: 
   priority: 0
   year: 2026
+  type: group show
+  date: 12.6
+  title: 404_LAND
+  situation: HEK
+  location: Basel
+  url: https://hek.ch/en/program/exhibitions/404-land-tezos-x-hek
+  image: 
+  related: The Models
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: group show
+  date: 5.6
+  title: a WORLD of ONE'S OWN
+  situation: SYBIL
+  location: Berlin
+  url: https://www.instagram.com/p/DY5E3SbjvaX
+  image: 
+  related: Big Things Coming
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: talk
-  date: 29.5
+  date: 2019.5
   title: ROLE PLAY WITH AI
   situation: RHIZOME x ARTWRLD
   location: 
@@ -23,31 +53,14 @@
   longdescription: 
   priority: 0
   year: 2026
-  type: group show
-  date: 12.6
-  title: 404_LAND
-  situation: HEK
-  location: Basel
-  url: https://hek.ch/en/program/exhibitions/404-land-tezos-x-hek
+  type: live
+  date: 23.6
+  title: WALUIGI's PURGATORY
+  situation: UCL EAST CINEMA
+  location: 
+  url: https://bowarts.org/event/east-london-art-prize-x-ucl-east-live-performance-waluigis-purgatory-2024-with-dmstfctn/
   image: 
-  related: 
-    - The Models
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: group show
-  date: 5.6
-  title: a WORLD of ONE‘s OWN
-  situation: SYBIL
-  location: Berlin
-  url: https://www.instagram.com/p/DY5E3SbjvaX
-  image: 
-  related: 
-    - Big Things Coming
+  related: Waluigi's Purgatory
   hideon: 
 
 - now: now
