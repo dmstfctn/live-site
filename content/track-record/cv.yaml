@@ -33,6 +33,21 @@
   longdescription: 
   priority: 0
   year: 2026
+  type: live
+  date: 23.6
+  title: WALUIGI's PURGATORY
+  situation: UCL EAST CINEMA
+  location: London
+  url: https://bowarts.org/event/east-london-art-prize-x-ucl-east-live-performance-waluigis-purgatory-2024-with-dmstfctn/
+  image: 
+  related: Waluigi's Purgatory
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: talk
   date: 2019.5
   title: ROLE PLAY WITH AI
@@ -46,21 +61,6 @@
     - Waluigi's Purgatory
     - The Models
     - Grokh Tung Tung
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: live
-  date: 23.6
-  title: WALUIGI's PURGATORY
-  situation: UCL EAST CINEMA
-  location: 
-  url: https://bowarts.org/event/east-london-art-prize-x-ucl-east-live-performance-waluigis-purgatory-2024-with-dmstfctn/
-  image: 
-  related: Waluigi's Purgatory
   hideon: 
 
 - now: now
