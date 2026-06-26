@@ -3,6 +3,21 @@
   longdescription: 
   priority: 0
   year: 2026
+  type: solo show
+  date: 2.7
+  title: Big things coming
+  situation: Chemist Gallery
+  location: London
+  url: https://chemistgallery.com/dmstfctn-1
+  image: 
+  related: Big things coming
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: group show
   date: 12.6
   title: 404_LAND
@@ -25,7 +40,7 @@
   location: Berlin
   url: https://www.instagram.com/p/DY5E3SbjvaX
   image: 
-  related: Big Things Coming
+  related: Big things coming
   hideon: 
 
 - now: now
