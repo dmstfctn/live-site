@@ -6,12 +6,12 @@
   type: solo show
   date: 2.7
   title: Big things coming
-  situation: CHEMIST
+  situation: CHEMIST GALLERY
   location: London
-  url: 
+  url: https://chemistgallery.com/dmstfctn-1
   image: 
-  related: 
-  hideon: desktop
+  related: Big things coming
+  hideon: mobile
 
 - now: now
   description: 
@@ -21,12 +21,12 @@
   type: solo show
   date: 2.7
   title: Big things coming
-  situation: CHEMIST GALLERY
+  situation: CHEMIST
   location: London
-  url: https://chemistgallery.com/dmstfctn-1
+  url: 
   image: 
-  related: Big things coming
-  hideon: mobile
+  related: 
+  hideon: desktop
 
 - now: now
   description: 
