@@ -6,12 +6,27 @@
   type: solo show
   date: 2.7
   title: Big things coming
+  situation: CHEMIST
+  location: London
+  url: 
+  image: 
+  related: 
+  hideon: desktop
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: solo show
+  date: 2.7
+  title: Big things coming
   situation: CHEMIST GALLERY
   location: London
   url: https://chemistgallery.com/dmstfctn-1
   image: 
   related: Big things coming
-  hideon: 
+  hideon: mobile
 
 - now: now
   description: 
@@ -38,7 +53,7 @@
   title: a WORLD of ONE'S OWN
   situation: SYBIL
   location: Berlin
-  url: https://www.instagram.com/p/DY5E3SbjvaX
+  url: https://www.instagram.com/p/DZhM-8wCEVp
   image: 
   related: Big things coming
   hideon: 
@@ -68,7 +83,7 @@
   title: ROLE PLAY WITH AI
   situation: RHIZOME x ARTWRLD
   location: 
-  url: https://luma.com/aw_dmstfctn
+  url: https://www.youtube.com/watch?v=XNdApUAQBZI
   image: 
   related: 
     - Godmode Epochs
