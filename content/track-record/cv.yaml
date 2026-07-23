@@ -163,7 +163,7 @@
   title: Open Secret
   situation: FITZROY
   location: Berlin
-  url: https://www.instagram.com/p/DYMVGaciuKo/
+  url: 
   image: 
   related: Grokh Tung Tung
   hideon: 
@@ -182,21 +182,21 @@
   image: 
   related: Fango 1000
   hideon: 
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: news
-  date: 1.2
-  title: 100 Art Games 100 Artists
-  situation: SIDE QUEST
-  location: 
-  url: https://sidequestosp.substack.com/p/gather-quest-100-art-games-100-artists
-  image: 
-  related: Fango 1000
-  hideon: mobile
+#
+#- now: false
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2026
+#  type: news
+#  date: 1.2
+#  title: 100 Art Games 100 Artists
+#  situation: SIDE QUEST
+#  location: 
+#  url: https://sidequestosp.substack.com/p/gather-quest-100-art-games-100-artists
+#  image: 
+#  related: Fango 1000
+#  hideon: mobile
 
 - now: false
   description: 
