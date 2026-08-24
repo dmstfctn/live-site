@@ -25,8 +25,23 @@
   location: Cologne
   url: https://gamescom.a-maze.net/
   image: 
-  related: Big things coming
-  hideon: 
+  related: Godmode Epochs
+  hideon: mobile
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: group show
+  date: 26.8
+  title: "Digital PlayGround"
+  situation: GAMESCOM
+  location: Cologne
+  url: 
+  image: 
+  related: Godmode Epochs
+  hideon: desktop
 
 - now: now
   description: 
