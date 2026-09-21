@@ -18,45 +18,14 @@
   longdescription: 
   priority: 0
   year: 2026
-  type: screening
+  type: live
   date: 5.9
-  title: "ACT 2: London"
-  situation: ORMSIDE PROJECTS
-  location: London
-  url: https://ra.co/events/2512623
+  situation: PATCHLAB
+  location: Krakow
+  url: https://en.patchlab.pl/program/avnight2/
   image: 
   related: Big things coming
   hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: group show
-  date: 26.8
-  title: "A MAZE. Digital PlayGround"
-  situation: GAMESCOM
-  location: Cologne
-  url: https://gamescom.a-maze.net/
-  image: 
-  related: Godmode Epochs
-  hideon: mobile
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: group show
-  date: 26.8
-  title: "Digital PlayGround"
-  situation: GAMESCOM
-  location: Cologne
-  url: 
-  image: 
-  related: Godmode Epochs
-  hideon: desktop
 
 - now: now
   description: 
@@ -153,6 +122,36 @@
   longdescription: 
   priority: 0
   year: 2026
+  type: group show
+  date: 26.8
+  title: "A MAZE. Digital PlayGround"
+  situation: GAMESCOM
+  location: Cologne
+  url: https://gamescom.a-maze.net/
+  image: 
+  related: Godmode Epochs
+  hideon: mobile
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: group show
+  date: 26.8
+  title: "Digital PlayGround"
+  situation: GAMESCOM
+  location: Cologne
+  url: 
+  image: 
+  related: Godmode Epochs
+  hideon: desktop
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: live
   date: 24.4
   title: Trial Trial
@@ -207,6 +206,21 @@
   image: 
   related: Trial Trial
   hideon: desktop
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: screening
+  date: 5.9
+  title: "ACT 2: London"
+  situation: ORMSIDE PROJECTS
+  location: London
+  url: https://ra.co/events/2512623
+  image: 
+  related: Big things coming
+  hideon: 
 
 - now: false
   description: 
