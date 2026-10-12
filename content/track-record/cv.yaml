@@ -48,6 +48,21 @@
   longdescription: 
   priority: 0
   year: 2026
+  type: screening
+  date: 16.2
+  title: Big things coming (human in the loop)
+  situation: 3ETV
+  location: 
+  url: https://3etv.net/
+  image: 
+  related: Big things coming
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: news
   date: 13.8
   title: Art Games as 21st Century Puppet Theatres
