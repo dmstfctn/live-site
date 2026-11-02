@@ -38,7 +38,7 @@
   title: VIGIL
   situation: RALEIGH CHAPEL
   location: London
-  url: https://www.instagram.com/p/De2Aom4t-fI/
+  url: https://ra.co/events/2566464
   image: 
   related: Demons
   hideon: 
@@ -68,7 +68,7 @@
   title: "LAF Lecture Series: dmstfctn"
   situation: ADBK
   location: Nuremberg
-  url: https://www.instagram.com/p/De1X6xQCist/
+  url: https://adbk-nuernberg.de/en/events/dmstfctn/
   image: 
   related: Big things coming
   hideon: 
@@ -86,6 +86,21 @@
   url: https://luma.com/ymdu31jp
   image: 
   related: Trial Trial
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: music
+  date: 19.11
+  title: VIGIL
+  situation: BANDCAMP
+  location: 
+  url: https://vigil4u.bandcamp.com/album/vigil
+  image: 
+  related: Demons
   hideon: 
 
 - now: now
