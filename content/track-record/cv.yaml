@@ -3,29 +3,14 @@
   longdescription: 
   priority: 0
   year: 2026
-  type: live
-  date: 18.10
-  title: 3 Evenings
-  situation: SOMERSET HOUSE
-  location: London
-  url: https://www.somersethouse.org.uk/whats-on/3-evenings-sunday
+  type: group show
+  date: 7.11
+  title: SHADOW WORK
+  situation: TANK
+  location: Shanghai
+  url: https://www.instagram.com/tankshanghai/reel/DfTY4t3tDhh/
   image: 
-  related: Big things coming
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: live
-  date: 19.10
-  title: "WALUIGI's PURGATORY"
-  situation: PATCHLAB
-  location: Krakow
-  url: https://en.patchlab.pl/program/avnight2/
-  image: 
-  related: Waluigi's Purgatory
+  related: Demons
   hideon: 
 
 - now: now
@@ -191,6 +176,36 @@
   url: https://www.somersethouse.org.uk/somerset-house-studios/residencies-and-opportunities/n-space-fellowship
   image: 
   related: 
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: live
+  date: 18.10
+  title: 3 Evenings
+  situation: SOMERSET HOUSE
+  location: London
+  url: https://www.somersethouse.org.uk/whats-on/3-evenings-sunday
+  image: 
+  related: Big things coming
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: live
+  date: 19.10
+  title: "WALUIGI's PURGATORY"
+  situation: PATCHLAB
+  location: Krakow
+  url: https://en.patchlab.pl/program/avnight2/
+  image: 
+  related: Waluigi's Purgatory
   hideon: 
 
 - now: false
