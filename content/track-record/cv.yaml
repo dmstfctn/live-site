@@ -48,7 +48,7 @@
   longdescription: 
   priority: 0
   year: 2026
-  type: talk
+  type: workshop
   date: 26.11
   title: "Mock trial as method"
   situation: IBRAAZ
@@ -56,21 +56,6 @@
   url: https://ibraaz.org/whats-on/mock-trial-as-method
   image: 
   related: Trial Trial
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: talk
-  date: 16.2
-  title: "LAF Lecture Series: dmstfctn"
-  situation: ADBK
-  location: Nuremberg
-  url: https://adbk-nuernberg.de/en/events/dmstfctn/
-  image: 
-  related: Big things coming
   hideon: 
 
 - now: now
@@ -339,6 +324,21 @@
   situation: ORMSIDE PROJECTS
   location: London
   url: https://ra.co/events/2512623
+  image: 
+  related: Big things coming
+  hideon: 
+
+- now: false
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: talk
+  date: 16.2
+  title: "LAF Lecture Series: dmstfctn"
+  situation: ADBK
+  location: Nuremberg
+  url: https://adbk-nuernberg.de/en/events/dmstfctn/
   image: 
   related: Big things coming
   hideon: 
