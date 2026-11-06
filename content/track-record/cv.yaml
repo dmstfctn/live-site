@@ -27,21 +27,21 @@
   image: 
   related: Demons
   hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: group show
-  date: 6.11
-  title: LA GRANDE TRAMA
-  situation: PALAZZO MASSIMO
-  location: Rome
-  url: https://museonazionaleromano.it/evento/la-grande-trama-il-patrimonio-culturale-nellera-digitale/
-  image: 
-  related: The Models
-  hideon: 
+#
+#- now: now
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2026
+#  type: group show
+#  date: 6.11
+#  title: LA GRANDE TRAMA
+#  situation: PALAZZO MASSIMO
+#  location: Rome
+#  url: https://museonazionaleromano.it/evento/la-grande-trama-il-patrimonio-culturale-nellera-digitale/
+#  image: 
+#  related: The Models
+#  hideon: 
 
 - now: now
   description: 
