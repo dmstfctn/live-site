@@ -358,36 +358,36 @@
   related: Big things coming
   hideon: 
 
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: workshop
-  date: 16.2
-  title: ARMS INDUSTRY WIKITHON
-  situation: NEWSPEAK HOUSE
-  location: London
-  url: https://n-space-shs.github.io/arms-industry-wikithon/
-  image: 
-  related: Trial Trial
-  hideon: mobile
-
-- now: false
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: workshop
-  date: 16.2
-  title: ARMS INDUSTRY WIKITHON
-  situation: NEWSPEAK HOUSE
-  location: 
-  url: https://n-space-shs.github.io/arms-industry-wikithon/
-  image: 
-  related: Trial Trial
-  hideon: desktop
-
+#- now: false
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2026
+#  type: workshop
+#  date: 16.2
+#  title: ARMS INDUSTRY WIKITHON
+#  situation: NEWSPEAK HOUSE
+#  location: London
+#  url: https://n-space-shs.github.io/arms-industry-wikithon/
+#  image: 
+#  related: Trial Trial
+#  hideon: mobile
+#
+#- now: false
+#  description: 
+#  longdescription: 
+#  priority: 0
+#  year: 2026
+#  type: workshop
+#  date: 16.2
+#  title: ARMS INDUSTRY WIKITHON
+#  situation: NEWSPEAK HOUSE
+#  location: 
+#  url: https://n-space-shs.github.io/arms-industry-wikithon/
+#  image: 
+#  related: Trial Trial
+#  hideon: desktop
+#
 - now: false
   description: 
   longdescription: 
