@@ -108,6 +108,21 @@
   longdescription: 
   priority: 0
   year: 2026
+  type: award
+  date: 12.11
+  title: Ecomic Digital Art Award
+  situation: MINISTRY OF CULTURE
+  location: Rome
+  url: https://www.instagram.com/p/DfpfUhBCDO2/
+  image: 
+  related: The Models
+  hideon: mobile
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: news
   date: 13.8
   title: "A difficult line"
