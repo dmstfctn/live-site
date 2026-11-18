@@ -11,7 +11,22 @@
   url: https://www.vam.ac.uk/event/yWXAeEABrlQ/friday-late-november-2026
   image: 
   related: Big things coming
-  hideon: 
+  hideon: phone
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
+  type: live
+  date: 27.11
+  title: Friday Late
+  situation: V&A
+  location: London
+  url: https://www.vam.ac.uk/event/yWXAeEABrlQ/friday-late-november-2026
+  image: 
+  related: Big things coming
+  hideon: desktop
 
 - now: now
   description: 
