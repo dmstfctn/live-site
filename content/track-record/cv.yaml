@@ -3,6 +3,21 @@
   longdescription: 
   priority: 0
   year: 2026
+  type: live
+  date: 27.11
+  title: "Friday Late: (Im)Possible Bodies"
+  situation: V&A
+  location: London
+  url: https://www.vam.ac.uk/event/yWXAeEABrlQ/friday-late-november-2026
+  image: 
+  related: Big things coming
+  hideon: 
+
+- now: now
+  description: 
+  longdescription: 
+  priority: 0
+  year: 2026
   type: group show
   date: 7.11
   title: SHADOW WORK
@@ -26,21 +41,6 @@
   url: https://ra.co/events/2566464
   image: 
   related: Demons
-  hideon: 
-
-- now: now
-  description: 
-  longdescription: 
-  priority: 0
-  year: 2026
-  type: live
-  date: 27.11
-  title: "Friday Late: (Im)Possible Bodies"
-  situation: V&A
-  location: London
-  url: https://www.vam.ac.uk/event/yWXAeEABrlQ/friday-late-november-2026
-  image: 
-  related: Big things coming
   hideon: 
 
 - now: now
